@@ -1,7 +1,3 @@
 sources:
-  - Rubik.glyphs
-  - Rubik-Italic.glyphs
-axisOrder:
-  - wght
-  - ital
-familyName: Rubik
+  - Hasubi-Mono.glyphs
+familyName: Hasubi Mono
