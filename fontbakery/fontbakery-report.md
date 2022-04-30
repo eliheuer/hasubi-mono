@@ -101,17 +101,17 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- dotcenterar
-	- miniKehehar
-	- uniFE9F
-	- uniFED2
-	- threedotsupbelowar
-	- uniFEF9
-	- twodotsverticalabovear
-	- twodotsverticalbelowar
+	- lam_alefWaslaar
 	- doublestrokear
-	- gafsarkashabovear 
-	- And 13 more.
+	- miniKehehar
+	- dotcenterar
+	- threedotsdownbelowar
+	- uniFEF9
+	- uniFEF5
+	- waslaar
+	- gafsarkashcenterar
+	- uniFE9F 
+	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -166,7 +166,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* H (U+0048) contains a short segment L<<424.0,704.0>--<432.0,696.0>>
 	* H (U+0048) contains a short segment L<<432.0,8.0>--<424.0,0.0>>
 	* H (U+0048) contains a short segment L<<368.0,0.0>--<360.0,8.0>>
-	* H (U+0048) contains a short segment L<<360.0,311.0>--<352.0,319.0>> and 52 more.
+	* H (U+0048) contains a short segment L<<360.0,311.0>--<352.0,319.0>> and 65 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -248,17 +248,17 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- dotcenterar
-	- miniKehehar
-	- uniFE9F
-	- uniFED2
-	- threedotsupbelowar
-	- uniFEF9
-	- twodotsverticalabovear
-	- twodotsverticalbelowar
+	- lam_alefWaslaar
 	- doublestrokear
-	- gafsarkashabovear 
-	- And 13 more.
+	- miniKehehar
+	- dotcenterar
+	- threedotsdownbelowar
+	- uniFEF9
+	- uniFEF5
+	- waslaar
+	- gafsarkashcenterar
+	- uniFE9F 
+	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -316,7 +316,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* H (U+0048) contains a short segment L<<424.0,704.0>--<432.0,696.0>>
 	* H (U+0048) contains a short segment L<<432.0,8.0>--<424.0,0.0>>
 	* H (U+0048) contains a short segment L<<368.0,0.0>--<360.0,8.0>>
-	* H (U+0048) contains a short segment L<<360.0,311.0>--<352.0,319.0>> and 52 more.
+	* H (U+0048) contains a short segment L<<360.0,311.0>--<352.0,319.0>> and 65 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -399,7 +399,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 76 glyphs (33.04%) have a different width. You should check the widths of: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni066E.medi', 'uniFE92', 'uniFE98', 'uniFE9C', 'uniFEDC', 'uniFEDB', 'uni0646', 'uniFEE6', 'uniFEE8', 'uni06BA', 'uniFB9F', 'uni0648', 'uniFEEE', 'uniFEF4', 'uni0640', 'uniFEFB', 'uniFEFC'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 76 glyphs (32.76%) have a different width. You should check the widths of: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni066E.medi', 'uniFE92', 'uniFE98', 'uniFE9C', 'uniFEDC', 'uniFEDB', 'uni0646', 'uniFEE6', 'uniFEE8', 'uni06BA', 'uniFB9F', 'uni0648', 'uniFEEE', 'uniFEF4', 'uni0640', 'uniFEFB', 'uniFEFC'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -413,17 +413,17 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- dotcenterar
-	- miniKehehar
-	- uniFE9F
-	- uniFED2
-	- threedotsupbelowar
-	- uniFEF9
-	- twodotsverticalabovear
-	- twodotsverticalbelowar
+	- lam_alefWaslaar
 	- doublestrokear
-	- gafsarkashabovear 
-	- And 13 more.
+	- miniKehehar
+	- dotcenterar
+	- threedotsdownbelowar
+	- uniFEF9
+	- uniFEF5
+	- waslaar
+	- gafsarkashcenterar
+	- uniFE9F 
+	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -473,7 +473,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* H (U+0048) contains a short segment L<<424.0,704.0>--<432.0,696.0>>
 	* H (U+0048) contains a short segment L<<432.0,8.0>--<424.0,0.0>>
 	* H (U+0048) contains a short segment L<<368.0,0.0>--<360.0,8.0>>
-	* H (U+0048) contains a short segment L<<360.0,311.0>--<352.0,319.0>> and 52 more.
+	* H (U+0048) contains a short segment L<<360.0,311.0>--<352.0,319.0>> and 65 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -546,7 +546,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 117 glyphs (50.87%) have a different width. You should check the widths of: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni066E', 'uni066E.fina', 'uni066E.medi', 'uni066E.init', 'uni0628', 'uniFE90', 'uniFE92', 'uniFE91', 'uni062A', 'uniFE96', 'uniFE98', 'uniFE97', 'uni062B', 'uniFE9A', 'uniFE9C', 'uniFE9B', 'uniFEA0', 'uniFE9F', 'uni062D', 'uniFEA2', 'uniFEA4', 'uniFEA3', 'uni062E', 'uniFEA6', 'uniFEA8', 'uniFEA7', 'uni062F', 'uniFEAA', 'uni0630', 'uniFEAC', 'uni0631', 'uni0633', 'uniFEB2', 'uniFEB4', 'uniFEB3', 'uni0634', 'uniFEB6', 'uniFEB8', 'uniFEB7', 'uniFECC', 'uniFED3', 'uni06A1.init', 'uniFEDC', 'uniFEDB', 'uni0646', 'uniFEE6', 'uniFEE8', 'uniFEE7', 'uni06BA', 'uniFB9F', 'uni0648', 'uniFEEE', 'uniFEF4', 'uniFEF3', 'uni0640', 'uniFEFB', 'uniFEFC', 'space'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 117 glyphs (50.43%) have a different width. You should check the widths of: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni066E', 'uni066E.fina', 'uni066E.medi', 'uni066E.init', 'uni0628', 'uniFE90', 'uniFE92', 'uniFE91', 'uni062A', 'uniFE96', 'uniFE98', 'uniFE97', 'uni062B', 'uniFE9A', 'uniFE9C', 'uniFE9B', 'uniFEA0', 'uniFE9F', 'uni062D', 'uniFEA2', 'uniFEA4', 'uniFEA3', 'uni062E', 'uniFEA6', 'uniFEA8', 'uniFEA7', 'uni062F', 'uniFEAA', 'uni0630', 'uniFEAC', 'uni0631', 'uni0633', 'uniFEB2', 'uniFEB4', 'uniFEB3', 'uni0634', 'uniFEB6', 'uniFEB8', 'uniFEB7', 'uniFECC', 'uniFED3', 'uni06A1.init', 'uniFEDC', 'uniFEDB', 'uni0646', 'uniFEE6', 'uniFEE8', 'uniFEE7', 'uni06BA', 'uniFB9F', 'uni0648', 'uniFEEE', 'uniFEF4', 'uniFEF3', 'uni0640', 'uniFEFB', 'uniFEFC', 'space'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -560,17 +560,17 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- dotcenterar
-	- miniKehehar
-	- uniFE9F
-	- uniFED2
-	- threedotsupbelowar
-	- uniFEF9
-	- twodotsverticalabovear
-	- twodotsverticalbelowar
+	- lam_alefWaslaar
 	- doublestrokear
-	- gafsarkashabovear 
-	- And 13 more.
+	- miniKehehar
+	- dotcenterar
+	- threedotsdownbelowar
+	- uniFEF9
+	- uniFEF5
+	- waslaar
+	- gafsarkashcenterar
+	- uniFE9F 
+	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -625,7 +625,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* H (U+0048) contains a short segment L<<424.0,704.0>--<432.0,696.0>>
 	* H (U+0048) contains a short segment L<<432.0,8.0>--<424.0,0.0>>
 	* H (U+0048) contains a short segment L<<368.0,0.0>--<360.0,8.0>>
-	* H (U+0048) contains a short segment L<<360.0,311.0>--<352.0,319.0>> and 52 more.
+	* H (U+0048) contains a short segment L<<360.0,311.0>--<352.0,319.0>> and 65 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -715,17 +715,17 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- dotcenterar
-	- miniKehehar
-	- uniFE9F
-	- uniFED2
-	- threedotsupbelowar
-	- uniFEF9
-	- twodotsverticalabovear
-	- twodotsverticalbelowar
+	- lam_alefWaslaar
 	- doublestrokear
-	- gafsarkashabovear 
-	- And 13 more.
+	- miniKehehar
+	- dotcenterar
+	- threedotsdownbelowar
+	- uniFEF9
+	- uniFEF5
+	- waslaar
+	- gafsarkashcenterar
+	- uniFE9F 
+	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -781,7 +781,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* H (U+0048) contains a short segment L<<424.0,704.0>--<432.0,696.0>>
 	* H (U+0048) contains a short segment L<<432.0,8.0>--<424.0,0.0>>
 	* H (U+0048) contains a short segment L<<368.0,0.0>--<360.0,8.0>>
-	* H (U+0048) contains a short segment L<<360.0,311.0>--<352.0,319.0>> and 52 more.
+	* H (U+0048) contains a short segment L<<360.0,311.0>--<352.0,319.0>> and 65 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -863,17 +863,17 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- dotcenterar
-	- miniKehehar
-	- uniFE9F
-	- uniFED2
-	- threedotsupbelowar
-	- uniFEF9
-	- twodotsverticalabovear
-	- twodotsverticalbelowar
+	- lam_alefWaslaar
 	- doublestrokear
-	- gafsarkashabovear 
-	- And 13 more.
+	- miniKehehar
+	- dotcenterar
+	- threedotsdownbelowar
+	- uniFEF9
+	- uniFEF5
+	- waslaar
+	- gafsarkashcenterar
+	- uniFE9F 
+	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
@@ -928,7 +928,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* H (U+0048) contains a short segment L<<424.0,704.0>--<432.0,696.0>>
 	* H (U+0048) contains a short segment L<<432.0,8.0>--<424.0,0.0>>
 	* H (U+0048) contains a short segment L<<368.0,0.0>--<360.0,8.0>>
-	* H (U+0048) contains a short segment L<<360.0,311.0>--<352.0,319.0>> and 52 more.
+	* H (U+0048) contains a short segment L<<360.0,311.0>--<352.0,319.0>> and 65 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
