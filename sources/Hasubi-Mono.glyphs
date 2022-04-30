@@ -1,5 +1,8 @@
 {
 .appVersion = "3124";
+DisplayStrings = (
+H
+);
 customParameters = (
 {
 name = fsType;
@@ -22,12 +25,12 @@ value = 1;
 name = "Axis Mappings";
 value = {
 wght = {
-400 = 90;
-500 = 100;
-600 = 115;
-700 = 130;
-800 = 140;
-900 = 150;
+400 = 72;
+500 = 82;
+600 = 92;
+700 = 102;
+800 = 112;
+900 = 128;
 };
 };
 },
@@ -60,7 +63,7 @@ ascender = 704;
 capHeight = 704;
 descender = -208;
 id = m01;
-weightValue = 80;
+weightValue = 72;
 xHeight = 512;
 },
 {
@@ -8484,43 +8487,44 @@ unicode = 0653;
 );
 instances = (
 {
-interpolationWeight = 80;
+interpolationWeight = 72;
 instanceInterpolations = {
 m01 = 1;
 };
 name = Regular;
 },
 {
-interpolationWeight = 90;
+interpolationWeight = 82;
 instanceInterpolations = {
-"4FBB1917-F682-4041-B654-F2E0D2EF1242" = 0.20833;
-m01 = 0.79167;
+"4FBB1917-F682-4041-B654-F2E0D2EF1242" = 0.17857;
+m01 = 0.82143;
 };
 name = Medium;
 weightClass = Medium;
 },
 {
+interpolationWeight = 92;
 instanceInterpolations = {
-"4FBB1917-F682-4041-B654-F2E0D2EF1242" = 0.41667;
-m01 = 0.58333;
+"4FBB1917-F682-4041-B654-F2E0D2EF1242" = 0.35714;
+m01 = 0.64286;
 };
 name = SemiBold;
 weightClass = SemiBold;
 },
 {
-interpolationWeight = 110;
+interpolationWeight = 102;
 instanceInterpolations = {
-"4FBB1917-F682-4041-B654-F2E0D2EF1242" = 0.625;
-m01 = 0.375;
+"4FBB1917-F682-4041-B654-F2E0D2EF1242" = 0.53571;
+m01 = 0.46429;
 };
 name = Bold;
 weightClass = Bold;
 },
 {
-interpolationWeight = 120;
+interpolationWeight = 112;
 instanceInterpolations = {
-"4FBB1917-F682-4041-B654-F2E0D2EF1242" = 0.83333;
-m01 = 0.16667;
+"4FBB1917-F682-4041-B654-F2E0D2EF1242" = 0.71429;
+m01 = 0.28571;
 };
 name = ExtraBold;
 weightClass = ExtraBold;
