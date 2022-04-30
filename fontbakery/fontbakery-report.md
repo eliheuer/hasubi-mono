@@ -19,7 +19,7 @@ Hasubi Mono Heavy: 160
 Hasubi Mono Regular: 288
 Hasubi Mono ExtraBold: 197
 Hasubi Mono SemiBold: 242 [code: sTypoLineGap-mismatch]
-</div></details><br></div></details><details><summary><b>[21] HasubiMono-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[22] HasubiMono-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -51,6 +51,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
+</div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
+
+
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsSelection value. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fsselection">com.google.fonts/check/fsselection</a>)</summary><div>
 
 
@@ -97,16 +101,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- threedotsdowncenterar
-	- uniFEA0
-	- waslaar
-	- uniFED3
-	- uniFEF5
-	- threedotsupbelowar
-	- uniFED2
-	- uniFEF4
 	- dotcenterar
-	- lam_alefWaslaar 
+	- miniKehehar
+	- uniFE9F
+	- uniFED2
+	- threedotsupbelowar
+	- uniFEF9
+	- twodotsverticalabovear
+	- twodotsverticalbelowar
+	- doublestrokear
+	- gafsarkashabovear 
 	- And 13 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -183,7 +187,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
  * G (U+0047): L<<474.0,390.0>--<476.0,0.0>>
  * M (U+004D): L<<118.0,627.0>--<120.0,0.0>>
  * M (U+004D): L<<393.0,0.0>--<396.0,623.0>> and M (U+004D): L<<472.0,768.0>--<471.0,0.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[16] HasubiMono-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[17] HasubiMono-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -215,6 +219,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
+</div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
+
+
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -240,16 +248,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- threedotsdowncenterar
-	- uniFEA0
-	- waslaar
-	- uniFED3
-	- uniFEF5
-	- threedotsupbelowar
-	- uniFED2
-	- uniFEF4
 	- dotcenterar
-	- lam_alefWaslaar 
+	- miniKehehar
+	- uniFE9F
+	- uniFED2
+	- threedotsupbelowar
+	- uniFEF9
+	- twodotsverticalabovear
+	- twodotsverticalbelowar
+	- doublestrokear
+	- gafsarkashabovear 
 	- And 13 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -330,7 +338,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
  * G (U+0047): L<<474.0,390.0>--<476.0,0.0>>
  * M (U+004D): L<<118.0,627.0>--<120.0,0.0>>
  * M (U+004D): L<<393.0,0.0>--<396.0,623.0>> and M (U+004D): L<<472.0,768.0>--<471.0,0.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[18] HasubiMono-Heavy.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[19] HasubiMono-Heavy.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/ttf/HasubiMono-Heavy.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
@@ -370,6 +378,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
+</div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
+
+
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -401,16 +413,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- threedotsdowncenterar
-	- uniFEA0
-	- waslaar
-	- uniFED3
-	- uniFEF5
-	- threedotsupbelowar
-	- uniFED2
-	- uniFEF4
 	- dotcenterar
-	- lam_alefWaslaar 
+	- miniKehehar
+	- uniFE9F
+	- uniFED2
+	- threedotsupbelowar
+	- uniFEF9
+	- twodotsverticalabovear
+	- twodotsverticalbelowar
+	- doublestrokear
+	- gafsarkashabovear 
 	- And 13 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -481,7 +493,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
  * G (U+0047): L<<474.0,390.0>--<476.0,0.0>>
  * M (U+004D): L<<118.0,627.0>--<120.0,0.0>>
  * M (U+004D): L<<393.0,0.0>--<396.0,623.0>> and M (U+004D): L<<472.0,768.0>--<471.0,0.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] HasubiMono-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[18] HasubiMono-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -513,6 +525,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
+</div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
+
+
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -544,16 +560,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- threedotsdowncenterar
-	- uniFEA0
-	- waslaar
-	- uniFED3
-	- uniFEF5
-	- threedotsupbelowar
-	- uniFED2
-	- uniFEF4
 	- dotcenterar
-	- lam_alefWaslaar 
+	- miniKehehar
+	- uniFE9F
+	- uniFED2
+	- threedotsupbelowar
+	- uniFEF9
+	- twodotsverticalabovear
+	- twodotsverticalbelowar
+	- doublestrokear
+	- gafsarkashabovear 
 	- And 13 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -631,7 +647,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
  * G (U+0047): L<<474.0,390.0>--<476.0,0.0>>
  * M (U+004D): L<<118.0,627.0>--<120.0,0.0>>
  * M (U+004D): L<<393.0,0.0>--<396.0,623.0>> and M (U+004D): L<<472.0,768.0>--<471.0,0.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] HasubiMono-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[18] HasubiMono-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -663,6 +679,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
+</div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
+
+
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -695,16 +715,16 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- threedotsdowncenterar
-	- uniFEA0
-	- waslaar
-	- uniFED3
-	- uniFEF5
-	- threedotsupbelowar
-	- uniFED2
-	- uniFEF4
 	- dotcenterar
-	- lam_alefWaslaar 
+	- miniKehehar
+	- uniFE9F
+	- uniFED2
+	- threedotsupbelowar
+	- uniFEF9
+	- twodotsverticalabovear
+	- twodotsverticalbelowar
+	- doublestrokear
+	- gafsarkashabovear 
 	- And 13 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -782,7 +802,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
  * G (U+0047): L<<474.0,390.0>--<476.0,0.0>>
  * M (U+004D): L<<118.0,627.0>--<120.0,0.0>>
  * M (U+004D): L<<393.0,0.0>--<396.0,623.0>> and M (U+004D): L<<472.0,768.0>--<471.0,0.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[16] HasubiMono-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[17] HasubiMono-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -814,6 +834,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
+</div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
+
+
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -839,16 +863,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- threedotsdowncenterar
-	- uniFEA0
-	- waslaar
-	- uniFED3
-	- uniFEF5
-	- threedotsupbelowar
-	- uniFED2
-	- uniFEF4
 	- dotcenterar
-	- lam_alefWaslaar 
+	- miniKehehar
+	- uniFE9F
+	- uniFED2
+	- threedotsupbelowar
+	- uniFEF9
+	- twodotsverticalabovear
+	- twodotsverticalbelowar
+	- doublestrokear
+	- gafsarkashabovear 
 	- And 13 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -931,8 +955,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 40 | 66 | 665 | 37 | 462 | 0 |
-| 0% | 3% | 5% | 52% | 3% | 36% | 0% |
+| 0 | 46 | 66 | 665 | 37 | 456 | 0 |
+| 0% | 4% | 5% | 52% | 3% | 36% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
