@@ -20,11 +20,12 @@ FONT_PATH = "fonts/Hasubi-Mono[wght].ttf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48
-BIG_TEXT = "كن"
-BIG_TEXT_FONT_SIZE = 1024/4
-BIG_TEXT_SIDE_MARGIN = MARGIN * 3.1
-BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.5
-GRID_VIEW = True # Change this to "True" for a grid overlay
+BIG_TEXT = "كـــن فيكون"
+BIG_TEXT_B = "Hello World"
+BIG_TEXT_FONT_SIZE = 1024/3.2
+BIG_TEXT_SIDE_MARGIN = MARGIN * 15
+BIG_TEXT_BOTTOM_MARGIN = MARGIN * 9
+GRID_VIEW = False # Change this to "True" for a grid overlay
 
 # Handel the "--output" flag
 # For example: $ python3 documentation/image1.py --output documentation/image1.png
@@ -94,6 +95,7 @@ def draw_main_text():
     # has support for textBox() and FormattedString
     #text(BIG_TEXT, ((WIDTH / 2) - MARGIN * 4.75, (HEIGHT / 2) - MARGIN * 2.5))
     text(BIG_TEXT, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN))
+    text(BIG_TEXT_B, (BIG_TEXT_SIDE_MARGIN - 1802, BIG_TEXT_BOTTOM_MARGIN - MARGIN*2.75))
 
 
 # Divider lines
