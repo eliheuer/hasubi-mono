@@ -101,16 +101,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- lam_alefWaslaar
-	- doublestrokear
-	- miniKehehar
-	- dotcenterar
-	- threedotsdownbelowar
-	- uniFEF9
-	- uniFEF5
-	- waslaar
+	- uniFEA0
+	- threedotsdownabovear
+	- uniFEF7
 	- gafsarkashcenterar
-	- uniFE9F 
+	- threedotsupbelowar
+	- twodotsverticalabovear
+	- twodotsverticalbelowar
+	- waslaar
+	- lam_alefWaslaar
+	- uniFEF9 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -157,16 +157,16 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* H (U+0048) contains a short segment L<<88.0,0.0>--<80.0,8.0>>
-	* H (U+0048) contains a short segment L<<80.0,696.0>--<88.0,704.0>>
-	* H (U+0048) contains a short segment L<<144.0,704.0>--<152.0,696.0>>
-	* H (U+0048) contains a short segment L<<152.0,407.0>--<160.0,399.0>>
-	* H (U+0048) contains a short segment L<<352.0,399.0>--<360.0,407.0>>
-	* H (U+0048) contains a short segment L<<360.0,696.0>--<368.0,704.0>>
-	* H (U+0048) contains a short segment L<<424.0,704.0>--<432.0,696.0>>
-	* H (U+0048) contains a short segment L<<432.0,8.0>--<424.0,0.0>>
-	* H (U+0048) contains a short segment L<<368.0,0.0>--<360.0,8.0>>
-	* H (U+0048) contains a short segment L<<360.0,311.0>--<352.0,319.0>> and 65 more.
+	* H (U+0048) contains a short segment L<<87.0,0.0>--<79.0,8.0>>
+	* H (U+0048) contains a short segment L<<79.0,696.0>--<87.0,704.0>>
+	* H (U+0048) contains a short segment L<<143.0,704.0>--<151.0,696.0>>
+	* H (U+0048) contains a short segment L<<151.0,407.0>--<159.0,399.0>>
+	* H (U+0048) contains a short segment L<<353.0,399.0>--<361.0,407.0>>
+	* H (U+0048) contains a short segment L<<361.0,696.0>--<369.0,704.0>>
+	* H (U+0048) contains a short segment L<<425.0,704.0>--<433.0,696.0>>
+	* H (U+0048) contains a short segment L<<433.0,8.0>--<425.0,0.0>>
+	* H (U+0048) contains a short segment L<<369.0,0.0>--<361.0,8.0>>
+	* H (U+0048) contains a short segment L<<361.0,311.0>--<353.0,319.0>> and 64 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -248,16 +248,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- lam_alefWaslaar
-	- doublestrokear
-	- miniKehehar
-	- dotcenterar
-	- threedotsdownbelowar
-	- uniFEF9
-	- uniFEF5
-	- waslaar
+	- uniFEA0
+	- threedotsdownabovear
+	- uniFEF7
 	- gafsarkashcenterar
-	- uniFE9F 
+	- threedotsupbelowar
+	- twodotsverticalabovear
+	- twodotsverticalbelowar
+	- waslaar
+	- lam_alefWaslaar
+	- uniFEF9 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -307,16 +307,16 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* H (U+0048) contains a short segment L<<88.0,0.0>--<80.0,8.0>>
-	* H (U+0048) contains a short segment L<<80.0,696.0>--<88.0,704.0>>
-	* H (U+0048) contains a short segment L<<144.0,704.0>--<152.0,696.0>>
-	* H (U+0048) contains a short segment L<<152.0,407.0>--<160.0,399.0>>
-	* H (U+0048) contains a short segment L<<352.0,399.0>--<360.0,407.0>>
-	* H (U+0048) contains a short segment L<<360.0,696.0>--<368.0,704.0>>
-	* H (U+0048) contains a short segment L<<424.0,704.0>--<432.0,696.0>>
-	* H (U+0048) contains a short segment L<<432.0,8.0>--<424.0,0.0>>
-	* H (U+0048) contains a short segment L<<368.0,0.0>--<360.0,8.0>>
-	* H (U+0048) contains a short segment L<<360.0,311.0>--<352.0,319.0>> and 65 more.
+	* H (U+0048) contains a short segment L<<86.0,0.0>--<78.0,8.0>>
+	* H (U+0048) contains a short segment L<<78.0,696.0>--<86.0,704.0>>
+	* H (U+0048) contains a short segment L<<142.0,704.0>--<150.0,696.0>>
+	* H (U+0048) contains a short segment L<<150.0,407.0>--<158.0,399.0>>
+	* H (U+0048) contains a short segment L<<354.0,399.0>--<362.0,407.0>>
+	* H (U+0048) contains a short segment L<<362.0,696.0>--<370.0,704.0>>
+	* H (U+0048) contains a short segment L<<426.0,704.0>--<434.0,696.0>>
+	* H (U+0048) contains a short segment L<<434.0,8.0>--<426.0,0.0>>
+	* H (U+0048) contains a short segment L<<370.0,0.0>--<362.0,8.0>>
+	* H (U+0048) contains a short segment L<<362.0,311.0>--<354.0,319.0>> and 64 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -413,16 +413,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- lam_alefWaslaar
-	- doublestrokear
-	- miniKehehar
-	- dotcenterar
-	- threedotsdownbelowar
-	- uniFEF9
-	- uniFEF5
-	- waslaar
+	- uniFEA0
+	- threedotsdownabovear
+	- uniFEF7
 	- gafsarkashcenterar
-	- uniFE9F 
+	- threedotsupbelowar
+	- twodotsverticalabovear
+	- twodotsverticalbelowar
+	- waslaar
+	- lam_alefWaslaar
+	- uniFEF9 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -473,7 +473,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* H (U+0048) contains a short segment L<<424.0,704.0>--<432.0,696.0>>
 	* H (U+0048) contains a short segment L<<432.0,8.0>--<424.0,0.0>>
 	* H (U+0048) contains a short segment L<<368.0,0.0>--<360.0,8.0>>
-	* H (U+0048) contains a short segment L<<360.0,311.0>--<352.0,319.0>> and 65 more.
+	* H (U+0048) contains a short segment L<<360.0,311.0>--<352.0,319.0>> and 64 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -560,16 +560,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- lam_alefWaslaar
-	- doublestrokear
-	- miniKehehar
-	- dotcenterar
-	- threedotsdownbelowar
-	- uniFEF9
-	- uniFEF5
-	- waslaar
+	- uniFEA0
+	- threedotsdownabovear
+	- uniFEF7
 	- gafsarkashcenterar
-	- uniFE9F 
+	- threedotsupbelowar
+	- twodotsverticalabovear
+	- twodotsverticalbelowar
+	- waslaar
+	- lam_alefWaslaar
+	- uniFEF9 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -616,16 +616,16 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* H (U+0048) contains a short segment L<<88.0,0.0>--<80.0,8.0>>
-	* H (U+0048) contains a short segment L<<80.0,696.0>--<88.0,704.0>>
-	* H (U+0048) contains a short segment L<<144.0,704.0>--<152.0,696.0>>
-	* H (U+0048) contains a short segment L<<152.0,407.0>--<160.0,399.0>>
-	* H (U+0048) contains a short segment L<<352.0,399.0>--<360.0,407.0>>
-	* H (U+0048) contains a short segment L<<360.0,696.0>--<368.0,704.0>>
-	* H (U+0048) contains a short segment L<<424.0,704.0>--<432.0,696.0>>
-	* H (U+0048) contains a short segment L<<432.0,8.0>--<424.0,0.0>>
-	* H (U+0048) contains a short segment L<<368.0,0.0>--<360.0,8.0>>
-	* H (U+0048) contains a short segment L<<360.0,311.0>--<352.0,319.0>> and 65 more.
+	* H (U+0048) contains a short segment L<<86.0,0.0>--<78.0,8.0>>
+	* H (U+0048) contains a short segment L<<78.0,696.0>--<86.0,704.0>>
+	* H (U+0048) contains a short segment L<<142.0,704.0>--<150.0,696.0>>
+	* H (U+0048) contains a short segment L<<150.0,407.0>--<158.0,399.0>>
+	* H (U+0048) contains a short segment L<<354.0,399.0>--<362.0,407.0>>
+	* H (U+0048) contains a short segment L<<362.0,696.0>--<370.0,704.0>>
+	* H (U+0048) contains a short segment L<<426.0,704.0>--<434.0,696.0>>
+	* H (U+0048) contains a short segment L<<434.0,8.0>--<426.0,0.0>>
+	* H (U+0048) contains a short segment L<<370.0,0.0>--<362.0,8.0>>
+	* H (U+0048) contains a short segment L<<362.0,311.0>--<354.0,319.0>> and 64 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -715,16 +715,16 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- lam_alefWaslaar
-	- doublestrokear
-	- miniKehehar
-	- dotcenterar
-	- threedotsdownbelowar
-	- uniFEF9
-	- uniFEF5
-	- waslaar
+	- uniFEA0
+	- threedotsdownabovear
+	- uniFEF7
 	- gafsarkashcenterar
-	- uniFE9F 
+	- threedotsupbelowar
+	- twodotsverticalabovear
+	- twodotsverticalbelowar
+	- waslaar
+	- lam_alefWaslaar
+	- uniFEF9 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -772,16 +772,16 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* H (U+0048) contains a short segment L<<88.0,0.0>--<80.0,8.0>>
-	* H (U+0048) contains a short segment L<<80.0,696.0>--<88.0,704.0>>
-	* H (U+0048) contains a short segment L<<144.0,704.0>--<152.0,696.0>>
-	* H (U+0048) contains a short segment L<<152.0,407.0>--<160.0,399.0>>
-	* H (U+0048) contains a short segment L<<352.0,399.0>--<360.0,407.0>>
-	* H (U+0048) contains a short segment L<<360.0,696.0>--<368.0,704.0>>
-	* H (U+0048) contains a short segment L<<424.0,704.0>--<432.0,696.0>>
-	* H (U+0048) contains a short segment L<<432.0,8.0>--<424.0,0.0>>
-	* H (U+0048) contains a short segment L<<368.0,0.0>--<360.0,8.0>>
-	* H (U+0048) contains a short segment L<<360.0,311.0>--<352.0,319.0>> and 65 more.
+	* H (U+0048) contains a short segment L<<87.0,0.0>--<79.0,8.0>>
+	* H (U+0048) contains a short segment L<<79.0,696.0>--<87.0,704.0>>
+	* H (U+0048) contains a short segment L<<143.0,704.0>--<151.0,696.0>>
+	* H (U+0048) contains a short segment L<<151.0,407.0>--<159.0,399.0>>
+	* H (U+0048) contains a short segment L<<353.0,399.0>--<361.0,407.0>>
+	* H (U+0048) contains a short segment L<<361.0,696.0>--<369.0,704.0>>
+	* H (U+0048) contains a short segment L<<425.0,704.0>--<433.0,696.0>>
+	* H (U+0048) contains a short segment L<<433.0,8.0>--<425.0,0.0>>
+	* H (U+0048) contains a short segment L<<369.0,0.0>--<361.0,8.0>>
+	* H (U+0048) contains a short segment L<<361.0,311.0>--<353.0,319.0>> and 64 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -863,16 +863,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- lam_alefWaslaar
-	- doublestrokear
-	- miniKehehar
-	- dotcenterar
-	- threedotsdownbelowar
-	- uniFEF9
-	- uniFEF5
-	- waslaar
+	- uniFEA0
+	- threedotsdownabovear
+	- uniFEF7
 	- gafsarkashcenterar
-	- uniFE9F 
+	- threedotsupbelowar
+	- twodotsverticalabovear
+	- twodotsverticalbelowar
+	- waslaar
+	- lam_alefWaslaar
+	- uniFEF9 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -919,16 +919,16 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* H (U+0048) contains a short segment L<<88.0,0.0>--<80.0,8.0>>
-	* H (U+0048) contains a short segment L<<80.0,696.0>--<88.0,704.0>>
-	* H (U+0048) contains a short segment L<<144.0,704.0>--<152.0,696.0>>
-	* H (U+0048) contains a short segment L<<152.0,407.0>--<160.0,399.0>>
-	* H (U+0048) contains a short segment L<<352.0,399.0>--<360.0,407.0>>
-	* H (U+0048) contains a short segment L<<360.0,696.0>--<368.0,704.0>>
-	* H (U+0048) contains a short segment L<<424.0,704.0>--<432.0,696.0>>
-	* H (U+0048) contains a short segment L<<432.0,8.0>--<424.0,0.0>>
-	* H (U+0048) contains a short segment L<<368.0,0.0>--<360.0,8.0>>
-	* H (U+0048) contains a short segment L<<360.0,311.0>--<352.0,319.0>> and 65 more.
+	* H (U+0048) contains a short segment L<<87.0,0.0>--<79.0,8.0>>
+	* H (U+0048) contains a short segment L<<79.0,696.0>--<87.0,704.0>>
+	* H (U+0048) contains a short segment L<<143.0,704.0>--<151.0,696.0>>
+	* H (U+0048) contains a short segment L<<151.0,407.0>--<159.0,399.0>>
+	* H (U+0048) contains a short segment L<<353.0,399.0>--<361.0,407.0>>
+	* H (U+0048) contains a short segment L<<361.0,696.0>--<369.0,704.0>>
+	* H (U+0048) contains a short segment L<<425.0,704.0>--<433.0,696.0>>
+	* H (U+0048) contains a short segment L<<433.0,8.0>--<425.0,0.0>>
+	* H (U+0048) contains a short segment L<<369.0,0.0>--<361.0,8.0>>
+	* H (U+0048) contains a short segment L<<361.0,311.0>--<353.0,319.0>> and 64 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
