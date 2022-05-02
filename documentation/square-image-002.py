@@ -20,11 +20,12 @@ FONT_PATH = "fonts/Hasubi-Mono[wght].ttf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48
-BIG_TEXT = "كـــن فيكون"
-BIG_TEXT_B = "Hello World"
-BIG_TEXT_FONT_SIZE = 1024/3.2
-BIG_TEXT_SIDE_MARGIN = MARGIN * 15
-BIG_TEXT_BOTTOM_MARGIN = MARGIN * 9
+BIG_TEXT = "Hello World"
+BIG_TEXT_B = "كـــن فيكون"
+BIG_TEXT_FONT_SIZE = 140
+BIG_TEXT_SIDE_MARGIN = MARGIN * 8
+BIG_TEXT_BOTTOM_MARGIN = MARGIN * 13.25
+TRACKING = 141
 GRID_VIEW = False # Change this to "True" for a grid overlay
 
 # Handel the "--output" flag
@@ -39,16 +40,17 @@ args = parser.parse_args()
 ttFont = TTFont(FONT_PATH)
 
 # Constants that are worked out dynamically
-MY_URL = subprocess.check_output("git remote get-url origin", shell=True).decode()
+#MY_URL = subprocess.check_output("git remote get-url origin", shell=True).decode()
 MY_URL = "https://github.com/eliheuer/hasubi-mono "
 MY_HASH = subprocess.check_output("git rev-parse --short HEAD", shell=True).decode()
 FONT_NAME = ttFont["name"].getDebugName(4)
+FONT_NAME = "Hasubi Mono: Weight Axis Full Range [wght]"
 FONT_VERSION = "v%s" % floatToFixedToStr(ttFont["head"].fontRevision, 16)
 
 
 # Draws a grid
 def grid():
-    stroke(1, 0, 0, 0.75)
+    stroke(1, 0, 0, 0.5)
     strokeWidth(2)
     STEP_X, STEP_Y = 0, 0
     INCREMENT_X, INCREMENT_Y = MARGIN / 2, MARGIN / 2
@@ -95,8 +97,18 @@ def draw_main_text():
     # TODO: This should be done automatically when drawbot-skia
     # has support for textBox() and FormattedString
     #text(BIG_TEXT, ((WIDTH / 2) - MARGIN * 4.75, (HEIGHT / 2) - MARGIN * 2.5))
-    text(BIG_TEXT, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN))
-    text(BIG_TEXT_B, (BIG_TEXT_SIDE_MARGIN - 1802, BIG_TEXT_BOTTOM_MARGIN - MARGIN*2.75))
+    font_var = 400
+    track = 128
+    for i in range(11):
+        fontVariations(wght = font_var)
+        text(BIG_TEXT, (BIG_TEXT_SIDE_MARGIN+115, BIG_TEXT_BOTTOM_MARGIN-(i*TRACKING)))
+        print("font_var = ", font_var)
+        font_var += 50
+    font_var = 400
+    for i in range(11):
+        fontVariations(wght = font_var)
+        text(BIG_TEXT_B, (BIG_TEXT_SIDE_MARGIN-117, BIG_TEXT_BOTTOM_MARGIN-(i*TRACKING)))
+        font_var += 50
 
 
 # Divider lines
@@ -125,6 +137,11 @@ def draw_auxiliary_text():
     text(FONT_VERSION, POS_TOP_RIGHT, align="right")
     text(URL_AND_HASH, POS_BOTTOM_LEFT, align="left")
     text(FONT_LICENSE, POS_BOTTOM_RIGHT, align="right")
+
+    font_weights = ["400","450","500","550","600","650","700","750","800","850","900","950"]
+    for i in range(11):
+        text(font_weights[i], (BIG_TEXT_SIDE_MARGIN-41, BIG_TEXT_BOTTOM_MARGIN-(i*TRACKING)))
+
 
 
 # Build and save the image
