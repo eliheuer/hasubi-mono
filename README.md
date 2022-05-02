@@ -15,6 +15,7 @@
 Hasubi Mono (حاسوبي مونو) is an Arabic, Hebrew, and Latin condensed monospace typeface designed for use in text editors and terminals.
 
 ![Sample Image](documentation/square-image-001.png)
+![Sample Image](documentation/square-image-002.png)
 
 ## About
 
@@ -32,16 +33,6 @@ If you want to build fonts manually on your own computer:
 
 The proof files and QA tests are also available automatically via GitHub Actions - look at https://eliheuer.github.io/hasubi-mono.
 
-## Changelog
-
-When you update your font (new version or new release), please report all notable changes here, with a date.
-[Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver. 
-Changelog example:
-
-**26 May 2021. Version 2.13**
-- MAJOR Font turned to a variable font.
-- SIGNIFICANT New Stylistic sets added.
-
 ## License
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -51,3 +42,10 @@ https://scripts.sil.org/OFL
 ## Repository Layout
 
 This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.
+
+## Changelog
+
+**01 May 2022. Version 0.001**
+- Set up a basic variable font with weight range 400-900
+- Added new DrawBot images
+
