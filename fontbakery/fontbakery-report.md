@@ -2,24 +2,7 @@
 
 Fontbakery version: 0.8.8
 
-<details><summary><b>[1] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Each font in a family must have the same set of vertical metrics values. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/vertical_metrics">com.google.fonts/check/family/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** sTypoAscender is not the same across the family:
-Hasubi Mono Bold: 773
-Hasubi Mono Medium: 727
-Hasubi Mono Heavy: 832
-Hasubi Mono Regular: 704
-Hasubi Mono ExtraBold: 795
-Hasubi Mono SemiBold: 750 [code: sTypoAscender-mismatch]
-* 🔥 **FAIL** sTypoLineGap is not the same across the family:
-Hasubi Mono Bold: 219
-Hasubi Mono Medium: 265
-Hasubi Mono Heavy: 160
-Hasubi Mono Regular: 288
-Hasubi Mono ExtraBold: 197
-Hasubi Mono SemiBold: 242 [code: sTypoLineGap-mismatch]
-</div></details><br></div></details><details><summary><b>[22] HasubiMono-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[23] HasubiMono-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -83,7 +66,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2 sTypoAscender (773) and hhea ascent (992) must be equal. [code: ascender]
+* 🔥 **FAIL** OS/2 sTypoAscender (704) and hhea ascent (992) must be equal. [code: ascender]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -101,16 +84,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- uniFEA0
-	- twodotsverticalabovear
-	- uniFEF5
+	- uniFEF7
+	- threedotsupbelowar
 	- uniFEF9
-	- gafsarkashabovear
-	- uniFEFB
-	- dotcenterar
+	- uniFEF5
+	- uniFEF3
 	- lam_alefWaslaar
-	- twodotsverticalbelowar
-	- gafsarkashcenterar 
+	- doublestrokear
+	- dotcenterar
+	- uniFEA0
+	- threedotsdowncenterar 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -152,23 +135,31 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+	* d (U+0064): X=287.5,Y=510.0 (should be at x-height 512?)
+	* m (U+006D): X=305.0,Y=514.0 (should be at x-height 512?)
+	* m (U+006D): X=202.0,Y=511.0 (should be at x-height 512?)
 	* uni0628 (U+0628): X=306.0,Y=-206.0 (should be at descender -208?) and uni0628 (U+0628): X=306.0,Y=-206.0 (should be at descender -208?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* H (U+0048) contains a short segment L<<87.0,0.0>--<79.0,8.0>>
-	* H (U+0048) contains a short segment L<<79.0,696.0>--<87.0,704.0>>
-	* H (U+0048) contains a short segment L<<143.0,704.0>--<151.0,696.0>>
-	* H (U+0048) contains a short segment L<<151.0,407.0>--<159.0,399.0>>
-	* H (U+0048) contains a short segment L<<353.0,399.0>--<361.0,407.0>>
-	* H (U+0048) contains a short segment L<<361.0,696.0>--<369.0,704.0>>
-	* H (U+0048) contains a short segment L<<425.0,704.0>--<433.0,696.0>>
-	* H (U+0048) contains a short segment L<<433.0,8.0>--<425.0,0.0>>
-	* H (U+0048) contains a short segment L<<369.0,0.0>--<361.0,8.0>>
-	* H (U+0048) contains a short segment L<<361.0,311.0>--<353.0,319.0>> and 64 more.
+	* H (U+0048) contains a short segment L<<80.0,0.0>--<72.0,8.0>>
+	* H (U+0048) contains a short segment L<<72.0,696.0>--<80.0,704.0>>
+	* H (U+0048) contains a short segment L<<166.0,704.0>--<174.0,696.0>>
+	* H (U+0048) contains a short segment L<<174.0,424.0>--<182.0,416.0>>
+	* H (U+0048) contains a short segment L<<330.0,416.0>--<338.0,424.0>>
+	* H (U+0048) contains a short segment L<<338.0,696.0>--<346.0,704.0>>
+	* H (U+0048) contains a short segment L<<432.0,704.0>--<440.0,696.0>>
+	* H (U+0048) contains a short segment L<<440.0,8.0>--<432.0,0.0>>
+	* H (U+0048) contains a short segment L<<346.0,0.0>--<338.0,8.0>>
+	* H (U+0048) contains a short segment L<<338.0,294.0>--<330.0,302.0>> and 61 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+	* e (U+0065): L<<431.0,237.0>--<316.0,234.0>> -> L<<316.0,234.0>--<189.0,229.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -230,7 +221,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2 sTypoAscender (727) and hhea ascent (992) must be equal. [code: ascender]
+* 🔥 **FAIL** OS/2 sTypoAscender (704) and hhea ascent (992) must be equal. [code: ascender]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -248,16 +239,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- uniFEA0
-	- twodotsverticalabovear
-	- uniFEF5
+	- uniFEF7
+	- threedotsupbelowar
 	- uniFEF9
-	- gafsarkashabovear
-	- uniFEFB
-	- dotcenterar
+	- uniFEF5
+	- uniFEF3
 	- lam_alefWaslaar
-	- twodotsverticalbelowar
-	- gafsarkashcenterar 
+	- doublestrokear
+	- dotcenterar
+	- uniFEA0
+	- threedotsdowncenterar 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -299,24 +290,21 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* C (U+0043): X=420.0,Y=725.5 (should be at ascender 727?)
-	* c (U+0063): X=87.0,Y=526.0 (should be at x-height 528?)
-	* c (U+0063): X=425.5,Y=529.0 (should be at x-height 528?)
-	* uni0654 (U+0654): X=14.0,Y=717.0 (should be at cap-height 715?) and uni0654 (U+0654): X=143.0,Y=714.0 (should be at cap-height 715?) [code: found-misalignments]
+	* m (U+006D): X=305.0,Y=514.0 (should be at x-height 512?) and m (U+006D): X=202.0,Y=511.0 (should be at x-height 512?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* H (U+0048) contains a short segment L<<86.0,0.0>--<78.0,8.0>>
-	* H (U+0048) contains a short segment L<<78.0,696.0>--<86.0,704.0>>
-	* H (U+0048) contains a short segment L<<142.0,704.0>--<150.0,696.0>>
-	* H (U+0048) contains a short segment L<<150.0,407.0>--<158.0,399.0>>
-	* H (U+0048) contains a short segment L<<354.0,399.0>--<362.0,407.0>>
-	* H (U+0048) contains a short segment L<<362.0,696.0>--<370.0,704.0>>
-	* H (U+0048) contains a short segment L<<426.0,704.0>--<434.0,696.0>>
-	* H (U+0048) contains a short segment L<<434.0,8.0>--<426.0,0.0>>
-	* H (U+0048) contains a short segment L<<370.0,0.0>--<362.0,8.0>>
-	* H (U+0048) contains a short segment L<<362.0,311.0>--<354.0,319.0>> and 64 more.
+	* H (U+0048) contains a short segment L<<80.0,0.0>--<72.0,8.0>>
+	* H (U+0048) contains a short segment L<<72.0,696.0>--<80.0,704.0>>
+	* H (U+0048) contains a short segment L<<146.0,704.0>--<154.0,696.0>>
+	* H (U+0048) contains a short segment L<<154.0,413.0>--<162.0,405.0>>
+	* H (U+0048) contains a short segment L<<350.0,405.0>--<358.0,413.0>>
+	* H (U+0048) contains a short segment L<<358.0,696.0>--<366.0,704.0>>
+	* H (U+0048) contains a short segment L<<432.0,704.0>--<440.0,696.0>>
+	* H (U+0048) contains a short segment L<<440.0,8.0>--<432.0,0.0>>
+	* H (U+0048) contains a short segment L<<366.0,0.0>--<358.0,8.0>>
+	* H (U+0048) contains a short segment L<<358.0,305.0>--<350.0,313.0>> and 62 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -338,7 +326,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
  * G (U+0047): L<<474.0,390.0>--<476.0,0.0>>
  * M (U+004D): L<<118.0,627.0>--<120.0,0.0>>
  * M (U+004D): L<<393.0,0.0>--<396.0,623.0>> and M (U+004D): L<<472.0,768.0>--<471.0,0.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[19] HasubiMono-Heavy.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[20] HasubiMono-Heavy.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/ttf/HasubiMono-Heavy.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
@@ -389,7 +377,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2 sTypoAscender (832) and hhea ascent (992) must be equal. [code: ascender]
+* 🔥 **FAIL** OS/2 sTypoAscender (704) and hhea ascent (992) must be equal. [code: ascender]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -399,7 +387,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 76 glyphs (32.76%) have a different width. You should check the widths of: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni066E.medi', 'uniFE92', 'uniFE98', 'uniFE9C', 'uniFEDC', 'uniFEDB', 'uni0646', 'uniFEE6', 'uniFEE8', 'uni06BA', 'uniFB9F', 'uni0648', 'uniFEEE', 'uniFEF4', 'uni0640', 'uniFEFB', 'uniFEFC'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 78 glyphs (33.62%) have a different width. You should check the widths of: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni066E.medi', 'uniFE92', 'uniFE98', 'uniFE9C', 'uniFED3', 'uni06A1.init', 'uniFEDC', 'uniFEDB', 'uni0646', 'uniFEE6', 'uniFEE8', 'uni06BA', 'uniFB9F', 'uni0648', 'uniFEEE', 'uniFEF4', 'uni0640', 'uniFEFB', 'uniFEFC'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -413,16 +401,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- uniFEA0
-	- twodotsverticalabovear
-	- uniFEF5
+	- uniFEF7
+	- threedotsupbelowar
 	- uniFEF9
-	- gafsarkashabovear
-	- uniFEFB
-	- dotcenterar
+	- uniFEF5
+	- uniFEF3
 	- lam_alefWaslaar
-	- twodotsverticalbelowar
-	- gafsarkashcenterar 
+	- doublestrokear
+	- dotcenterar
+	- uniFEA0
+	- threedotsdowncenterar 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -460,20 +448,26 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+	* d (U+0064): X=266.0,Y=513.5 (should be at x-height 512?)
+	* m (U+006D): X=305.0,Y=514.0 (should be at x-height 512?) and m (U+006D): X=202.0,Y=511.0 (should be at x-height 512?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* H (U+0048) contains a short segment L<<88.0,0.0>--<80.0,8.0>>
-	* H (U+0048) contains a short segment L<<80.0,696.0>--<88.0,704.0>>
-	* H (U+0048) contains a short segment L<<144.0,704.0>--<152.0,696.0>>
-	* H (U+0048) contains a short segment L<<152.0,407.0>--<160.0,399.0>>
-	* H (U+0048) contains a short segment L<<352.0,399.0>--<360.0,407.0>>
-	* H (U+0048) contains a short segment L<<360.0,696.0>--<368.0,704.0>>
-	* H (U+0048) contains a short segment L<<424.0,704.0>--<432.0,696.0>>
-	* H (U+0048) contains a short segment L<<432.0,8.0>--<424.0,0.0>>
-	* H (U+0048) contains a short segment L<<368.0,0.0>--<360.0,8.0>>
-	* H (U+0048) contains a short segment L<<360.0,311.0>--<352.0,319.0>> and 64 more.
+	* H (U+0048) contains a short segment L<<80.0,0.0>--<72.0,8.0>>
+	* H (U+0048) contains a short segment L<<72.0,696.0>--<80.0,704.0>>
+	* H (U+0048) contains a short segment L<<192.0,704.0>--<200.0,696.0>>
+	* H (U+0048) contains a short segment L<<200.0,439.0>--<208.0,431.0>>
+	* H (U+0048) contains a short segment L<<304.0,431.0>--<312.0,439.0>>
+	* H (U+0048) contains a short segment L<<312.0,696.0>--<320.0,704.0>>
+	* H (U+0048) contains a short segment L<<432.0,704.0>--<440.0,696.0>>
+	* H (U+0048) contains a short segment L<<440.0,8.0>--<432.0,0.0>>
+	* H (U+0048) contains a short segment L<<320.0,0.0>--<312.0,8.0>>
+	* H (U+0048) contains a short segment L<<312.0,279.0>--<304.0,287.0>> and 74 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -560,16 +554,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- uniFEA0
-	- twodotsverticalabovear
-	- uniFEF5
+	- uniFEF7
+	- threedotsupbelowar
 	- uniFEF9
-	- gafsarkashabovear
-	- uniFEFB
-	- dotcenterar
+	- uniFEF5
+	- uniFEF3
 	- lam_alefWaslaar
-	- twodotsverticalbelowar
-	- gafsarkashcenterar 
+	- doublestrokear
+	- dotcenterar
+	- uniFEA0
+	- threedotsdowncenterar 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -616,16 +610,16 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* H (U+0048) contains a short segment L<<86.0,0.0>--<78.0,8.0>>
-	* H (U+0048) contains a short segment L<<78.0,696.0>--<86.0,704.0>>
-	* H (U+0048) contains a short segment L<<142.0,704.0>--<150.0,696.0>>
-	* H (U+0048) contains a short segment L<<150.0,407.0>--<158.0,399.0>>
-	* H (U+0048) contains a short segment L<<354.0,399.0>--<362.0,407.0>>
-	* H (U+0048) contains a short segment L<<362.0,696.0>--<370.0,704.0>>
-	* H (U+0048) contains a short segment L<<426.0,704.0>--<434.0,696.0>>
-	* H (U+0048) contains a short segment L<<434.0,8.0>--<426.0,0.0>>
-	* H (U+0048) contains a short segment L<<370.0,0.0>--<362.0,8.0>>
-	* H (U+0048) contains a short segment L<<362.0,311.0>--<354.0,319.0>> and 64 more.
+	* H (U+0048) contains a short segment L<<80.0,0.0>--<72.0,8.0>>
+	* H (U+0048) contains a short segment L<<72.0,696.0>--<80.0,704.0>>
+	* H (U+0048) contains a short segment L<<136.0,704.0>--<144.0,696.0>>
+	* H (U+0048) contains a short segment L<<144.0,407.0>--<152.0,399.0>>
+	* H (U+0048) contains a short segment L<<360.0,399.0>--<368.0,407.0>>
+	* H (U+0048) contains a short segment L<<368.0,696.0>--<376.0,704.0>>
+	* H (U+0048) contains a short segment L<<432.0,704.0>--<440.0,696.0>>
+	* H (U+0048) contains a short segment L<<440.0,8.0>--<432.0,0.0>>
+	* H (U+0048) contains a short segment L<<376.0,0.0>--<368.0,8.0>>
+	* H (U+0048) contains a short segment L<<368.0,311.0>--<360.0,319.0>> and 64 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -647,7 +641,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
  * G (U+0047): L<<474.0,390.0>--<476.0,0.0>>
  * M (U+004D): L<<118.0,627.0>--<120.0,0.0>>
  * M (U+004D): L<<393.0,0.0>--<396.0,623.0>> and M (U+004D): L<<472.0,768.0>--<471.0,0.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[18] HasubiMono-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[19] HasubiMono-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -690,7 +684,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2 sTypoAscender (795) and hhea ascent (992) must be equal. [code: ascender]
+* 🔥 **FAIL** OS/2 sTypoAscender (704) and hhea ascent (992) must be equal. [code: ascender]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -715,16 +709,16 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- uniFEA0
-	- twodotsverticalabovear
-	- uniFEF5
+	- uniFEF7
+	- threedotsupbelowar
 	- uniFEF9
-	- gafsarkashabovear
-	- uniFEFB
-	- dotcenterar
+	- uniFEF5
+	- uniFEF3
 	- lam_alefWaslaar
-	- twodotsverticalbelowar
-	- gafsarkashcenterar 
+	- doublestrokear
+	- dotcenterar
+	- uniFEA0
+	- threedotsdowncenterar 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -766,24 +760,29 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* m (U+006D): X=444.0,Y=574.5 (should be at x-height 575?)
-	* uni0654 (U+0654): X=54.0,Y=797.0 (should be at ascender 795?) and uni0654 (U+0654): X=134.0,Y=749.0 (should be at cap-height 750?) [code: found-misalignments]
+	* d (U+0064): X=279.5,Y=511.5 (should be at x-height 512?)
+	* m (U+006D): X=305.0,Y=514.0 (should be at x-height 512?) and m (U+006D): X=202.0,Y=511.0 (should be at x-height 512?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* H (U+0048) contains a short segment L<<87.0,0.0>--<79.0,8.0>>
-	* H (U+0048) contains a short segment L<<79.0,696.0>--<87.0,704.0>>
-	* H (U+0048) contains a short segment L<<143.0,704.0>--<151.0,696.0>>
-	* H (U+0048) contains a short segment L<<151.0,407.0>--<159.0,399.0>>
-	* H (U+0048) contains a short segment L<<353.0,399.0>--<361.0,407.0>>
-	* H (U+0048) contains a short segment L<<361.0,696.0>--<369.0,704.0>>
-	* H (U+0048) contains a short segment L<<425.0,704.0>--<433.0,696.0>>
-	* H (U+0048) contains a short segment L<<433.0,8.0>--<425.0,0.0>>
-	* H (U+0048) contains a short segment L<<369.0,0.0>--<361.0,8.0>>
-	* H (U+0048) contains a short segment L<<361.0,311.0>--<353.0,319.0>> and 64 more.
+	* H (U+0048) contains a short segment L<<80.0,0.0>--<72.0,8.0>>
+	* H (U+0048) contains a short segment L<<72.0,696.0>--<80.0,704.0>>
+	* H (U+0048) contains a short segment L<<176.0,704.0>--<184.0,696.0>>
+	* H (U+0048) contains a short segment L<<184.0,430.0>--<192.0,422.0>>
+	* H (U+0048) contains a short segment L<<320.0,422.0>--<328.0,430.0>>
+	* H (U+0048) contains a short segment L<<328.0,696.0>--<336.0,704.0>>
+	* H (U+0048) contains a short segment L<<432.0,704.0>--<440.0,696.0>>
+	* H (U+0048) contains a short segment L<<440.0,8.0>--<432.0,0.0>>
+	* H (U+0048) contains a short segment L<<336.0,0.0>--<328.0,8.0>>
+	* H (U+0048) contains a short segment L<<328.0,288.0>--<320.0,296.0>> and 61 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+	* e (U+0065): L<<429.0,237.0>--<278.0,235.0>> -> L<<278.0,235.0>--<197.0,229.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -802,7 +801,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
  * G (U+0047): L<<474.0,390.0>--<476.0,0.0>>
  * M (U+004D): L<<118.0,627.0>--<120.0,0.0>>
  * M (U+004D): L<<393.0,0.0>--<396.0,623.0>> and M (U+004D): L<<472.0,768.0>--<471.0,0.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] HasubiMono-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[18] HasubiMono-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -845,7 +844,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2 sTypoAscender (750) and hhea ascent (992) must be equal. [code: ascender]
+* 🔥 **FAIL** OS/2 sTypoAscender (704) and hhea ascent (992) must be equal. [code: ascender]
 </div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
 
 
@@ -863,16 +862,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- uniFEA0
-	- twodotsverticalabovear
-	- uniFEF5
+	- uniFEF7
+	- threedotsupbelowar
 	- uniFEF9
-	- gafsarkashabovear
-	- uniFEFB
-	- dotcenterar
+	- uniFEF5
+	- uniFEF3
 	- lam_alefWaslaar
-	- twodotsverticalbelowar
-	- gafsarkashcenterar 
+	- doublestrokear
+	- dotcenterar
+	- uniFEA0
+	- threedotsdowncenterar 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -914,23 +913,28 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* C (U+0043): X=420.0,Y=725.5 (should be at cap-height 727?) and uni0654 (U+0654): X=134.0,Y=749.0 (should be at ascender 750?) [code: found-misalignments]
+	* m (U+006D): X=305.0,Y=514.0 (should be at x-height 512?) and m (U+006D): X=202.0,Y=511.0 (should be at x-height 512?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
-	* H (U+0048) contains a short segment L<<87.0,0.0>--<79.0,8.0>>
-	* H (U+0048) contains a short segment L<<79.0,696.0>--<87.0,704.0>>
-	* H (U+0048) contains a short segment L<<143.0,704.0>--<151.0,696.0>>
-	* H (U+0048) contains a short segment L<<151.0,407.0>--<159.0,399.0>>
-	* H (U+0048) contains a short segment L<<353.0,399.0>--<361.0,407.0>>
-	* H (U+0048) contains a short segment L<<361.0,696.0>--<369.0,704.0>>
-	* H (U+0048) contains a short segment L<<425.0,704.0>--<433.0,696.0>>
-	* H (U+0048) contains a short segment L<<433.0,8.0>--<425.0,0.0>>
-	* H (U+0048) contains a short segment L<<369.0,0.0>--<361.0,8.0>>
-	* H (U+0048) contains a short segment L<<361.0,311.0>--<353.0,319.0>> and 64 more.
+	* H (U+0048) contains a short segment L<<80.0,0.0>--<72.0,8.0>>
+	* H (U+0048) contains a short segment L<<72.0,696.0>--<80.0,704.0>>
+	* H (U+0048) contains a short segment L<<156.0,704.0>--<164.0,696.0>>
+	* H (U+0048) contains a short segment L<<164.0,418.0>--<172.0,410.0>>
+	* H (U+0048) contains a short segment L<<340.0,410.0>--<348.0,418.0>>
+	* H (U+0048) contains a short segment L<<348.0,696.0>--<356.0,704.0>>
+	* H (U+0048) contains a short segment L<<432.0,704.0>--<440.0,696.0>>
+	* H (U+0048) contains a short segment L<<440.0,8.0>--<432.0,0.0>>
+	* H (U+0048) contains a short segment L<<356.0,0.0>--<348.0,8.0>>
+	* H (U+0048) contains a short segment L<<348.0,300.0>--<340.0,308.0>> and 61 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+	* e (U+0065): L<<434.0,238.0>--<355.0,233.0>> -> L<<355.0,233.0>--<182.0,230.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -955,8 +959,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 46 | 66 | 665 | 37 | 456 | 0 |
-| 0% | 4% | 5% | 52% | 3% | 36% | 0% |
+| 0 | 45 | 70 | 665 | 37 | 453 | 0 |
+| 0% | 4% | 6% | 52% | 3% | 36% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
