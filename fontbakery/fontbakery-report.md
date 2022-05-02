@@ -84,16 +84,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- threedotsdowncenterar
+	- twodotsverticalbelowar
+	- uniFEF5
+	- uniFEF9
+	- threedotsdownbelowar
 	- threedotsupbelowar
-	- uniFEF7
-	- waslaar
-	- uniFEF3
-	- twodotsverticalabovear
-	- uniFE9F
-	- doublestrokear
+	- uniFEFB
+	- uniFEA0
 	- dotcenterar
-	- gafsarkashcenterar
-	- uniFEF5 
+	- waslaar 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -234,16 +234,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- threedotsdowncenterar
+	- twodotsverticalbelowar
+	- uniFEF5
+	- uniFEF9
+	- threedotsdownbelowar
 	- threedotsupbelowar
-	- uniFEF7
-	- waslaar
-	- uniFEF3
-	- twodotsverticalabovear
-	- uniFE9F
-	- doublestrokear
+	- uniFEFB
+	- uniFEA0
 	- dotcenterar
-	- gafsarkashcenterar
-	- uniFEF5 
+	- waslaar 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -382,7 +382,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 78 glyphs (33.62%) have a different width. You should check the widths of: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni066E.medi', 'uniFE92', 'uniFE98', 'uniFE9C', 'uniFED3', 'uni06A1.init', 'uniFEDC', 'uniFEDB', 'uni0646', 'uniFEE6', 'uniFEE8', 'uni06BA', 'uniFB9F', 'uni0648', 'uniFEEE', 'uniFEF4', 'uni0640', 'uniFEFB', 'uniFEFC'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 79 glyphs (34.05%) have a different width. You should check the widths of: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni066E.medi', 'uniFE92', 'uniFE98', 'uniFE9C', 'uniFED3', 'uni06A1.init', 'uniFEDC', 'uniFEDB', 'uni0646', 'uniFEE6', 'uniFEE8', 'uni06BA', 'uniFB9F', 'uni0648', 'uniFEEE', 'uniFEF4', 'uni0640', 'uniFEFB', 'uniFEFC', 'space'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -396,16 +396,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- threedotsdowncenterar
+	- twodotsverticalbelowar
+	- uniFEF5
+	- uniFEF9
+	- threedotsdownbelowar
 	- threedotsupbelowar
-	- uniFEF7
-	- waslaar
-	- uniFEF3
-	- twodotsverticalabovear
-	- uniFE9F
-	- doublestrokear
+	- uniFEFB
+	- uniFEA0
 	- dotcenterar
-	- gafsarkashcenterar
-	- uniFEF5 
+	- waslaar 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -549,16 +549,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- threedotsdowncenterar
+	- twodotsverticalbelowar
+	- uniFEF5
+	- uniFEF9
+	- threedotsdownbelowar
 	- threedotsupbelowar
-	- uniFEF7
-	- waslaar
-	- uniFEF3
-	- twodotsverticalabovear
-	- uniFE9F
-	- doublestrokear
+	- uniFEFB
+	- uniFEA0
 	- dotcenterar
-	- gafsarkashcenterar
-	- uniFEF5 
+	- waslaar 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -704,16 +704,16 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- threedotsdowncenterar
+	- twodotsverticalbelowar
+	- uniFEF5
+	- uniFEF9
+	- threedotsdownbelowar
 	- threedotsupbelowar
-	- uniFEF7
-	- waslaar
-	- uniFEF3
-	- twodotsverticalabovear
-	- uniFE9F
-	- doublestrokear
+	- uniFEFB
+	- uniFEA0
 	- dotcenterar
-	- gafsarkashcenterar
-	- uniFEF5 
+	- waslaar 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -852,16 +852,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- threedotsdowncenterar
+	- twodotsverticalbelowar
+	- uniFEF5
+	- uniFEF9
+	- threedotsdownbelowar
 	- threedotsupbelowar
-	- uniFEF7
-	- waslaar
-	- uniFEF3
-	- twodotsverticalabovear
-	- uniFE9F
-	- doublestrokear
+	- uniFEFB
+	- uniFEA0
 	- dotcenterar
-	- gafsarkashcenterar
-	- uniFEF5 
+	- waslaar 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
