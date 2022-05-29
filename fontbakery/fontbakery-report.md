@@ -2,32 +2,32 @@
 
 Fontbakery version: 0.8.8
 
-<details><summary><b>[22] HasubiMono-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[20] HasubiMono-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x0021 (EXCLAMATION MARK)
+	- 0x00B2 (SUPERSCRIPT TWO)
 
-	- 0x0022 (QUOTATION MARK)
+	- 0x00B3 (SUPERSCRIPT THREE)
 
-	- 0x0023 (NUMBER SIGN)
+	- 0x00B4 (ACUTE ACCENT)
 
-	- 0x0024 (DOLLAR SIGN)
+	- 0x00B7 (MIDDLE DOT)
 
-	- 0x0025 (PERCENT SIGN)
+	- 0x00B8 (CEDILLA)
 
-	- 0x0026 (AMPERSAND)
+	- 0x00B9 (SUPERSCRIPT ONE)
 
-	- 0x0027 (APOSTROPHE)
+	- 0x00BA (MASCULINE ORDINAL INDICATOR)
 
-	- 0x0028 (LEFT PARENTHESIS)
+	- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
 
-	- 0x0029 (RIGHT PARENTHESIS)
+	- 0x00BC (VULGAR FRACTION ONE QUARTER)
 
-	- 0x002A (ASTERISK)
+	- 0x00BD (VULGAR FRACTION ONE HALF)
  
-	- And 135 more.
+	- And 87 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -37,7 +37,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.002; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsSelection value. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fsselection">com.google.fonts/check/fsselection</a>)</summary><div>
 
 
@@ -66,11 +66,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2 sTypoAscender (704) and hhea ascent (992) must be equal. [code: ascender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
+* 🔥 **FAIL** OS/2 sTypoAscender (768) and hhea ascent (992) must be equal. [code: ascender]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
-* 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
+* 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
+* 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
+* ⚠ **WARN** Font is monospaced but 193 glyphs (68.93%) have a different width. You should check the widths of: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'ordfeminine', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni066E', 'uni066E.fina', 'uni066E.medi', 'uni066E.init', 'uni0628', 'uniFE90', 'uniFE92', 'uniFE91', 'uni062A', 'uniFE96', 'uniFE98', 'uniFE97', 'uni062B', 'uniFE9A', 'uniFE9C', 'uniFE9B', 'uniFEA0', 'uniFE9F', 'uni062D', 'uniFEA2', 'uniFEA4', 'uniFEA3', 'uni062E', 'uniFEA6', 'uniFEA8', 'uniFEA7', 'uni062F', 'uniFEAA', 'uni0630', 'uniFEAC', 'uni0631', 'uni0633', 'uniFEB2', 'uniFEB4', 'uniFEB3', 'uni0634', 'uniFEB6', 'uniFEB8', 'uniFEB7', 'uniFECC', 'uniFED3', 'uni06A1.init', 'uniFEDC', 'uniFEDB', 'uni0646', 'uniFEE6', 'uniFEE8', 'uniFEE7', 'uni06BA', 'uniFB9F', 'uni0648', 'uniFEEE', 'uniFEF4', 'uniFEF3', 'uni0640', 'uniFEFB', 'uniFEFC', 'uni0660', 'uni0661', 'uni0662', 'uni0663', 'uni0664', 'uni0665', 'uni0666', 'uni0667', 'uni0668', 'uni0669', 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'space', 'uni00A0', 'uni060C', 'uni061B', 'uni061F', 'uni066D', 'uniFD3E', 'uniFD3F', 'period', 'comma', 'colon', 'semicolon', 'exclam', 'exclamdown', 'question', 'asterisk', 'numbersign', 'slash', 'backslash', 'hyphen', 'underscore', 'parenleft', 'parenright', 'braceleft', 'braceright', 'bracketleft', 'bracketright', 'guillemotleft', 'quotedbl', 'quotesingle', 'at', 'ampersand', 'paragraph', 'section', 'copyright', 'registered', 'degree', 'bar', 'brokenbar', 'cent', 'dollar', 'sterling', 'yen', 'plus', 'minus', 'equal', 'greater', 'less', 'plusminus', 'asciitilde', 'asciicircum', 'newGlyph', 'percent', 'dieresis', 'grave', 'macron'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -84,41 +86,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- uniFEF3
-	- threedotsdowncenterar
 	- uniFEF9
-	- gafsarkashabovear
+	- threedotsdowncenterar
+	- lam_alefWaslaar
 	- dotcenterar
-	- threedotsdownabovear
-	- threedotsupbelowar
-	- doublestrokear
+	- twodotsverticalabovear
 	- uniFEA0
-	- twodotsverticalabovear 
+	- gafsarkashcenterar
+	- twodotsverticalbelowar
+	- gafsarkashabovear
+	- uniFE9F 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: comma	Contours detected: 0	Expected: 1
-	- Glyph name: hyphen	Contours detected: 0	Expected: 1
-	- Glyph name: period	Contours detected: 0	Expected: 1
-	- Glyph name: zero	Contours detected: 0	Expected: 2 or 3
-	- Glyph name: one	Contours detected: 0	Expected: 1
-	- Glyph name: two	Contours detected: 0	Expected: 1
-	- Glyph name: three	Contours detected: 0	Expected: 1
-	- Glyph name: four	Contours detected: 0	Expected: 1 or 2
-	- Glyph name: five	Contours detected: 0	Expected: 1
-	- Glyph name: six	Contours detected: 0	Expected: 1 or 2 
-	- And 64 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -135,193 +116,32 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* d (U+0064): X=287.5,Y=510.0 (should be at x-height 512?)
-	* m (U+006D): X=305.0,Y=514.0 (should be at x-height 512?)
-	* m (U+006D): X=202.0,Y=511.0 (should be at x-height 512?)
-	* uni0628 (U+0628): X=306.0,Y=-206.0 (should be at descender -208?) and uni0628 (U+0628): X=306.0,Y=-206.0 (should be at descender -208?) [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
+	* ampersand (U+0026): X=233.5,Y=1.5 (should be at baseline 0?)
+	* parenleft (U+0028): X=224.0,Y=1.0 (should be at baseline 0?)
+	* parenright (U+0029): X=296.0,Y=1.0 (should be at baseline 0?)
+	* at (U+0040): X=349.5,Y=705.5 (should be at cap-height 704?)
+	* a (U+0061): X=151.0,Y=0.5 (should be at baseline 0?)
+	* a (U+0061): X=340.0,Y=510.0 (should be at x-height 512?)
+	* b (U+0062): X=199.0,Y=2.0 (should be at baseline 0?)
+	* d (U+0064): X=287.5,Y=514.0 (should be at x-height 512?)
+	* p (U+0070): X=199.0,Y=510.0 (should be at x-height 512?)
+	* q (U+0071): X=313.5,Y=510.0 (should be at x-height 512?) and 7 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have segments which seem very short:
-	* H (U+0048) contains a short segment L<<80.0,0.0>--<72.0,8.0>>
-	* H (U+0048) contains a short segment L<<72.0,696.0>--<80.0,704.0>>
-	* H (U+0048) contains a short segment L<<166.0,704.0>--<174.0,696.0>>
-	* H (U+0048) contains a short segment L<<174.0,424.0>--<182.0,416.0>>
-	* H (U+0048) contains a short segment L<<330.0,416.0>--<338.0,424.0>>
-	* H (U+0048) contains a short segment L<<338.0,696.0>--<346.0,704.0>>
-	* H (U+0048) contains a short segment L<<432.0,704.0>--<440.0,696.0>>
-	* H (U+0048) contains a short segment L<<440.0,8.0>--<432.0,0.0>>
-	* H (U+0048) contains a short segment L<<346.0,0.0>--<338.0,8.0>>
-	* H (U+0048) contains a short segment L<<338.0,294.0>--<330.0,302.0>> and 64 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-	* G (U+0047): L<<401.0,0.0>--<390.0,136.0>>/B<<390.0,136.0>-<387.0,96.0>-<367.0,63.0>> = 8.91330465724806
-	* M (U+004D): L<<217.0,223.0>--<118.0,627.0>>/L<<118.0,627.0>--<120.0,0.0>> = 13.586215426835068 and M (U+004D): L<<393.0,0.0>--<396.0,623.0>>/L<<396.0,623.0>--<294.0,223.0>> = 14.029651349071994 [code: found-jaggy-segments]
+* ⚠ **WARN** The following glyphs have colinear vectors:
+	* W (U+0057): L<<75.0,8.0>--<17.0,688.0>> -> L<<17.0,688.0>--<17.0,696.0>>
+	* W (U+0057): L<<93.0,696.0>--<93.0,688.0>> -> L<<93.0,688.0>--<130.0,102.0>>
+	* backslash (U+005C): L<<145.0,700.0>--<288.0,280.0>> -> L<<288.0,280.0>--<444.0,-204.0>>
+	* backslash (U+005C): L<<367.0,-204.0>--<224.0,216.0>> -> L<<224.0,216.0>--<68.0,700.0>> and w (U+0077): L<<93.0,504.0>--<93.0,496.0>> -> L<<93.0,496.0>--<130.0,102.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * C (U+0043): L<<476.0,491.0>--<346.0,492.0>>
- * E (U+0045): L<<120.0,458.0>--<440.0,457.0>>
- * E (U+0045): L<<440.0,361.0>--<120.0,362.0>>
- * F (U+0046): L<<146.0,470.0>--<440.0,469.0>>
- * G (U+0047): L<<464.0,516.0>--<333.0,517.0>>
- * G (U+0047): L<<474.0,390.0>--<476.0,0.0>>
- * M (U+004D): L<<118.0,627.0>--<120.0,0.0>>
- * M (U+004D): L<<393.0,0.0>--<396.0,623.0>> and M (U+004D): L<<472.0,768.0>--<471.0,0.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] HasubiMono-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x0021 (EXCLAMATION MARK)
-
-	- 0x0022 (QUOTATION MARK)
-
-	- 0x0023 (NUMBER SIGN)
-
-	- 0x0024 (DOLLAR SIGN)
-
-	- 0x0025 (PERCENT SIGN)
-
-	- 0x0026 (AMPERSAND)
-
-	- 0x0027 (APOSTROPHE)
-
-	- 0x0028 (LEFT PARENTHESIS)
-
-	- 0x0029 (RIGHT PARENTHESIS)
-
-	- 0x002A (ASTERISK)
- 
-	- And 135 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
-</div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
-
-
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 272, but got 208 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoAscender (704) and hhea ascent (992) must be equal. [code: ascender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
-
-
-* 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- uniFEF3
-	- threedotsdowncenterar
-	- uniFEF9
-	- gafsarkashabovear
-	- dotcenterar
-	- threedotsdownabovear
-	- threedotsupbelowar
-	- doublestrokear
-	- uniFEA0
-	- twodotsverticalabovear 
-	- And 10 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: comma	Contours detected: 0	Expected: 1
-	- Glyph name: hyphen	Contours detected: 0	Expected: 1
-	- Glyph name: period	Contours detected: 0	Expected: 1
-	- Glyph name: zero	Contours detected: 0	Expected: 2 or 3
-	- Glyph name: one	Contours detected: 0	Expected: 1
-	- Glyph name: two	Contours detected: 0	Expected: 1
-	- Glyph name: three	Contours detected: 0	Expected: 1
-	- Glyph name: four	Contours detected: 0	Expected: 1 or 2
-	- Glyph name: five	Contours detected: 0	Expected: 1
-	- Glyph name: six	Contours detected: 0	Expected: 1 or 2 
-	- And 64 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/hhea.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
-</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* m (U+006D): X=305.0,Y=514.0 (should be at x-height 512?) and m (U+006D): X=202.0,Y=511.0 (should be at x-height 512?) [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have segments which seem very short:
-	* H (U+0048) contains a short segment L<<80.0,0.0>--<72.0,8.0>>
-	* H (U+0048) contains a short segment L<<72.0,696.0>--<80.0,704.0>>
-	* H (U+0048) contains a short segment L<<146.0,704.0>--<154.0,696.0>>
-	* H (U+0048) contains a short segment L<<154.0,413.0>--<162.0,405.0>>
-	* H (U+0048) contains a short segment L<<350.0,405.0>--<358.0,413.0>>
-	* H (U+0048) contains a short segment L<<358.0,696.0>--<366.0,704.0>>
-	* H (U+0048) contains a short segment L<<432.0,704.0>--<440.0,696.0>>
-	* H (U+0048) contains a short segment L<<440.0,8.0>--<432.0,0.0>>
-	* H (U+0048) contains a short segment L<<366.0,0.0>--<358.0,8.0>>
-	* H (U+0048) contains a short segment L<<358.0,305.0>--<350.0,313.0>> and 64 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-	* G (U+0047): L<<401.0,0.0>--<390.0,136.0>>/B<<390.0,136.0>-<387.0,96.0>-<367.0,63.0>> = 8.91330465724806
-	* M (U+004D): L<<217.0,223.0>--<118.0,627.0>>/L<<118.0,627.0>--<120.0,0.0>> = 13.586215426835068 and M (U+004D): L<<393.0,0.0>--<396.0,623.0>>/L<<396.0,623.0>--<294.0,223.0>> = 14.029651349071994 [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * C (U+0043): L<<476.0,491.0>--<346.0,492.0>>
- * E (U+0045): L<<120.0,458.0>--<440.0,457.0>>
- * E (U+0045): L<<440.0,361.0>--<120.0,362.0>>
- * F (U+0046): L<<129.0,462.0>--<440.0,461.0>>
- * F (U+0046): L<<440.0,348.0>--<129.0,349.0>>
- * G (U+0047): L<<464.0,516.0>--<333.0,517.0>>
- * G (U+0047): L<<474.0,390.0>--<476.0,0.0>>
- * M (U+004D): L<<118.0,627.0>--<120.0,0.0>>
- * M (U+004D): L<<393.0,0.0>--<396.0,623.0>> and M (U+004D): L<<472.0,768.0>--<471.0,0.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[20] HasubiMono-Heavy.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+ * newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[17] HasubiMono-Heavy.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Style name used in "fonts/ttf/HasubiMono-Heavy.ttf" is not canonical. You should rebuild the font using any of the following style names: "Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Thin Italic", "ExtraLight Italic", "Light Italic", "Italic", "Medium Italic", "SemiBold Italic", "Bold Italic", "ExtraBold Italic", "Black Italic". [code: bad-static-filename]
@@ -330,27 +150,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x0021 (EXCLAMATION MARK)
+	- 0x00B2 (SUPERSCRIPT TWO)
 
-	- 0x0022 (QUOTATION MARK)
+	- 0x00B3 (SUPERSCRIPT THREE)
 
-	- 0x0023 (NUMBER SIGN)
+	- 0x00B4 (ACUTE ACCENT)
 
-	- 0x0024 (DOLLAR SIGN)
+	- 0x00B7 (MIDDLE DOT)
 
-	- 0x0025 (PERCENT SIGN)
+	- 0x00B8 (CEDILLA)
 
-	- 0x0026 (AMPERSAND)
+	- 0x00B9 (SUPERSCRIPT ONE)
 
-	- 0x0027 (APOSTROPHE)
+	- 0x00BA (MASCULINE ORDINAL INDICATOR)
 
-	- 0x0028 (LEFT PARENTHESIS)
+	- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
 
-	- 0x0029 (RIGHT PARENTHESIS)
+	- 0x00BC (VULGAR FRACTION ONE QUARTER)
 
-	- 0x002A (ASTERISK)
+	- 0x00BD (VULGAR FRACTION ONE HALF)
  
-	- And 135 more.
+	- And 87 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWeightClass. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/usweightclass">com.google.fonts/check/usweightclass</a>)</summary><div>
@@ -364,7 +184,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.002; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -372,17 +192,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2 sTypoAscender (704) and hhea ascent (992) must be equal. [code: ascender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
-
-
-* 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
+* 🔥 **FAIL** OS/2 sTypoAscender (768) and hhea ascent (992) must be equal. [code: ascender]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 79 glyphs (34.05%) have a different width. You should check the widths of: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni066E.medi', 'uniFE92', 'uniFE98', 'uniFE9C', 'uniFED3', 'uni06A1.init', 'uniFEDC', 'uniFEDB', 'uni0646', 'uniFEE6', 'uniFEE8', 'uni06BA', 'uniFB9F', 'uni0648', 'uniFEEE', 'uniFEF4', 'uni0640', 'uniFEFB', 'uniFEFC', 'space'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 154 glyphs (55.00%) have a different width. You should check the widths of: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'ordfeminine', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni066E.medi', 'uniFE92', 'uniFE98', 'uniFE9C', 'uniFED3', 'uni06A1.init', 'uniFEDC', 'uniFEDB', 'uni0646', 'uniFEE6', 'uniFEE8', 'uni06BA', 'uniFB9F', 'uni0648', 'uniFEEE', 'uniFEF4', 'uni0640', 'uniFEFB', 'uniFEFC', 'uni0660', 'uni0661', 'uni0662', 'uni0663', 'uni0664', 'uni0665', 'uni0666', 'uni0667', 'uni0668', 'uni0669', 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'space', 'uni00A0', 'uni060C', 'uni061B', 'uni061F', 'uni066D', 'uniFD3E', 'uniFD3F', 'period', 'comma', 'colon', 'semicolon', 'exclam', 'exclamdown', 'question', 'asterisk', 'numbersign', 'slash', 'backslash', 'hyphen', 'underscore', 'parenleft', 'parenright', 'braceleft', 'braceright', 'bracketleft', 'bracketright', 'quotedbl', 'quotesingle', 'at', 'ampersand', 'paragraph', 'section', 'copyright', 'registered', 'degree', 'bar', 'brokenbar', 'cent', 'dollar', 'sterling', 'yen', 'plus', 'minus', 'equal', 'greater', 'less', 'plusminus', 'asciitilde', 'asciicircum', 'newGlyph', 'percent', 'dieresis', 'grave', 'macron'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -396,41 +212,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- uniFEF3
-	- threedotsdowncenterar
 	- uniFEF9
-	- gafsarkashabovear
+	- threedotsdowncenterar
+	- lam_alefWaslaar
 	- dotcenterar
-	- threedotsdownabovear
-	- threedotsupbelowar
-	- doublestrokear
+	- twodotsverticalabovear
 	- uniFEA0
-	- twodotsverticalabovear 
+	- gafsarkashcenterar
+	- twodotsverticalbelowar
+	- gafsarkashabovear
+	- uniFE9F 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: comma	Contours detected: 0	Expected: 1
-	- Glyph name: hyphen	Contours detected: 0	Expected: 1
-	- Glyph name: period	Contours detected: 0	Expected: 1
-	- Glyph name: zero	Contours detected: 0	Expected: 2 or 3
-	- Glyph name: one	Contours detected: 0	Expected: 1
-	- Glyph name: two	Contours detected: 0	Expected: 1
-	- Glyph name: three	Contours detected: 0	Expected: 1
-	- Glyph name: four	Contours detected: 0	Expected: 1 or 2
-	- Glyph name: five	Contours detected: 0	Expected: 1
-	- Glyph name: six	Contours detected: 0	Expected: 1 or 2 
-	- And 64 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -447,67 +242,55 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+	* ampersand (U+0026): X=233.5,Y=1.5 (should be at baseline 0?)
+	* parenleft (U+0028): X=224.0,Y=1.0 (should be at baseline 0?)
+	* parenright (U+0029): X=296.0,Y=1.0 (should be at baseline 0?)
+	* at (U+0040): X=349.5,Y=705.5 (should be at cap-height 704?)
+	* a (U+0061): X=151.0,Y=0.5 (should be at baseline 0?)
+	* a (U+0061): X=340.0,Y=510.0 (should be at x-height 512?)
+	* b (U+0062): X=199.0,Y=2.0 (should be at baseline 0?)
+	* c (U+0063): X=357.5,Y=510.5 (should be at x-height 512?)
 	* d (U+0064): X=266.0,Y=513.5 (should be at x-height 512?)
-	* m (U+006D): X=305.0,Y=514.0 (should be at x-height 512?) and m (U+006D): X=202.0,Y=511.0 (should be at x-height 512?) [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
+	* p (U+0070): X=199.0,Y=510.0 (should be at x-height 512?) and 6 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have segments which seem very short:
-	* H (U+0048) contains a short segment L<<80.0,0.0>--<72.0,8.0>>
-	* H (U+0048) contains a short segment L<<72.0,696.0>--<80.0,704.0>>
-	* H (U+0048) contains a short segment L<<192.0,704.0>--<200.0,696.0>>
-	* H (U+0048) contains a short segment L<<200.0,439.0>--<208.0,431.0>>
-	* H (U+0048) contains a short segment L<<304.0,431.0>--<312.0,439.0>>
-	* H (U+0048) contains a short segment L<<312.0,696.0>--<320.0,704.0>>
-	* H (U+0048) contains a short segment L<<432.0,704.0>--<440.0,696.0>>
-	* H (U+0048) contains a short segment L<<440.0,8.0>--<432.0,0.0>>
-	* H (U+0048) contains a short segment L<<320.0,0.0>--<312.0,8.0>>
-	* H (U+0048) contains a short segment L<<312.0,279.0>--<304.0,287.0>> and 74 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-	* G (U+0047): L<<401.0,0.0>--<390.0,136.0>>/B<<390.0,136.0>-<387.0,96.0>-<367.0,63.0>> = 8.91330465724806
-	* M (U+004D): L<<217.0,223.0>--<118.0,627.0>>/L<<118.0,627.0>--<120.0,0.0>> = 13.586215426835068 and M (U+004D): L<<393.0,0.0>--<396.0,623.0>>/L<<396.0,623.0>--<294.0,223.0>> = 14.029651349071994 [code: found-jaggy-segments]
+* ⚠ **WARN** The following glyphs have colinear vectors:
+	* W (U+0057): L<<75.0,8.0>--<17.0,688.0>> -> L<<17.0,688.0>--<17.0,696.0>>
+	* W (U+0057): L<<93.0,696.0>--<93.0,688.0>> -> L<<93.0,688.0>--<130.0,102.0>> and w (U+0077): L<<93.0,504.0>--<93.0,496.0>> -> L<<93.0,496.0>--<130.0,102.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * C (U+0043): L<<476.0,491.0>--<346.0,492.0>>
- * E (U+0045): L<<120.0,458.0>--<440.0,457.0>>
- * E (U+0045): L<<440.0,361.0>--<120.0,362.0>>
- * G (U+0047): L<<464.0,516.0>--<333.0,517.0>>
- * G (U+0047): L<<474.0,390.0>--<476.0,0.0>>
- * M (U+004D): L<<118.0,627.0>--<120.0,0.0>>
- * M (U+004D): L<<393.0,0.0>--<396.0,623.0>> and M (U+004D): L<<472.0,768.0>--<471.0,0.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[18] HasubiMono-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+ * newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[15] HasubiMono-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x0021 (EXCLAMATION MARK)
+	- 0x00B2 (SUPERSCRIPT TWO)
 
-	- 0x0022 (QUOTATION MARK)
+	- 0x00B3 (SUPERSCRIPT THREE)
 
-	- 0x0023 (NUMBER SIGN)
+	- 0x00B4 (ACUTE ACCENT)
 
-	- 0x0024 (DOLLAR SIGN)
+	- 0x00B7 (MIDDLE DOT)
 
-	- 0x0025 (PERCENT SIGN)
+	- 0x00B8 (CEDILLA)
 
-	- 0x0026 (AMPERSAND)
+	- 0x00B9 (SUPERSCRIPT ONE)
 
-	- 0x0027 (APOSTROPHE)
+	- 0x00BA (MASCULINE ORDINAL INDICATOR)
 
-	- 0x0028 (LEFT PARENTHESIS)
+	- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
 
-	- 0x0029 (RIGHT PARENTHESIS)
+	- 0x00BC (VULGAR FRACTION ONE QUARTER)
 
-	- 0x002A (ASTERISK)
+	- 0x00BD (VULGAR FRACTION ONE HALF)
  
-	- And 135 more.
+	- And 87 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -517,7 +300,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.002; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -525,17 +308,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2 sTypoAscender (704) and hhea ascent (992) must be equal. [code: ascender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
-
-
-* 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
+* 🔥 **FAIL** OS/2 sTypoAscender (768) and hhea ascent (992) must be equal. [code: ascender]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 117 glyphs (50.43%) have a different width. You should check the widths of: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni066E', 'uni066E.fina', 'uni066E.medi', 'uni066E.init', 'uni0628', 'uniFE90', 'uniFE92', 'uniFE91', 'uni062A', 'uniFE96', 'uniFE98', 'uniFE97', 'uni062B', 'uniFE9A', 'uniFE9C', 'uniFE9B', 'uniFEA0', 'uniFE9F', 'uni062D', 'uniFEA2', 'uniFEA4', 'uniFEA3', 'uni062E', 'uniFEA6', 'uniFEA8', 'uniFEA7', 'uni062F', 'uniFEAA', 'uni0630', 'uniFEAC', 'uni0631', 'uni0633', 'uniFEB2', 'uniFEB4', 'uniFEB3', 'uni0634', 'uniFEB6', 'uniFEB8', 'uniFEB7', 'uniFECC', 'uniFED3', 'uni06A1.init', 'uniFEDC', 'uniFEDB', 'uni0646', 'uniFEE6', 'uniFEE8', 'uniFEE7', 'uni06BA', 'uniFB9F', 'uni0648', 'uniFEEE', 'uniFEF4', 'uniFEF3', 'uni0640', 'uniFEFB', 'uniFEFC', 'space'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 193 glyphs (68.93%) have a different width. You should check the widths of: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'ordfeminine', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni066E', 'uni066E.fina', 'uni066E.medi', 'uni066E.init', 'uni0628', 'uniFE90', 'uniFE92', 'uniFE91', 'uni062A', 'uniFE96', 'uniFE98', 'uniFE97', 'uni062B', 'uniFE9A', 'uniFE9C', 'uniFE9B', 'uniFEA0', 'uniFE9F', 'uni062D', 'uniFEA2', 'uniFEA4', 'uniFEA3', 'uni062E', 'uniFEA6', 'uniFEA8', 'uniFEA7', 'uni062F', 'uniFEAA', 'uni0630', 'uniFEAC', 'uni0631', 'uni0633', 'uniFEB2', 'uniFEB4', 'uniFEB3', 'uni0634', 'uniFEB6', 'uniFEB8', 'uniFEB7', 'uniFECC', 'uniFED3', 'uni06A1.init', 'uniFEDC', 'uniFEDB', 'uni0646', 'uniFEE6', 'uniFEE8', 'uniFEE7', 'uni06BA', 'uniFB9F', 'uni0648', 'uniFEEE', 'uniFEF4', 'uniFEF3', 'uni0640', 'uniFEFB', 'uniFEFC', 'uni0660', 'uni0661', 'uni0662', 'uni0663', 'uni0664', 'uni0665', 'uni0666', 'uni0667', 'uni0668', 'uni0669', 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'space', 'uni00A0', 'uni060C', 'uni061B', 'uni061F', 'uni066D', 'uniFD3E', 'uniFD3F', 'period', 'comma', 'colon', 'semicolon', 'exclam', 'exclamdown', 'question', 'asterisk', 'numbersign', 'slash', 'backslash', 'hyphen', 'underscore', 'parenleft', 'parenright', 'braceleft', 'braceright', 'bracketleft', 'bracketright', 'guillemotleft', 'quotedbl', 'quotesingle', 'at', 'ampersand', 'paragraph', 'section', 'copyright', 'registered', 'degree', 'bar', 'brokenbar', 'cent', 'dollar', 'sterling', 'yen', 'plus', 'minus', 'equal', 'greater', 'less', 'plusminus', 'asciitilde', 'asciicircum', 'newGlyph', 'percent', 'dieresis', 'grave', 'macron'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -549,41 +328,20 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- uniFEF3
-	- threedotsdowncenterar
 	- uniFEF9
-	- gafsarkashabovear
+	- threedotsdowncenterar
+	- lam_alefWaslaar
 	- dotcenterar
-	- threedotsdownabovear
-	- threedotsupbelowar
-	- doublestrokear
+	- twodotsverticalabovear
 	- uniFEA0
-	- twodotsverticalabovear 
+	- gafsarkashcenterar
+	- twodotsverticalbelowar
+	- gafsarkashabovear
+	- uniFE9F 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: comma	Contours detected: 0	Expected: 1
-	- Glyph name: hyphen	Contours detected: 0	Expected: 1
-	- Glyph name: period	Contours detected: 0	Expected: 1
-	- Glyph name: zero	Contours detected: 0	Expected: 2 or 3
-	- Glyph name: one	Contours detected: 0	Expected: 1
-	- Glyph name: two	Contours detected: 0	Expected: 1
-	- Glyph name: three	Contours detected: 0	Expected: 1
-	- Glyph name: four	Contours detected: 0	Expected: 1 or 2
-	- Glyph name: five	Contours detected: 0	Expected: 1
-	- Glyph name: six	Contours detected: 0	Expected: 1 or 2 
-	- And 64 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -600,68 +358,57 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* m (U+006D): X=305.0,Y=514.0 (should be at x-height 512?) and m (U+006D): X=202.0,Y=511.0 (should be at x-height 512?) [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
+	* ampersand (U+0026): X=233.5,Y=1.5 (should be at baseline 0?)
+	* parenleft (U+0028): X=224.0,Y=1.0 (should be at baseline 0?)
+	* parenright (U+0029): X=296.0,Y=1.0 (should be at baseline 0?)
+	* at (U+0040): X=349.5,Y=705.5 (should be at cap-height 704?)
+	* a (U+0061): X=151.0,Y=0.5 (should be at baseline 0?)
+	* a (U+0061): X=340.0,Y=510.0 (should be at x-height 512?)
+	* b (U+0062): X=199.0,Y=2.0 (should be at baseline 0?)
+	* c (U+0063): X=351.0,Y=512.5 (should be at x-height 512?)
+	* d (U+0064): X=296.0,Y=513.5 (should be at x-height 512?)
+	* p (U+0070): X=199.0,Y=510.0 (should be at x-height 512?) and 6 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have segments which seem very short:
-	* H (U+0048) contains a short segment L<<80.0,0.0>--<72.0,8.0>>
-	* H (U+0048) contains a short segment L<<72.0,696.0>--<80.0,704.0>>
-	* H (U+0048) contains a short segment L<<136.0,704.0>--<144.0,696.0>>
-	* H (U+0048) contains a short segment L<<144.0,407.0>--<152.0,399.0>>
-	* H (U+0048) contains a short segment L<<360.0,399.0>--<368.0,407.0>>
-	* H (U+0048) contains a short segment L<<368.0,696.0>--<376.0,704.0>>
-	* H (U+0048) contains a short segment L<<432.0,704.0>--<440.0,696.0>>
-	* H (U+0048) contains a short segment L<<440.0,8.0>--<432.0,0.0>>
-	* H (U+0048) contains a short segment L<<376.0,0.0>--<368.0,8.0>>
-	* H (U+0048) contains a short segment L<<368.0,311.0>--<360.0,319.0>> and 64 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-	* G (U+0047): L<<401.0,0.0>--<390.0,136.0>>/B<<390.0,136.0>-<387.0,96.0>-<367.0,63.0>> = 8.91330465724806
-	* M (U+004D): L<<217.0,223.0>--<118.0,627.0>>/L<<118.0,627.0>--<120.0,0.0>> = 13.586215426835068 and M (U+004D): L<<393.0,0.0>--<396.0,623.0>>/L<<396.0,623.0>--<294.0,223.0>> = 14.029651349071994 [code: found-jaggy-segments]
+* ⚠ **WARN** The following glyphs have colinear vectors:
+	* W (U+0057): L<<75.0,8.0>--<17.0,688.0>> -> L<<17.0,688.0>--<17.0,696.0>>
+	* W (U+0057): L<<93.0,696.0>--<93.0,688.0>> -> L<<93.0,688.0>--<130.0,102.0>>
+	* backslash (U+005C): L<<146.0,699.0>--<341.0,120.0>> -> L<<341.0,120.0>--<443.0,-205.0>>
+	* backslash (U+005C): L<<366.0,-203.0>--<171.0,376.0>> -> L<<171.0,376.0>--<69.0,701.0>> and w (U+0077): L<<93.0,504.0>--<93.0,496.0>> -> L<<93.0,496.0>--<130.0,102.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * C (U+0043): L<<476.0,491.0>--<346.0,492.0>>
- * E (U+0045): L<<120.0,458.0>--<440.0,457.0>>
- * E (U+0045): L<<440.0,361.0>--<120.0,362.0>>
- * F (U+0046): L<<120.0,458.0>--<440.0,457.0>>
- * F (U+0046): L<<440.0,361.0>--<120.0,362.0>>
- * G (U+0047): L<<464.0,516.0>--<333.0,517.0>>
- * G (U+0047): L<<474.0,390.0>--<476.0,0.0>>
- * M (U+004D): L<<118.0,627.0>--<120.0,0.0>>
- * M (U+004D): L<<393.0,0.0>--<396.0,623.0>> and M (U+004D): L<<472.0,768.0>--<471.0,0.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[18] HasubiMono-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+ * newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[15] HasubiMono-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x0021 (EXCLAMATION MARK)
+	- 0x00B2 (SUPERSCRIPT TWO)
 
-	- 0x0022 (QUOTATION MARK)
+	- 0x00B3 (SUPERSCRIPT THREE)
 
-	- 0x0023 (NUMBER SIGN)
+	- 0x00B4 (ACUTE ACCENT)
 
-	- 0x0024 (DOLLAR SIGN)
+	- 0x00B7 (MIDDLE DOT)
 
-	- 0x0025 (PERCENT SIGN)
+	- 0x00B8 (CEDILLA)
 
-	- 0x0026 (AMPERSAND)
+	- 0x00B9 (SUPERSCRIPT ONE)
 
-	- 0x0027 (APOSTROPHE)
+	- 0x00BA (MASCULINE ORDINAL INDICATOR)
 
-	- 0x0028 (LEFT PARENTHESIS)
+	- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
 
-	- 0x0029 (RIGHT PARENTHESIS)
+	- 0x00BC (VULGAR FRACTION ONE QUARTER)
 
-	- 0x002A (ASTERISK)
+	- 0x00BD (VULGAR FRACTION ONE HALF)
  
-	- And 135 more.
+	- And 87 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
@@ -671,7 +418,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.002; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -679,11 +426,247 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2 sTypoAscender (704) and hhea ascent (992) must be equal. [code: ascender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
+* 🔥 **FAIL** OS/2 sTypoAscender (768) and hhea ascent (992) must be equal. [code: ascender]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
-* 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
+* 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
+* 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
+* ⚠ **WARN** Font is monospaced but 42 glyphs (15.00%) have a different width. You should check the widths of: ['uni0635', 'uniFEBA', 'uniFEBC', 'uniFEBB', 'uni0639', 'uniFECA', 'uniFECB', 'uni0641', 'uniFED2', 'uni06A4', 'uni06A1', 'uni06A1.fina', 'uni06A1.medi', 'uni066F', 'uni066F.fina', 'uni0643', 'uniFEDA', 'uni0647', 'uniFEEA', 'uniFEEC', 'uniFEEB', 'uni0624', 'uniFE86', 'uni0649', 'uniFEF0', 'uni064A', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'uniFEF7', 'uniFEF8', 'uniFEF9', 'uniFEFA', 'uniFEF5', 'uniFEF6', 'lam_alefWaslaar', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni066A', 'logicalnot'] [code: mono-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+
+
+* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+ [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- uniFEF9
+	- threedotsdowncenterar
+	- lam_alefWaslaar
+	- dotcenterar
+	- twodotsverticalabovear
+	- uniFEA0
+	- gafsarkashcenterar
+	- twodotsverticalbelowar
+	- gafsarkashabovear
+	- uniFE9F 
+	- And 10 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/hhea.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
+
+
+* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+	* ampersand (U+0026): X=233.5,Y=1.5 (should be at baseline 0?)
+	* parenleft (U+0028): X=224.0,Y=1.0 (should be at baseline 0?)
+	* parenright (U+0029): X=296.0,Y=1.0 (should be at baseline 0?)
+	* at (U+0040): X=349.5,Y=705.5 (should be at cap-height 704?)
+	* a (U+0061): X=151.0,Y=0.5 (should be at baseline 0?)
+	* a (U+0061): X=340.0,Y=510.0 (should be at x-height 512?)
+	* b (U+0062): X=199.0,Y=2.0 (should be at baseline 0?)
+	* d (U+0064): X=171.5,Y=-1.5 (should be at baseline 0?)
+	* d (U+0064): X=313.5,Y=514.0 (should be at x-height 512?)
+	* d (U+0064): X=307.5,Y=1.0 (should be at baseline 0?) and 7 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+	* W (U+0057): L<<75.0,8.0>--<17.0,688.0>> -> L<<17.0,688.0>--<17.0,696.0>>
+	* W (U+0057): L<<93.0,696.0>--<93.0,688.0>> -> L<<93.0,688.0>--<130.0,102.0>> and w (U+0077): L<<93.0,504.0>--<93.0,496.0>> -> L<<93.0,496.0>--<130.0,102.0>> [code: found-colinear-vectors]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+ * newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[15] HasubiMono-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x00B2 (SUPERSCRIPT TWO)
+
+	- 0x00B3 (SUPERSCRIPT THREE)
+
+	- 0x00B4 (ACUTE ACCENT)
+
+	- 0x00B7 (MIDDLE DOT)
+
+	- 0x00B8 (CEDILLA)
+
+	- 0x00B9 (SUPERSCRIPT ONE)
+
+	- 0x00BA (MASCULINE ORDINAL INDICATOR)
+
+	- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
+
+	- 0x00BC (VULGAR FRACTION ONE QUARTER)
+
+	- 0x00BD (VULGAR FRACTION ONE HALF)
+ 
+	- And 87 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
+</div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
+
+
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.002; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 272, but got 208 instead. [code: descent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2 sTypoAscender (768) and hhea ascent (992) must be equal. [code: ascender]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
+
+
+* 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
+* 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
+* ⚠ **WARN** Font is monospaced but 193 glyphs (68.93%) have a different width. You should check the widths of: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'ordfeminine', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni066E', 'uni066E.fina', 'uni066E.medi', 'uni066E.init', 'uni0628', 'uniFE90', 'uniFE92', 'uniFE91', 'uni062A', 'uniFE96', 'uniFE98', 'uniFE97', 'uni062B', 'uniFE9A', 'uniFE9C', 'uniFE9B', 'uniFEA0', 'uniFE9F', 'uni062D', 'uniFEA2', 'uniFEA4', 'uniFEA3', 'uni062E', 'uniFEA6', 'uniFEA8', 'uniFEA7', 'uni062F', 'uniFEAA', 'uni0630', 'uniFEAC', 'uni0631', 'uni0633', 'uniFEB2', 'uniFEB4', 'uniFEB3', 'uni0634', 'uniFEB6', 'uniFEB8', 'uniFEB7', 'uniFECC', 'uniFED3', 'uni06A1.init', 'uniFEDC', 'uniFEDB', 'uni0646', 'uniFEE6', 'uniFEE8', 'uniFEE7', 'uni06BA', 'uniFB9F', 'uni0648', 'uniFEEE', 'uniFEF4', 'uniFEF3', 'uni0640', 'uniFEFB', 'uniFEFC', 'uni0660', 'uni0661', 'uni0662', 'uni0663', 'uni0664', 'uni0665', 'uni0666', 'uni0667', 'uni0668', 'uni0669', 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'space', 'uni00A0', 'uni060C', 'uni061B', 'uni061F', 'uni066D', 'uniFD3E', 'uniFD3F', 'period', 'comma', 'colon', 'semicolon', 'exclam', 'exclamdown', 'question', 'asterisk', 'numbersign', 'slash', 'backslash', 'hyphen', 'underscore', 'parenleft', 'parenright', 'braceleft', 'braceright', 'bracketleft', 'bracketright', 'guillemotleft', 'quotedbl', 'quotesingle', 'at', 'ampersand', 'paragraph', 'section', 'copyright', 'registered', 'degree', 'bar', 'brokenbar', 'cent', 'dollar', 'sterling', 'yen', 'plus', 'minus', 'equal', 'greater', 'less', 'plusminus', 'asciitilde', 'asciicircum', 'newGlyph', 'percent', 'dieresis', 'grave', 'macron'] [code: mono-outliers]
+</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+
+
+* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+ [code: unknown]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
+
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- uniFEF9
+	- threedotsdowncenterar
+	- lam_alefWaslaar
+	- dotcenterar
+	- twodotsverticalabovear
+	- uniFEA0
+	- gafsarkashcenterar
+	- twodotsverticalbelowar
+	- gafsarkashabovear
+	- uniFE9F 
+	- And 10 more.
+
+Use -F or --full-lists to disable shortening of long lists.
+ [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
+
+
+* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/hhea.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
+
+
+* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
+</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
+
+
+* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+	* ampersand (U+0026): X=233.5,Y=1.5 (should be at baseline 0?)
+	* parenleft (U+0028): X=224.0,Y=1.0 (should be at baseline 0?)
+	* parenright (U+0029): X=296.0,Y=1.0 (should be at baseline 0?)
+	* at (U+0040): X=349.5,Y=705.5 (should be at cap-height 704?)
+	* backslash (U+005C): X=71.0,Y=703.0 (should be at cap-height 704?)
+	* backslash (U+005C): X=441.0,Y=-207.0 (should be at descender -208?)
+	* a (U+0061): X=151.0,Y=0.5 (should be at baseline 0?)
+	* a (U+0061): X=340.0,Y=510.0 (should be at x-height 512?)
+	* b (U+0062): X=199.0,Y=2.0 (should be at baseline 0?)
+	* d (U+0064): X=167.0,Y=0.5 (should be at baseline 0?) and 8 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+	* W (U+0057): L<<75.0,8.0>--<17.0,688.0>> -> L<<17.0,688.0>--<17.0,696.0>>
+	* W (U+0057): L<<93.0,696.0>--<93.0,688.0>> -> L<<93.0,688.0>--<130.0,102.0>>
+	* backslash (U+005C): L<<148.0,697.0>--<395.0,-40.0>> -> L<<395.0,-40.0>--<441.0,-207.0>>
+	* backslash (U+005C): L<<364.0,-201.0>--<117.0,536.0>> -> L<<117.0,536.0>--<71.0,703.0>> and w (U+0077): L<<93.0,504.0>--<93.0,496.0>> -> L<<93.0,496.0>--<130.0,102.0>> [code: found-colinear-vectors]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+ * newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[16] HasubiMono-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+
+
+* 🔥 **FAIL** Missing required codepoints:
+
+	- 0x00B2 (SUPERSCRIPT TWO)
+
+	- 0x00B3 (SUPERSCRIPT THREE)
+
+	- 0x00B4 (ACUTE ACCENT)
+
+	- 0x00B7 (MIDDLE DOT)
+
+	- 0x00B8 (CEDILLA)
+
+	- 0x00B9 (SUPERSCRIPT ONE)
+
+	- 0x00BA (MASCULINE ORDINAL INDICATOR)
+
+	- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
+
+	- 0x00BC (VULGAR FRACTION ONE QUARTER)
+
+	- 0x00BD (VULGAR FRACTION ONE HALF)
+ 
+	- And 87 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+
+
+* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
+</div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
+
+
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.002; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 272, but got 208 instead. [code: descent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
+
+
+* 🔥 **FAIL** OS/2 sTypoAscender (768) and hhea ascent (992) must be equal. [code: ascender]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
+
+
+* 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
+* 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
+* ⚠ **WARN** Font is monospaced but 193 glyphs (68.93%) have a different width. You should check the widths of: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'ordfeminine', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni066E', 'uni066E.fina', 'uni066E.medi', 'uni066E.init', 'uni0628', 'uniFE90', 'uniFE92', 'uniFE91', 'uni062A', 'uniFE96', 'uniFE98', 'uniFE97', 'uni062B', 'uniFE9A', 'uniFE9C', 'uniFE9B', 'uniFEA0', 'uniFE9F', 'uni062D', 'uniFEA2', 'uniFEA4', 'uniFEA3', 'uni062E', 'uniFEA6', 'uniFEA8', 'uniFEA7', 'uni062F', 'uniFEAA', 'uni0630', 'uniFEAC', 'uni0631', 'uni0633', 'uniFEB2', 'uniFEB4', 'uniFEB3', 'uni0634', 'uniFEB6', 'uniFEB8', 'uniFEB7', 'uniFECC', 'uniFED3', 'uni06A1.init', 'uniFEDC', 'uniFEDB', 'uni0646', 'uniFEE6', 'uniFEE8', 'uniFEE7', 'uni06BA', 'uniFB9F', 'uni0648', 'uniFEEE', 'uniFEF4', 'uniFEF3', 'uni0640', 'uniFEFB', 'uniFEFC', 'uni0660', 'uni0661', 'uni0662', 'uni0663', 'uni0664', 'uni0665', 'uni0666', 'uni0667', 'uni0668', 'uni0669', 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'space', 'uni00A0', 'uni060C', 'uni061B', 'uni061F', 'uni066D', 'uniFD3E', 'uniFD3F', 'period', 'comma', 'colon', 'semicolon', 'exclam', 'exclamdown', 'question', 'asterisk', 'numbersign', 'slash', 'backslash', 'hyphen', 'underscore', 'parenleft', 'parenright', 'braceleft', 'braceright', 'bracketleft', 'bracketright', 'guillemotleft', 'quotedbl', 'quotesingle', 'at', 'ampersand', 'paragraph', 'section', 'copyright', 'registered', 'degree', 'bar', 'brokenbar', 'cent', 'dollar', 'sterling', 'yen', 'plus', 'minus', 'equal', 'greater', 'less', 'plusminus', 'asciitilde', 'asciicircum', 'newGlyph', 'percent', 'dieresis', 'grave', 'macron'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -704,41 +687,20 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- uniFEF3
-	- threedotsdowncenterar
 	- uniFEF9
-	- gafsarkashabovear
+	- threedotsdowncenterar
+	- lam_alefWaslaar
 	- dotcenterar
-	- threedotsdownabovear
-	- threedotsupbelowar
-	- doublestrokear
+	- twodotsverticalabovear
 	- uniFEA0
-	- twodotsverticalabovear 
+	- gafsarkashcenterar
+	- twodotsverticalbelowar
+	- gafsarkashabovear
+	- uniFE9F 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: comma	Contours detected: 0	Expected: 1
-	- Glyph name: hyphen	Contours detected: 0	Expected: 1
-	- Glyph name: period	Contours detected: 0	Expected: 1
-	- Glyph name: zero	Contours detected: 0	Expected: 2 or 3
-	- Glyph name: one	Contours detected: 0	Expected: 1
-	- Glyph name: two	Contours detected: 0	Expected: 1
-	- Glyph name: three	Contours detected: 0	Expected: 1
-	- Glyph name: four	Contours detected: 0	Expected: 1 or 2
-	- Glyph name: five	Contours detected: 0	Expected: 1
-	- Glyph name: six	Contours detected: 0	Expected: 1 or 2 
-	- And 64 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
@@ -755,197 +717,38 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* d (U+0064): X=279.5,Y=511.5 (should be at x-height 512?)
-	* m (U+006D): X=305.0,Y=514.0 (should be at x-height 512?) and m (U+006D): X=202.0,Y=511.0 (should be at x-height 512?) [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
+	* ampersand (U+0026): X=233.5,Y=1.5 (should be at baseline 0?)
+	* parenleft (U+0028): X=224.0,Y=1.0 (should be at baseline 0?)
+	* parenright (U+0029): X=296.0,Y=1.0 (should be at baseline 0?)
+	* at (U+0040): X=349.5,Y=705.5 (should be at cap-height 704?)
+	* backslash (U+005C): X=369.0,Y=-206.0 (should be at descender -208?)
+	* backslash (U+005C): X=143.0,Y=702.0 (should be at cap-height 704?)
+	* a (U+0061): X=151.0,Y=0.5 (should be at baseline 0?)
+	* a (U+0061): X=340.0,Y=510.0 (should be at x-height 512?)
+	* b (U+0062): X=199.0,Y=2.0 (should be at baseline 0?)
+	* c (U+0063): X=354.5,Y=511.0 (should be at x-height 512?) and 8 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
-* ⚠ **WARN** The following glyphs have segments which seem very short:
-	* H (U+0048) contains a short segment L<<80.0,0.0>--<72.0,8.0>>
-	* H (U+0048) contains a short segment L<<72.0,696.0>--<80.0,704.0>>
-	* H (U+0048) contains a short segment L<<176.0,704.0>--<184.0,696.0>>
-	* H (U+0048) contains a short segment L<<184.0,430.0>--<192.0,422.0>>
-	* H (U+0048) contains a short segment L<<320.0,422.0>--<328.0,430.0>>
-	* H (U+0048) contains a short segment L<<328.0,696.0>--<336.0,704.0>>
-	* H (U+0048) contains a short segment L<<432.0,704.0>--<440.0,696.0>>
-	* H (U+0048) contains a short segment L<<440.0,8.0>--<432.0,0.0>>
-	* H (U+0048) contains a short segment L<<336.0,0.0>--<328.0,8.0>>
-	* H (U+0048) contains a short segment L<<328.0,288.0>--<320.0,296.0>> and 64 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-	* G (U+0047): L<<401.0,0.0>--<390.0,136.0>>/B<<390.0,136.0>-<387.0,96.0>-<367.0,63.0>> = 8.91330465724806
-	* M (U+004D): L<<217.0,223.0>--<118.0,627.0>>/L<<118.0,627.0>--<120.0,0.0>> = 13.586215426835068 and M (U+004D): L<<393.0,0.0>--<396.0,623.0>>/L<<396.0,623.0>--<294.0,223.0>> = 14.029651349071994 [code: found-jaggy-segments]
+* ⚠ **WARN** The following glyphs have colinear vectors:
+	* W (U+0057): L<<75.0,8.0>--<17.0,688.0>> -> L<<17.0,688.0>--<17.0,696.0>>
+	* W (U+0057): L<<93.0,696.0>--<93.0,688.0>> -> L<<93.0,688.0>--<130.0,102.0>>
+	* backslash (U+005C): L<<143.0,702.0>--<234.0,440.0>> -> L<<234.0,440.0>--<446.0,-202.0>>
+	* backslash (U+005C): L<<369.0,-206.0>--<278.0,56.0>> -> L<<278.0,56.0>--<66.0,698.0>> and w (U+0077): L<<93.0,504.0>--<93.0,496.0>> -> L<<93.0,496.0>--<130.0,102.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * C (U+0043): L<<476.0,491.0>--<346.0,492.0>>
- * E (U+0045): L<<120.0,458.0>--<440.0,457.0>>
- * E (U+0045): L<<440.0,361.0>--<120.0,362.0>>
- * F (U+0046): L<<154.0,474.0>--<440.0,473.0>>
- * G (U+0047): L<<464.0,516.0>--<333.0,517.0>>
- * G (U+0047): L<<474.0,390.0>--<476.0,0.0>>
- * M (U+004D): L<<118.0,627.0>--<120.0,0.0>>
- * M (U+004D): L<<393.0,0.0>--<396.0,623.0>> and M (U+004D): L<<472.0,768.0>--<471.0,0.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] HasubiMono-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check `Google Fonts Latin Core` glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x0021 (EXCLAMATION MARK)
-
-	- 0x0022 (QUOTATION MARK)
-
-	- 0x0023 (NUMBER SIGN)
-
-	- 0x0024 (DOLLAR SIGN)
-
-	- 0x0025 (PERCENT SIGN)
-
-	- 0x0026 (AMPERSAND)
-
-	- 0x0027 (APOSTROPHE)
-
-	- 0x0028 (LEFT PARENTHESIS)
-
-	- 0x0029 (RIGHT PARENTHESIS)
-
-	- 0x002A (ASTERISK)
- 
-	- And 135 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]
-</div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
-
-
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 272, but got 208 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2 sTypoAscender (704) and hhea ascent (992) must be equal. [code: ascender]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font contains glyphs for whitespace characters? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphs">com.google.fonts/check/whitespace_glyphs</a>)</summary><div>
-
-
-* 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- uniFEF3
-	- threedotsdowncenterar
-	- uniFEF9
-	- gafsarkashabovear
-	- dotcenterar
-	- threedotsdownabovear
-	- threedotsupbelowar
-	- doublestrokear
-	- uniFEA0
-	- twodotsverticalabovear 
-	- And 10 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
-
-
-* ⚠ **WARN** This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.
-
-The following glyphs do not have the recommended number of contours:
-
-	- Glyph name: comma	Contours detected: 0	Expected: 1
-	- Glyph name: hyphen	Contours detected: 0	Expected: 1
-	- Glyph name: period	Contours detected: 0	Expected: 1
-	- Glyph name: zero	Contours detected: 0	Expected: 2 or 3
-	- Glyph name: one	Contours detected: 0	Expected: 1
-	- Glyph name: two	Contours detected: 0	Expected: 1
-	- Glyph name: three	Contours detected: 0	Expected: 1
-	- Glyph name: four	Contours detected: 0	Expected: 1 or 2
-	- Glyph name: five	Contours detected: 0	Expected: 1
-	- Glyph name: six	Contours detected: 0	Expected: 1 or 2 
-	- And 64 more.
-
-Use -F or --full-lists to disable shortening of long lists.
- [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/hhea.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
-</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-	* m (U+006D): X=305.0,Y=514.0 (should be at x-height 512?) and m (U+006D): X=202.0,Y=511.0 (should be at x-height 512?) [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have segments which seem very short:
-	* H (U+0048) contains a short segment L<<80.0,0.0>--<72.0,8.0>>
-	* H (U+0048) contains a short segment L<<72.0,696.0>--<80.0,704.0>>
-	* H (U+0048) contains a short segment L<<156.0,704.0>--<164.0,696.0>>
-	* H (U+0048) contains a short segment L<<164.0,418.0>--<172.0,410.0>>
-	* H (U+0048) contains a short segment L<<340.0,410.0>--<348.0,418.0>>
-	* H (U+0048) contains a short segment L<<348.0,696.0>--<356.0,704.0>>
-	* H (U+0048) contains a short segment L<<432.0,704.0>--<440.0,696.0>>
-	* H (U+0048) contains a short segment L<<440.0,8.0>--<432.0,0.0>>
-	* H (U+0048) contains a short segment L<<356.0,0.0>--<348.0,8.0>>
-	* H (U+0048) contains a short segment L<<348.0,300.0>--<340.0,308.0>> and 64 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have jaggy segments:
-	* G (U+0047): L<<401.0,0.0>--<390.0,136.0>>/B<<390.0,136.0>-<387.0,96.0>-<367.0,63.0>> = 8.91330465724806
-	* M (U+004D): L<<217.0,223.0>--<118.0,627.0>>/L<<118.0,627.0>--<120.0,0.0>> = 13.586215426835068 and M (U+004D): L<<393.0,0.0>--<396.0,623.0>>/L<<396.0,623.0>--<294.0,223.0>> = 14.029651349071994 [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
- * C (U+0043): L<<476.0,491.0>--<346.0,492.0>>
- * E (U+0045): L<<120.0,458.0>--<440.0,457.0>>
- * E (U+0045): L<<440.0,361.0>--<120.0,362.0>>
- * F (U+0046): L<<137.0,466.0>--<440.0,465.0>>
- * F (U+0046): L<<440.0,335.0>--<137.0,336.0>>
- * G (U+0047): L<<464.0,516.0>--<333.0,517.0>>
- * G (U+0047): L<<474.0,390.0>--<476.0,0.0>>
- * M (U+004D): L<<118.0,627.0>--<120.0,0.0>>
- * M (U+004D): L<<393.0,0.0>--<396.0,623.0>> and M (U+004D): L<<472.0,768.0>--<471.0,0.0>> [code: found-semi-vertical]
+ * newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 45 | 67 | 665 | 37 | 456 | 0 |
-| 0% | 4% | 5% | 52% | 3% | 36% | 0% |
+| 0 | 43 | 55 | 653 | 37 | 482 | 0 |
+| 0% | 3% | 4% | 51% | 3% | 38% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
