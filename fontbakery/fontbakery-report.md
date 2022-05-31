@@ -37,7 +37,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.002; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsSelection value. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fsselection">com.google.fonts/check/fsselection</a>)</summary><div>
 
 
@@ -86,16 +86,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- uniFEF9
-	- threedotsdowncenterar
-	- lam_alefWaslaar
-	- dotcenterar
+	- gafsarkashcenterar
+	- uniFEFB
+	- miniKehehar
 	- twodotsverticalabovear
 	- uniFEA0
-	- gafsarkashcenterar
-	- twodotsverticalbelowar
-	- gafsarkashabovear
-	- uniFE9F 
+	- uniFEF3
+	- waslaar
+	- threedotsdownbelowar
+	- threedotsupbelowar
+	- doublestrokear 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -120,22 +120,23 @@ Use -F or --full-lists to disable shortening of long lists.
 	* parenleft (U+0028): X=224.0,Y=1.0 (should be at baseline 0?)
 	* parenright (U+0029): X=296.0,Y=1.0 (should be at baseline 0?)
 	* at (U+0040): X=349.5,Y=705.5 (should be at cap-height 704?)
-	* a (U+0061): X=151.0,Y=0.5 (should be at baseline 0?)
-	* a (U+0061): X=340.0,Y=510.0 (should be at x-height 512?)
-	* b (U+0062): X=199.0,Y=2.0 (should be at baseline 0?)
-	* d (U+0064): X=287.5,Y=514.0 (should be at x-height 512?)
-	* p (U+0070): X=199.0,Y=510.0 (should be at x-height 512?)
-	* q (U+0071): X=313.5,Y=510.0 (should be at x-height 512?) and 7 more.
+	* a (U+0061): X=135.0,Y=0.5 (should be at baseline 0?)
+	* a (U+0061): X=340.5,Y=510.0 (should be at x-height 512?)
+	* b (U+0062): X=216.5,Y=-2.0 (should be at baseline 0?)
+	* d (U+0064): X=295.5,Y=-2.0 (should be at baseline 0?)
+	* g (U+0067): X=295.5,Y=514.0 (should be at x-height 512?)
+	* p (U+0070): X=199.0,Y=510.0 (should be at x-height 512?) and 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* W (U+0057): L<<75.0,8.0>--<17.0,688.0>> -> L<<17.0,688.0>--<17.0,696.0>>
-	* W (U+0057): L<<93.0,696.0>--<93.0,688.0>> -> L<<93.0,688.0>--<130.0,102.0>>
+	* W (U+0057): L<<100.0,696.0>--<100.0,688.0>> -> L<<100.0,688.0>--<130.0,92.0>>
+	* W (U+0057): L<<75.0,8.0>--<24.0,688.0>> -> L<<24.0,688.0>--<24.0,696.0>>
 	* backslash (U+005C): L<<145.0,700.0>--<288.0,280.0>> -> L<<288.0,280.0>--<444.0,-204.0>>
-	* backslash (U+005C): L<<367.0,-204.0>--<224.0,216.0>> -> L<<224.0,216.0>--<68.0,700.0>> and w (U+0077): L<<93.0,504.0>--<93.0,496.0>> -> L<<93.0,496.0>--<130.0,102.0>> [code: found-colinear-vectors]
+	* backslash (U+005C): L<<367.0,-204.0>--<224.0,216.0>> -> L<<224.0,216.0>--<68.0,700.0>>
+	* w (U+0077): L<<366.0,92.0>--<397.0,289.0>> -> L<<397.0,289.0>--<420.0,508.0>> and w (U+0077): L<<95.0,504.0>--<118.0,303.0>> -> L<<118.0,303.0>--<145.0,92.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -184,7 +185,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.002; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -212,16 +213,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- uniFEF9
-	- threedotsdowncenterar
-	- lam_alefWaslaar
-	- dotcenterar
+	- gafsarkashcenterar
+	- uniFEFB
+	- miniKehehar
 	- twodotsverticalabovear
 	- uniFEA0
-	- gafsarkashcenterar
-	- twodotsverticalbelowar
-	- gafsarkashabovear
-	- uniFE9F 
+	- uniFEF3
+	- waslaar
+	- threedotsdownbelowar
+	- threedotsupbelowar
+	- doublestrokear 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -246,12 +247,12 @@ Use -F or --full-lists to disable shortening of long lists.
 	* parenleft (U+0028): X=224.0,Y=1.0 (should be at baseline 0?)
 	* parenright (U+0029): X=296.0,Y=1.0 (should be at baseline 0?)
 	* at (U+0040): X=349.5,Y=705.5 (should be at cap-height 704?)
-	* a (U+0061): X=151.0,Y=0.5 (should be at baseline 0?)
-	* a (U+0061): X=340.0,Y=510.0 (should be at x-height 512?)
-	* b (U+0062): X=199.0,Y=2.0 (should be at baseline 0?)
+	* a (U+0061): X=135.0,Y=0.5 (should be at baseline 0?)
+	* a (U+0061): X=340.5,Y=510.0 (should be at x-height 512?)
+	* b (U+0062): X=216.5,Y=-2.0 (should be at baseline 0?)
 	* c (U+0063): X=357.5,Y=510.5 (should be at x-height 512?)
-	* d (U+0064): X=266.0,Y=513.5 (should be at x-height 512?)
-	* p (U+0070): X=199.0,Y=510.0 (should be at x-height 512?) and 6 more.
+	* d (U+0064): X=295.5,Y=-2.0 (should be at baseline 0?)
+	* g (U+0067): X=295.5,Y=514.0 (should be at x-height 512?) and 7 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -300,7 +301,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.002; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -328,16 +329,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- uniFEF9
-	- threedotsdowncenterar
-	- lam_alefWaslaar
-	- dotcenterar
+	- gafsarkashcenterar
+	- uniFEFB
+	- miniKehehar
 	- twodotsverticalabovear
 	- uniFEA0
-	- gafsarkashcenterar
-	- twodotsverticalbelowar
-	- gafsarkashabovear
-	- uniFE9F 
+	- uniFEF3
+	- waslaar
+	- threedotsdownbelowar
+	- threedotsupbelowar
+	- doublestrokear 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -362,22 +363,23 @@ Use -F or --full-lists to disable shortening of long lists.
 	* parenleft (U+0028): X=224.0,Y=1.0 (should be at baseline 0?)
 	* parenright (U+0029): X=296.0,Y=1.0 (should be at baseline 0?)
 	* at (U+0040): X=349.5,Y=705.5 (should be at cap-height 704?)
-	* a (U+0061): X=151.0,Y=0.5 (should be at baseline 0?)
-	* a (U+0061): X=340.0,Y=510.0 (should be at x-height 512?)
-	* b (U+0062): X=199.0,Y=2.0 (should be at baseline 0?)
-	* c (U+0063): X=351.0,Y=512.5 (should be at x-height 512?)
-	* d (U+0064): X=296.0,Y=513.5 (should be at x-height 512?)
-	* p (U+0070): X=199.0,Y=510.0 (should be at x-height 512?) and 6 more.
+	* a (U+0061): X=135.0,Y=0.5 (should be at baseline 0?)
+	* a (U+0061): X=340.5,Y=510.0 (should be at x-height 512?)
+	* b (U+0062): X=216.5,Y=-2.0 (should be at baseline 0?)
+	* d (U+0064): X=295.5,Y=-2.0 (should be at baseline 0?)
+	* g (U+0067): X=295.5,Y=514.0 (should be at x-height 512?)
+	* m (U+006D): X=255.0,Y=510.0 (should be at x-height 512?) and 9 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* W (U+0057): L<<75.0,8.0>--<17.0,688.0>> -> L<<17.0,688.0>--<17.0,696.0>>
-	* W (U+0057): L<<93.0,696.0>--<93.0,688.0>> -> L<<93.0,688.0>--<130.0,102.0>>
+	* W (U+0057): L<<103.0,696.0>--<103.0,688.0>> -> L<<103.0,688.0>--<130.0,88.0>>
+	* W (U+0057): L<<75.0,8.0>--<27.0,688.0>> -> L<<27.0,688.0>--<27.0,696.0>>
 	* backslash (U+005C): L<<146.0,699.0>--<341.0,120.0>> -> L<<341.0,120.0>--<443.0,-205.0>>
-	* backslash (U+005C): L<<366.0,-203.0>--<171.0,376.0>> -> L<<171.0,376.0>--<69.0,701.0>> and w (U+0077): L<<93.0,504.0>--<93.0,496.0>> -> L<<93.0,496.0>--<130.0,102.0>> [code: found-colinear-vectors]
+	* backslash (U+005C): L<<366.0,-203.0>--<171.0,376.0>> -> L<<171.0,376.0>--<69.0,701.0>>
+	* w (U+0077): L<<366.0,88.0>--<403.0,360.0>> -> L<<403.0,360.0>--<421.0,509.0>> and w (U+0077): L<<96.0,504.0>--<127.0,229.0>> -> L<<127.0,229.0>--<151.0,88.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -418,7 +420,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.002; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -446,16 +448,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- uniFEF9
-	- threedotsdowncenterar
-	- lam_alefWaslaar
-	- dotcenterar
+	- gafsarkashcenterar
+	- uniFEFB
+	- miniKehehar
 	- twodotsverticalabovear
 	- uniFEA0
-	- gafsarkashcenterar
-	- twodotsverticalbelowar
-	- gafsarkashabovear
-	- uniFE9F 
+	- uniFEF3
+	- waslaar
+	- threedotsdownbelowar
+	- threedotsupbelowar
+	- doublestrokear 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -480,20 +482,19 @@ Use -F or --full-lists to disable shortening of long lists.
 	* parenleft (U+0028): X=224.0,Y=1.0 (should be at baseline 0?)
 	* parenright (U+0029): X=296.0,Y=1.0 (should be at baseline 0?)
 	* at (U+0040): X=349.5,Y=705.5 (should be at cap-height 704?)
-	* a (U+0061): X=151.0,Y=0.5 (should be at baseline 0?)
-	* a (U+0061): X=340.0,Y=510.0 (should be at x-height 512?)
-	* b (U+0062): X=199.0,Y=2.0 (should be at baseline 0?)
-	* d (U+0064): X=171.5,Y=-1.5 (should be at baseline 0?)
-	* d (U+0064): X=313.5,Y=514.0 (should be at x-height 512?)
-	* d (U+0064): X=307.5,Y=1.0 (should be at baseline 0?) and 7 more.
+	* a (U+0061): X=135.0,Y=0.5 (should be at baseline 0?)
+	* a (U+0061): X=340.5,Y=510.0 (should be at x-height 512?)
+	* b (U+0062): X=216.5,Y=-2.0 (should be at baseline 0?)
+	* d (U+0064): X=295.5,Y=-2.0 (should be at baseline 0?)
+	* g (U+0067): X=295.5,Y=514.0 (should be at x-height 512?)
+	* m (U+006D): X=164.5,Y=511.0 (should be at x-height 512?) and 11 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* W (U+0057): L<<75.0,8.0>--<17.0,688.0>> -> L<<17.0,688.0>--<17.0,696.0>>
-	* W (U+0057): L<<93.0,696.0>--<93.0,688.0>> -> L<<93.0,688.0>--<130.0,102.0>> and w (U+0077): L<<93.0,504.0>--<93.0,496.0>> -> L<<93.0,496.0>--<130.0,102.0>> [code: found-colinear-vectors]
+	* W (U+0057): L<<108.0,696.0>--<108.0,688.0>> -> L<<108.0,688.0>--<130.0,80.0>> and W (U+0057): L<<75.0,8.0>--<32.0,688.0>> -> L<<32.0,688.0>--<32.0,696.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -534,7 +535,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.002; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -562,16 +563,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- uniFEF9
-	- threedotsdowncenterar
-	- lam_alefWaslaar
-	- dotcenterar
+	- gafsarkashcenterar
+	- uniFEFB
+	- miniKehehar
 	- twodotsverticalabovear
 	- uniFEA0
-	- gafsarkashcenterar
-	- twodotsverticalbelowar
-	- gafsarkashabovear
-	- uniFE9F 
+	- uniFEF3
+	- waslaar
+	- threedotsdownbelowar
+	- threedotsupbelowar
+	- doublestrokear 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -598,20 +599,20 @@ Use -F or --full-lists to disable shortening of long lists.
 	* at (U+0040): X=349.5,Y=705.5 (should be at cap-height 704?)
 	* backslash (U+005C): X=71.0,Y=703.0 (should be at cap-height 704?)
 	* backslash (U+005C): X=441.0,Y=-207.0 (should be at descender -208?)
-	* a (U+0061): X=151.0,Y=0.5 (should be at baseline 0?)
-	* a (U+0061): X=340.0,Y=510.0 (should be at x-height 512?)
-	* b (U+0062): X=199.0,Y=2.0 (should be at baseline 0?)
-	* d (U+0064): X=167.0,Y=0.5 (should be at baseline 0?) and 8 more.
+	* a (U+0061): X=135.0,Y=0.5 (should be at baseline 0?)
+	* a (U+0061): X=340.5,Y=510.0 (should be at x-height 512?)
+	* b (U+0062): X=216.5,Y=-2.0 (should be at baseline 0?)
+	* d (U+0064): X=295.5,Y=-2.0 (should be at baseline 0?) and 13 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* W (U+0057): L<<75.0,8.0>--<17.0,688.0>> -> L<<17.0,688.0>--<17.0,696.0>>
-	* W (U+0057): L<<93.0,696.0>--<93.0,688.0>> -> L<<93.0,688.0>--<130.0,102.0>>
+	* W (U+0057): L<<105.0,696.0>--<105.0,688.0>> -> L<<105.0,688.0>--<130.0,84.0>>
+	* W (U+0057): L<<75.0,8.0>--<29.0,688.0>> -> L<<29.0,688.0>--<29.0,696.0>>
 	* backslash (U+005C): L<<148.0,697.0>--<395.0,-40.0>> -> L<<395.0,-40.0>--<441.0,-207.0>>
-	* backslash (U+005C): L<<364.0,-201.0>--<117.0,536.0>> -> L<<117.0,536.0>--<71.0,703.0>> and w (U+0077): L<<93.0,504.0>--<93.0,496.0>> -> L<<93.0,496.0>--<130.0,102.0>> [code: found-colinear-vectors]
+	* backslash (U+005C): L<<364.0,-201.0>--<117.0,536.0>> -> L<<117.0,536.0>--<71.0,703.0>> and w (U+0077): L<<366.0,84.0>--<408.0,432.0>> -> L<<408.0,432.0>--<421.0,511.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -652,7 +653,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 </div></details><details><summary>🔥 <b>FAIL:</b> Version format is correct in 'name' table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/version_format">com.google.fonts/check/name/version_format</a>)</summary><div>
 
 
-* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.002; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
+* 🔥 **FAIL** The NameID.VERSION_STRING (nameID=5) value must follow the pattern "Version X.Y" with X.Y greater than or equal to 1.000. Current version string is: "Version 0.001; ttfautohint (v1.8.4.7-5d5b)" [code: bad-version-strings]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -687,16 +688,16 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- uniFEF9
-	- threedotsdowncenterar
-	- lam_alefWaslaar
-	- dotcenterar
+	- gafsarkashcenterar
+	- uniFEFB
+	- miniKehehar
 	- twodotsverticalabovear
 	- uniFEA0
-	- gafsarkashcenterar
-	- twodotsverticalbelowar
-	- gafsarkashabovear
-	- uniFE9F 
+	- uniFEF3
+	- waslaar
+	- threedotsdownbelowar
+	- threedotsupbelowar
+	- doublestrokear 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -723,20 +724,21 @@ Use -F or --full-lists to disable shortening of long lists.
 	* at (U+0040): X=349.5,Y=705.5 (should be at cap-height 704?)
 	* backslash (U+005C): X=369.0,Y=-206.0 (should be at descender -208?)
 	* backslash (U+005C): X=143.0,Y=702.0 (should be at cap-height 704?)
-	* a (U+0061): X=151.0,Y=0.5 (should be at baseline 0?)
-	* a (U+0061): X=340.0,Y=510.0 (should be at x-height 512?)
-	* b (U+0062): X=199.0,Y=2.0 (should be at baseline 0?)
-	* c (U+0063): X=354.5,Y=511.0 (should be at x-height 512?) and 8 more.
+	* a (U+0061): X=135.0,Y=0.5 (should be at baseline 0?)
+	* a (U+0061): X=340.5,Y=510.0 (should be at x-height 512?)
+	* b (U+0062): X=216.5,Y=-2.0 (should be at baseline 0?)
+	* c (U+0063): X=354.5,Y=510.5 (should be at x-height 512?) and 11 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
-	* W (U+0057): L<<75.0,8.0>--<17.0,688.0>> -> L<<17.0,688.0>--<17.0,696.0>>
-	* W (U+0057): L<<93.0,696.0>--<93.0,688.0>> -> L<<93.0,688.0>--<130.0,102.0>>
+	* W (U+0057): L<<75.0,8.0>--<21.0,688.0>> -> L<<21.0,688.0>--<21.0,696.0>>
+	* W (U+0057): L<<97.0,696.0>--<97.0,688.0>> -> L<<97.0,688.0>--<130.0,96.0>>
 	* backslash (U+005C): L<<143.0,702.0>--<234.0,440.0>> -> L<<234.0,440.0>--<446.0,-202.0>>
-	* backslash (U+005C): L<<369.0,-206.0>--<278.0,56.0>> -> L<<278.0,56.0>--<66.0,698.0>> and w (U+0077): L<<93.0,504.0>--<93.0,496.0>> -> L<<93.0,496.0>--<130.0,102.0>> [code: found-colinear-vectors]
+	* backslash (U+005C): L<<369.0,-206.0>--<278.0,56.0>> -> L<<278.0,56.0>--<66.0,698.0>>
+	* w (U+0077): L<<139.0,96.0>--<166.0,189.0>> -> L<<166.0,189.0>--<218.0,342.0>> and w (U+0077): L<<94.0,504.0>--<108.0,377.0>> -> L<<108.0,377.0>--<139.0,96.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
