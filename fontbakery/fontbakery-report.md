@@ -86,16 +86,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- gafsarkashcenterar
-	- uniFEFB
-	- miniKehehar
-	- twodotsverticalabovear
-	- uniFEA0
-	- uniFEF3
+	- lam_alefWaslaar
+	- uniFEF7
+	- gafsarkashabovear
+	- dotcenterar
+	- doublestrokear
+	- twodotsverticalbelowar
+	- threedotsdowncenterar
 	- waslaar
-	- threedotsdownbelowar
-	- threedotsupbelowar
-	- doublestrokear 
+	- uniFE9F
+	- miniKehehar 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -125,7 +125,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* b (U+0062): X=216.5,Y=-2.0 (should be at baseline 0?)
 	* d (U+0064): X=295.5,Y=-2.0 (should be at baseline 0?)
 	* g (U+0067): X=295.5,Y=514.0 (should be at x-height 512?)
-	* p (U+0070): X=199.0,Y=510.0 (should be at x-height 512?) and 8 more.
+	* p (U+0070): X=199.0,Y=510.0 (should be at x-height 512?) and 9 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -213,16 +213,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- gafsarkashcenterar
-	- uniFEFB
-	- miniKehehar
-	- twodotsverticalabovear
-	- uniFEA0
-	- uniFEF3
+	- lam_alefWaslaar
+	- uniFEF7
+	- gafsarkashabovear
+	- dotcenterar
+	- doublestrokear
+	- twodotsverticalbelowar
+	- threedotsdowncenterar
 	- waslaar
-	- threedotsdownbelowar
-	- threedotsupbelowar
-	- doublestrokear 
+	- uniFE9F
+	- miniKehehar 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -329,16 +329,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- gafsarkashcenterar
-	- uniFEFB
-	- miniKehehar
-	- twodotsverticalabovear
-	- uniFEA0
-	- uniFEF3
+	- lam_alefWaslaar
+	- uniFEF7
+	- gafsarkashabovear
+	- dotcenterar
+	- doublestrokear
+	- twodotsverticalbelowar
+	- threedotsdowncenterar
 	- waslaar
-	- threedotsdownbelowar
-	- threedotsupbelowar
-	- doublestrokear 
+	- uniFE9F
+	- miniKehehar 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -367,8 +367,8 @@ Use -F or --full-lists to disable shortening of long lists.
 	* a (U+0061): X=340.5,Y=510.0 (should be at x-height 512?)
 	* b (U+0062): X=216.5,Y=-2.0 (should be at baseline 0?)
 	* d (U+0064): X=295.5,Y=-2.0 (should be at baseline 0?)
-	* g (U+0067): X=295.5,Y=514.0 (should be at x-height 512?)
-	* m (U+006D): X=255.0,Y=510.0 (should be at x-height 512?) and 9 more.
+	* f (U+0066): X=259.5,Y=704.5 (should be at cap-height 704?)
+	* g (U+0067): X=295.5,Y=514.0 (should be at x-height 512?) and 11 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -448,16 +448,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- gafsarkashcenterar
-	- uniFEFB
-	- miniKehehar
-	- twodotsverticalabovear
-	- uniFEA0
-	- uniFEF3
+	- lam_alefWaslaar
+	- uniFEF7
+	- gafsarkashabovear
+	- dotcenterar
+	- doublestrokear
+	- twodotsverticalbelowar
+	- threedotsdowncenterar
 	- waslaar
-	- threedotsdownbelowar
-	- threedotsupbelowar
-	- doublestrokear 
+	- uniFE9F
+	- miniKehehar 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -487,7 +487,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* b (U+0062): X=216.5,Y=-2.0 (should be at baseline 0?)
 	* d (U+0064): X=295.5,Y=-2.0 (should be at baseline 0?)
 	* g (U+0067): X=295.5,Y=514.0 (should be at x-height 512?)
-	* m (U+006D): X=164.5,Y=511.0 (should be at x-height 512?) and 11 more.
+	* i (U+0069): X=210.5,Y=702.0 (should be at cap-height 704?) and 16 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -563,16 +563,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- gafsarkashcenterar
-	- uniFEFB
-	- miniKehehar
-	- twodotsverticalabovear
-	- uniFEA0
-	- uniFEF3
+	- lam_alefWaslaar
+	- uniFEF7
+	- gafsarkashabovear
+	- dotcenterar
+	- doublestrokear
+	- twodotsverticalbelowar
+	- threedotsdowncenterar
 	- waslaar
-	- threedotsdownbelowar
-	- threedotsupbelowar
-	- doublestrokear 
+	- uniFE9F
+	- miniKehehar 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -602,7 +602,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* a (U+0061): X=135.0,Y=0.5 (should be at baseline 0?)
 	* a (U+0061): X=340.5,Y=510.0 (should be at x-height 512?)
 	* b (U+0062): X=216.5,Y=-2.0 (should be at baseline 0?)
-	* d (U+0064): X=295.5,Y=-2.0 (should be at baseline 0?) and 13 more.
+	* d (U+0064): X=295.5,Y=-2.0 (should be at baseline 0?) and 14 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -688,16 +688,16 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- gafsarkashcenterar
-	- uniFEFB
-	- miniKehehar
-	- twodotsverticalabovear
-	- uniFEA0
-	- uniFEF3
+	- lam_alefWaslaar
+	- uniFEF7
+	- gafsarkashabovear
+	- dotcenterar
+	- doublestrokear
+	- twodotsverticalbelowar
+	- threedotsdowncenterar
 	- waslaar
-	- threedotsdownbelowar
-	- threedotsupbelowar
-	- doublestrokear 
+	- uniFE9F
+	- miniKehehar 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
