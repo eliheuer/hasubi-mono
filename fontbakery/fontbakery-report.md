@@ -65,16 +65,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- uniFE9F
+	- threedotsdowncenterar
 	- doublestrokear
+	- threedotsupbelowar
 	- dotcenterar
-	- uniFEFB
-	- waslaar
-	- uniFEF7
-	- miniKehehar
-	- threedotsdownbelowar
+	- uniFEF9
+	- uniFEF5
 	- uniFEA0
-	- lam_alefWaslaar
-	- uniFEF5 
+	- uniFEF3
+	- threedotsdownabovear 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -184,16 +184,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- uniFE9F
+	- threedotsdowncenterar
 	- doublestrokear
+	- threedotsupbelowar
 	- dotcenterar
-	- uniFEFB
-	- waslaar
-	- uniFEF7
-	- miniKehehar
-	- threedotsdownbelowar
+	- uniFEF9
+	- uniFEF5
 	- uniFEA0
-	- lam_alefWaslaar
-	- uniFEF5 
+	- uniFEF3
+	- threedotsdownabovear 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -307,16 +307,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- uniFE9F
+	- threedotsdowncenterar
 	- doublestrokear
+	- threedotsupbelowar
 	- dotcenterar
-	- uniFEFB
-	- waslaar
-	- uniFEF7
-	- miniKehehar
-	- threedotsdownbelowar
+	- uniFEF9
+	- uniFEF5
 	- uniFEA0
-	- lam_alefWaslaar
-	- uniFEF5 
+	- uniFEF3
+	- threedotsdownabovear 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -444,16 +444,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- uniFE9F
+	- threedotsdowncenterar
 	- doublestrokear
+	- threedotsupbelowar
 	- dotcenterar
-	- uniFEFB
-	- waslaar
-	- uniFEF7
-	- miniKehehar
-	- threedotsdownbelowar
+	- uniFEF9
+	- uniFEF5
 	- uniFEA0
-	- lam_alefWaslaar
-	- uniFEF5 
+	- uniFEF3
+	- threedotsdownabovear 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -567,16 +567,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: missing-codep
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- uniFE9F
+	- threedotsdowncenterar
 	- doublestrokear
+	- threedotsupbelowar
 	- dotcenterar
-	- uniFEFB
-	- waslaar
-	- uniFEF7
-	- miniKehehar
-	- threedotsdownbelowar
+	- uniFEF9
+	- uniFEF5
 	- uniFEA0
-	- lam_alefWaslaar
-	- uniFEF5 
+	- uniFEF3
+	- threedotsdownabovear 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -696,16 +696,16 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- uniFE9F
+	- threedotsdowncenterar
 	- doublestrokear
+	- threedotsupbelowar
 	- dotcenterar
-	- uniFEFB
-	- waslaar
-	- uniFEF7
-	- miniKehehar
-	- threedotsdownbelowar
+	- uniFEF9
+	- uniFEF5
 	- uniFEA0
-	- lam_alefWaslaar
-	- uniFEF5 
+	- uniFEF3
+	- threedotsdownabovear 
 	- And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
