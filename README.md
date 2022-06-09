@@ -20,7 +20,7 @@ Hasubi Mono (حاسوبي مونو) is an Arabic, Hebrew, and Latin condensed mo
 
 ## About
 
-This typeface is designed and maintained by Eli Heuer, send ETH tips to eliheuer.eth if you enjoy this font and want to suport my work.
+This typeface is designed and maintained by Eli Heuer. If use use this font and want to help fund maintance and further development, tip are acepted using the Ethereum ecosystem at elih.eth(0x8958a5341D2936093EBD9d97fce872bcAeD1565a).
 
 ## Building
 
