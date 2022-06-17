@@ -1,5 +1,6 @@
 {
-.appVersion = "3131";
+.appVersion = "3132";
+copyright = "Copyright 2022 The Hasubi Mono Project Authors (https://github.com/eliheuer/hasubi-mono)";
 customParameters = (
 {
 name = fsType;
@@ -36,6 +37,14 @@ name = "Enforce Compatibility Check";
 value = 0;
 },
 {
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
 name = Axes;
 value = (
 {
@@ -45,7 +54,9 @@ Tag = wght;
 );
 }
 );
-date = "2021-04-17 17:06:30 +0000";
+date = "2022-06-17 04:34:39 +0000";
+designer = "Eli Heuer";
+designerURL = https//elih.blog;
 familyName = "Hasubi Mono";
 featurePrefixes = (
 {
@@ -193,6 +204,44 @@ alignmentZones = (
 );
 ascender = 768;
 capHeight = 704;
+customParameters = (
+{
+name = hheaAscender;
+value = 935;
+},
+{
+name = hheaDescender;
+value = -250;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 935;
+},
+{
+name = typoDescender;
+value = -250;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = underlinePosition;
+value = -50;
+},
+{
+name = winAscent;
+value = 945;
+},
+{
+name = winDescent;
+value = 307;
+}
+);
 descender = -208;
 id = m01;
 visible = 1;
@@ -203,6 +252,44 @@ xHeight = 512;
 ascender = 768;
 capHeight = 704;
 custom = Heavy;
+customParameters = (
+{
+name = hheaAscender;
+value = 935;
+},
+{
+name = hheaDescender;
+value = -250;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 935;
+},
+{
+name = typoDescender;
+value = -250;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = underlinePosition;
+value = -50;
+},
+{
+name = winAscent;
+value = 945;
+},
+{
+name = winDescent;
+value = 307;
+}
+);
 descender = -208;
 iconName = Bold;
 id = "4FBB1917-F682-4041-B654-F2E0D2EF1242";
@@ -23202,6 +23289,7 @@ instanceInterpolations = {
 "4FBB1917-F682-4041-B654-F2E0D2EF1242" = 0.53571;
 m01 = 0.46429;
 };
+isBold = 1;
 name = Bold;
 weightClass = Bold;
 },
@@ -23219,12 +23307,14 @@ interpolationWeight = 128;
 instanceInterpolations = {
 "4FBB1917-F682-4041-B654-F2E0D2EF1242" = 1;
 };
-name = Heavy;
+name = Black;
 weightClass = Black;
 }
 );
 keyboardIncrementBig = 8;
 keyboardIncrementHuge = 64;
+manufacturer = "Eli Heuer";
+manufacturerURL = https//elih.blog;
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
@@ -23244,6 +23334,6 @@ arBar = "96";
 };
 };
 };
-versionMajor = 0;
-versionMinor = 100;
+versionMajor = 1;
+versionMinor = 0;
 }
