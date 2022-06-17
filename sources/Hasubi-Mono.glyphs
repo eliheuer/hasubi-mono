@@ -37,6 +37,25 @@ name = "Enforce Compatibility Check";
 value = 0;
 },
 {
+name = isFixedPitch;
+value = 1;
+},
+{
+name = panose;
+value = (
+2,
+0,
+0,
+9,
+5,
+0,
+0,
+0,
+0,
+4
+);
+},
+{
 name = licenseURL;
 value = "https://scripts.sil.org/OFL";
 },
@@ -235,7 +254,7 @@ value = -50;
 },
 {
 name = winAscent;
-value = 945;
+value = 965;
 },
 {
 name = winDescent;
@@ -283,7 +302,7 @@ value = -50;
 },
 {
 name = winAscent;
-value = 945;
+value = 965;
 },
 {
 name = winDescent;
