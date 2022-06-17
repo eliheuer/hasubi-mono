@@ -2,14 +2,9 @@
 
 Fontbakery version: 0.8.8
 
-<details><summary><b>[11] HasubiMono-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+<details><summary><b>[9] HasubiMono-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 965, but got 945 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
-
-
-* 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
 * ⚠ **WARN** Font is monospaced but 283 glyphs (74.08%) have a different width. You should check the widths of: ['A', 'Aacute', 'Acircumflex', 'Adieresis', 'Agrave', 'Aring', 'Atilde', 'B', 'C', 'Ccedilla', 'D', 'Eth', 'E', 'Eacute', 'Ecircumflex', 'Edieresis', 'Egrave', 'F', 'G', 'H', 'I', 'Iacute', 'Icircumflex', 'Idieresis', 'Igrave', 'J', 'K', 'L', 'M', 'N', 'Ntilde', 'O', 'Oacute', 'Ocircumflex', 'Odieresis', 'Ograve', 'Oslash', 'Otilde', 'OE', 'P', 'Thorn', 'Q', 'R', 'S', 'T', 'U', 'Uacute', 'Ucircumflex', 'Udieresis', 'Ugrave', 'V', 'W', 'X', 'Y', 'Yacute', 'Z', 'a', 'aacute', 'acircumflex', 'adieresis', 'agrave', 'aring', 'atilde', 'ae', 'b', 'c', 'ccedilla', 'd', 'eth', 'e', 'eacute', 'ecircumflex', 'edieresis', 'egrave', 'f', 'g', 'h', 'i', 'dotlessi', 'iacute', 'icircumflex', 'idieresis', 'igrave', 'j', 'k', 'l', 'm', 'n', 'ntilde', 'o', 'oacute', 'ocircumflex', 'odieresis', 'ograve', 'oslash', 'otilde', 'oe', 'p', 'thorn', 'q', 'r', 's', 'germandbls', 't', 'u', 'uacute', 'ucircumflex', 'udieresis', 'ugrave', 'v', 'w', 'x', 'y', 'yacute', 'ydieresis', 'z', 'ordfeminine', 'ordmasculine', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni066E', 'uni066E.fina', 'uni066E.medi', 'uni066E.init', 'uni0628', 'uniFE90', 'uniFE92', 'uniFE91', 'uni062A', 'uniFE96', 'uniFE98', 'uniFE97', 'uni062B', 'uniFE9A', 'uniFE9C', 'uniFE9B', 'uniFEA0', 'uniFE9F', 'uni062D', 'uniFEA2', 'uniFEA4', 'uniFEA3', 'uni062E', 'uniFEA6', 'uniFEA8', 'uniFEA7', 'uni062F', 'uniFEAA', 'uni0630', 'uniFEAC', 'uni0631', 'uni0633', 'uniFEB2', 'uniFEB4', 'uniFEB3', 'uni0634', 'uniFEB6', 'uniFEB8', 'uniFEB7', 'uniFECC', 'uniFED3', 'uni06A1.init', 'uniFEDC', 'uniFEDB', 'uni0646', 'uniFEE6', 'uniFEE8', 'uniFEE7', 'uni06BA', 'uniFB9F', 'uni0648', 'uniFEEE', 'uniFEF4', 'uniFEF3', 'uni0640', 'uniFEFB', 'uniFEFC', 'uni0660', 'uni0661', 'uni0662', 'uni0663', 'uni0664', 'uni0665', 'uni0666', 'uni0667', 'uni0668', 'uni0669', 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'fraction', 'onehalf', 'onequarter', 'threequarters', 'uni00B9', 'uni00B2', 'uni00B3', 'uni2074', 'space', 'uni00A0', 'period', 'comma', 'colon', 'semicolon', 'ellipsis', 'exclam', 'exclamdown', 'question', 'questiondown', 'periodcentered', 'bullet', 'asterisk', 'numbersign', 'slash', 'backslash', 'hyphen', 'endash', 'emdash', 'underscore', 'parenleft', 'parenright', 'braceleft', 'braceright', 'bracketleft', 'bracketright', 'quotesinglbase', 'quotedblbase', 'quotedblleft', 'quotedblright', 'quoteleft', 'quoteright', 'guillemotleft', 'guillemotright', 'guilsinglleft', 'guilsinglright', 'quotedbl', 'quotesingle', 'at', 'ampersand', 'paragraph', 'section', 'copyright', 'registered', 'degree', 'bar', 'brokenbar', 'cent', 'dollar', 'Euro', 'sterling', 'yen', 'plus', 'minus', 'multiply', 'divide', 'equal', 'greater', 'less', 'plusminus', 'asciitilde', 'asciicircum', 'newGlyph', 'percent', 'dieresis', 'grave', 'acute', 'circumflex', 'ring', 'tilde', 'macron', 'cedilla'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
@@ -25,26 +20,26 @@ Fontbakery version: 0.8.8
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- miniKehehar
+	- threedotsdownabovear
+	- threedotsupbelowar
+	- uniFEF9
+	- threedotsdowncenterar
+	- uniFE9F
+	- uniFEFB
+	- dotcenterar
+	- uniFEF3
+	- doublestrokear
+	- twodotsverticalbelowar
+	- lam_alefWaslaar
 	- twodotsverticalabovear
+	- gafsarkashabovear
+	- uniFEF7
 	- waslaar
 	- uniFEA0
-	- threedotsdownabovear
-	- threedotsdownbelowar
-	- twodotsverticalbelowar
-	- uniFE9F
 	- uniFEF5
-	- threedotsupbelowar
-	- uniFEF7
-	- gafsarkashabovear
-	- gafsarkashcenterar
-	- uniFEFB
-	- uniFEF3
-	- uniFEF9
-	- lam_alefWaslaar
-	- miniKehehar
-	- threedotsdowncenterar
-	- doublestrokear 
-	- And dotcenterar
+	- threedotsdownbelowar 
+	- And gafsarkashcenterar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -66,10 +61,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -125,14 +116,9 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
  * newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] HasubiMono-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] HasubiMono-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 965, but got 945 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
-
-
-* 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
 * ⚠ **WARN** Font is monospaced but 283 glyphs (74.08%) have a different width. You should check the widths of: ['A', 'Aacute', 'Acircumflex', 'Adieresis', 'Agrave', 'Aring', 'Atilde', 'B', 'C', 'Ccedilla', 'D', 'Eth', 'E', 'Eacute', 'Ecircumflex', 'Edieresis', 'Egrave', 'F', 'G', 'H', 'I', 'Iacute', 'Icircumflex', 'Idieresis', 'Igrave', 'J', 'K', 'L', 'M', 'N', 'Ntilde', 'O', 'Oacute', 'Ocircumflex', 'Odieresis', 'Ograve', 'Oslash', 'Otilde', 'OE', 'P', 'Thorn', 'Q', 'R', 'S', 'T', 'U', 'Uacute', 'Ucircumflex', 'Udieresis', 'Ugrave', 'V', 'W', 'X', 'Y', 'Yacute', 'Z', 'a', 'aacute', 'acircumflex', 'adieresis', 'agrave', 'aring', 'atilde', 'ae', 'b', 'c', 'ccedilla', 'd', 'eth', 'e', 'eacute', 'ecircumflex', 'edieresis', 'egrave', 'f', 'g', 'h', 'i', 'dotlessi', 'iacute', 'icircumflex', 'idieresis', 'igrave', 'j', 'k', 'l', 'm', 'n', 'ntilde', 'o', 'oacute', 'ocircumflex', 'odieresis', 'ograve', 'oslash', 'otilde', 'oe', 'p', 'thorn', 'q', 'r', 's', 'germandbls', 't', 'u', 'uacute', 'ucircumflex', 'udieresis', 'ugrave', 'v', 'w', 'x', 'y', 'yacute', 'ydieresis', 'z', 'ordfeminine', 'ordmasculine', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni066E', 'uni066E.fina', 'uni066E.medi', 'uni066E.init', 'uni0628', 'uniFE90', 'uniFE92', 'uniFE91', 'uni062A', 'uniFE96', 'uniFE98', 'uniFE97', 'uni062B', 'uniFE9A', 'uniFE9C', 'uniFE9B', 'uniFEA0', 'uniFE9F', 'uni062D', 'uniFEA2', 'uniFEA4', 'uniFEA3', 'uni062E', 'uniFEA6', 'uniFEA8', 'uniFEA7', 'uni062F', 'uniFEAA', 'uni0630', 'uniFEAC', 'uni0631', 'uni0633', 'uniFEB2', 'uniFEB4', 'uniFEB3', 'uni0634', 'uniFEB6', 'uniFEB8', 'uniFEB7', 'uniFECC', 'uniFED3', 'uni06A1.init', 'uniFEDC', 'uniFEDB', 'uni0646', 'uniFEE6', 'uniFEE8', 'uniFEE7', 'uni06BA', 'uniFB9F', 'uni0648', 'uniFEEE', 'uniFEF4', 'uniFEF3', 'uni0640', 'uniFEFB', 'uniFEFC', 'uni0660', 'uni0661', 'uni0662', 'uni0663', 'uni0664', 'uni0665', 'uni0666', 'uni0667', 'uni0668', 'uni0669', 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'fraction', 'onehalf', 'onequarter', 'threequarters', 'uni00B9', 'uni00B2', 'uni00B3', 'uni2074', 'space', 'uni00A0', 'period', 'comma', 'colon', 'semicolon', 'ellipsis', 'exclam', 'exclamdown', 'question', 'questiondown', 'periodcentered', 'bullet', 'asterisk', 'numbersign', 'slash', 'backslash', 'hyphen', 'endash', 'emdash', 'underscore', 'parenleft', 'parenright', 'braceleft', 'braceright', 'bracketleft', 'bracketright', 'quotesinglbase', 'quotedblbase', 'quotedblleft', 'quotedblright', 'quoteleft', 'quoteright', 'guillemotleft', 'guillemotright', 'guilsinglleft', 'guilsinglright', 'quotedbl', 'quotesingle', 'at', 'ampersand', 'paragraph', 'section', 'copyright', 'registered', 'degree', 'bar', 'brokenbar', 'cent', 'dollar', 'Euro', 'sterling', 'yen', 'plus', 'minus', 'multiply', 'divide', 'equal', 'greater', 'less', 'plusminus', 'asciitilde', 'asciicircum', 'newGlyph', 'percent', 'dieresis', 'grave', 'acute', 'circumflex', 'ring', 'tilde', 'macron', 'cedilla'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
@@ -155,26 +141,26 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- miniKehehar
+	- threedotsdownabovear
+	- threedotsupbelowar
+	- uniFEF9
+	- threedotsdowncenterar
+	- uniFE9F
+	- uniFEFB
+	- dotcenterar
+	- uniFEF3
+	- doublestrokear
+	- twodotsverticalbelowar
+	- lam_alefWaslaar
 	- twodotsverticalabovear
+	- gafsarkashabovear
+	- uniFEF7
 	- waslaar
 	- uniFEA0
-	- threedotsdownabovear
-	- threedotsdownbelowar
-	- twodotsverticalbelowar
-	- uniFE9F
 	- uniFEF5
-	- threedotsupbelowar
-	- uniFEF7
-	- gafsarkashabovear
-	- gafsarkashcenterar
-	- uniFEFB
-	- uniFEF3
-	- uniFEF9
-	- lam_alefWaslaar
-	- miniKehehar
-	- threedotsdowncenterar
-	- doublestrokear 
-	- And dotcenterar
+	- threedotsdownbelowar 
+	- And gafsarkashcenterar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -196,10 +182,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -264,14 +246,9 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
  * newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] HasubiMono-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] HasubiMono-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 965, but got 945 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
-
-
-* 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
 * ⚠ **WARN** Font is monospaced but 283 glyphs (74.08%) have a different width. You should check the widths of: ['A', 'Aacute', 'Acircumflex', 'Adieresis', 'Agrave', 'Aring', 'Atilde', 'B', 'C', 'Ccedilla', 'D', 'Eth', 'E', 'Eacute', 'Ecircumflex', 'Edieresis', 'Egrave', 'F', 'G', 'H', 'I', 'Iacute', 'Icircumflex', 'Idieresis', 'Igrave', 'J', 'K', 'L', 'M', 'N', 'Ntilde', 'O', 'Oacute', 'Ocircumflex', 'Odieresis', 'Ograve', 'Oslash', 'Otilde', 'OE', 'P', 'Thorn', 'Q', 'R', 'S', 'T', 'U', 'Uacute', 'Ucircumflex', 'Udieresis', 'Ugrave', 'V', 'W', 'X', 'Y', 'Yacute', 'Z', 'a', 'aacute', 'acircumflex', 'adieresis', 'agrave', 'aring', 'atilde', 'ae', 'b', 'c', 'ccedilla', 'd', 'eth', 'e', 'eacute', 'ecircumflex', 'edieresis', 'egrave', 'f', 'g', 'h', 'i', 'dotlessi', 'iacute', 'icircumflex', 'idieresis', 'igrave', 'j', 'k', 'l', 'm', 'n', 'ntilde', 'o', 'oacute', 'ocircumflex', 'odieresis', 'ograve', 'oslash', 'otilde', 'oe', 'p', 'thorn', 'q', 'r', 's', 'germandbls', 't', 'u', 'uacute', 'ucircumflex', 'udieresis', 'ugrave', 'v', 'w', 'x', 'y', 'yacute', 'ydieresis', 'z', 'ordfeminine', 'ordmasculine', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni066E', 'uni066E.fina', 'uni066E.medi', 'uni066E.init', 'uni0628', 'uniFE90', 'uniFE92', 'uniFE91', 'uni062A', 'uniFE96', 'uniFE98', 'uniFE97', 'uni062B', 'uniFE9A', 'uniFE9C', 'uniFE9B', 'uniFEA0', 'uniFE9F', 'uni062D', 'uniFEA2', 'uniFEA4', 'uniFEA3', 'uni062E', 'uniFEA6', 'uniFEA8', 'uniFEA7', 'uni062F', 'uniFEAA', 'uni0630', 'uniFEAC', 'uni0631', 'uni0633', 'uniFEB2', 'uniFEB4', 'uniFEB3', 'uni0634', 'uniFEB6', 'uniFEB8', 'uniFEB7', 'uniFECC', 'uniFED3', 'uni06A1.init', 'uniFEDC', 'uniFEDB', 'uni0646', 'uniFEE6', 'uniFEE8', 'uniFEE7', 'uni06BA', 'uniFB9F', 'uni0648', 'uniFEEE', 'uniFEF4', 'uniFEF3', 'uni0640', 'uniFEFB', 'uniFEFC', 'uni0660', 'uni0661', 'uni0662', 'uni0663', 'uni0664', 'uni0665', 'uni0666', 'uni0667', 'uni0668', 'uni0669', 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'fraction', 'onehalf', 'onequarter', 'threequarters', 'uni00B9', 'uni00B2', 'uni00B3', 'uni2074', 'space', 'uni00A0', 'period', 'comma', 'colon', 'semicolon', 'ellipsis', 'exclam', 'exclamdown', 'question', 'questiondown', 'periodcentered', 'bullet', 'asterisk', 'numbersign', 'slash', 'backslash', 'hyphen', 'endash', 'emdash', 'underscore', 'parenleft', 'parenright', 'braceleft', 'braceright', 'bracketleft', 'bracketright', 'quotesinglbase', 'quotedblbase', 'quotedblleft', 'quotedblright', 'quoteleft', 'quoteright', 'guillemotleft', 'guillemotright', 'guilsinglleft', 'guilsinglright', 'quotedbl', 'quotesingle', 'at', 'ampersand', 'paragraph', 'section', 'copyright', 'registered', 'degree', 'bar', 'brokenbar', 'cent', 'dollar', 'Euro', 'sterling', 'yen', 'plus', 'minus', 'multiply', 'divide', 'equal', 'greater', 'less', 'plusminus', 'asciitilde', 'asciicircum', 'newGlyph', 'percent', 'dieresis', 'grave', 'acute', 'circumflex', 'ring', 'tilde', 'macron', 'cedilla'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
@@ -287,26 +264,26 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- miniKehehar
+	- threedotsdownabovear
+	- threedotsupbelowar
+	- uniFEF9
+	- threedotsdowncenterar
+	- uniFE9F
+	- uniFEFB
+	- dotcenterar
+	- uniFEF3
+	- doublestrokear
+	- twodotsverticalbelowar
+	- lam_alefWaslaar
 	- twodotsverticalabovear
+	- gafsarkashabovear
+	- uniFEF7
 	- waslaar
 	- uniFEA0
-	- threedotsdownabovear
-	- threedotsdownbelowar
-	- twodotsverticalbelowar
-	- uniFE9F
 	- uniFEF5
-	- threedotsupbelowar
-	- uniFEF7
-	- gafsarkashabovear
-	- gafsarkashcenterar
-	- uniFEFB
-	- uniFEF3
-	- uniFEF9
-	- lam_alefWaslaar
-	- miniKehehar
-	- threedotsdowncenterar
-	- doublestrokear 
-	- And dotcenterar
+	- threedotsdownbelowar 
+	- And gafsarkashcenterar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -328,10 +305,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -393,14 +366,9 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
  * newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] HasubiMono-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] HasubiMono-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 965, but got 945 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
-
-
-* 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
 * ⚠ **WARN** Font is monospaced but 283 glyphs (74.08%) have a different width. You should check the widths of: ['A', 'Aacute', 'Acircumflex', 'Adieresis', 'Agrave', 'Aring', 'Atilde', 'B', 'C', 'Ccedilla', 'D', 'Eth', 'E', 'Eacute', 'Ecircumflex', 'Edieresis', 'Egrave', 'F', 'G', 'H', 'I', 'Iacute', 'Icircumflex', 'Idieresis', 'Igrave', 'J', 'K', 'L', 'M', 'N', 'Ntilde', 'O', 'Oacute', 'Ocircumflex', 'Odieresis', 'Ograve', 'Oslash', 'Otilde', 'OE', 'P', 'Thorn', 'Q', 'R', 'S', 'T', 'U', 'Uacute', 'Ucircumflex', 'Udieresis', 'Ugrave', 'V', 'W', 'X', 'Y', 'Yacute', 'Z', 'a', 'aacute', 'acircumflex', 'adieresis', 'agrave', 'aring', 'atilde', 'ae', 'b', 'c', 'ccedilla', 'd', 'eth', 'e', 'eacute', 'ecircumflex', 'edieresis', 'egrave', 'f', 'g', 'h', 'i', 'dotlessi', 'iacute', 'icircumflex', 'idieresis', 'igrave', 'j', 'k', 'l', 'm', 'n', 'ntilde', 'o', 'oacute', 'ocircumflex', 'odieresis', 'ograve', 'oslash', 'otilde', 'oe', 'p', 'thorn', 'q', 'r', 's', 'germandbls', 't', 'u', 'uacute', 'ucircumflex', 'udieresis', 'ugrave', 'v', 'w', 'x', 'y', 'yacute', 'ydieresis', 'z', 'ordfeminine', 'ordmasculine', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni066E', 'uni066E.fina', 'uni066E.medi', 'uni066E.init', 'uni0628', 'uniFE90', 'uniFE92', 'uniFE91', 'uni062A', 'uniFE96', 'uniFE98', 'uniFE97', 'uni062B', 'uniFE9A', 'uniFE9C', 'uniFE9B', 'uniFEA0', 'uniFE9F', 'uni062D', 'uniFEA2', 'uniFEA4', 'uniFEA3', 'uni062E', 'uniFEA6', 'uniFEA8', 'uniFEA7', 'uni062F', 'uniFEAA', 'uni0630', 'uniFEAC', 'uni0631', 'uni0633', 'uniFEB2', 'uniFEB4', 'uniFEB3', 'uni0634', 'uniFEB6', 'uniFEB8', 'uniFEB7', 'uniFECC', 'uniFED3', 'uni06A1.init', 'uniFEDC', 'uniFEDB', 'uni0646', 'uniFEE6', 'uniFEE8', 'uniFEE7', 'uni06BA', 'uniFB9F', 'uni0648', 'uniFEEE', 'uniFEF4', 'uniFEF3', 'uni0640', 'uniFEFB', 'uniFEFC', 'uni0660', 'uni0661', 'uni0662', 'uni0663', 'uni0664', 'uni0665', 'uni0666', 'uni0667', 'uni0668', 'uni0669', 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'fraction', 'onehalf', 'onequarter', 'threequarters', 'uni00B9', 'uni00B2', 'uni00B3', 'uni2074', 'space', 'uni00A0', 'period', 'comma', 'colon', 'semicolon', 'ellipsis', 'exclam', 'exclamdown', 'question', 'questiondown', 'periodcentered', 'bullet', 'asterisk', 'numbersign', 'slash', 'backslash', 'hyphen', 'endash', 'emdash', 'underscore', 'parenleft', 'parenright', 'braceleft', 'braceright', 'bracketleft', 'bracketright', 'quotesinglbase', 'quotedblbase', 'quotedblleft', 'quotedblright', 'quoteleft', 'quoteright', 'guillemotleft', 'guillemotright', 'guilsinglleft', 'guilsinglright', 'quotedbl', 'quotesingle', 'at', 'ampersand', 'paragraph', 'section', 'copyright', 'registered', 'degree', 'bar', 'brokenbar', 'cent', 'dollar', 'Euro', 'sterling', 'yen', 'plus', 'minus', 'multiply', 'divide', 'equal', 'greater', 'less', 'plusminus', 'asciitilde', 'asciicircum', 'newGlyph', 'percent', 'dieresis', 'grave', 'acute', 'circumflex', 'ring', 'tilde', 'macron', 'cedilla'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
@@ -416,26 +384,26 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- miniKehehar
+	- threedotsdownabovear
+	- threedotsupbelowar
+	- uniFEF9
+	- threedotsdowncenterar
+	- uniFE9F
+	- uniFEFB
+	- dotcenterar
+	- uniFEF3
+	- doublestrokear
+	- twodotsverticalbelowar
+	- lam_alefWaslaar
 	- twodotsverticalabovear
+	- gafsarkashabovear
+	- uniFEF7
 	- waslaar
 	- uniFEA0
-	- threedotsdownabovear
-	- threedotsdownbelowar
-	- twodotsverticalbelowar
-	- uniFE9F
 	- uniFEF5
-	- threedotsupbelowar
-	- uniFEF7
-	- gafsarkashabovear
-	- gafsarkashcenterar
-	- uniFEFB
-	- uniFEF3
-	- uniFEF9
-	- lam_alefWaslaar
-	- miniKehehar
-	- threedotsdowncenterar
-	- doublestrokear 
-	- And dotcenterar
+	- threedotsdownbelowar 
+	- And gafsarkashcenterar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -457,10 +425,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -519,14 +483,9 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
  * newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] HasubiMono-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] HasubiMono-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 965, but got 945 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
-
-
-* 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
 * ⚠ **WARN** Font is monospaced but 244 glyphs (63.87%) have a different width. You should check the widths of: ['A', 'Aacute', 'Acircumflex', 'Adieresis', 'Agrave', 'Aring', 'Atilde', 'B', 'C', 'Ccedilla', 'D', 'Eth', 'E', 'Eacute', 'Ecircumflex', 'Edieresis', 'Egrave', 'F', 'G', 'H', 'I', 'Iacute', 'Icircumflex', 'Idieresis', 'Igrave', 'J', 'K', 'L', 'M', 'N', 'Ntilde', 'O', 'Oacute', 'Ocircumflex', 'Odieresis', 'Ograve', 'Oslash', 'Otilde', 'OE', 'P', 'Thorn', 'Q', 'R', 'S', 'T', 'U', 'Uacute', 'Ucircumflex', 'Udieresis', 'Ugrave', 'V', 'W', 'X', 'Y', 'Yacute', 'Z', 'a', 'aacute', 'acircumflex', 'adieresis', 'agrave', 'aring', 'atilde', 'ae', 'b', 'c', 'ccedilla', 'd', 'eth', 'e', 'eacute', 'ecircumflex', 'edieresis', 'egrave', 'f', 'g', 'h', 'i', 'dotlessi', 'iacute', 'icircumflex', 'idieresis', 'igrave', 'j', 'k', 'l', 'm', 'n', 'ntilde', 'o', 'oacute', 'ocircumflex', 'odieresis', 'ograve', 'oslash', 'otilde', 'oe', 'p', 'thorn', 'q', 'r', 's', 'germandbls', 't', 'u', 'uacute', 'ucircumflex', 'udieresis', 'ugrave', 'v', 'w', 'x', 'y', 'yacute', 'ydieresis', 'z', 'ordfeminine', 'ordmasculine', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni066E.medi', 'uniFE92', 'uniFE98', 'uniFE9C', 'uniFED3', 'uni06A1.init', 'uniFEDC', 'uniFEDB', 'uni0646', 'uniFEE6', 'uniFEE8', 'uni06BA', 'uniFB9F', 'uni0648', 'uniFEEE', 'uniFEF4', 'uni0640', 'uniFEFB', 'uniFEFC', 'uni0660', 'uni0661', 'uni0662', 'uni0663', 'uni0664', 'uni0665', 'uni0666', 'uni0667', 'uni0668', 'uni0669', 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'fraction', 'onehalf', 'onequarter', 'threequarters', 'uni00B9', 'uni00B2', 'uni00B3', 'uni2074', 'space', 'uni00A0', 'period', 'comma', 'colon', 'semicolon', 'ellipsis', 'exclam', 'exclamdown', 'question', 'questiondown', 'periodcentered', 'bullet', 'asterisk', 'numbersign', 'slash', 'backslash', 'hyphen', 'endash', 'emdash', 'underscore', 'parenleft', 'parenright', 'braceleft', 'braceright', 'bracketleft', 'bracketright', 'quotesinglbase', 'quotedblbase', 'quotedblleft', 'quotedblright', 'quoteleft', 'quoteright', 'guillemotright', 'guilsinglleft', 'guilsinglright', 'quotedbl', 'quotesingle', 'at', 'ampersand', 'paragraph', 'section', 'copyright', 'registered', 'degree', 'bar', 'brokenbar', 'cent', 'dollar', 'Euro', 'sterling', 'yen', 'plus', 'minus', 'multiply', 'divide', 'equal', 'greater', 'less', 'plusminus', 'asciitilde', 'asciicircum', 'newGlyph', 'percent', 'dieresis', 'grave', 'acute', 'circumflex', 'ring', 'tilde', 'macron', 'cedilla'] [code: mono-outliers]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
@@ -547,26 +506,26 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- miniKehehar
+	- threedotsdownabovear
+	- threedotsupbelowar
+	- uniFEF9
+	- threedotsdowncenterar
+	- uniFE9F
+	- uniFEFB
+	- dotcenterar
+	- uniFEF3
+	- doublestrokear
+	- twodotsverticalbelowar
+	- lam_alefWaslaar
 	- twodotsverticalabovear
+	- gafsarkashabovear
+	- uniFEF7
 	- waslaar
 	- uniFEA0
-	- threedotsdownabovear
-	- threedotsdownbelowar
-	- twodotsverticalbelowar
-	- uniFE9F
 	- uniFEF5
-	- threedotsupbelowar
-	- uniFEF7
-	- gafsarkashabovear
-	- gafsarkashcenterar
-	- uniFEFB
-	- uniFEF3
-	- uniFEF9
-	- lam_alefWaslaar
-	- miniKehehar
-	- threedotsdowncenterar
-	- doublestrokear 
-	- And dotcenterar
+	- threedotsdownbelowar 
+	- And gafsarkashcenterar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -588,10 +547,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -644,14 +599,9 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
  * newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] HasubiMono-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] HasubiMono-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 965, but got 945 instead [code: ascent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
-
-
-* 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
 * ⚠ **WARN** Font is monospaced but 43 glyphs (11.26%) have a different width. You should check the widths of: ['AE', 'uni0635', 'uniFEBA', 'uniFEBC', 'uniFEBB', 'uni0639', 'uniFECA', 'uniFECB', 'uni0641', 'uniFED2', 'uni06A4', 'uni06A1', 'uni06A1.fina', 'uni06A1.medi', 'uni066F', 'uni066F.fina', 'uni0643', 'uniFEDA', 'uni0647', 'uniFEEA', 'uniFEEC', 'uniFEEB', 'uni0624', 'uniFE86', 'uni0649', 'uniFEF0', 'uni064A', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'uniFEF7', 'uniFEF8', 'uniFEF9', 'uniFEFA', 'uniFEF5', 'uniFEF6', 'lam_alefWaslaar', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'logicalnot'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
@@ -667,26 +617,26 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+	- miniKehehar
+	- threedotsdownabovear
+	- threedotsupbelowar
+	- uniFEF9
+	- threedotsdowncenterar
+	- uniFE9F
+	- uniFEFB
+	- dotcenterar
+	- uniFEF3
+	- doublestrokear
+	- twodotsverticalbelowar
+	- lam_alefWaslaar
 	- twodotsverticalabovear
+	- gafsarkashabovear
+	- uniFEF7
 	- waslaar
 	- uniFEA0
-	- threedotsdownabovear
-	- threedotsdownbelowar
-	- twodotsverticalbelowar
-	- uniFE9F
 	- uniFEF5
-	- threedotsupbelowar
-	- uniFEF7
-	- gafsarkashabovear
-	- gafsarkashcenterar
-	- uniFEFB
-	- uniFEF3
-	- uniFEF9
-	- lam_alefWaslaar
-	- miniKehehar
-	- threedotsdowncenterar
-	- doublestrokear 
-	- And dotcenterar
+	- threedotsdownbelowar 
+	- And gafsarkashcenterar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -708,10 +658,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
-
-
-* ⚠ **WARN** GPOS table lacks kerning information. [code: lacks-kern-info]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -773,8 +719,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 13 | 55 | 639 | 37 | 526 | 0 |
-| 0% | 1% | 4% | 50% | 3% | 41% | 0% |
+| 0 | 7 | 49 | 639 | 37 | 538 | 0 |
+| 0% | 1% | 4% | 50% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
