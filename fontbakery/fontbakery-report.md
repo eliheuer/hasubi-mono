@@ -20,26 +20,26 @@ Fontbakery version: 0.8.8
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- miniKehehar
-	- threedotsdownabovear
-	- threedotsupbelowar
-	- uniFEF9
-	- threedotsdowncenterar
-	- uniFE9F
-	- uniFEFB
+	- threedotsdownbelowar
+	- twodotsverticalbelowar
 	- dotcenterar
 	- uniFEF3
+	- uniFEF9
 	- doublestrokear
-	- twodotsverticalbelowar
-	- lam_alefWaslaar
 	- twodotsverticalabovear
+	- threedotsdowncenterar
 	- gafsarkashabovear
-	- uniFEF7
+	- uniFE9F
 	- waslaar
-	- uniFEA0
+	- threedotsdownabovear
 	- uniFEF5
-	- threedotsdownbelowar 
-	- And gafsarkashcenterar
+	- miniKehehar
+	- uniFEA0
+	- uniFEFB
+	- lam_alefWaslaar
+	- gafsarkashcenterar
+	- uniFEF7 
+	- And threedotsupbelowar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -141,26 +141,26 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- miniKehehar
-	- threedotsdownabovear
-	- threedotsupbelowar
-	- uniFEF9
-	- threedotsdowncenterar
-	- uniFE9F
-	- uniFEFB
+	- threedotsdownbelowar
+	- twodotsverticalbelowar
 	- dotcenterar
 	- uniFEF3
+	- uniFEF9
 	- doublestrokear
-	- twodotsverticalbelowar
-	- lam_alefWaslaar
 	- twodotsverticalabovear
+	- threedotsdowncenterar
 	- gafsarkashabovear
-	- uniFEF7
+	- uniFE9F
 	- waslaar
-	- uniFEA0
+	- threedotsdownabovear
 	- uniFEF5
-	- threedotsdownbelowar 
-	- And gafsarkashcenterar
+	- miniKehehar
+	- uniFEA0
+	- uniFEFB
+	- lam_alefWaslaar
+	- gafsarkashcenterar
+	- uniFEF7 
+	- And threedotsupbelowar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -264,26 +264,26 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- miniKehehar
-	- threedotsdownabovear
-	- threedotsupbelowar
-	- uniFEF9
-	- threedotsdowncenterar
-	- uniFE9F
-	- uniFEFB
+	- threedotsdownbelowar
+	- twodotsverticalbelowar
 	- dotcenterar
 	- uniFEF3
+	- uniFEF9
 	- doublestrokear
-	- twodotsverticalbelowar
-	- lam_alefWaslaar
 	- twodotsverticalabovear
+	- threedotsdowncenterar
 	- gafsarkashabovear
-	- uniFEF7
+	- uniFE9F
 	- waslaar
-	- uniFEA0
+	- threedotsdownabovear
 	- uniFEF5
-	- threedotsdownbelowar 
-	- And gafsarkashcenterar
+	- miniKehehar
+	- uniFEA0
+	- uniFEFB
+	- lam_alefWaslaar
+	- gafsarkashcenterar
+	- uniFEF7 
+	- And threedotsupbelowar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -384,26 +384,26 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- miniKehehar
-	- threedotsdownabovear
-	- threedotsupbelowar
-	- uniFEF9
-	- threedotsdowncenterar
-	- uniFE9F
-	- uniFEFB
+	- threedotsdownbelowar
+	- twodotsverticalbelowar
 	- dotcenterar
 	- uniFEF3
+	- uniFEF9
 	- doublestrokear
-	- twodotsverticalbelowar
-	- lam_alefWaslaar
 	- twodotsverticalabovear
+	- threedotsdowncenterar
 	- gafsarkashabovear
-	- uniFEF7
+	- uniFE9F
 	- waslaar
-	- uniFEA0
+	- threedotsdownabovear
 	- uniFEF5
-	- threedotsdownbelowar 
-	- And gafsarkashcenterar
+	- miniKehehar
+	- uniFEA0
+	- uniFEFB
+	- lam_alefWaslaar
+	- gafsarkashcenterar
+	- uniFEF7 
+	- And threedotsupbelowar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -483,16 +483,11 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
  * newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] HasubiMono-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] HasubiMono-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
 * ⚠ **WARN** Font is monospaced but 244 glyphs (63.87%) have a different width. You should check the widths of: ['A', 'Aacute', 'Acircumflex', 'Adieresis', 'Agrave', 'Aring', 'Atilde', 'B', 'C', 'Ccedilla', 'D', 'Eth', 'E', 'Eacute', 'Ecircumflex', 'Edieresis', 'Egrave', 'F', 'G', 'H', 'I', 'Iacute', 'Icircumflex', 'Idieresis', 'Igrave', 'J', 'K', 'L', 'M', 'N', 'Ntilde', 'O', 'Oacute', 'Ocircumflex', 'Odieresis', 'Ograve', 'Oslash', 'Otilde', 'OE', 'P', 'Thorn', 'Q', 'R', 'S', 'T', 'U', 'Uacute', 'Ucircumflex', 'Udieresis', 'Ugrave', 'V', 'W', 'X', 'Y', 'Yacute', 'Z', 'a', 'aacute', 'acircumflex', 'adieresis', 'agrave', 'aring', 'atilde', 'ae', 'b', 'c', 'ccedilla', 'd', 'eth', 'e', 'eacute', 'ecircumflex', 'edieresis', 'egrave', 'f', 'g', 'h', 'i', 'dotlessi', 'iacute', 'icircumflex', 'idieresis', 'igrave', 'j', 'k', 'l', 'm', 'n', 'ntilde', 'o', 'oacute', 'ocircumflex', 'odieresis', 'ograve', 'oslash', 'otilde', 'oe', 'p', 'thorn', 'q', 'r', 's', 'germandbls', 't', 'u', 'uacute', 'ucircumflex', 'udieresis', 'ugrave', 'v', 'w', 'x', 'y', 'yacute', 'ydieresis', 'z', 'ordfeminine', 'ordmasculine', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni066E.medi', 'uniFE92', 'uniFE98', 'uniFE9C', 'uniFED3', 'uni06A1.init', 'uniFEDC', 'uniFEDB', 'uni0646', 'uniFEE6', 'uniFEE8', 'uni06BA', 'uniFB9F', 'uni0648', 'uniFEEE', 'uniFEF4', 'uni0640', 'uniFEFB', 'uniFEFC', 'uni0660', 'uni0661', 'uni0662', 'uni0663', 'uni0664', 'uni0665', 'uni0666', 'uni0667', 'uni0668', 'uni0669', 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'fraction', 'onehalf', 'onequarter', 'threequarters', 'uni00B9', 'uni00B2', 'uni00B3', 'uni2074', 'space', 'uni00A0', 'period', 'comma', 'colon', 'semicolon', 'ellipsis', 'exclam', 'exclamdown', 'question', 'questiondown', 'periodcentered', 'bullet', 'asterisk', 'numbersign', 'slash', 'backslash', 'hyphen', 'endash', 'emdash', 'underscore', 'parenleft', 'parenright', 'braceleft', 'braceright', 'bracketleft', 'bracketright', 'quotesinglbase', 'quotedblbase', 'quotedblleft', 'quotedblright', 'quoteleft', 'quoteright', 'guillemotright', 'guilsinglleft', 'guilsinglright', 'quotedbl', 'quotesingle', 'at', 'ampersand', 'paragraph', 'section', 'copyright', 'registered', 'degree', 'bar', 'brokenbar', 'cent', 'dollar', 'Euro', 'sterling', 'yen', 'plus', 'minus', 'multiply', 'divide', 'equal', 'greater', 'less', 'plusminus', 'asciitilde', 'asciicircum', 'newGlyph', 'percent', 'dieresis', 'grave', 'acute', 'circumflex', 'ring', 'tilde', 'macron', 'cedilla'] [code: mono-outliers]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -506,26 +501,26 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- miniKehehar
-	- threedotsdownabovear
-	- threedotsupbelowar
-	- uniFEF9
-	- threedotsdowncenterar
-	- uniFE9F
-	- uniFEFB
+	- threedotsdownbelowar
+	- twodotsverticalbelowar
 	- dotcenterar
 	- uniFEF3
+	- uniFEF9
 	- doublestrokear
-	- twodotsverticalbelowar
-	- lam_alefWaslaar
 	- twodotsverticalabovear
+	- threedotsdowncenterar
 	- gafsarkashabovear
-	- uniFEF7
+	- uniFE9F
 	- waslaar
-	- uniFEA0
+	- threedotsdownabovear
 	- uniFEF5
-	- threedotsdownbelowar 
-	- And gafsarkashcenterar
+	- miniKehehar
+	- uniFEA0
+	- uniFEFB
+	- lam_alefWaslaar
+	- gafsarkashcenterar
+	- uniFEF7 
+	- And threedotsupbelowar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -617,26 +612,26 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- miniKehehar
-	- threedotsdownabovear
-	- threedotsupbelowar
-	- uniFEF9
-	- threedotsdowncenterar
-	- uniFE9F
-	- uniFEFB
+	- threedotsdownbelowar
+	- twodotsverticalbelowar
 	- dotcenterar
 	- uniFEF3
+	- uniFEF9
 	- doublestrokear
-	- twodotsverticalbelowar
-	- lam_alefWaslaar
 	- twodotsverticalabovear
+	- threedotsdowncenterar
 	- gafsarkashabovear
-	- uniFEF7
+	- uniFE9F
 	- waslaar
-	- uniFEA0
+	- threedotsdownabovear
 	- uniFEF5
-	- threedotsdownbelowar 
-	- And gafsarkashcenterar
+	- miniKehehar
+	- uniFEA0
+	- uniFEFB
+	- lam_alefWaslaar
+	- gafsarkashcenterar
+	- uniFEF7 
+	- And threedotsupbelowar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -719,8 +714,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 7 | 49 | 639 | 37 | 538 | 0 |
-| 0% | 1% | 4% | 50% | 3% | 42% | 0% |
+| 0 | 6 | 49 | 639 | 37 | 539 | 0 |
+| 0% | 0% | 4% | 50% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
