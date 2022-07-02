@@ -91,7 +91,7 @@ stringbrewer==0.0.1
 tabulate==0.8.9
 toml==0.10.2
 ttfautohint-py==0.5.1
-typing-extensions==4.2.0
+typing_extensions==4.2.0
 ufo2ft==2.27.0
 ufoLib2==0.13.1
 ufolint==1.2.0
