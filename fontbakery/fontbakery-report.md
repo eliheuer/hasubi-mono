@@ -2,26 +2,64 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[12] HasubiMono-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[1] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Each font in a family must have the same set of vertical metrics values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/vertical_metrics">com.google.fonts/check/family/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
+* 🔥 **FAIL** sTypoAscender is not the same across the family:
+Hasubi Mono ExtraBold: 936
+Hasubi Mono Medium: 939
+Hasubi Mono Bold: 937
+Hasubi Mono Black: 935
+Hasubi Mono SemiBold: 938
+Hasubi Mono Regular: 940 [code: sTypoAscender-mismatch]
+* 🔥 **FAIL** sTypoDescender is not the same across the family:
+Hasubi Mono ExtraBold: -253
+Hasubi Mono Medium: -258
+Hasubi Mono Bold: -255
+Hasubi Mono Black: -250
+Hasubi Mono SemiBold: -256
+Hasubi Mono Regular: -260 [code: sTypoDescender-mismatch]
+* 🔥 **FAIL** usWinAscent is not the same across the family:
+Hasubi Mono ExtraBold: 958
+Hasubi Mono Medium: 944
+Hasubi Mono Bold: 953
+Hasubi Mono Black: 965
+Hasubi Mono SemiBold: 949
+Hasubi Mono Regular: 940 [code: usWinAscent-mismatch]
+* 🔥 **FAIL** usWinDescent is not the same across the family:
+Hasubi Mono ExtraBold: 322
+Hasubi Mono Medium: 351
+Hasubi Mono Bold: 332
+Hasubi Mono Black: 307
+Hasubi Mono SemiBold: 341
+Hasubi Mono Regular: 360 [code: usWinDescent-mismatch]
+* 🔥 **FAIL** ascent is not the same across the family:
+Hasubi Mono ExtraBold: 936
+Hasubi Mono Medium: 939
+Hasubi Mono Bold: 937
+Hasubi Mono Black: 935
+Hasubi Mono SemiBold: 938
+Hasubi Mono Regular: 940 [code: ascent-mismatch]
+* 🔥 **FAIL** descent is not the same across the family:
+Hasubi Mono ExtraBold: -253
+Hasubi Mono Medium: -258
+Hasubi Mono Bold: -255
+Hasubi Mono Black: -250
+Hasubi Mono SemiBold: -256
+Hasubi Mono Regular: -260 [code: descent-mismatch]
+</div></details><br></div></details><details><summary><b>[11] HasubiMono-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
-	- 0x02DB (OGONEK)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
-
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1185 when it should be at least 1200 [code: bad-hhea-range]
+* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1189 when it should be at least 1200 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 334, but got 307 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 334, but got 322 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 50 glyphs (8.42%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'uni0145', 'Eng', 'uni0156', 'aogonek', 'dcaron', 'dcroat', 'eogonek', 'uni0123', 'hbar', 'ij', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uogonek', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'trademark', 'logicalnot'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 51 glyphs (8.57%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'uni0145', 'Eng', 'uni0156', 'aogonek', 'dcaron', 'dcroat', 'eogonek', 'uni0123', 'hbar', 'ij', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uogonek', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'trademark', 'logicalnot', 'ogonek'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -250,6 +288,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni021B	Contours detected: 0	Expected: 2
 
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
+
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0326	Contours detected: 0	Expected: 1
@@ -295,6 +335,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: onehalf	Contours detected: 1	Expected: 3
 
@@ -438,26 +480,19 @@ The following glyphs do not have the recommended number of contours:
 	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> 
 
 	* And uniFEF4 (U+FEF4): L<<324.0,126.0>--<488.0,125.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] HasubiMono-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] HasubiMono-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x02DB (OGONEK)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1185 when it should be at least 1200 [code: bad-hhea-range]
+* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1197 when it should be at least 1200 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 334, but got 307 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 952, but got 944 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 50 glyphs (8.42%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'uni0145', 'Eng', 'uni0156', 'aogonek', 'dcaron', 'dcroat', 'eogonek', 'uni0123', 'hbar', 'ij', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uogonek', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'trademark', 'logicalnot'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 51 glyphs (8.57%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'uni0145', 'Eng', 'uni0156', 'aogonek', 'dcaron', 'dcroat', 'eogonek', 'uni0123', 'hbar', 'ij', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uogonek', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'trademark', 'logicalnot', 'ogonek'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -679,6 +714,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni021B	Contours detected: 0	Expected: 2
 
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
+
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0326	Contours detected: 0	Expected: 1
@@ -724,6 +761,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: onehalf	Contours detected: 1	Expected: 3
 
@@ -835,26 +874,19 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] HasubiMono-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] HasubiMono-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x02DB (OGONEK)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1185 when it should be at least 1200 [code: bad-hhea-range]
+* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1192 when it should be at least 1200 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 334, but got 307 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 334, but got 332 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 50 glyphs (8.42%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'uni0145', 'Eng', 'uni0156', 'aogonek', 'dcaron', 'dcroat', 'eogonek', 'uni0123', 'hbar', 'ij', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uogonek', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'trademark', 'logicalnot'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 51 glyphs (8.57%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'uni0145', 'Eng', 'uni0156', 'aogonek', 'dcaron', 'dcroat', 'eogonek', 'uni0123', 'hbar', 'ij', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uogonek', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'trademark', 'logicalnot', 'ogonek'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1076,6 +1108,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni021B	Contours detected: 0	Expected: 2
 
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
+
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0326	Contours detected: 0	Expected: 1
@@ -1121,6 +1155,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: onehalf	Contours detected: 1	Expected: 3
 
@@ -1178,210 +1214,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* ampersand (U+0026): X=233.5,Y=1.5 (should be at baseline 0?)
-
-	* parenleft (U+0028): X=224.0,Y=1.0 (should be at baseline 0?)
-
-	* parenright (U+0029): X=296.0,Y=1.0 (should be at baseline 0?)
-
-	* at (U+0040): X=349.5,Y=705.5 (should be at cap-height 704?)
-
-	* a (U+0061): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* a (U+0061): X=340.0,Y=510.0 (should be at x-height 512?)
-
-	* b (U+0062): X=212.5,Y=513.0 (should be at x-height 512?)
-
-	* b (U+0062): X=214.5,Y=-0.5 (should be at baseline 0?)
-
-	* d (U+0064): X=297.5,Y=-0.5 (should be at baseline 0?)
-
-	* d (U+0064): X=299.5,Y=513.0 (should be at x-height 512?)
-
-	* j (U+006A): X=242.5,Y=702.0 (should be at cap-height 704?)
-
-	* j (U+006A): X=333.5,Y=702.0 (should be at cap-height 704?)
-
-	* m (U+006D): X=166.0,Y=510.5 (should be at x-height 512?)
-
-	* m (U+006D): X=257.0,Y=510.5 (should be at x-height 512?)
-
-	* m (U+006D): X=321.0,Y=510.5 (should be at x-height 512?)
-
-	* p (U+0070): X=195.0,Y=510.0 (should be at x-height 512?)
-
-	* q (U+0071): X=317.5,Y=510.0 (should be at x-height 512?)
-
-	* s (U+0073): X=170.0,Y=-1.0 (should be at baseline 0?)
-
-	* s (U+0073): X=351.0,Y=-2.0 (should be at baseline 0?)
-
-	* copyright (U+00A9): X=370.0,Y=-0.5 (should be at baseline 0?)
-
-	* copyright (U+00A9): X=142.5,Y=-0.5 (should be at baseline 0?)
-
-	* newGlyph (U+00B5): X=184.0,Y=-1.5 (should be at baseline 0?)
-
-	* agrave (U+00E0): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* aacute (U+00E1): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* acircumflex (U+00E2): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* atilde (U+00E3): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* adieresis (U+00E4): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* aring (U+00E5): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* aring (U+00E5): X=193.5,Y=705.0 (should be at cap-height 704?)
-
-	* aring (U+00E5): X=306.5,Y=705.0 (should be at cap-height 704?)
-
-	* ae (U+00E6): X=461.5,Y=1.5 (should be at baseline 0?)
-
-	* ae (U+00E6): X=38.5,Y=0.5 (should be at baseline 0?)
-
-	* eth (U+00F0): X=299.5,Y=1.0 (should be at baseline 0?)
-
-	* thorn (U+00FE): X=212.5,Y=1.0 (should be at baseline 0?)
-
-	* amacron (U+0101): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* abreve (U+0103): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* abreve (U+0103): X=135.0,Y=706.0 (should be at cap-height 704?)
-
-	* abreve (U+0103): X=188.0,Y=706.0 (should be at cap-height 704?)
-
-	* abreve (U+0103): X=302.0,Y=706.0 (should be at cap-height 704?)
-
-	* abreve (U+0103): X=355.0,Y=706.0 (should be at cap-height 704?)
-
-	* cdotaccent (U+010B): X=223.0,Y=703.5 (should be at cap-height 704?)
-
-	* cdotaccent (U+010B): X=302.5,Y=703.5 (should be at cap-height 704?)
-
-	* edotaccent (U+0117): X=216.0,Y=703.5 (should be at cap-height 704?)
-
-	* edotaccent (U+0117): X=295.5,Y=703.5 (should be at cap-height 704?)
-
-	* gbreve (U+011F): X=151.0,Y=706.0 (should be at cap-height 704?)
-
-	* gbreve (U+011F): X=204.0,Y=706.0 (should be at cap-height 704?)
-
-	* gbreve (U+011F): X=318.0,Y=706.0 (should be at cap-height 704?)
-
-	* gbreve (U+011F): X=371.0,Y=706.0 (should be at cap-height 704?)
-
-	* gdotaccent (U+0121): X=226.0,Y=703.5 (should be at cap-height 704?)
-
-	* gdotaccent (U+0121): X=305.5,Y=703.5 (should be at cap-height 704?)
-
-	* ohungarumlaut (U+0151): X=302.0,Y=706.0 (should be at cap-height 704?)
-
-	* ohungarumlaut (U+0151): X=394.0,Y=706.0 (should be at cap-height 704?)
-
-	* ohungarumlaut (U+0151): X=159.0,Y=706.0 (should be at cap-height 704?)
-
-	* ohungarumlaut (U+0151): X=251.0,Y=706.0 (should be at cap-height 704?)
-
-	* oe (U+0153): X=455.5,Y=1.5 (should be at baseline 0?)
-
-	* oe (U+0153): X=221.0,Y=-2.0 (should be at baseline 0?)
-
-	* sacute (U+015B): X=170.0,Y=-1.0 (should be at baseline 0?)
-
-	* sacute (U+015B): X=351.0,Y=-2.0 (should be at baseline 0?)
-
-	* scaron (U+0161): X=170.0,Y=-1.0 (should be at baseline 0?)
-
-	* scaron (U+0161): X=351.0,Y=-2.0 (should be at baseline 0?)
-
-	* ubreve (U+016D): X=146.0,Y=706.0 (should be at cap-height 704?)
-
-	* ubreve (U+016D): X=199.0,Y=706.0 (should be at cap-height 704?)
-
-	* ubreve (U+016D): X=313.0,Y=706.0 (should be at cap-height 704?)
-
-	* ubreve (U+016D): X=366.0,Y=706.0 (should be at cap-height 704?)
-
-	* uring (U+016F): X=199.5,Y=705.0 (should be at cap-height 704?)
-
-	* uring (U+016F): X=312.5,Y=705.0 (should be at cap-height 704?)
-
-	* uhungarumlaut (U+0171): X=302.0,Y=706.0 (should be at cap-height 704?)
-
-	* uhungarumlaut (U+0171): X=394.0,Y=706.0 (should be at cap-height 704?)
-
-	* uhungarumlaut (U+0171): X=159.0,Y=706.0 (should be at cap-height 704?)
-
-	* uhungarumlaut (U+0171): X=251.0,Y=706.0 (should be at cap-height 704?)
-
-	* zdotaccent (U+017C): X=219.0,Y=703.5 (should be at cap-height 704?)
-
-	* zdotaccent (U+017C): X=298.5,Y=703.5 (should be at cap-height 704?)
-
-	* breve (U+02D8): X=146.0,Y=706.0 (should be at cap-height 704?)
-
-	* breve (U+02D8): X=199.0,Y=706.0 (should be at cap-height 704?)
-
-	* breve (U+02D8): X=313.0,Y=706.0 (should be at cap-height 704?)
-
-	* breve (U+02D8): X=366.0,Y=706.0 (should be at cap-height 704?)
-
-	* dotaccent (U+02D9): X=216.0,Y=703.5 (should be at cap-height 704?)
-
-	* dotaccent (U+02D9): X=295.5,Y=703.5 (should be at cap-height 704?)
-
-	* ring (U+02DA): X=199.5,Y=705.0 (should be at cap-height 704?)
-
-	* ring (U+02DA): X=312.5,Y=705.0 (should be at cap-height 704?)
-
-	* hungarumlaut (U+02DD): X=302.0,Y=706.0 (should be at cap-height 704?)
-
-	* hungarumlaut (U+02DD): X=394.0,Y=706.0 (should be at cap-height 704?)
-
-	* hungarumlaut (U+02DD): X=159.0,Y=706.0 (should be at cap-height 704?)
-
-	* hungarumlaut (U+02DD): X=251.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni0306 (U+0306): X=146.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni0306 (U+0306): X=199.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni0306 (U+0306): X=313.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni0306 (U+0306): X=366.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni0307 (U+0307): X=216.0,Y=703.5 (should be at cap-height 704?)
-
-	* uni0307 (U+0307): X=295.5,Y=703.5 (should be at cap-height 704?)
-
-	* uni030A (U+030A): X=199.5,Y=705.0 (should be at cap-height 704?)
-
-	* uni030A (U+030A): X=312.5,Y=705.0 (should be at cap-height 704?)
-
-	* uni030B (U+030B): X=302.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni030B (U+030B): X=394.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni030B (U+030B): X=159.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni030B (U+030B): X=251.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni0623 (U+0623): X=145.0,Y=705.0 (should be at cap-height 704?)
-
-	* uni0623 (U+0623): X=159.0,Y=705.0 (should be at cap-height 704?)
-
-	* uni0623 (U+0623): X=219.0,Y=705.0 (should be at cap-height 704?) 
-
-	* And uni0623 (U+0623): X=273.0,Y=705.0 (should be at cap-height 704?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1476,14 +1308,7 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] HasubiMono-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x02DB (OGONEK)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] HasubiMono-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
 * 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1185 when it should be at least 1200 [code: bad-hhea-range]
@@ -1495,7 +1320,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 36 glyphs (6.06%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'uni0156', 'aogonek', 'eogonek', 'hbar', 'ij', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'guillemotleft', 'logicalnot'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 36 glyphs (6.05%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'uni0156', 'aogonek', 'eogonek', 'hbar', 'ij', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'guillemotleft', 'logicalnot'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1717,6 +1542,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni021B	Contours detected: 0	Expected: 2
 
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
+
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0326	Contours detected: 0	Expected: 1
@@ -1762,6 +1589,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: onehalf	Contours detected: 1	Expected: 3
 
@@ -2047,26 +1876,19 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] HasubiMono-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] HasubiMono-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x02DB (OGONEK)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1185 when it should be at least 1200 [code: bad-hhea-range]
+* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1194 when it should be at least 1200 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 334, but got 307 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 952, but got 949 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 50 glyphs (8.42%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'uni0145', 'Eng', 'uni0156', 'aogonek', 'dcaron', 'dcroat', 'eogonek', 'uni0123', 'hbar', 'ij', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uogonek', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'trademark', 'logicalnot'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 51 glyphs (8.57%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'uni0145', 'Eng', 'uni0156', 'aogonek', 'dcaron', 'dcroat', 'eogonek', 'uni0123', 'hbar', 'ij', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uogonek', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'trademark', 'logicalnot', 'ogonek'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2288,6 +2110,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni021B	Contours detected: 0	Expected: 2
 
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
+
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0326	Contours detected: 0	Expected: 1
@@ -2333,6 +2157,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: onehalf	Contours detected: 1	Expected: 3
 
@@ -2476,26 +2302,15 @@ The following glyphs do not have the recommended number of contours:
 	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> 
 
 	* And uniFEF4 (U+FEF4): L<<314.0,103.0>--<488.0,102.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] HasubiMono-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] HasubiMono-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x02DB (OGONEK)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** The sum of hhea.ascender+abs(hhea.descender)+hhea.lineGap is 1185 when it should be at least 1200 [code: bad-hhea-range]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 334, but got 307 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 952, but got 940 instead [code: ascent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 30 glyphs (5.05%) have a different width. You should check the widths of: ['AE', 'Lcaron', 'uni0145', 'Eng', 'dcaron', 'dcroat', 'uni0123', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uogonek', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'trademark', 'logicalnot'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 31 glyphs (5.21%) have a different width. You should check the widths of: ['AE', 'Lcaron', 'uni0145', 'Eng', 'dcaron', 'dcroat', 'uni0123', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uogonek', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'trademark', 'logicalnot', 'ogonek'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2717,6 +2532,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni021B	Contours detected: 0	Expected: 2
 
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
+
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0326	Contours detected: 0	Expected: 1
@@ -2762,6 +2579,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: onehalf	Contours detected: 1	Expected: 3
 
@@ -2856,8 +2675,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 24 | 45 | 668 | 37 | 513 | 0 |
-| 0% | 2% | 3% | 52% | 3% | 40% | 0% |
+| 0 | 18 | 44 | 668 | 37 | 520 | 0 |
+| 0% | 1% | 3% | 52% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
