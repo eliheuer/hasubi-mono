@@ -2,8 +2,7 @@
 .appVersion = "3140";
 .formatVersion = 3;
 DisplayStrings = (
-"أشهد يا إلهي بانك خلقتني   ",
-"ˇ˘"
+"أشهد يا إلهي بانك خلقتني   "
 );
 axes = (
 {
@@ -227,11 +226,11 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 935;
+value = 940;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -260;
 },
 {
 name = hheaLineGap;
@@ -239,11 +238,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 935;
+value = 940;
 },
 {
 name = typoDescender;
-value = -250;
+value = -260;
 },
 {
 name = typoLineGap;
@@ -255,11 +254,11 @@ value = -50;
 },
 {
 name = winAscent;
-value = 965;
+value = 940;
 },
 {
 name = winDescent;
-value = 307;
+value = 360;
 }
 );
 id = m01;
@@ -31343,6 +31342,21 @@ width = 512;
 }
 );
 unicode = 184;
+},
+{
+color = 0;
+glyphname = ogonek;
+layers = (
+{
+layerId = m01;
+width = 600;
+},
+{
+layerId = "4FBB1917-F682-4041-B654-F2E0D2EF1242";
+width = 512;
+}
+);
+unicode = 731;
 }
 );
 instances = (
