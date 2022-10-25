@@ -2,228 +2,12 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[13] HasubiMono-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[12] HasubiMono-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-	- 0x0304 (COMBINING MACRON)
-
-
-	- 0x02D9 (DOT ABOVE)
-
-
-	- 0x013B (LATIN CAPITAL LETTER L WITH CEDILLA)
-
-
-	- 0x015E (LATIN CAPITAL LETTER S WITH CEDILLA)
-
-
-	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
-	- 0x016A (LATIN CAPITAL LETTER U WITH MACRON)
-
-
-	- 0x0172 (LATIN CAPITAL LETTER U WITH OGONEK)
-
-
-	- 0x016E (LATIN CAPITAL LETTER U WITH RING ABOVE)
-
-
-	- 0x1EF2 (LATIN CAPITAL LETTER Y WITH GRAVE)
-
-
-	- 0x0101 (LATIN SMALL LETTER A WITH MACRON)
-
-
-	- 0x0105 (LATIN SMALL LETTER A WITH OGONEK)
-
-
-	- 0x0107 (LATIN SMALL LETTER C WITH ACUTE)
-
-
-	- 0x010D (LATIN SMALL LETTER C WITH CARON)
-
-
-	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
-
-
-	- 0x010F (LATIN SMALL LETTER D WITH CARON)
-
-
-	- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
-
-
-	- 0x011B (LATIN SMALL LETTER E WITH CARON)
-
-
-	- 0x0117 (LATIN SMALL LETTER E WITH DOT ABOVE)
-
-
-	- 0x0113 (LATIN SMALL LETTER E WITH MACRON)
-
-
-	- 0x0119 (LATIN SMALL LETTER E WITH OGONEK)
-
-
-	- 0x011F (LATIN SMALL LETTER G WITH BREVE)
-
-
-	- 0x0123 (LATIN SMALL LETTER G WITH CEDILLA)
-
-
-	- 0x0121 (LATIN SMALL LETTER G WITH DOT ABOVE)
-
-
-	- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-	- 0x0133 (LATIN SMALL LIGATURE IJ)
-
-
-	- 0x012B (LATIN SMALL LETTER I WITH MACRON)
-
-
-	- 0x012F (LATIN SMALL LETTER I WITH OGONEK)
-
-
-	- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-	- 0x0137 (LATIN SMALL LETTER K WITH CEDILLA)
-
-
-	- 0x013A (LATIN SMALL LETTER L WITH ACUTE)
-
-
-	- 0x013E (LATIN SMALL LETTER L WITH CARON)
-
-
-	- 0x013C (LATIN SMALL LETTER L WITH CEDILLA)
-
-
-	- 0x0142 (LATIN SMALL LETTER L WITH STROKE)
-
-
-	- 0x0144 (LATIN SMALL LETTER N WITH ACUTE)
-
-
-	- 0x0148 (LATIN SMALL LETTER N WITH CARON)
-
-
-	- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-
-
-	- 0x014B (LATIN SMALL LETTER ENG)
-
-
-	- 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
-
-
-	- 0x014D (LATIN SMALL LETTER O WITH MACRON)
-
-
-	- 0x0155 (LATIN SMALL LETTER R WITH ACUTE)
-
-
-	- 0x0159 (LATIN SMALL LETTER R WITH CARON)
-
-
-	- 0x0157 (LATIN SMALL LETTER R WITH CEDILLA)
-
-
-	- 0x015B (LATIN SMALL LETTER S WITH ACUTE)
-
-
-	- 0x0161 (LATIN SMALL LETTER S WITH CARON)
-
-
-	- 0x015F (LATIN SMALL LETTER S WITH CEDILLA)
-
-
-	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
-
-
-	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
-
-
-	- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
-
-
-	- 0x016D (LATIN SMALL LETTER U WITH BREVE)
-
-
-	- 0x0171 (LATIN SMALL LETTER U WITH DOUBLE ACUTE)
-
-
-	- 0x016B (LATIN SMALL LETTER U WITH MACRON)
-
-
-	- 0x0173 (LATIN SMALL LETTER U WITH OGONEK)
-
-
-	- 0x016F (LATIN SMALL LETTER U WITH RING ABOVE)
-
-
-	- 0x1E83 (LATIN SMALL LETTER W WITH ACUTE)
-
-
-	- 0x0175 (LATIN SMALL LETTER W WITH CIRCUMFLEX)
-
-
-	- 0x1E85 (LATIN SMALL LETTER W WITH DIAERESIS)
-
-
-	- 0x1E81 (LATIN SMALL LETTER W WITH GRAVE)
-
-
-	- 0x0177 (LATIN SMALL LETTER Y WITH CIRCUMFLEX)
-
-
-	- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
-
-
-	- 0x017A (LATIN SMALL LETTER Z WITH ACUTE)
-
-
-	- 0x017E (LATIN SMALL LETTER Z WITH CARON)
-
-
-	- 0x017C (LATIN SMALL LETTER Z WITH DOT ABOVE)
-
-
-	- 0x2122 (TRADE MARK SIGN)
-
-
-	- 0x0307 (COMBINING DOT ABOVE)
-
-
-	- 0x030C (COMBINING CARON)
-
-
-	- 0x0312 (COMBINING TURNED COMMA ABOVE)
-
-
-	- 0x0326 (COMBINING COMMA BELOW)
-
-
-	- 0x0327 (COMBINING CEDILLA)
-
-
-	- 0x0328 (COMBINING OGONEK)
-
-
-	- 0x02DD (DOUBLE ACUTE ACCENT)
-
-
-	- 0x02C7 (CARON)
- 
-
-	- And 0x02DB (OGONEK)
+	- 0x02DB (OGONEK)
  [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
@@ -237,7 +21,7 @@ Fontbakery version: 0.8.10
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 32 glyphs (6.13%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'Lslash', 'uni0145', 'Eng', 'uni0156', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'logicalnot'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 50 glyphs (8.42%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'uni0145', 'Eng', 'uni0156', 'aogonek', 'dcaron', 'dcroat', 'eogonek', 'uni0123', 'hbar', 'ij', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uogonek', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'trademark', 'logicalnot'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -396,29 +180,87 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
 	- Glyph name: uni0122	Contours detected: 1	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: Hbar	Contours detected: 0	Expected: 2
 
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
 	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
 
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
 	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
 
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
+
 	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 0	Expected: 1
 
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
 	- Glyph name: uni0145	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 0	Expected: 1
 
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
 	- Glyph name: uni0156	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+
+	- Glyph name: Scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0218	Contours detected: 0	Expected: 2
 
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
 	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 0	Expected: 1
 
@@ -431,6 +273,28 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
 
 	- Glyph name: onehalf	Contours detected: 1	Expected: 3
 
@@ -438,150 +302,56 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
 	- Glyph name: threequarters	Contours detected: 1	Expected: 3 or 4
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0122	Contours detected: 1	Expected: 2
 
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+
 	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0145	Contours detected: 0	Expected: 2
 
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
+
 	- Glyph name: uni0156	Contours detected: 0	Expected: 3
 
-	- Glyph name: uni0218	Contours detected: 0	Expected: 2 
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
 
-	- And Glyph name: uni021A	Contours detected: 0	Expected: 2
+	- Glyph name: uni0218	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1 
+
+	- And Glyph name: uogonek	Contours detected: 0	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* ampersand (U+0026): X=233.5,Y=1.5 (should be at baseline 0?)
-
-	* parenleft (U+0028): X=224.0,Y=1.0 (should be at baseline 0?)
-
-	* parenright (U+0029): X=296.0,Y=1.0 (should be at baseline 0?)
-
-	* at (U+0040): X=349.5,Y=705.5 (should be at cap-height 704?)
-
-	* W (U+0057): X=483.0,Y=702.0 (should be at cap-height 704?)
-
-	* backslash (U+005C): X=143.0,Y=702.0 (should be at cap-height 704?)
-
-	* a (U+0061): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* a (U+0061): X=340.0,Y=510.0 (should be at x-height 512?)
-
-	* b (U+0062): X=212.0,Y=514.0 (should be at x-height 512?)
-
-	* b (U+0062): X=215.5,Y=-1.0 (should be at baseline 0?)
-
-	* c (U+0063): X=354.5,Y=510.5 (should be at x-height 512?)
-
-	* d (U+0064): X=296.5,Y=-1.0 (should be at baseline 0?)
-
-	* d (U+0064): X=300.0,Y=514.0 (should be at x-height 512?)
-
-	* j (U+006A): X=242.5,Y=702.0 (should be at cap-height 704?)
-
-	* j (U+006A): X=333.5,Y=702.0 (should be at cap-height 704?)
-
-	* m (U+006D): X=166.0,Y=510.5 (should be at x-height 512?)
-
-	* m (U+006D): X=257.0,Y=510.5 (should be at x-height 512?)
-
-	* m (U+006D): X=321.0,Y=510.5 (should be at x-height 512?)
-
-	* p (U+0070): X=195.0,Y=510.0 (should be at x-height 512?)
-
-	* q (U+0071): X=317.5,Y=510.0 (should be at x-height 512?)
-
-	* s (U+0073): X=172.5,Y=-1.5 (should be at baseline 0?)
-
-	* s (U+0073): X=350.5,Y=-2.0 (should be at baseline 0?)
-
-	* w (U+0077): X=483.0,Y=510.0 (should be at x-height 512?)
-
-	* copyright (U+00A9): X=370.0,Y=-0.5 (should be at baseline 0?)
-
-	* copyright (U+00A9): X=142.5,Y=-0.5 (should be at baseline 0?)
-
-	* newGlyph (U+00B5): X=184.0,Y=-1.5 (should be at baseline 0?)
-
-	* agrave (U+00E0): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* aacute (U+00E1): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* acircumflex (U+00E2): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* atilde (U+00E3): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* adieresis (U+00E4): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* aring (U+00E5): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* aring (U+00E5): X=193.5,Y=705.0 (should be at cap-height 704?)
-
-	* aring (U+00E5): X=306.5,Y=705.0 (should be at cap-height 704?)
-
-	* ae (U+00E6): X=461.5,Y=1.5 (should be at baseline 0?)
-
-	* ae (U+00E6): X=38.5,Y=0.5 (should be at baseline 0?)
-
-	* eth (U+00F0): X=299.5,Y=1.0 (should be at baseline 0?)
-
-	* thorn (U+00FE): X=212.5,Y=1.0 (should be at baseline 0?)
-
-	* abreve (U+0103): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* abreve (U+0103): X=135.0,Y=706.0 (should be at cap-height 704?)
-
-	* abreve (U+0103): X=188.0,Y=706.0 (should be at cap-height 704?)
-
-	* abreve (U+0103): X=302.0,Y=706.0 (should be at cap-height 704?)
-
-	* abreve (U+0103): X=355.0,Y=706.0 (should be at cap-height 704?)
-
-	* oe (U+0153): X=455.5,Y=1.5 (should be at baseline 0?)
-
-	* oe (U+0153): X=221.0,Y=-2.0 (should be at baseline 0?)
-
-	* Wcircumflex (U+0174): X=483.0,Y=702.0 (should be at cap-height 704?)
-
-	* breve (U+02D8): X=146.0,Y=706.0 (should be at cap-height 704?)
-
-	* breve (U+02D8): X=199.0,Y=706.0 (should be at cap-height 704?)
-
-	* breve (U+02D8): X=313.0,Y=706.0 (should be at cap-height 704?)
-
-	* breve (U+02D8): X=366.0,Y=706.0 (should be at cap-height 704?)
-
-	* ring (U+02DA): X=199.5,Y=705.0 (should be at cap-height 704?)
-
-	* ring (U+02DA): X=312.5,Y=705.0 (should be at cap-height 704?)
-
-	* uni0306 (U+0306): X=146.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni0306 (U+0306): X=199.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni0306 (U+0306): X=313.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni0306 (U+0306): X=366.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni030A (U+030A): X=199.5,Y=705.0 (should be at cap-height 704?)
-
-	* uni030A (U+030A): X=312.5,Y=705.0 (should be at cap-height 704?)
-
-	* Wgrave (U+1E80): X=483.0,Y=702.0 (should be at cap-height 704?)
-
-	* Wacute (U+1E82): X=483.0,Y=702.0 (should be at cap-height 704?) 
-
-	* And Wdieresis (U+1E84): X=483.0,Y=702.0 (should be at cap-height 704?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -641,9 +411,25 @@ The following glyphs do not have the recommended number of contours:
 
 	* backslash (U+005C): L<<369.0,-206.0>--<278.0,56.0>> -> L<<278.0,56.0>--<66.0,698.0>>
 
-	* w (U+0077): L<<139.0,100.0>--<166.0,180.0>> -> L<<166.0,180.0>--<218.0,333.0>> 
+	* w (U+0077): L<<139.0,100.0>--<166.0,180.0>> -> L<<166.0,180.0>--<218.0,333.0>>
 
-	* And w (U+0077): L<<96.0,504.0>--<109.0,382.0>> -> L<<109.0,382.0>--<139.0,100.0>> [code: found-colinear-vectors]
+	* w (U+0077): L<<96.0,504.0>--<109.0,382.0>> -> L<<109.0,382.0>--<139.0,100.0>>
+
+	* wacute (U+1E83): L<<139.0,100.0>--<166.0,180.0>> -> L<<166.0,180.0>--<218.0,333.0>>
+
+	* wacute (U+1E83): L<<96.0,504.0>--<109.0,382.0>> -> L<<109.0,382.0>--<139.0,100.0>>
+
+	* wcircumflex (U+0175): L<<139.0,100.0>--<166.0,180.0>> -> L<<166.0,180.0>--<218.0,333.0>>
+
+	* wcircumflex (U+0175): L<<96.0,504.0>--<109.0,382.0>> -> L<<109.0,382.0>--<139.0,100.0>>
+
+	* wdieresis (U+1E85): L<<139.0,100.0>--<166.0,180.0>> -> L<<166.0,180.0>--<218.0,333.0>>
+
+	* wdieresis (U+1E85): L<<96.0,504.0>--<109.0,382.0>> -> L<<109.0,382.0>--<139.0,100.0>>
+
+	* wgrave (U+1E81): L<<139.0,100.0>--<166.0,180.0>> -> L<<166.0,180.0>--<218.0,333.0>> 
+
+	* And wgrave (U+1E81): L<<96.0,504.0>--<109.0,382.0>> -> L<<109.0,382.0>--<139.0,100.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -652,228 +438,12 @@ The following glyphs do not have the recommended number of contours:
 	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> 
 
 	* And uniFEF4 (U+FEF4): L<<324.0,126.0>--<488.0,125.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] HasubiMono-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] HasubiMono-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-	- 0x0304 (COMBINING MACRON)
-
-
-	- 0x02D9 (DOT ABOVE)
-
-
-	- 0x013B (LATIN CAPITAL LETTER L WITH CEDILLA)
-
-
-	- 0x015E (LATIN CAPITAL LETTER S WITH CEDILLA)
-
-
-	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
-	- 0x016A (LATIN CAPITAL LETTER U WITH MACRON)
-
-
-	- 0x0172 (LATIN CAPITAL LETTER U WITH OGONEK)
-
-
-	- 0x016E (LATIN CAPITAL LETTER U WITH RING ABOVE)
-
-
-	- 0x1EF2 (LATIN CAPITAL LETTER Y WITH GRAVE)
-
-
-	- 0x0101 (LATIN SMALL LETTER A WITH MACRON)
-
-
-	- 0x0105 (LATIN SMALL LETTER A WITH OGONEK)
-
-
-	- 0x0107 (LATIN SMALL LETTER C WITH ACUTE)
-
-
-	- 0x010D (LATIN SMALL LETTER C WITH CARON)
-
-
-	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
-
-
-	- 0x010F (LATIN SMALL LETTER D WITH CARON)
-
-
-	- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
-
-
-	- 0x011B (LATIN SMALL LETTER E WITH CARON)
-
-
-	- 0x0117 (LATIN SMALL LETTER E WITH DOT ABOVE)
-
-
-	- 0x0113 (LATIN SMALL LETTER E WITH MACRON)
-
-
-	- 0x0119 (LATIN SMALL LETTER E WITH OGONEK)
-
-
-	- 0x011F (LATIN SMALL LETTER G WITH BREVE)
-
-
-	- 0x0123 (LATIN SMALL LETTER G WITH CEDILLA)
-
-
-	- 0x0121 (LATIN SMALL LETTER G WITH DOT ABOVE)
-
-
-	- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-	- 0x0133 (LATIN SMALL LIGATURE IJ)
-
-
-	- 0x012B (LATIN SMALL LETTER I WITH MACRON)
-
-
-	- 0x012F (LATIN SMALL LETTER I WITH OGONEK)
-
-
-	- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-	- 0x0137 (LATIN SMALL LETTER K WITH CEDILLA)
-
-
-	- 0x013A (LATIN SMALL LETTER L WITH ACUTE)
-
-
-	- 0x013E (LATIN SMALL LETTER L WITH CARON)
-
-
-	- 0x013C (LATIN SMALL LETTER L WITH CEDILLA)
-
-
-	- 0x0142 (LATIN SMALL LETTER L WITH STROKE)
-
-
-	- 0x0144 (LATIN SMALL LETTER N WITH ACUTE)
-
-
-	- 0x0148 (LATIN SMALL LETTER N WITH CARON)
-
-
-	- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-
-
-	- 0x014B (LATIN SMALL LETTER ENG)
-
-
-	- 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
-
-
-	- 0x014D (LATIN SMALL LETTER O WITH MACRON)
-
-
-	- 0x0155 (LATIN SMALL LETTER R WITH ACUTE)
-
-
-	- 0x0159 (LATIN SMALL LETTER R WITH CARON)
-
-
-	- 0x0157 (LATIN SMALL LETTER R WITH CEDILLA)
-
-
-	- 0x015B (LATIN SMALL LETTER S WITH ACUTE)
-
-
-	- 0x0161 (LATIN SMALL LETTER S WITH CARON)
-
-
-	- 0x015F (LATIN SMALL LETTER S WITH CEDILLA)
-
-
-	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
-
-
-	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
-
-
-	- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
-
-
-	- 0x016D (LATIN SMALL LETTER U WITH BREVE)
-
-
-	- 0x0171 (LATIN SMALL LETTER U WITH DOUBLE ACUTE)
-
-
-	- 0x016B (LATIN SMALL LETTER U WITH MACRON)
-
-
-	- 0x0173 (LATIN SMALL LETTER U WITH OGONEK)
-
-
-	- 0x016F (LATIN SMALL LETTER U WITH RING ABOVE)
-
-
-	- 0x1E83 (LATIN SMALL LETTER W WITH ACUTE)
-
-
-	- 0x0175 (LATIN SMALL LETTER W WITH CIRCUMFLEX)
-
-
-	- 0x1E85 (LATIN SMALL LETTER W WITH DIAERESIS)
-
-
-	- 0x1E81 (LATIN SMALL LETTER W WITH GRAVE)
-
-
-	- 0x0177 (LATIN SMALL LETTER Y WITH CIRCUMFLEX)
-
-
-	- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
-
-
-	- 0x017A (LATIN SMALL LETTER Z WITH ACUTE)
-
-
-	- 0x017E (LATIN SMALL LETTER Z WITH CARON)
-
-
-	- 0x017C (LATIN SMALL LETTER Z WITH DOT ABOVE)
-
-
-	- 0x2122 (TRADE MARK SIGN)
-
-
-	- 0x0307 (COMBINING DOT ABOVE)
-
-
-	- 0x030C (COMBINING CARON)
-
-
-	- 0x0312 (COMBINING TURNED COMMA ABOVE)
-
-
-	- 0x0326 (COMBINING COMMA BELOW)
-
-
-	- 0x0327 (COMBINING CEDILLA)
-
-
-	- 0x0328 (COMBINING OGONEK)
-
-
-	- 0x02DD (DOUBLE ACUTE ACCENT)
-
-
-	- 0x02C7 (CARON)
- 
-
-	- And 0x02DB (OGONEK)
+	- 0x02DB (OGONEK)
  [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
@@ -887,7 +457,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 32 glyphs (6.13%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'Lslash', 'uni0145', 'Eng', 'uni0156', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'logicalnot'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 50 glyphs (8.42%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'uni0145', 'Eng', 'uni0156', 'aogonek', 'dcaron', 'dcroat', 'eogonek', 'uni0123', 'hbar', 'ij', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uogonek', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'trademark', 'logicalnot'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1039,29 +609,87 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
 	- Glyph name: uni0122	Contours detected: 1	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: Hbar	Contours detected: 0	Expected: 2
 
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
 	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
 
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
 	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
 
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
+
 	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 0	Expected: 1
 
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
 	- Glyph name: uni0145	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 0	Expected: 1
 
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
 	- Glyph name: uni0156	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+
+	- Glyph name: Scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0218	Contours detected: 0	Expected: 2
 
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
 	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 0	Expected: 1
 
@@ -1074,6 +702,28 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
 
 	- Glyph name: onehalf	Contours detected: 1	Expected: 3
 
@@ -1081,138 +731,56 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
 	- Glyph name: threequarters	Contours detected: 1	Expected: 3 or 4
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0122	Contours detected: 1	Expected: 2
 
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+
 	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0145	Contours detected: 0	Expected: 2
 
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
+
 	- Glyph name: uni0156	Contours detected: 0	Expected: 3
 
-	- Glyph name: uni0218	Contours detected: 0	Expected: 2 
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
 
-	- And Glyph name: uni021A	Contours detected: 0	Expected: 2
+	- Glyph name: uni0218	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1 
+
+	- And Glyph name: uogonek	Contours detected: 0	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* ampersand (U+0026): X=233.5,Y=1.5 (should be at baseline 0?)
-
-	* parenleft (U+0028): X=224.0,Y=1.0 (should be at baseline 0?)
-
-	* parenright (U+0029): X=296.0,Y=1.0 (should be at baseline 0?)
-
-	* at (U+0040): X=349.5,Y=705.5 (should be at cap-height 704?)
-
-	* W (U+0057): X=407.0,Y=703.0 (should be at cap-height 704?)
-
-	* backslash (U+005C): X=71.0,Y=703.0 (should be at cap-height 704?)
-
-	* a (U+0061): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* a (U+0061): X=340.0,Y=510.0 (should be at x-height 512?)
-
-	* j (U+006A): X=242.5,Y=702.0 (should be at cap-height 704?)
-
-	* j (U+006A): X=333.5,Y=702.0 (should be at cap-height 704?)
-
-	* m (U+006D): X=166.0,Y=510.5 (should be at x-height 512?)
-
-	* m (U+006D): X=257.0,Y=510.5 (should be at x-height 512?)
-
-	* m (U+006D): X=321.0,Y=510.5 (should be at x-height 512?)
-
-	* p (U+0070): X=195.0,Y=510.0 (should be at x-height 512?)
-
-	* q (U+0071): X=317.5,Y=510.0 (should be at x-height 512?)
-
-	* s (U+0073): X=351.5,Y=-2.0 (should be at baseline 0?)
-
-	* w (U+0077): X=416.0,Y=511.0 (should be at x-height 512?)
-
-	* copyright (U+00A9): X=370.0,Y=-0.5 (should be at baseline 0?)
-
-	* copyright (U+00A9): X=142.5,Y=-0.5 (should be at baseline 0?)
-
-	* newGlyph (U+00B5): X=184.0,Y=-1.5 (should be at baseline 0?)
-
-	* agrave (U+00E0): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* aacute (U+00E1): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* acircumflex (U+00E2): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* atilde (U+00E3): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* adieresis (U+00E4): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* aring (U+00E5): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* aring (U+00E5): X=193.5,Y=705.0 (should be at cap-height 704?)
-
-	* aring (U+00E5): X=306.5,Y=705.0 (should be at cap-height 704?)
-
-	* ae (U+00E6): X=461.5,Y=1.5 (should be at baseline 0?)
-
-	* ae (U+00E6): X=38.5,Y=0.5 (should be at baseline 0?)
-
-	* eth (U+00F0): X=299.5,Y=1.0 (should be at baseline 0?)
-
-	* thorn (U+00FE): X=212.5,Y=1.0 (should be at baseline 0?)
-
-	* abreve (U+0103): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* abreve (U+0103): X=135.0,Y=706.0 (should be at cap-height 704?)
-
-	* abreve (U+0103): X=188.0,Y=706.0 (should be at cap-height 704?)
-
-	* abreve (U+0103): X=302.0,Y=706.0 (should be at cap-height 704?)
-
-	* abreve (U+0103): X=355.0,Y=706.0 (should be at cap-height 704?)
-
-	* oe (U+0153): X=455.5,Y=1.5 (should be at baseline 0?)
-
-	* oe (U+0153): X=221.0,Y=-2.0 (should be at baseline 0?)
-
-	* Wcircumflex (U+0174): X=407.0,Y=703.0 (should be at cap-height 704?)
-
-	* breve (U+02D8): X=146.0,Y=706.0 (should be at cap-height 704?)
-
-	* breve (U+02D8): X=199.0,Y=706.0 (should be at cap-height 704?)
-
-	* breve (U+02D8): X=313.0,Y=706.0 (should be at cap-height 704?)
-
-	* breve (U+02D8): X=366.0,Y=706.0 (should be at cap-height 704?)
-
-	* ring (U+02DA): X=199.5,Y=705.0 (should be at cap-height 704?)
-
-	* ring (U+02DA): X=312.5,Y=705.0 (should be at cap-height 704?)
-
-	* uni0306 (U+0306): X=146.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni0306 (U+0306): X=199.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni0306 (U+0306): X=313.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni0306 (U+0306): X=366.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni030A (U+030A): X=199.5,Y=705.0 (should be at cap-height 704?)
-
-	* uni030A (U+030A): X=312.5,Y=705.0 (should be at cap-height 704?)
-
-	* Wgrave (U+1E80): X=407.0,Y=703.0 (should be at cap-height 704?)
-
-	* Wacute (U+1E82): X=407.0,Y=703.0 (should be at cap-height 704?) 
-
-	* And Wdieresis (U+1E84): X=407.0,Y=703.0 (should be at cap-height 704?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1250,9 +818,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* backslash (U+005C): L<<148.0,697.0>--<395.0,-40.0>> -> L<<395.0,-40.0>--<441.0,-207.0>>
 
-	* backslash (U+005C): L<<364.0,-201.0>--<117.0,536.0>> -> L<<117.0,536.0>--<71.0,703.0>> 
+	* backslash (U+005C): L<<364.0,-201.0>--<117.0,536.0>> -> L<<117.0,536.0>--<71.0,703.0>>
 
-	* And w (U+0077): L<<364.0,97.0>--<403.0,432.0>> -> L<<403.0,432.0>--<416.0,511.0>> [code: found-colinear-vectors]
+	* w (U+0077): L<<364.0,97.0>--<403.0,432.0>> -> L<<403.0,432.0>--<416.0,511.0>>
+
+	* wacute (U+1E83): L<<364.0,97.0>--<403.0,432.0>> -> L<<403.0,432.0>--<416.0,511.0>>
+
+	* wcircumflex (U+0175): L<<364.0,97.0>--<403.0,432.0>> -> L<<403.0,432.0>--<416.0,511.0>>
+
+	* wdieresis (U+1E85): L<<364.0,97.0>--<403.0,432.0>> -> L<<403.0,432.0>--<416.0,511.0>> 
+
+	* And wgrave (U+1E81): L<<364.0,97.0>--<403.0,432.0>> -> L<<403.0,432.0>--<416.0,511.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1264,223 +840,7 @@ The following glyphs do not have the recommended number of contours:
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-	- 0x0304 (COMBINING MACRON)
-
-
-	- 0x02D9 (DOT ABOVE)
-
-
-	- 0x013B (LATIN CAPITAL LETTER L WITH CEDILLA)
-
-
-	- 0x015E (LATIN CAPITAL LETTER S WITH CEDILLA)
-
-
-	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
-	- 0x016A (LATIN CAPITAL LETTER U WITH MACRON)
-
-
-	- 0x0172 (LATIN CAPITAL LETTER U WITH OGONEK)
-
-
-	- 0x016E (LATIN CAPITAL LETTER U WITH RING ABOVE)
-
-
-	- 0x1EF2 (LATIN CAPITAL LETTER Y WITH GRAVE)
-
-
-	- 0x0101 (LATIN SMALL LETTER A WITH MACRON)
-
-
-	- 0x0105 (LATIN SMALL LETTER A WITH OGONEK)
-
-
-	- 0x0107 (LATIN SMALL LETTER C WITH ACUTE)
-
-
-	- 0x010D (LATIN SMALL LETTER C WITH CARON)
-
-
-	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
-
-
-	- 0x010F (LATIN SMALL LETTER D WITH CARON)
-
-
-	- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
-
-
-	- 0x011B (LATIN SMALL LETTER E WITH CARON)
-
-
-	- 0x0117 (LATIN SMALL LETTER E WITH DOT ABOVE)
-
-
-	- 0x0113 (LATIN SMALL LETTER E WITH MACRON)
-
-
-	- 0x0119 (LATIN SMALL LETTER E WITH OGONEK)
-
-
-	- 0x011F (LATIN SMALL LETTER G WITH BREVE)
-
-
-	- 0x0123 (LATIN SMALL LETTER G WITH CEDILLA)
-
-
-	- 0x0121 (LATIN SMALL LETTER G WITH DOT ABOVE)
-
-
-	- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-	- 0x0133 (LATIN SMALL LIGATURE IJ)
-
-
-	- 0x012B (LATIN SMALL LETTER I WITH MACRON)
-
-
-	- 0x012F (LATIN SMALL LETTER I WITH OGONEK)
-
-
-	- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-	- 0x0137 (LATIN SMALL LETTER K WITH CEDILLA)
-
-
-	- 0x013A (LATIN SMALL LETTER L WITH ACUTE)
-
-
-	- 0x013E (LATIN SMALL LETTER L WITH CARON)
-
-
-	- 0x013C (LATIN SMALL LETTER L WITH CEDILLA)
-
-
-	- 0x0142 (LATIN SMALL LETTER L WITH STROKE)
-
-
-	- 0x0144 (LATIN SMALL LETTER N WITH ACUTE)
-
-
-	- 0x0148 (LATIN SMALL LETTER N WITH CARON)
-
-
-	- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-
-
-	- 0x014B (LATIN SMALL LETTER ENG)
-
-
-	- 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
-
-
-	- 0x014D (LATIN SMALL LETTER O WITH MACRON)
-
-
-	- 0x0155 (LATIN SMALL LETTER R WITH ACUTE)
-
-
-	- 0x0159 (LATIN SMALL LETTER R WITH CARON)
-
-
-	- 0x0157 (LATIN SMALL LETTER R WITH CEDILLA)
-
-
-	- 0x015B (LATIN SMALL LETTER S WITH ACUTE)
-
-
-	- 0x0161 (LATIN SMALL LETTER S WITH CARON)
-
-
-	- 0x015F (LATIN SMALL LETTER S WITH CEDILLA)
-
-
-	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
-
-
-	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
-
-
-	- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
-
-
-	- 0x016D (LATIN SMALL LETTER U WITH BREVE)
-
-
-	- 0x0171 (LATIN SMALL LETTER U WITH DOUBLE ACUTE)
-
-
-	- 0x016B (LATIN SMALL LETTER U WITH MACRON)
-
-
-	- 0x0173 (LATIN SMALL LETTER U WITH OGONEK)
-
-
-	- 0x016F (LATIN SMALL LETTER U WITH RING ABOVE)
-
-
-	- 0x1E83 (LATIN SMALL LETTER W WITH ACUTE)
-
-
-	- 0x0175 (LATIN SMALL LETTER W WITH CIRCUMFLEX)
-
-
-	- 0x1E85 (LATIN SMALL LETTER W WITH DIAERESIS)
-
-
-	- 0x1E81 (LATIN SMALL LETTER W WITH GRAVE)
-
-
-	- 0x0177 (LATIN SMALL LETTER Y WITH CIRCUMFLEX)
-
-
-	- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
-
-
-	- 0x017A (LATIN SMALL LETTER Z WITH ACUTE)
-
-
-	- 0x017E (LATIN SMALL LETTER Z WITH CARON)
-
-
-	- 0x017C (LATIN SMALL LETTER Z WITH DOT ABOVE)
-
-
-	- 0x2122 (TRADE MARK SIGN)
-
-
-	- 0x0307 (COMBINING DOT ABOVE)
-
-
-	- 0x030C (COMBINING CARON)
-
-
-	- 0x0312 (COMBINING TURNED COMMA ABOVE)
-
-
-	- 0x0326 (COMBINING COMMA BELOW)
-
-
-	- 0x0327 (COMBINING CEDILLA)
-
-
-	- 0x0328 (COMBINING OGONEK)
-
-
-	- 0x02DD (DOUBLE ACUTE ACCENT)
-
-
-	- 0x02C7 (CARON)
- 
-
-	- And 0x02DB (OGONEK)
+	- 0x02DB (OGONEK)
  [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
@@ -1494,7 +854,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 32 glyphs (6.13%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'Lslash', 'uni0145', 'Eng', 'uni0156', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'logicalnot'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 50 glyphs (8.42%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'uni0145', 'Eng', 'uni0156', 'aogonek', 'dcaron', 'dcroat', 'eogonek', 'uni0123', 'hbar', 'ij', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uogonek', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'trademark', 'logicalnot'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1646,29 +1006,87 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
 	- Glyph name: uni0122	Contours detected: 1	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: Hbar	Contours detected: 0	Expected: 2
 
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
 	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
 
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
 	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
 
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
+
 	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 0	Expected: 1
 
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
 	- Glyph name: uni0145	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 0	Expected: 1
 
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
 	- Glyph name: uni0156	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+
+	- Glyph name: Scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0218	Contours detected: 0	Expected: 2
 
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
 	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 0	Expected: 1
 
@@ -1681,6 +1099,28 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
 
 	- Glyph name: onehalf	Contours detected: 1	Expected: 3
 
@@ -1688,19 +1128,51 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
 	- Glyph name: threequarters	Contours detected: 1	Expected: 3 or 4
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0122	Contours detected: 1	Expected: 2
 
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+
 	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0145	Contours detected: 0	Expected: 2
 
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
+
 	- Glyph name: uni0156	Contours detected: 0	Expected: 3
 
-	- Glyph name: uni0218	Contours detected: 0	Expected: 2 
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
 
-	- And Glyph name: uni021A	Contours detected: 0	Expected: 2
+	- Glyph name: uni0218	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1 
+
+	- And Glyph name: uogonek	Contours detected: 0	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -1779,6 +1251,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* thorn (U+00FE): X=212.5,Y=1.0 (should be at baseline 0?)
 
+	* amacron (U+0101): X=135.0,Y=0.5 (should be at baseline 0?)
+
 	* abreve (U+0103): X=135.0,Y=0.5 (should be at baseline 0?)
 
 	* abreve (U+0103): X=135.0,Y=706.0 (should be at cap-height 704?)
@@ -1789,9 +1263,69 @@ The following glyphs do not have the recommended number of contours:
 
 	* abreve (U+0103): X=355.0,Y=706.0 (should be at cap-height 704?)
 
+	* cdotaccent (U+010B): X=223.0,Y=703.5 (should be at cap-height 704?)
+
+	* cdotaccent (U+010B): X=302.5,Y=703.5 (should be at cap-height 704?)
+
+	* edotaccent (U+0117): X=216.0,Y=703.5 (should be at cap-height 704?)
+
+	* edotaccent (U+0117): X=295.5,Y=703.5 (should be at cap-height 704?)
+
+	* gbreve (U+011F): X=151.0,Y=706.0 (should be at cap-height 704?)
+
+	* gbreve (U+011F): X=204.0,Y=706.0 (should be at cap-height 704?)
+
+	* gbreve (U+011F): X=318.0,Y=706.0 (should be at cap-height 704?)
+
+	* gbreve (U+011F): X=371.0,Y=706.0 (should be at cap-height 704?)
+
+	* gdotaccent (U+0121): X=226.0,Y=703.5 (should be at cap-height 704?)
+
+	* gdotaccent (U+0121): X=305.5,Y=703.5 (should be at cap-height 704?)
+
+	* ohungarumlaut (U+0151): X=302.0,Y=706.0 (should be at cap-height 704?)
+
+	* ohungarumlaut (U+0151): X=394.0,Y=706.0 (should be at cap-height 704?)
+
+	* ohungarumlaut (U+0151): X=159.0,Y=706.0 (should be at cap-height 704?)
+
+	* ohungarumlaut (U+0151): X=251.0,Y=706.0 (should be at cap-height 704?)
+
 	* oe (U+0153): X=455.5,Y=1.5 (should be at baseline 0?)
 
 	* oe (U+0153): X=221.0,Y=-2.0 (should be at baseline 0?)
+
+	* sacute (U+015B): X=170.0,Y=-1.0 (should be at baseline 0?)
+
+	* sacute (U+015B): X=351.0,Y=-2.0 (should be at baseline 0?)
+
+	* scaron (U+0161): X=170.0,Y=-1.0 (should be at baseline 0?)
+
+	* scaron (U+0161): X=351.0,Y=-2.0 (should be at baseline 0?)
+
+	* ubreve (U+016D): X=146.0,Y=706.0 (should be at cap-height 704?)
+
+	* ubreve (U+016D): X=199.0,Y=706.0 (should be at cap-height 704?)
+
+	* ubreve (U+016D): X=313.0,Y=706.0 (should be at cap-height 704?)
+
+	* ubreve (U+016D): X=366.0,Y=706.0 (should be at cap-height 704?)
+
+	* uring (U+016F): X=199.5,Y=705.0 (should be at cap-height 704?)
+
+	* uring (U+016F): X=312.5,Y=705.0 (should be at cap-height 704?)
+
+	* uhungarumlaut (U+0171): X=302.0,Y=706.0 (should be at cap-height 704?)
+
+	* uhungarumlaut (U+0171): X=394.0,Y=706.0 (should be at cap-height 704?)
+
+	* uhungarumlaut (U+0171): X=159.0,Y=706.0 (should be at cap-height 704?)
+
+	* uhungarumlaut (U+0171): X=251.0,Y=706.0 (should be at cap-height 704?)
+
+	* zdotaccent (U+017C): X=219.0,Y=703.5 (should be at cap-height 704?)
+
+	* zdotaccent (U+017C): X=298.5,Y=703.5 (should be at cap-height 704?)
 
 	* breve (U+02D8): X=146.0,Y=706.0 (should be at cap-height 704?)
 
@@ -1801,9 +1335,21 @@ The following glyphs do not have the recommended number of contours:
 
 	* breve (U+02D8): X=366.0,Y=706.0 (should be at cap-height 704?)
 
+	* dotaccent (U+02D9): X=216.0,Y=703.5 (should be at cap-height 704?)
+
+	* dotaccent (U+02D9): X=295.5,Y=703.5 (should be at cap-height 704?)
+
 	* ring (U+02DA): X=199.5,Y=705.0 (should be at cap-height 704?)
 
 	* ring (U+02DA): X=312.5,Y=705.0 (should be at cap-height 704?)
+
+	* hungarumlaut (U+02DD): X=302.0,Y=706.0 (should be at cap-height 704?)
+
+	* hungarumlaut (U+02DD): X=394.0,Y=706.0 (should be at cap-height 704?)
+
+	* hungarumlaut (U+02DD): X=159.0,Y=706.0 (should be at cap-height 704?)
+
+	* hungarumlaut (U+02DD): X=251.0,Y=706.0 (should be at cap-height 704?)
 
 	* uni0306 (U+0306): X=146.0,Y=706.0 (should be at cap-height 704?)
 
@@ -1813,9 +1359,21 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0306 (U+0306): X=366.0,Y=706.0 (should be at cap-height 704?)
 
+	* uni0307 (U+0307): X=216.0,Y=703.5 (should be at cap-height 704?)
+
+	* uni0307 (U+0307): X=295.5,Y=703.5 (should be at cap-height 704?)
+
 	* uni030A (U+030A): X=199.5,Y=705.0 (should be at cap-height 704?)
 
 	* uni030A (U+030A): X=312.5,Y=705.0 (should be at cap-height 704?)
+
+	* uni030B (U+030B): X=302.0,Y=706.0 (should be at cap-height 704?)
+
+	* uni030B (U+030B): X=394.0,Y=706.0 (should be at cap-height 704?)
+
+	* uni030B (U+030B): X=159.0,Y=706.0 (should be at cap-height 704?)
+
+	* uni030B (U+030B): X=251.0,Y=706.0 (should be at cap-height 704?)
 
 	* uni0623 (U+0623): X=145.0,Y=705.0 (should be at cap-height 704?)
 
@@ -1885,9 +1443,33 @@ The following glyphs do not have the recommended number of contours:
 
 	* w (U+0077): L<<145.0,99.0>--<179.0,229.0>> -> L<<179.0,229.0>--<220.0,345.0>>
 
-	* w (U+0077): L<<365.0,99.0>--<394.0,289.0>> -> L<<394.0,289.0>--<417.0,508.0>> 
+	* w (U+0077): L<<365.0,99.0>--<394.0,289.0>> -> L<<394.0,289.0>--<417.0,508.0>>
 
-	* And w (U+0077): L<<99.0,504.0>--<119.0,310.0>> -> L<<119.0,310.0>--<145.0,99.0>> [code: found-colinear-vectors]
+	* w (U+0077): L<<99.0,504.0>--<119.0,310.0>> -> L<<119.0,310.0>--<145.0,99.0>>
+
+	* wacute (U+1E83): L<<145.0,99.0>--<179.0,229.0>> -> L<<179.0,229.0>--<220.0,345.0>>
+
+	* wacute (U+1E83): L<<365.0,99.0>--<394.0,289.0>> -> L<<394.0,289.0>--<417.0,508.0>>
+
+	* wacute (U+1E83): L<<99.0,504.0>--<119.0,310.0>> -> L<<119.0,310.0>--<145.0,99.0>>
+
+	* wcircumflex (U+0175): L<<145.0,99.0>--<179.0,229.0>> -> L<<179.0,229.0>--<220.0,345.0>>
+
+	* wcircumflex (U+0175): L<<365.0,99.0>--<394.0,289.0>> -> L<<394.0,289.0>--<417.0,508.0>>
+
+	* wcircumflex (U+0175): L<<99.0,504.0>--<119.0,310.0>> -> L<<119.0,310.0>--<145.0,99.0>>
+
+	* wdieresis (U+1E85): L<<145.0,99.0>--<179.0,229.0>> -> L<<179.0,229.0>--<220.0,345.0>>
+
+	* wdieresis (U+1E85): L<<365.0,99.0>--<394.0,289.0>> -> L<<394.0,289.0>--<417.0,508.0>>
+
+	* wdieresis (U+1E85): L<<99.0,504.0>--<119.0,310.0>> -> L<<119.0,310.0>--<145.0,99.0>>
+
+	* wgrave (U+1E81): L<<145.0,99.0>--<179.0,229.0>> -> L<<179.0,229.0>--<220.0,345.0>>
+
+	* wgrave (U+1E81): L<<365.0,99.0>--<394.0,289.0>> -> L<<394.0,289.0>--<417.0,508.0>> 
+
+	* And wgrave (U+1E81): L<<99.0,504.0>--<119.0,310.0>> -> L<<119.0,310.0>--<145.0,99.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1899,223 +1481,7 @@ The following glyphs do not have the recommended number of contours:
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-	- 0x0304 (COMBINING MACRON)
-
-
-	- 0x02D9 (DOT ABOVE)
-
-
-	- 0x013B (LATIN CAPITAL LETTER L WITH CEDILLA)
-
-
-	- 0x015E (LATIN CAPITAL LETTER S WITH CEDILLA)
-
-
-	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
-	- 0x016A (LATIN CAPITAL LETTER U WITH MACRON)
-
-
-	- 0x0172 (LATIN CAPITAL LETTER U WITH OGONEK)
-
-
-	- 0x016E (LATIN CAPITAL LETTER U WITH RING ABOVE)
-
-
-	- 0x1EF2 (LATIN CAPITAL LETTER Y WITH GRAVE)
-
-
-	- 0x0101 (LATIN SMALL LETTER A WITH MACRON)
-
-
-	- 0x0105 (LATIN SMALL LETTER A WITH OGONEK)
-
-
-	- 0x0107 (LATIN SMALL LETTER C WITH ACUTE)
-
-
-	- 0x010D (LATIN SMALL LETTER C WITH CARON)
-
-
-	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
-
-
-	- 0x010F (LATIN SMALL LETTER D WITH CARON)
-
-
-	- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
-
-
-	- 0x011B (LATIN SMALL LETTER E WITH CARON)
-
-
-	- 0x0117 (LATIN SMALL LETTER E WITH DOT ABOVE)
-
-
-	- 0x0113 (LATIN SMALL LETTER E WITH MACRON)
-
-
-	- 0x0119 (LATIN SMALL LETTER E WITH OGONEK)
-
-
-	- 0x011F (LATIN SMALL LETTER G WITH BREVE)
-
-
-	- 0x0123 (LATIN SMALL LETTER G WITH CEDILLA)
-
-
-	- 0x0121 (LATIN SMALL LETTER G WITH DOT ABOVE)
-
-
-	- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-	- 0x0133 (LATIN SMALL LIGATURE IJ)
-
-
-	- 0x012B (LATIN SMALL LETTER I WITH MACRON)
-
-
-	- 0x012F (LATIN SMALL LETTER I WITH OGONEK)
-
-
-	- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-	- 0x0137 (LATIN SMALL LETTER K WITH CEDILLA)
-
-
-	- 0x013A (LATIN SMALL LETTER L WITH ACUTE)
-
-
-	- 0x013E (LATIN SMALL LETTER L WITH CARON)
-
-
-	- 0x013C (LATIN SMALL LETTER L WITH CEDILLA)
-
-
-	- 0x0142 (LATIN SMALL LETTER L WITH STROKE)
-
-
-	- 0x0144 (LATIN SMALL LETTER N WITH ACUTE)
-
-
-	- 0x0148 (LATIN SMALL LETTER N WITH CARON)
-
-
-	- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-
-
-	- 0x014B (LATIN SMALL LETTER ENG)
-
-
-	- 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
-
-
-	- 0x014D (LATIN SMALL LETTER O WITH MACRON)
-
-
-	- 0x0155 (LATIN SMALL LETTER R WITH ACUTE)
-
-
-	- 0x0159 (LATIN SMALL LETTER R WITH CARON)
-
-
-	- 0x0157 (LATIN SMALL LETTER R WITH CEDILLA)
-
-
-	- 0x015B (LATIN SMALL LETTER S WITH ACUTE)
-
-
-	- 0x0161 (LATIN SMALL LETTER S WITH CARON)
-
-
-	- 0x015F (LATIN SMALL LETTER S WITH CEDILLA)
-
-
-	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
-
-
-	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
-
-
-	- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
-
-
-	- 0x016D (LATIN SMALL LETTER U WITH BREVE)
-
-
-	- 0x0171 (LATIN SMALL LETTER U WITH DOUBLE ACUTE)
-
-
-	- 0x016B (LATIN SMALL LETTER U WITH MACRON)
-
-
-	- 0x0173 (LATIN SMALL LETTER U WITH OGONEK)
-
-
-	- 0x016F (LATIN SMALL LETTER U WITH RING ABOVE)
-
-
-	- 0x1E83 (LATIN SMALL LETTER W WITH ACUTE)
-
-
-	- 0x0175 (LATIN SMALL LETTER W WITH CIRCUMFLEX)
-
-
-	- 0x1E85 (LATIN SMALL LETTER W WITH DIAERESIS)
-
-
-	- 0x1E81 (LATIN SMALL LETTER W WITH GRAVE)
-
-
-	- 0x0177 (LATIN SMALL LETTER Y WITH CIRCUMFLEX)
-
-
-	- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
-
-
-	- 0x017A (LATIN SMALL LETTER Z WITH ACUTE)
-
-
-	- 0x017E (LATIN SMALL LETTER Z WITH CARON)
-
-
-	- 0x017C (LATIN SMALL LETTER Z WITH DOT ABOVE)
-
-
-	- 0x2122 (TRADE MARK SIGN)
-
-
-	- 0x0307 (COMBINING DOT ABOVE)
-
-
-	- 0x030C (COMBINING CARON)
-
-
-	- 0x0312 (COMBINING TURNED COMMA ABOVE)
-
-
-	- 0x0326 (COMBINING COMMA BELOW)
-
-
-	- 0x0327 (COMBINING CEDILLA)
-
-
-	- 0x0328 (COMBINING OGONEK)
-
-
-	- 0x02DD (DOUBLE ACUTE ACCENT)
-
-
-	- 0x02C7 (CARON)
- 
-
-	- And 0x02DB (OGONEK)
+	- 0x02DB (OGONEK)
  [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
@@ -2129,7 +1495,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 27 glyphs (5.17%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'uni0156', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'guillemotleft', 'logicalnot'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 36 glyphs (6.06%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'uni0156', 'aogonek', 'eogonek', 'hbar', 'ij', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'guillemotleft', 'logicalnot'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2281,29 +1647,87 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
 	- Glyph name: uni0122	Contours detected: 1	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: Hbar	Contours detected: 0	Expected: 2
 
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
 	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
 
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
 	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
 
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
+
 	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 0	Expected: 1
 
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
 	- Glyph name: uni0145	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 0	Expected: 1
 
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
 	- Glyph name: uni0156	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+
+	- Glyph name: Scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0218	Contours detected: 0	Expected: 2
 
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
 	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 0	Expected: 1
 
@@ -2316,6 +1740,28 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
 
 	- Glyph name: onehalf	Contours detected: 1	Expected: 3
 
@@ -2323,19 +1769,51 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
 	- Glyph name: threequarters	Contours detected: 1	Expected: 3 or 4
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0122	Contours detected: 1	Expected: 2
 
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+
 	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0145	Contours detected: 0	Expected: 2
 
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
+
 	- Glyph name: uni0156	Contours detected: 0	Expected: 3
 
-	- Glyph name: uni0218	Contours detected: 0	Expected: 2 
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
 
-	- And Glyph name: uni021A	Contours detected: 0	Expected: 2
+	- Glyph name: uni0218	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1 
+
+	- And Glyph name: uogonek	Contours detected: 0	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
@@ -2410,6 +1888,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* thorn (U+00FE): X=212.5,Y=1.0 (should be at baseline 0?)
 
+	* amacron (U+0101): X=135.0,Y=0.5 (should be at baseline 0?)
+
 	* abreve (U+0103): X=135.0,Y=0.5 (should be at baseline 0?)
 
 	* abreve (U+0103): X=135.0,Y=706.0 (should be at cap-height 704?)
@@ -2420,9 +1900,65 @@ The following glyphs do not have the recommended number of contours:
 
 	* abreve (U+0103): X=355.0,Y=706.0 (should be at cap-height 704?)
 
+	* cdotaccent (U+010B): X=223.0,Y=703.5 (should be at cap-height 704?)
+
+	* cdotaccent (U+010B): X=302.5,Y=703.5 (should be at cap-height 704?)
+
+	* edotaccent (U+0117): X=216.0,Y=703.5 (should be at cap-height 704?)
+
+	* edotaccent (U+0117): X=295.5,Y=703.5 (should be at cap-height 704?)
+
+	* gbreve (U+011F): X=151.0,Y=706.0 (should be at cap-height 704?)
+
+	* gbreve (U+011F): X=204.0,Y=706.0 (should be at cap-height 704?)
+
+	* gbreve (U+011F): X=318.0,Y=706.0 (should be at cap-height 704?)
+
+	* gbreve (U+011F): X=371.0,Y=706.0 (should be at cap-height 704?)
+
+	* gdotaccent (U+0121): X=226.0,Y=703.5 (should be at cap-height 704?)
+
+	* gdotaccent (U+0121): X=305.5,Y=703.5 (should be at cap-height 704?)
+
+	* ohungarumlaut (U+0151): X=302.0,Y=706.0 (should be at cap-height 704?)
+
+	* ohungarumlaut (U+0151): X=394.0,Y=706.0 (should be at cap-height 704?)
+
+	* ohungarumlaut (U+0151): X=159.0,Y=706.0 (should be at cap-height 704?)
+
+	* ohungarumlaut (U+0151): X=251.0,Y=706.0 (should be at cap-height 704?)
+
 	* oe (U+0153): X=455.5,Y=1.5 (should be at baseline 0?)
 
 	* oe (U+0153): X=221.0,Y=-2.0 (should be at baseline 0?)
+
+	* sacute (U+015B): X=177.5,Y=-2.0 (should be at baseline 0?)
+
+	* scaron (U+0161): X=177.5,Y=-2.0 (should be at baseline 0?)
+
+	* ubreve (U+016D): X=146.0,Y=706.0 (should be at cap-height 704?)
+
+	* ubreve (U+016D): X=199.0,Y=706.0 (should be at cap-height 704?)
+
+	* ubreve (U+016D): X=313.0,Y=706.0 (should be at cap-height 704?)
+
+	* ubreve (U+016D): X=366.0,Y=706.0 (should be at cap-height 704?)
+
+	* uring (U+016F): X=199.5,Y=705.0 (should be at cap-height 704?)
+
+	* uring (U+016F): X=312.5,Y=705.0 (should be at cap-height 704?)
+
+	* uhungarumlaut (U+0171): X=302.0,Y=706.0 (should be at cap-height 704?)
+
+	* uhungarumlaut (U+0171): X=394.0,Y=706.0 (should be at cap-height 704?)
+
+	* uhungarumlaut (U+0171): X=159.0,Y=706.0 (should be at cap-height 704?)
+
+	* uhungarumlaut (U+0171): X=251.0,Y=706.0 (should be at cap-height 704?)
+
+	* zdotaccent (U+017C): X=219.0,Y=703.5 (should be at cap-height 704?)
+
+	* zdotaccent (U+017C): X=298.5,Y=703.5 (should be at cap-height 704?)
 
 	* breve (U+02D8): X=146.0,Y=706.0 (should be at cap-height 704?)
 
@@ -2432,9 +1968,21 @@ The following glyphs do not have the recommended number of contours:
 
 	* breve (U+02D8): X=366.0,Y=706.0 (should be at cap-height 704?)
 
+	* dotaccent (U+02D9): X=216.0,Y=703.5 (should be at cap-height 704?)
+
+	* dotaccent (U+02D9): X=295.5,Y=703.5 (should be at cap-height 704?)
+
 	* ring (U+02DA): X=199.5,Y=705.0 (should be at cap-height 704?)
 
 	* ring (U+02DA): X=312.5,Y=705.0 (should be at cap-height 704?)
+
+	* hungarumlaut (U+02DD): X=302.0,Y=706.0 (should be at cap-height 704?)
+
+	* hungarumlaut (U+02DD): X=394.0,Y=706.0 (should be at cap-height 704?)
+
+	* hungarumlaut (U+02DD): X=159.0,Y=706.0 (should be at cap-height 704?)
+
+	* hungarumlaut (U+02DD): X=251.0,Y=706.0 (should be at cap-height 704?)
 
 	* uni0306 (U+0306): X=146.0,Y=706.0 (should be at cap-height 704?)
 
@@ -2444,9 +1992,21 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0306 (U+0306): X=366.0,Y=706.0 (should be at cap-height 704?)
 
-	* uni030A (U+030A): X=199.5,Y=705.0 (should be at cap-height 704?) 
+	* uni0307 (U+0307): X=216.0,Y=703.5 (should be at cap-height 704?)
 
-	* And uni030A (U+030A): X=312.5,Y=705.0 (should be at cap-height 704?) [code: found-misalignments]
+	* uni0307 (U+0307): X=295.5,Y=703.5 (should be at cap-height 704?)
+
+	* uni030A (U+030A): X=199.5,Y=705.0 (should be at cap-height 704?)
+
+	* uni030A (U+030A): X=312.5,Y=705.0 (should be at cap-height 704?)
+
+	* uni030B (U+030B): X=302.0,Y=706.0 (should be at cap-height 704?)
+
+	* uni030B (U+030B): X=394.0,Y=706.0 (should be at cap-height 704?)
+
+	* uni030B (U+030B): X=159.0,Y=706.0 (should be at cap-height 704?) 
+
+	* And uni030B (U+030B): X=251.0,Y=706.0 (should be at cap-height 704?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -2470,237 +2030,29 @@ The following glyphs do not have the recommended number of contours:
 
 	* Wgrave (U+1E80): L<<75.0,8.0>--<17.0,688.0>> -> L<<17.0,688.0>--<17.0,696.0>>
 
-	* Wgrave (U+1E80): L<<93.0,696.0>--<93.0,688.0>> -> L<<93.0,688.0>--<130.0,102.0>> 
+	* Wgrave (U+1E80): L<<93.0,696.0>--<93.0,688.0>> -> L<<93.0,688.0>--<130.0,102.0>>
 
-	* And w (U+0077): L<<93.0,504.0>--<93.0,496.0>> -> L<<93.0,496.0>--<130.0,102.0>> [code: found-colinear-vectors]
+	* w (U+0077): L<<93.0,504.0>--<93.0,496.0>> -> L<<93.0,496.0>--<130.0,102.0>>
+
+	* wacute (U+1E83): L<<93.0,504.0>--<93.0,496.0>> -> L<<93.0,496.0>--<130.0,102.0>>
+
+	* wcircumflex (U+0175): L<<93.0,504.0>--<93.0,496.0>> -> L<<93.0,496.0>--<130.0,102.0>>
+
+	* wdieresis (U+1E85): L<<93.0,504.0>--<93.0,496.0>> -> L<<93.0,496.0>--<130.0,102.0>> 
+
+	* And wgrave (U+1E81): L<<93.0,504.0>--<93.0,496.0>> -> L<<93.0,496.0>--<130.0,102.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] HasubiMono-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] HasubiMono-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-	- 0x0304 (COMBINING MACRON)
-
-
-	- 0x02D9 (DOT ABOVE)
-
-
-	- 0x013B (LATIN CAPITAL LETTER L WITH CEDILLA)
-
-
-	- 0x015E (LATIN CAPITAL LETTER S WITH CEDILLA)
-
-
-	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
-	- 0x016A (LATIN CAPITAL LETTER U WITH MACRON)
-
-
-	- 0x0172 (LATIN CAPITAL LETTER U WITH OGONEK)
-
-
-	- 0x016E (LATIN CAPITAL LETTER U WITH RING ABOVE)
-
-
-	- 0x1EF2 (LATIN CAPITAL LETTER Y WITH GRAVE)
-
-
-	- 0x0101 (LATIN SMALL LETTER A WITH MACRON)
-
-
-	- 0x0105 (LATIN SMALL LETTER A WITH OGONEK)
-
-
-	- 0x0107 (LATIN SMALL LETTER C WITH ACUTE)
-
-
-	- 0x010D (LATIN SMALL LETTER C WITH CARON)
-
-
-	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
-
-
-	- 0x010F (LATIN SMALL LETTER D WITH CARON)
-
-
-	- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
-
-
-	- 0x011B (LATIN SMALL LETTER E WITH CARON)
-
-
-	- 0x0117 (LATIN SMALL LETTER E WITH DOT ABOVE)
-
-
-	- 0x0113 (LATIN SMALL LETTER E WITH MACRON)
-
-
-	- 0x0119 (LATIN SMALL LETTER E WITH OGONEK)
-
-
-	- 0x011F (LATIN SMALL LETTER G WITH BREVE)
-
-
-	- 0x0123 (LATIN SMALL LETTER G WITH CEDILLA)
-
-
-	- 0x0121 (LATIN SMALL LETTER G WITH DOT ABOVE)
-
-
-	- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-	- 0x0133 (LATIN SMALL LIGATURE IJ)
-
-
-	- 0x012B (LATIN SMALL LETTER I WITH MACRON)
-
-
-	- 0x012F (LATIN SMALL LETTER I WITH OGONEK)
-
-
-	- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-	- 0x0137 (LATIN SMALL LETTER K WITH CEDILLA)
-
-
-	- 0x013A (LATIN SMALL LETTER L WITH ACUTE)
-
-
-	- 0x013E (LATIN SMALL LETTER L WITH CARON)
-
-
-	- 0x013C (LATIN SMALL LETTER L WITH CEDILLA)
-
-
-	- 0x0142 (LATIN SMALL LETTER L WITH STROKE)
-
-
-	- 0x0144 (LATIN SMALL LETTER N WITH ACUTE)
-
-
-	- 0x0148 (LATIN SMALL LETTER N WITH CARON)
-
-
-	- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-
-
-	- 0x014B (LATIN SMALL LETTER ENG)
-
-
-	- 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
-
-
-	- 0x014D (LATIN SMALL LETTER O WITH MACRON)
-
-
-	- 0x0155 (LATIN SMALL LETTER R WITH ACUTE)
-
-
-	- 0x0159 (LATIN SMALL LETTER R WITH CARON)
-
-
-	- 0x0157 (LATIN SMALL LETTER R WITH CEDILLA)
-
-
-	- 0x015B (LATIN SMALL LETTER S WITH ACUTE)
-
-
-	- 0x0161 (LATIN SMALL LETTER S WITH CARON)
-
-
-	- 0x015F (LATIN SMALL LETTER S WITH CEDILLA)
-
-
-	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
-
-
-	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
-
-
-	- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
-
-
-	- 0x016D (LATIN SMALL LETTER U WITH BREVE)
-
-
-	- 0x0171 (LATIN SMALL LETTER U WITH DOUBLE ACUTE)
-
-
-	- 0x016B (LATIN SMALL LETTER U WITH MACRON)
-
-
-	- 0x0173 (LATIN SMALL LETTER U WITH OGONEK)
-
-
-	- 0x016F (LATIN SMALL LETTER U WITH RING ABOVE)
-
-
-	- 0x1E83 (LATIN SMALL LETTER W WITH ACUTE)
-
-
-	- 0x0175 (LATIN SMALL LETTER W WITH CIRCUMFLEX)
-
-
-	- 0x1E85 (LATIN SMALL LETTER W WITH DIAERESIS)
-
-
-	- 0x1E81 (LATIN SMALL LETTER W WITH GRAVE)
-
-
-	- 0x0177 (LATIN SMALL LETTER Y WITH CIRCUMFLEX)
-
-
-	- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
-
-
-	- 0x017A (LATIN SMALL LETTER Z WITH ACUTE)
-
-
-	- 0x017E (LATIN SMALL LETTER Z WITH CARON)
-
-
-	- 0x017C (LATIN SMALL LETTER Z WITH DOT ABOVE)
-
-
-	- 0x2122 (TRADE MARK SIGN)
-
-
-	- 0x0307 (COMBINING DOT ABOVE)
-
-
-	- 0x030C (COMBINING CARON)
-
-
-	- 0x0312 (COMBINING TURNED COMMA ABOVE)
-
-
-	- 0x0326 (COMBINING COMMA BELOW)
-
-
-	- 0x0327 (COMBINING CEDILLA)
-
-
-	- 0x0328 (COMBINING OGONEK)
-
-
-	- 0x02DD (DOUBLE ACUTE ACCENT)
-
-
-	- 0x02C7 (CARON)
- 
-
-	- And 0x02DB (OGONEK)
+	- 0x02DB (OGONEK)
  [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
@@ -2714,7 +2066,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 32 glyphs (6.13%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'Lslash', 'uni0145', 'Eng', 'uni0156', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'logicalnot'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 50 glyphs (8.42%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'uni0145', 'Eng', 'uni0156', 'aogonek', 'dcaron', 'dcroat', 'eogonek', 'uni0123', 'hbar', 'ij', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uogonek', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'trademark', 'logicalnot'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2866,29 +2218,87 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
 	- Glyph name: uni0122	Contours detected: 1	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: Hbar	Contours detected: 0	Expected: 2
 
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
 	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
 
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
 	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
 
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
+
 	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 0	Expected: 1
 
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
 	- Glyph name: uni0145	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 0	Expected: 1
 
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
 	- Glyph name: uni0156	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+
+	- Glyph name: Scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0218	Contours detected: 0	Expected: 2
 
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
 	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 0	Expected: 1
 
@@ -2901,6 +2311,28 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
 
 	- Glyph name: onehalf	Contours detected: 1	Expected: 3
 
@@ -2908,138 +2340,56 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
 	- Glyph name: threequarters	Contours detected: 1	Expected: 3 or 4
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0122	Contours detected: 1	Expected: 2
 
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+
 	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0145	Contours detected: 0	Expected: 2
 
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
+
 	- Glyph name: uni0156	Contours detected: 0	Expected: 3
 
-	- Glyph name: uni0218	Contours detected: 0	Expected: 2 
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
 
-	- And Glyph name: uni021A	Contours detected: 0	Expected: 2
+	- Glyph name: uni0218	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1 
+
+	- And Glyph name: uogonek	Contours detected: 0	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* ampersand (U+0026): X=233.5,Y=1.5 (should be at baseline 0?)
-
-	* parenleft (U+0028): X=224.0,Y=1.0 (should be at baseline 0?)
-
-	* parenright (U+0029): X=296.0,Y=1.0 (should be at baseline 0?)
-
-	* at (U+0040): X=349.5,Y=705.5 (should be at cap-height 704?)
-
-	* a (U+0061): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* a (U+0061): X=340.0,Y=510.0 (should be at x-height 512?)
-
-	* b (U+0062): X=212.5,Y=512.5 (should be at x-height 512?)
-
-	* d (U+0064): X=299.5,Y=512.5 (should be at x-height 512?)
-
-	* f (U+0066): X=259.5,Y=704.5 (should be at cap-height 704?)
-
-	* j (U+006A): X=242.5,Y=702.0 (should be at cap-height 704?)
-
-	* j (U+006A): X=333.5,Y=702.0 (should be at cap-height 704?)
-
-	* m (U+006D): X=166.0,Y=510.5 (should be at x-height 512?)
-
-	* m (U+006D): X=257.0,Y=510.5 (should be at x-height 512?)
-
-	* m (U+006D): X=321.0,Y=510.5 (should be at x-height 512?)
-
-	* p (U+0070): X=195.0,Y=510.0 (should be at x-height 512?)
-
-	* q (U+0071): X=317.5,Y=510.0 (should be at x-height 512?)
-
-	* s (U+0073): X=351.5,Y=-2.0 (should be at baseline 0?)
-
-	* copyright (U+00A9): X=370.0,Y=-0.5 (should be at baseline 0?)
-
-	* copyright (U+00A9): X=142.5,Y=-0.5 (should be at baseline 0?)
-
-	* newGlyph (U+00B5): X=184.0,Y=-1.5 (should be at baseline 0?)
-
-	* agrave (U+00E0): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* aacute (U+00E1): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* acircumflex (U+00E2): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* atilde (U+00E3): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* adieresis (U+00E4): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* aring (U+00E5): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* aring (U+00E5): X=193.5,Y=705.0 (should be at cap-height 704?)
-
-	* aring (U+00E5): X=306.5,Y=705.0 (should be at cap-height 704?)
-
-	* ae (U+00E6): X=461.5,Y=1.5 (should be at baseline 0?)
-
-	* ae (U+00E6): X=38.5,Y=0.5 (should be at baseline 0?)
-
-	* eth (U+00F0): X=299.5,Y=1.0 (should be at baseline 0?)
-
-	* thorn (U+00FE): X=212.5,Y=1.0 (should be at baseline 0?)
-
-	* abreve (U+0103): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* abreve (U+0103): X=135.0,Y=706.0 (should be at cap-height 704?)
-
-	* abreve (U+0103): X=188.0,Y=706.0 (should be at cap-height 704?)
-
-	* abreve (U+0103): X=302.0,Y=706.0 (should be at cap-height 704?)
-
-	* abreve (U+0103): X=355.0,Y=706.0 (should be at cap-height 704?)
-
-	* oe (U+0153): X=455.5,Y=1.5 (should be at baseline 0?)
-
-	* oe (U+0153): X=221.0,Y=-2.0 (should be at baseline 0?)
-
-	* breve (U+02D8): X=146.0,Y=706.0 (should be at cap-height 704?)
-
-	* breve (U+02D8): X=199.0,Y=706.0 (should be at cap-height 704?)
-
-	* breve (U+02D8): X=313.0,Y=706.0 (should be at cap-height 704?)
-
-	* breve (U+02D8): X=366.0,Y=706.0 (should be at cap-height 704?)
-
-	* ring (U+02DA): X=199.5,Y=705.0 (should be at cap-height 704?)
-
-	* ring (U+02DA): X=312.5,Y=705.0 (should be at cap-height 704?)
-
-	* uni0306 (U+0306): X=146.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni0306 (U+0306): X=199.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni0306 (U+0306): X=313.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni0306 (U+0306): X=366.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni030A (U+030A): X=199.5,Y=705.0 (should be at cap-height 704?)
-
-	* uni030A (U+030A): X=312.5,Y=705.0 (should be at cap-height 704?)
-
-	* uni0623 (U+0623): X=161.0,Y=702.0 (should be at cap-height 704?)
-
-	* uni0623 (U+0623): X=175.0,Y=702.0 (should be at cap-height 704?)
-
-	* uni0623 (U+0623): X=235.0,Y=702.0 (should be at cap-height 704?) 
-
-	* And uni0623 (U+0623): X=289.0,Y=702.0 (should be at cap-height 704?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -3099,9 +2449,25 @@ The following glyphs do not have the recommended number of contours:
 
 	* backslash (U+005C): L<<366.0,-203.0>--<171.0,376.0>> -> L<<171.0,376.0>--<69.0,701.0>>
 
-	* w (U+0077): L<<101.0,504.0>--<128.0,239.0>> -> L<<128.0,239.0>--<151.0,98.0>> 
+	* w (U+0077): L<<101.0,504.0>--<128.0,239.0>> -> L<<128.0,239.0>--<151.0,98.0>>
 
-	* And w (U+0077): L<<365.0,98.0>--<398.0,360.0>> -> L<<398.0,360.0>--<416.0,509.0>> [code: found-colinear-vectors]
+	* w (U+0077): L<<365.0,98.0>--<398.0,360.0>> -> L<<398.0,360.0>--<416.0,509.0>>
+
+	* wacute (U+1E83): L<<101.0,504.0>--<128.0,239.0>> -> L<<128.0,239.0>--<151.0,98.0>>
+
+	* wacute (U+1E83): L<<365.0,98.0>--<398.0,360.0>> -> L<<398.0,360.0>--<416.0,509.0>>
+
+	* wcircumflex (U+0175): L<<101.0,504.0>--<128.0,239.0>> -> L<<128.0,239.0>--<151.0,98.0>>
+
+	* wcircumflex (U+0175): L<<365.0,98.0>--<398.0,360.0>> -> L<<398.0,360.0>--<416.0,509.0>>
+
+	* wdieresis (U+1E85): L<<101.0,504.0>--<128.0,239.0>> -> L<<128.0,239.0>--<151.0,98.0>>
+
+	* wdieresis (U+1E85): L<<365.0,98.0>--<398.0,360.0>> -> L<<398.0,360.0>--<416.0,509.0>>
+
+	* wgrave (U+1E81): L<<101.0,504.0>--<128.0,239.0>> -> L<<128.0,239.0>--<151.0,98.0>> 
+
+	* And wgrave (U+1E81): L<<365.0,98.0>--<398.0,360.0>> -> L<<398.0,360.0>--<416.0,509.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -3110,228 +2476,12 @@ The following glyphs do not have the recommended number of contours:
 	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> 
 
 	* And uniFEF4 (U+FEF4): L<<314.0,103.0>--<488.0,102.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] HasubiMono-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] HasubiMono-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
 
-	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-	- 0x0304 (COMBINING MACRON)
-
-
-	- 0x02D9 (DOT ABOVE)
-
-
-	- 0x013B (LATIN CAPITAL LETTER L WITH CEDILLA)
-
-
-	- 0x015E (LATIN CAPITAL LETTER S WITH CEDILLA)
-
-
-	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
-	- 0x016A (LATIN CAPITAL LETTER U WITH MACRON)
-
-
-	- 0x0172 (LATIN CAPITAL LETTER U WITH OGONEK)
-
-
-	- 0x016E (LATIN CAPITAL LETTER U WITH RING ABOVE)
-
-
-	- 0x1EF2 (LATIN CAPITAL LETTER Y WITH GRAVE)
-
-
-	- 0x0101 (LATIN SMALL LETTER A WITH MACRON)
-
-
-	- 0x0105 (LATIN SMALL LETTER A WITH OGONEK)
-
-
-	- 0x0107 (LATIN SMALL LETTER C WITH ACUTE)
-
-
-	- 0x010D (LATIN SMALL LETTER C WITH CARON)
-
-
-	- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
-
-
-	- 0x010F (LATIN SMALL LETTER D WITH CARON)
-
-
-	- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
-
-
-	- 0x011B (LATIN SMALL LETTER E WITH CARON)
-
-
-	- 0x0117 (LATIN SMALL LETTER E WITH DOT ABOVE)
-
-
-	- 0x0113 (LATIN SMALL LETTER E WITH MACRON)
-
-
-	- 0x0119 (LATIN SMALL LETTER E WITH OGONEK)
-
-
-	- 0x011F (LATIN SMALL LETTER G WITH BREVE)
-
-
-	- 0x0123 (LATIN SMALL LETTER G WITH CEDILLA)
-
-
-	- 0x0121 (LATIN SMALL LETTER G WITH DOT ABOVE)
-
-
-	- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-	- 0x0133 (LATIN SMALL LIGATURE IJ)
-
-
-	- 0x012B (LATIN SMALL LETTER I WITH MACRON)
-
-
-	- 0x012F (LATIN SMALL LETTER I WITH OGONEK)
-
-
-	- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-	- 0x0137 (LATIN SMALL LETTER K WITH CEDILLA)
-
-
-	- 0x013A (LATIN SMALL LETTER L WITH ACUTE)
-
-
-	- 0x013E (LATIN SMALL LETTER L WITH CARON)
-
-
-	- 0x013C (LATIN SMALL LETTER L WITH CEDILLA)
-
-
-	- 0x0142 (LATIN SMALL LETTER L WITH STROKE)
-
-
-	- 0x0144 (LATIN SMALL LETTER N WITH ACUTE)
-
-
-	- 0x0148 (LATIN SMALL LETTER N WITH CARON)
-
-
-	- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-
-
-	- 0x014B (LATIN SMALL LETTER ENG)
-
-
-	- 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
-
-
-	- 0x014D (LATIN SMALL LETTER O WITH MACRON)
-
-
-	- 0x0155 (LATIN SMALL LETTER R WITH ACUTE)
-
-
-	- 0x0159 (LATIN SMALL LETTER R WITH CARON)
-
-
-	- 0x0157 (LATIN SMALL LETTER R WITH CEDILLA)
-
-
-	- 0x015B (LATIN SMALL LETTER S WITH ACUTE)
-
-
-	- 0x0161 (LATIN SMALL LETTER S WITH CARON)
-
-
-	- 0x015F (LATIN SMALL LETTER S WITH CEDILLA)
-
-
-	- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
-
-
-	- 0x0165 (LATIN SMALL LETTER T WITH CARON)
-
-
-	- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
-
-
-	- 0x016D (LATIN SMALL LETTER U WITH BREVE)
-
-
-	- 0x0171 (LATIN SMALL LETTER U WITH DOUBLE ACUTE)
-
-
-	- 0x016B (LATIN SMALL LETTER U WITH MACRON)
-
-
-	- 0x0173 (LATIN SMALL LETTER U WITH OGONEK)
-
-
-	- 0x016F (LATIN SMALL LETTER U WITH RING ABOVE)
-
-
-	- 0x1E83 (LATIN SMALL LETTER W WITH ACUTE)
-
-
-	- 0x0175 (LATIN SMALL LETTER W WITH CIRCUMFLEX)
-
-
-	- 0x1E85 (LATIN SMALL LETTER W WITH DIAERESIS)
-
-
-	- 0x1E81 (LATIN SMALL LETTER W WITH GRAVE)
-
-
-	- 0x0177 (LATIN SMALL LETTER Y WITH CIRCUMFLEX)
-
-
-	- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
-
-
-	- 0x017A (LATIN SMALL LETTER Z WITH ACUTE)
-
-
-	- 0x017E (LATIN SMALL LETTER Z WITH CARON)
-
-
-	- 0x017C (LATIN SMALL LETTER Z WITH DOT ABOVE)
-
-
-	- 0x2122 (TRADE MARK SIGN)
-
-
-	- 0x0307 (COMBINING DOT ABOVE)
-
-
-	- 0x030C (COMBINING CARON)
-
-
-	- 0x0312 (COMBINING TURNED COMMA ABOVE)
-
-
-	- 0x0326 (COMBINING COMMA BELOW)
-
-
-	- 0x0327 (COMBINING CEDILLA)
-
-
-	- 0x0328 (COMBINING OGONEK)
-
-
-	- 0x02DD (DOUBLE ACUTE ACCENT)
-
-
-	- 0x02C7 (CARON)
- 
-
-	- And 0x02DB (OGONEK)
+	- 0x02DB (OGONEK)
  [code: missing-codepoints]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
@@ -3345,7 +2495,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 21 glyphs (4.02%) have a different width. You should check the widths of: ['AE', 'Lcaron', 'Lslash', 'uni0145', 'Eng', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'logicalnot'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 30 glyphs (5.05%) have a different width. You should check the widths of: ['AE', 'Lcaron', 'uni0145', 'Eng', 'dcaron', 'dcroat', 'uni0123', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uogonek', 'uni0624', 'uniFE86', 'uni0649', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'trademark', 'logicalnot'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -3497,29 +2647,87 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
 	- Glyph name: uni0122	Contours detected: 1	Expected: 2
+
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: Hbar	Contours detected: 0	Expected: 2
 
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
 	- Glyph name: Iogonek	Contours detected: 0	Expected: 1 or 2
 
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
 	- Glyph name: IJ	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
 
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
+
 	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 0	Expected: 1
 
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
+
 	- Glyph name: uni0145	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 0	Expected: 1
 
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
 	- Glyph name: uni0156	Contours detected: 0	Expected: 3
+
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
+
+	- Glyph name: Scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: scedilla	Contours detected: 0	Expected: 1 or 2
+
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0218	Contours detected: 0	Expected: 2
 
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
 	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
 
 	- Glyph name: Eng	Contours detected: 0	Expected: 1
 
@@ -3532,6 +2740,28 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Lcaron	Contours detected: 0	Expected: 2
 
 	- Glyph name: Lslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
+
+	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: dcaron	Contours detected: 0	Expected: 3
+
+	- Glyph name: dcroat	Contours detected: 0	Expected: 2
+
+	- Glyph name: eng	Contours detected: 0	Expected: 1
+
+	- Glyph name: eogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 0	Expected: 1
+
+	- Glyph name: ij	Contours detected: 0	Expected: 3 or 4
+
+	- Glyph name: iogonek	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: lcaron	Contours detected: 0	Expected: 2
+
+	- Glyph name: lslash	Contours detected: 0	Expected: 1
 
 	- Glyph name: onehalf	Contours detected: 1	Expected: 3
 
@@ -3539,140 +2769,56 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
+	- Glyph name: tcaron	Contours detected: 0	Expected: 2
+
 	- Glyph name: threequarters	Contours detected: 1	Expected: 3 or 4
+
+	- Glyph name: trademark	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0122	Contours detected: 1	Expected: 2
 
+	- Glyph name: uni0123	Contours detected: 0	Expected: 3 or 4
+
 	- Glyph name: uni0136	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni0137	Contours detected: 0	Expected: 2 or 3
+
+	- Glyph name: uni013B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni013C	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni0145	Contours detected: 0	Expected: 2
 
+	- Glyph name: uni0146	Contours detected: 0	Expected: 2
+
 	- Glyph name: uni0156	Contours detected: 0	Expected: 3
 
-	- Glyph name: uni0218	Contours detected: 0	Expected: 2 
+	- Glyph name: uni0157	Contours detected: 0	Expected: 2
 
-	- And Glyph name: uni021A	Contours detected: 0	Expected: 2
+	- Glyph name: uni0218	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0219	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021A	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni021B	Contours detected: 0	Expected: 2
+
+	- Glyph name: uni0312	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0326	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0327	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni0328	Contours detected: 0	Expected: 1
+
+	- Glyph name: uni1E9E	Contours detected: 0	Expected: 1 
+
+	- And Glyph name: uogonek	Contours detected: 0	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* ampersand (U+0026): X=233.5,Y=1.5 (should be at baseline 0?)
-
-	* parenleft (U+0028): X=224.0,Y=1.0 (should be at baseline 0?)
-
-	* parenright (U+0029): X=296.0,Y=1.0 (should be at baseline 0?)
-
-	* at (U+0040): X=349.5,Y=705.5 (should be at cap-height 704?)
-
-	* a (U+0061): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* a (U+0061): X=340.0,Y=510.0 (should be at x-height 512?)
-
-	* b (U+0062): X=212.5,Y=511.5 (should be at x-height 512?)
-
-	* b (U+0062): X=212.5,Y=1.0 (should be at baseline 0?)
-
-	* d (U+0064): X=299.5,Y=1.0 (should be at baseline 0?)
-
-	* d (U+0064): X=299.5,Y=511.5 (should be at x-height 512?)
-
-	* i (U+0069): X=218.5,Y=702.0 (should be at cap-height 704?)
-
-	* i (U+0069): X=309.5,Y=702.0 (should be at cap-height 704?)
-
-	* j (U+006A): X=242.5,Y=702.0 (should be at cap-height 704?)
-
-	* j (U+006A): X=333.5,Y=702.0 (should be at cap-height 704?)
-
-	* m (U+006D): X=166.0,Y=510.5 (should be at x-height 512?)
-
-	* m (U+006D): X=257.0,Y=510.5 (should be at x-height 512?)
-
-	* m (U+006D): X=321.0,Y=510.5 (should be at x-height 512?)
-
-	* n (U+006E): X=215.0,Y=510.5 (should be at x-height 512?)
-
-	* p (U+0070): X=195.0,Y=510.0 (should be at x-height 512?)
-
-	* q (U+0071): X=317.5,Y=510.0 (should be at x-height 512?)
-
-	* r (U+0072): X=221.0,Y=510.0 (should be at x-height 512?)
-
-	* s (U+0073): X=352.0,Y=-2.0 (should be at baseline 0?)
-
-	* copyright (U+00A9): X=370.0,Y=-0.5 (should be at baseline 0?)
-
-	* copyright (U+00A9): X=142.5,Y=-0.5 (should be at baseline 0?)
-
-	* newGlyph (U+00B5): X=184.0,Y=-1.5 (should be at baseline 0?)
-
-	* agrave (U+00E0): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* aacute (U+00E1): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* acircumflex (U+00E2): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* atilde (U+00E3): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* adieresis (U+00E4): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* aring (U+00E5): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* aring (U+00E5): X=193.5,Y=705.0 (should be at cap-height 704?)
-
-	* aring (U+00E5): X=306.5,Y=705.0 (should be at cap-height 704?)
-
-	* ae (U+00E6): X=461.5,Y=1.5 (should be at baseline 0?)
-
-	* ae (U+00E6): X=38.5,Y=0.5 (should be at baseline 0?)
-
-	* eth (U+00F0): X=299.5,Y=1.0 (should be at baseline 0?)
-
-	* thorn (U+00FE): X=212.5,Y=1.0 (should be at baseline 0?)
-
-	* abreve (U+0103): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* abreve (U+0103): X=135.0,Y=706.0 (should be at cap-height 704?)
-
-	* abreve (U+0103): X=188.0,Y=706.0 (should be at cap-height 704?)
-
-	* abreve (U+0103): X=302.0,Y=706.0 (should be at cap-height 704?)
-
-	* abreve (U+0103): X=355.0,Y=706.0 (should be at cap-height 704?)
-
-	* oe (U+0153): X=455.5,Y=1.5 (should be at baseline 0?)
-
-	* oe (U+0153): X=221.0,Y=-2.0 (should be at baseline 0?)
-
-	* breve (U+02D8): X=146.0,Y=706.0 (should be at cap-height 704?)
-
-	* breve (U+02D8): X=199.0,Y=706.0 (should be at cap-height 704?)
-
-	* breve (U+02D8): X=313.0,Y=706.0 (should be at cap-height 704?)
-
-	* breve (U+02D8): X=366.0,Y=706.0 (should be at cap-height 704?)
-
-	* ring (U+02DA): X=199.5,Y=705.0 (should be at cap-height 704?)
-
-	* ring (U+02DA): X=312.5,Y=705.0 (should be at cap-height 704?)
-
-	* uni0306 (U+0306): X=146.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni0306 (U+0306): X=199.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni0306 (U+0306): X=313.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni0306 (U+0306): X=366.0,Y=706.0 (should be at cap-height 704?)
-
-	* uni030A (U+030A): X=199.5,Y=705.0 (should be at cap-height 704?) 
-
-	* And uni030A (U+030A): X=312.5,Y=705.0 (should be at cap-height 704?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -3710,8 +2856,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 24 | 49 | 668 | 37 | 509 | 0 |
-| 0% | 2% | 4% | 52% | 3% | 40% | 0% |
+| 0 | 24 | 45 | 668 | 37 | 513 | 0 |
+| 0% | 2% | 3% | 52% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
