@@ -50,6 +50,7 @@ name = isFixedPitch;
 value = 1;
 },
 {
+disabled = 1;
 name = panose;
 value = (
 0,
@@ -254,7 +255,7 @@ value = -50;
 },
 {
 name = winAscent;
-value = 940;
+value = 960;
 },
 {
 name = winDescent;
@@ -323,7 +324,7 @@ value = -50;
 },
 {
 name = winAscent;
-value = 940;
+value = 960;
 },
 {
 name = winDescent;
