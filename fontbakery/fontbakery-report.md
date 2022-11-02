@@ -428,9 +428,7 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> 
-
-	* And uniFEF4 (U+FEF4): L<<324.0,126.0>--<483.0,125.0>> [code: found-semi-vertical]
+	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[9] HasubiMono-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -2446,9 +2444,7 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> 
-
-	* And uniFEF4 (U+FEF4): L<<314.0,103.0>--<478.0,102.0>> [code: found-semi-vertical]
+	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[9] HasubiMono-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -2814,9 +2810,7 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> 
-
-	* And uniFEF4 (U+FEF4): L<<304.0,80.0>--<472.0,79.0>> [code: found-semi-vertical]
+	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
 ### Summary
 
