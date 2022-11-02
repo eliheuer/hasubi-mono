@@ -1,8 +1,5 @@
-# This script is meant to be run from the root level
-# of your font's git repository. For example, from a Unix terminal:
-# $ git clone my-font
-# $ cd my-font
-# $ python3 documentation/image1.py --output documentation/image1.png
+# How to build(install skia-drawbot first):
+# $ python3 image.py --output image.png
 
 # Import moduels from external python packages: https://pypi.org/
 from drawbot_skia.drawbot import *
@@ -16,9 +13,10 @@ import argparse
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 2048, 128, 1
-FONT_PATH = "fonts/Hasubi-Mono[wght].ttf"
+FONT_PATH = "specimen-fonts/Hasubi-Mono[wght].ttf"
 FONT_LICENSE = "OFL v1.1"
-AUXILIARY_FONT = "Helvetica"
+AUXILIARY_FONT = "specimen-fonts/Hasubi-Mono[wght].ttf"
+#AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48
 BIG_TEXT = "Hello World"
 BIG_TEXT_B = "كـــن فيكون"
@@ -126,6 +124,7 @@ def draw_auxiliary_text():
     # Setup
     font(AUXILIARY_FONT)
     fontSize(AUXILIARY_FONT_SIZE)
+    fontVariations(wght = 400)
     POS_TOP_LEFT = (MARGIN, HEIGHT - MARGIN * 1.275)
     POS_TOP_RIGHT = (WIDTH - MARGIN, HEIGHT - MARGIN * 1.275)
     POS_BOTTOM_LEFT = (MARGIN, MARGIN)
