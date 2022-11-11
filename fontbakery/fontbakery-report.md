@@ -42,37 +42,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- threedotsupbelowar
 
-	- twodotsverticalabovear
+	- twodotsverticalabovear 
 
-	- twodotsverticalbelowar
-
-	- uniFB58
-
-	- uniFB6C
-
-	- uniFB7C
-
-	- uniFB90
-
-	- uniFB94
-
-	- uniFE9F
-
-	- uniFEBF
-
-	- uniFEC7
-
-	- uniFECF
-
-	- uniFED7
-
-	- uniFEDF
-
-	- uniFEE3
-
-	- uniFEF3 
-
-	- And yehFarsiar.init
+	- And twodotsverticalbelowar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -382,37 +354,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- threedotsupbelowar
 
-	- twodotsverticalabovear
+	- twodotsverticalabovear 
 
-	- twodotsverticalbelowar
-
-	- uniFB58
-
-	- uniFB6C
-
-	- uniFB7C
-
-	- uniFB90
-
-	- uniFB94
-
-	- uniFE9F
-
-	- uniFEBF
-
-	- uniFEC7
-
-	- uniFECF
-
-	- uniFED7
-
-	- uniFEDF
-
-	- uniFEE3
-
-	- uniFEF3 
-
-	- And yehFarsiar.init
+	- And twodotsverticalbelowar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -692,37 +636,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- threedotsupbelowar
 
-	- twodotsverticalabovear
+	- twodotsverticalabovear 
 
-	- twodotsverticalbelowar
-
-	- uniFB58
-
-	- uniFB6C
-
-	- uniFB7C
-
-	- uniFB90
-
-	- uniFB94
-
-	- uniFE9F
-
-	- uniFEBF
-
-	- uniFEC7
-
-	- uniFECF
-
-	- uniFED7
-
-	- uniFEDF
-
-	- uniFEE3
-
-	- uniFEF3 
-
-	- And yehFarsiar.init
+	- And twodotsverticalbelowar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1242,37 +1158,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- threedotsupbelowar
 
-	- twodotsverticalabovear
+	- twodotsverticalabovear 
 
-	- twodotsverticalbelowar
-
-	- uniFB58
-
-	- uniFB6C
-
-	- uniFB7C
-
-	- uniFB90
-
-	- uniFB94
-
-	- uniFE9F
-
-	- uniFEBF
-
-	- uniFEC7
-
-	- uniFECF
-
-	- uniFED7
-
-	- uniFEDF
-
-	- uniFEE3
-
-	- uniFEF3 
-
-	- And yehFarsiar.init
+	- And twodotsverticalbelowar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1734,37 +1622,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- threedotsupbelowar
 
-	- twodotsverticalabovear
+	- twodotsverticalabovear 
 
-	- twodotsverticalbelowar
-
-	- uniFB58
-
-	- uniFB6C
-
-	- uniFB7C
-
-	- uniFB90
-
-	- uniFB94
-
-	- uniFE9F
-
-	- uniFEBF
-
-	- uniFEC7
-
-	- uniFECF
-
-	- uniFED7
-
-	- uniFEDF
-
-	- uniFEE3
-
-	- uniFEF3 
-
-	- And yehFarsiar.init
+	- And twodotsverticalbelowar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2074,37 +1934,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- threedotsupbelowar
 
-	- twodotsverticalabovear
+	- twodotsverticalabovear 
 
-	- twodotsverticalbelowar
-
-	- uniFB58
-
-	- uniFB6C
-
-	- uniFB7C
-
-	- uniFB90
-
-	- uniFB94
-
-	- uniFE9F
-
-	- uniFEBF
-
-	- uniFEC7
-
-	- uniFECF
-
-	- uniFED7
-
-	- uniFEDF
-
-	- uniFEE3
-
-	- uniFEF3 
-
-	- And yehFarsiar.init
+	- And twodotsverticalbelowar
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
