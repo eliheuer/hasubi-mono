@@ -36,8 +36,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- gafsarkashcenterar
 
-	- lam_alefWaslaar
-
 	- miniKehehar
 
 	- threedotsdownabovear
@@ -48,111 +46,33 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- twodotsverticalbelowar
 
-	- uniFB51
-
-	- uniFB57
-
 	- uniFB58
-
-	- uniFB59
-
-	- uniFB6B
 
 	- uniFB6C
 
-	- uniFB6D
-
-	- uniFB7B
-
 	- uniFB7C
-
-	- uniFB7D
-
-	- uniFB8B
-
-	- uniFB8F
 
 	- uniFB90
 
-	- uniFB91
-
-	- uniFB93
-
 	- uniFB94
-
-	- uniFB95
-
-	- uniFE82
-
-	- uniFE94
-
-	- uniFE9E
 
 	- uniFE9F
 
-	- uniFEA0
-
-	- uniFEB0
-
-	- uniFEBE
-
 	- uniFEBF
-
-	- uniFEC0
-
-	- uniFEC2
-
-	- uniFEC4
-
-	- uniFEC6
 
 	- uniFEC7
 
-	- uniFEC8
-
-	- uniFECE
-
 	- uniFECF
-
-	- uniFED0
-
-	- uniFED4
-
-	- uniFED6
 
 	- uniFED7
 
-	- uniFED8
-
-	- uniFEDE
-
 	- uniFEDF
-
-	- uniFEE0
-
-	- uniFEE2
 
 	- uniFEE3
 
-	- uniFEE4
+	- uniFEF3 
 
-	- uniFEF2
-
-	- uniFEF3
-
-	- uniFEF5
-
-	- uniFEF7
-
-	- uniFEF9
-
-	- uniFEFB
-
-	- yehFarsiar.fina
-
-	- yehFarsiar.init 
-
-	- And yehFarsiar.medi
+	- And yehFarsiar.init
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -456,8 +376,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- gafsarkashcenterar
 
-	- lam_alefWaslaar
-
 	- miniKehehar
 
 	- threedotsdownabovear
@@ -468,111 +386,33 @@ The following glyphs do not have the recommended number of contours:
 
 	- twodotsverticalbelowar
 
-	- uniFB51
-
-	- uniFB57
-
 	- uniFB58
-
-	- uniFB59
-
-	- uniFB6B
 
 	- uniFB6C
 
-	- uniFB6D
-
-	- uniFB7B
-
 	- uniFB7C
-
-	- uniFB7D
-
-	- uniFB8B
-
-	- uniFB8F
 
 	- uniFB90
 
-	- uniFB91
-
-	- uniFB93
-
 	- uniFB94
-
-	- uniFB95
-
-	- uniFE82
-
-	- uniFE94
-
-	- uniFE9E
 
 	- uniFE9F
 
-	- uniFEA0
-
-	- uniFEB0
-
-	- uniFEBE
-
 	- uniFEBF
-
-	- uniFEC0
-
-	- uniFEC2
-
-	- uniFEC4
-
-	- uniFEC6
 
 	- uniFEC7
 
-	- uniFEC8
-
-	- uniFECE
-
 	- uniFECF
-
-	- uniFED0
-
-	- uniFED4
-
-	- uniFED6
 
 	- uniFED7
 
-	- uniFED8
-
-	- uniFEDE
-
 	- uniFEDF
-
-	- uniFEE0
-
-	- uniFEE2
 
 	- uniFEE3
 
-	- uniFEE4
+	- uniFEF3 
 
-	- uniFEF2
-
-	- uniFEF3
-
-	- uniFEF5
-
-	- uniFEF7
-
-	- uniFEF9
-
-	- uniFEFB
-
-	- yehFarsiar.fina
-
-	- yehFarsiar.init 
-
-	- And yehFarsiar.medi
+	- And yehFarsiar.init
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -846,8 +686,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- gafsarkashcenterar
 
-	- lam_alefWaslaar
-
 	- miniKehehar
 
 	- threedotsdownabovear
@@ -858,111 +696,33 @@ The following glyphs do not have the recommended number of contours:
 
 	- twodotsverticalbelowar
 
-	- uniFB51
-
-	- uniFB57
-
 	- uniFB58
-
-	- uniFB59
-
-	- uniFB6B
 
 	- uniFB6C
 
-	- uniFB6D
-
-	- uniFB7B
-
 	- uniFB7C
-
-	- uniFB7D
-
-	- uniFB8B
-
-	- uniFB8F
 
 	- uniFB90
 
-	- uniFB91
-
-	- uniFB93
-
 	- uniFB94
-
-	- uniFB95
-
-	- uniFE82
-
-	- uniFE94
-
-	- uniFE9E
 
 	- uniFE9F
 
-	- uniFEA0
-
-	- uniFEB0
-
-	- uniFEBE
-
 	- uniFEBF
-
-	- uniFEC0
-
-	- uniFEC2
-
-	- uniFEC4
-
-	- uniFEC6
 
 	- uniFEC7
 
-	- uniFEC8
-
-	- uniFECE
-
 	- uniFECF
-
-	- uniFED0
-
-	- uniFED4
-
-	- uniFED6
 
 	- uniFED7
 
-	- uniFED8
-
-	- uniFEDE
-
 	- uniFEDF
-
-	- uniFEE0
-
-	- uniFEE2
 
 	- uniFEE3
 
-	- uniFEE4
+	- uniFEF3 
 
-	- uniFEF2
-
-	- uniFEF3
-
-	- uniFEF5
-
-	- uniFEF7
-
-	- uniFEF9
-
-	- uniFEFB
-
-	- yehFarsiar.fina
-
-	- yehFarsiar.init 
-
-	- And yehFarsiar.medi
+	- And yehFarsiar.init
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1476,8 +1236,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- gafsarkashcenterar
 
-	- lam_alefWaslaar
-
 	- miniKehehar
 
 	- threedotsdownabovear
@@ -1488,111 +1246,33 @@ The following glyphs do not have the recommended number of contours:
 
 	- twodotsverticalbelowar
 
-	- uniFB51
-
-	- uniFB57
-
 	- uniFB58
-
-	- uniFB59
-
-	- uniFB6B
 
 	- uniFB6C
 
-	- uniFB6D
-
-	- uniFB7B
-
 	- uniFB7C
-
-	- uniFB7D
-
-	- uniFB8B
-
-	- uniFB8F
 
 	- uniFB90
 
-	- uniFB91
-
-	- uniFB93
-
 	- uniFB94
-
-	- uniFB95
-
-	- uniFE82
-
-	- uniFE94
-
-	- uniFE9E
 
 	- uniFE9F
 
-	- uniFEA0
-
-	- uniFEB0
-
-	- uniFEBE
-
 	- uniFEBF
-
-	- uniFEC0
-
-	- uniFEC2
-
-	- uniFEC4
-
-	- uniFEC6
 
 	- uniFEC7
 
-	- uniFEC8
-
-	- uniFECE
-
 	- uniFECF
-
-	- uniFED0
-
-	- uniFED4
-
-	- uniFED6
 
 	- uniFED7
 
-	- uniFED8
-
-	- uniFEDE
-
 	- uniFEDF
-
-	- uniFEE0
-
-	- uniFEE2
 
 	- uniFEE3
 
-	- uniFEE4
+	- uniFEF3 
 
-	- uniFEF2
-
-	- uniFEF3
-
-	- uniFEF5
-
-	- uniFEF7
-
-	- uniFEF9
-
-	- uniFEFB
-
-	- yehFarsiar.fina
-
-	- yehFarsiar.init 
-
-	- And yehFarsiar.medi
+	- And yehFarsiar.init
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2048,8 +1728,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- gafsarkashcenterar
 
-	- lam_alefWaslaar
-
 	- miniKehehar
 
 	- threedotsdownabovear
@@ -2060,111 +1738,33 @@ The following glyphs do not have the recommended number of contours:
 
 	- twodotsverticalbelowar
 
-	- uniFB51
-
-	- uniFB57
-
 	- uniFB58
-
-	- uniFB59
-
-	- uniFB6B
 
 	- uniFB6C
 
-	- uniFB6D
-
-	- uniFB7B
-
 	- uniFB7C
-
-	- uniFB7D
-
-	- uniFB8B
-
-	- uniFB8F
 
 	- uniFB90
 
-	- uniFB91
-
-	- uniFB93
-
 	- uniFB94
-
-	- uniFB95
-
-	- uniFE82
-
-	- uniFE94
-
-	- uniFE9E
 
 	- uniFE9F
 
-	- uniFEA0
-
-	- uniFEB0
-
-	- uniFEBE
-
 	- uniFEBF
-
-	- uniFEC0
-
-	- uniFEC2
-
-	- uniFEC4
-
-	- uniFEC6
 
 	- uniFEC7
 
-	- uniFEC8
-
-	- uniFECE
-
 	- uniFECF
-
-	- uniFED0
-
-	- uniFED4
-
-	- uniFED6
 
 	- uniFED7
 
-	- uniFED8
-
-	- uniFEDE
-
 	- uniFEDF
-
-	- uniFEE0
-
-	- uniFEE2
 
 	- uniFEE3
 
-	- uniFEE4
+	- uniFEF3 
 
-	- uniFEF2
-
-	- uniFEF3
-
-	- uniFEF5
-
-	- uniFEF7
-
-	- uniFEF9
-
-	- uniFEFB
-
-	- yehFarsiar.fina
-
-	- yehFarsiar.init 
-
-	- And yehFarsiar.medi
+	- And yehFarsiar.init
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2468,8 +2068,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- gafsarkashcenterar
 
-	- lam_alefWaslaar
-
 	- miniKehehar
 
 	- threedotsdownabovear
@@ -2480,111 +2078,33 @@ The following glyphs do not have the recommended number of contours:
 
 	- twodotsverticalbelowar
 
-	- uniFB51
-
-	- uniFB57
-
 	- uniFB58
-
-	- uniFB59
-
-	- uniFB6B
 
 	- uniFB6C
 
-	- uniFB6D
-
-	- uniFB7B
-
 	- uniFB7C
-
-	- uniFB7D
-
-	- uniFB8B
-
-	- uniFB8F
 
 	- uniFB90
 
-	- uniFB91
-
-	- uniFB93
-
 	- uniFB94
-
-	- uniFB95
-
-	- uniFE82
-
-	- uniFE94
-
-	- uniFE9E
 
 	- uniFE9F
 
-	- uniFEA0
-
-	- uniFEB0
-
-	- uniFEBE
-
 	- uniFEBF
-
-	- uniFEC0
-
-	- uniFEC2
-
-	- uniFEC4
-
-	- uniFEC6
 
 	- uniFEC7
 
-	- uniFEC8
-
-	- uniFECE
-
 	- uniFECF
-
-	- uniFED0
-
-	- uniFED4
-
-	- uniFED6
 
 	- uniFED7
 
-	- uniFED8
-
-	- uniFEDE
-
 	- uniFEDF
-
-	- uniFEE0
-
-	- uniFEE2
 
 	- uniFEE3
 
-	- uniFEE4
+	- uniFEF3 
 
-	- uniFEF2
-
-	- uniFEF3
-
-	- uniFEF5
-
-	- uniFEF7
-
-	- uniFEF9
-
-	- uniFEFB
-
-	- yehFarsiar.fina
-
-	- yehFarsiar.init 
-
-	- And yehFarsiar.medi
+	- And yehFarsiar.init
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
