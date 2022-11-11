@@ -28,10 +28,7 @@ drloW olleH أشهد يا إلهي بأنك خلقتني لعر/fehDotless-ar.in
 
 للمصلي أن يقوم مقبلا إلى الله وإذا قام واستقر في مقامه ينظر إلى اليمين والشمال كمن ينتظر رحْمة ربه الرحمن الرحيم ثم يقول",
 "كن فيكون ",
-"و",
-"د",
-"/thal-ar.fina",
-"/ain-ar.medi"
+"و"
 );
 axes = (
 {
@@ -111,6 +108,7 @@ feature sups;
 feature frac;
 feature ordn;
 feature case;
+feature init;
 feature medi;
 feature fina;
 ";
@@ -243,6 +241,42 @@ sub tildecomb by tildecomb.case;
 sub macroncomb by macroncomb.case;
 ";
 tag = case;
+},
+{
+automatic = 1;
+code = "sub behDotless-ar by behDotless-ar.init;
+sub beh-ar by beh-ar.init;
+sub peh-ar by peh-ar.init;
+sub teh-ar by teh-ar.init;
+sub theh-ar by theh-ar.init;
+sub jeem-ar by jeem-ar.init;
+sub tcheh-ar by tcheh-ar.init;
+sub hah-ar by hah-ar.init;
+sub khah-ar by khah-ar.init;
+sub seen-ar by seen-ar.init;
+sub sheen-ar by sheen-ar.init;
+sub sad-ar by sad-ar.init;
+sub dad-ar by dad-ar.init;
+sub tah-ar by tah-ar.init;
+sub zah-ar by zah-ar.init;
+sub ain-ar by ain-ar.init;
+sub ghain-ar by ghain-ar.init;
+sub feh-ar by feh-ar.init;
+sub veh-ar by veh-ar.init;
+sub fehDotless-ar by fehDotless-ar.init;
+sub qaf-ar by qaf-ar.init;
+sub kaf-ar by kaf-ar.init;
+sub keheh-ar by keheh-ar.init;
+sub gaf-ar by gaf-ar.init;
+sub lam-ar by lam-ar.init;
+sub meem-ar by meem-ar.init;
+sub noon-ar by noon-ar.init;
+sub heh-ar by heh-ar.init;
+sub yeh-ar by yeh-ar.init;
+sub yehHamzaabove-ar by yehHamzaabove-ar.init;
+sub yehFarsi-ar by yehFarsi-ar.init;
+";
+tag = init;
 },
 {
 automatic = 1;
