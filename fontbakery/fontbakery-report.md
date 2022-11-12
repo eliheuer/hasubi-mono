@@ -53,6 +53,8 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: colon	Contours detected: 1	Expected: 2
+
 	- Glyph name: onequarter	Contours detected: 1	Expected: 3 or 4
 
 	- Glyph name: onehalf	Contours detected: 1	Expected: 3
@@ -160,6 +162,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: colon	Contours detected: 1	Expected: 2
 
 	- Glyph name: dcaron	Contours detected: 0	Expected: 3
 
@@ -647,6 +651,8 @@ The following glyphs do not have the recommended number of contours:
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: colon	Contours detected: 1	Expected: 2
+
 	- Glyph name: onequarter	Contours detected: 1	Expected: 3 or 4
 
 	- Glyph name: onehalf	Contours detected: 1	Expected: 3
@@ -754,6 +760,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: colon	Contours detected: 1	Expected: 2
 
 	- Glyph name: dcaron	Contours detected: 0	Expected: 3
 
@@ -1633,6 +1641,8 @@ The following glyphs do not have the recommended number of contours:
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: colon	Contours detected: 1	Expected: 2
+
 	- Glyph name: onequarter	Contours detected: 1	Expected: 3 or 4
 
 	- Glyph name: onehalf	Contours detected: 1	Expected: 3
@@ -1740,6 +1750,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: Uogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: aogonek	Contours detected: 0	Expected: 2
+
+	- Glyph name: colon	Contours detected: 1	Expected: 2
 
 	- Glyph name: dcaron	Contours detected: 0	Expected: 3
 
