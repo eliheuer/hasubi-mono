@@ -15,7 +15,6 @@
 Hasubi Mono (حاسوبي مونو) is an Arabic, Hebrew, and Latin condensed monospace typeface designed for use in text editors and terminals.
 
 ![Sample Image](documentation/square-image-001.png)
-![Sample Image](documentation/square-image-002.png)
 ![Sample Image](documentation/wide-image-001.png)
 
 ## About
