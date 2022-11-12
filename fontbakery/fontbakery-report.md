@@ -5,7 +5,7 @@ Fontbakery version: 0.8.10
 <details><summary><b>[10] HasubiMono-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 432, but got 360 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 464, but got 360 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
@@ -324,7 +324,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[9] HasubiMono-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 432, but got 360 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 464, but got 360 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
@@ -606,7 +606,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[10] HasubiMono-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 432, but got 360 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 464, but got 360 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
@@ -1128,7 +1128,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[10] HasubiMono-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 432, but got 360 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 464, but got 360 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
@@ -1592,7 +1592,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[9] HasubiMono-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 432, but got 360 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 464, but got 360 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
@@ -1904,7 +1904,7 @@ The following glyphs do not have the recommended number of contours:
 </div></details><br></div></details><details><summary><b>[9] HasubiMono-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 432, but got 360 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 464, but got 360 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
