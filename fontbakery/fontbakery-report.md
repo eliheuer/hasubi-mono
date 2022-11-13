@@ -868,12 +868,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* j (U+006A): X=333.5,Y=702.0 (should be at cap-height 704?)
 
-	* m (U+006D): X=166.0,Y=510.5 (should be at x-height 512?)
-
-	* m (U+006D): X=257.0,Y=510.5 (should be at x-height 512?)
-
-	* m (U+006D): X=321.0,Y=510.5 (should be at x-height 512?)
-
 	* p (U+0070): X=195.0,Y=510.0 (should be at x-height 512?)
 
 	* q (U+0071): X=317.5,Y=510.0 (should be at x-height 512?)
