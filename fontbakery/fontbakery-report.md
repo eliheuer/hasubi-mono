@@ -10,7 +10,7 @@ Fontbakery version: 0.8.10
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 42 glyphs (7.06%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'uni0145', 'Eng', 'uni0156', 'aogonek', 'dcaron', 'dcroat', 'eogonek', 'uni0123', 'hbar', 'ij', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uogonek', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'trademark', 'logicalnot'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 35 glyphs (5.63%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'uni0145', 'Eng', 'uni0156', 'aogonek', 'dcaron', 'dcroat', 'eogonek', 'uni0123', 'hbar', 'ij', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uogonek', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'trademark', 'logicalnot'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -34,11 +34,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- doublestrokear
 
+	- gafsarkashabovear
+
 	- gafsarkashcenterar
 
 	- miniKehehar
 
 	- threedotsdownabovear
+
+	- threedotsdowncenterar
 
 	- threedotsupbelowar
 
@@ -333,7 +337,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 42 glyphs (7.06%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'uni0145', 'Eng', 'uni0156', 'aogonek', 'dcaron', 'dcroat', 'eogonek', 'uni0123', 'hbar', 'ij', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uogonek', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'trademark', 'logicalnot'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 35 glyphs (5.63%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'uni0145', 'Eng', 'uni0156', 'aogonek', 'dcaron', 'dcroat', 'eogonek', 'uni0123', 'hbar', 'ij', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uogonek', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'trademark', 'logicalnot'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -350,11 +354,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- doublestrokear
 
+	- gafsarkashabovear
+
 	- gafsarkashcenterar
 
 	- miniKehehar
 
 	- threedotsdownabovear
+
+	- threedotsdowncenterar
 
 	- threedotsupbelowar
 
@@ -615,7 +623,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 42 glyphs (7.06%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'uni0145', 'Eng', 'uni0156', 'aogonek', 'dcaron', 'dcroat', 'eogonek', 'uni0123', 'hbar', 'ij', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uogonek', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'trademark', 'logicalnot'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 35 glyphs (5.63%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'uni0145', 'Eng', 'uni0156', 'aogonek', 'dcaron', 'dcroat', 'eogonek', 'uni0123', 'hbar', 'ij', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uogonek', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'trademark', 'logicalnot'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -632,11 +640,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- doublestrokear
 
+	- gafsarkashabovear
+
 	- gafsarkashcenterar
 
 	- miniKehehar
 
 	- threedotsdownabovear
+
+	- threedotsdowncenterar
 
 	- threedotsupbelowar
 
@@ -1030,9 +1042,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni030B (U+030B): X=251.0,Y=706.0 (should be at cap-height 704?)
 
-	* uni0622 (U+0622): X=127.0,Y=706.0 (should be at cap-height 704?) 
+	* uni0622 (U+0622): X=127.0,Y=706.0 (should be at cap-height 704?)
 
-	* And uni0622 (U+0622): X=92.0,Y=706.0 (should be at cap-height 704?) [code: found-misalignments]
+	* uni0622 (U+0622): X=92.0,Y=706.0 (should be at cap-height 704?)
+
+	* uni0635 (U+0635): X=128.0,Y=-261.0 (should be at descender -260?)
+
+	* uni0635 (U+0635): X=-32.0,Y=-261.0 (should be at descender -260?)
+
+	* uni0636 (U+0636): X=128.0,Y=-261.0 (should be at descender -260?) 
+
+	* And uni0636 (U+0636): X=-32.0,Y=-261.0 (should be at descender -260?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1135,7 +1155,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 28 glyphs (4.71%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'uni0156', 'aogonek', 'eogonek', 'hbar', 'ij', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'guillemotleft', 'logicalnot'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 21 glyphs (3.38%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'uni0156', 'aogonek', 'eogonek', 'hbar', 'ij', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'guillemotleft', 'logicalnot'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1152,11 +1172,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- doublestrokear
 
+	- gafsarkashabovear
+
 	- gafsarkashcenterar
 
 	- miniKehehar
 
 	- threedotsdownabovear
+
+	- threedotsdowncenterar
 
 	- threedotsupbelowar
 
@@ -1544,6 +1568,14 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni030B (U+030B): X=251.0,Y=706.0 (should be at cap-height 704?)
 
+	* uni0635 (U+0635): X=128.0,Y=-261.0 (should be at descender -260?)
+
+	* uni0635 (U+0635): X=-32.0,Y=-261.0 (should be at descender -260?)
+
+	* uni0636 (U+0636): X=128.0,Y=-261.0 (should be at descender -260?)
+
+	* uni0636 (U+0636): X=-32.0,Y=-261.0 (should be at descender -260?)
+
 	* uni064A (U+064A): X=116.0,Y=-262.0 (should be at descender -260?)
 
 	* uni064A (U+064A): X=260.0,Y=-262.0 (should be at descender -260?)
@@ -1599,7 +1631,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 42 glyphs (7.06%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'uni0145', 'Eng', 'uni0156', 'aogonek', 'dcaron', 'dcroat', 'eogonek', 'uni0123', 'hbar', 'ij', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uogonek', 'uniFED2', 'uniFB6B', 'uni06A1.fina', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'trademark', 'logicalnot'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 35 glyphs (5.63%) have a different width. You should check the widths of: ['AE', 'IJ', 'uni0136', 'Lcaron', 'uni0145', 'Eng', 'uni0156', 'aogonek', 'dcaron', 'dcroat', 'eogonek', 'uni0123', 'hbar', 'ij', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uni0157', 'scedilla', 'uni0219', 'tcaron', 'uni021B', 'uogonek', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'guillemotleft', 'trademark', 'logicalnot'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1616,11 +1648,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- doublestrokear
 
+	- gafsarkashabovear
+
 	- gafsarkashcenterar
 
 	- miniKehehar
 
 	- threedotsdownabovear
+
+	- threedotsdowncenterar
 
 	- threedotsupbelowar
 
@@ -1915,7 +1951,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 22 glyphs (3.70%) have a different width. You should check the widths of: ['AE', 'Lcaron', 'uni0145', 'Eng', 'dcaron', 'dcroat', 'uni0123', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uogonek', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'trademark', 'logicalnot'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 22 glyphs (3.54%) have a different width. You should check the widths of: ['AE', 'Lcaron', 'uni0145', 'Eng', 'dcaron', 'dcroat', 'uni0123', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uogonek', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'trademark', 'logicalnot'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1932,11 +1968,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- doublestrokear
 
+	- gafsarkashabovear
+
 	- gafsarkashcenterar
 
 	- miniKehehar
 
 	- threedotsdownabovear
+
+	- threedotsdowncenterar
 
 	- threedotsupbelowar
 
