@@ -38,7 +38,7 @@ MY_URL = "https://github.com/eliheuer/hasubi-mono "
 MY_HASH = subprocess.check_output("git rev-parse --short HEAD", shell=True).decode()
 FONT_NAME = ttFont["name"].getDebugName(4)
 FONT_VERSION = "v%s" % floatToFixedToStr(ttFont["head"].fontRevision, 16)
-FONT_LICENSE = "OFL v1.1"
+FONT_LICENSE = "License: OFL v1.1"
 
 
 # Draws a grid
@@ -80,7 +80,7 @@ def draw_background():
 
 
 # Draw main text
-GRID_VIEW = True
+#GRID_VIEW = True
 def draw_main_text():
     fill(1)
     stroke(None)
@@ -91,14 +91,8 @@ def draw_main_text():
     # TODO: This should be done automatically when drawbot-skia
     # has support for textBox() and FormattedString
 
-    text("كـــن فيكون", (MARGIN*15, MARGIN*12.50))
-    text("Hello World", (MARGIN-4, MARGIN*10))
-
-    #text("كـــن فيكون", (MARGIN*15, MARGIN*9))
-    #text("Hello World", (MARGIN-4, MARGIN*6.25))
-
-    #text("كـــن فيكون", (MARGIN*15, MARGIN*9))
-    #text("Hello World", (MARGIN-4, MARGIN*6.25))
+    text("كـــن فيكون", (MARGIN*15, MARGIN*9))
+    text("Hello World", (MARGIN-4, MARGIN*6.25))
 
 
 # Divider lines
@@ -119,14 +113,14 @@ def draw_auxiliary_text():
     POS_TOP_LEFT = (MARGIN, HEIGHT - MARGIN * 1.275)
     POS_TOP_RIGHT = (WIDTH - MARGIN, HEIGHT - MARGIN * 1.275)
     POS_BOTTOM_LEFT = (MARGIN, MARGIN)
-    POS_BOTTOM_RIGHT = (WIDTH - MARGIN * 0.95, MARGIN)
-    URL_AND_HASH = MY_URL + "at commit " + MY_HASH
-    URL_AND_HASH = URL_AND_HASH.replace("\n", " ")
+    POS_BOTTOM_RIGHT = (WIDTH - MARGIN * 0.8, MARGIN)
+    AT_HASH = "Git Commit: " + MY_HASH
+    AT_HASH = AT_HASH.replace("\n", " ")
     # Draw Text
     text(FONT_NAME, POS_TOP_LEFT, align="left")
-    text(FONT_VERSION, POS_TOP_RIGHT, align="right")
-    text(URL_AND_HASH, POS_BOTTOM_LEFT, align="left")
-    text(FONT_LICENSE, POS_BOTTOM_RIGHT, align="right")
+    text(FONT_LICENSE, POS_TOP_RIGHT, align="right")
+    text(MY_URL, POS_BOTTOM_LEFT, align="left")
+    text(AT_HASH, POS_BOTTOM_RIGHT, align="right")
 
 
 # Build and save the image
