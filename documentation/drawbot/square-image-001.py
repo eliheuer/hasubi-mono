@@ -1,5 +1,8 @@
-# How to build(install skia-drawbot first):
-# $ python3 image.py --output image.png
+# This script is meant to be run from the root level
+# of your font's git repository. For example, from a Unix terminal:
+# $ git clone my-font
+# $ cd my-font
+# $ python3 documentation/drawbot/image1.py --output documentation/drawbot/image1.png
 
 # Import moduels from external python packages: https://pypi.org/
 from drawbot_skia.drawbot import *
@@ -13,17 +16,10 @@ import argparse
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 2048, 128, 1
-FONT_PATH = "specimen-fonts/Hasubi-Mono[wght].ttf"
-FONT_LICENSE = "OFL v1.1"
-AUXILIARY_FONT = "specimen-fonts/Hasubi-Mono[wght].ttf"
-#AUXILIARY_FONT = "Helvetica"
-AUXILIARY_FONT_SIZE = 48
-BIG_TEXT = "كـــن فيكون"
-BIG_TEXT_B = "Hello World"
-BIG_TEXT_FONT_SIZE = 1024/3.2
-BIG_TEXT_SIDE_MARGIN = MARGIN * 15
-BIG_TEXT_BOTTOM_MARGIN = MARGIN * 9
-GRID_VIEW = False # Change this to "True" for a grid overlay
+FONT_PATH = "fonts/variable/Hasubi-Mono[wght].ttf"
+AUXILIARY_FONT_PATH = "fonts/variable/Hasubi-Mono[wght].ttf"
+GRID_VIEW = False
+
 
 # Handel the "--output" flag
 # For example: $ python3 documentation/image1.py --output documentation/image1.png
@@ -36,12 +32,13 @@ args = parser.parse_args()
 # Docs Link: https://fonttools.readthedocs.io/en/latest/ttLib/ttFont.html
 ttFont = TTFont(FONT_PATH)
 
-# Constants that are worked out dynamically
+# Font Info Constants
 MY_URL = subprocess.check_output("git remote get-url origin", shell=True).decode()
 MY_URL = "https://github.com/eliheuer/hasubi-mono "
 MY_HASH = subprocess.check_output("git rev-parse --short HEAD", shell=True).decode()
 FONT_NAME = ttFont["name"].getDebugName(4)
 FONT_VERSION = "v%s" % floatToFixedToStr(ttFont["head"].fontRevision, 16)
+FONT_LICENSE = "OFL v1.1"
 
 
 # Draws a grid
@@ -83,18 +80,25 @@ def draw_background():
 
 
 # Draw main text
+GRID_VIEW = True
 def draw_main_text():
     fill(1)
     stroke(None)
     font(FONT_PATH)
-    fontSize(BIG_TEXT_FONT_SIZE)
+    fontSize(320)
     fontVariations(wght = 400)
     # Adjust this line to center main text manually.
     # TODO: This should be done automatically when drawbot-skia
     # has support for textBox() and FormattedString
-    #text(BIG_TEXT, ((WIDTH / 2) - MARGIN * 4.75, (HEIGHT / 2) - MARGIN * 2.5))
-    text(BIG_TEXT, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN))
-    text(BIG_TEXT_B, (BIG_TEXT_SIDE_MARGIN - 1802, BIG_TEXT_BOTTOM_MARGIN - MARGIN*2.75))
+
+    text("كـــن فيكون", (MARGIN*15, MARGIN*12.50))
+    text("Hello World", (MARGIN-4, MARGIN*10))
+
+    #text("كـــن فيكون", (MARGIN*15, MARGIN*9))
+    #text("Hello World", (MARGIN-4, MARGIN*6.25))
+
+    #text("كـــن فيكون", (MARGIN*15, MARGIN*9))
+    #text("Hello World", (MARGIN-4, MARGIN*6.25))
 
 
 # Divider lines
@@ -110,8 +114,8 @@ def draw_divider_lines():
 # Draw text describing the font and it's git status & repo URL
 def draw_auxiliary_text():
     # Setup
-    font(AUXILIARY_FONT)
-    fontSize(AUXILIARY_FONT_SIZE)
+    font(AUXILIARY_FONT_PATH)
+    fontSize(48)
     POS_TOP_LEFT = (MARGIN, HEIGHT - MARGIN * 1.275)
     POS_TOP_RIGHT = (WIDTH - MARGIN, HEIGHT - MARGIN * 1.275)
     POS_BOTTOM_LEFT = (MARGIN, MARGIN)
