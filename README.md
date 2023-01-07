@@ -14,7 +14,7 @@
 
 Hasubi Mono (حاسوبي مونو) is an  condensed horizontal contrast monospace typeface designed by Eli Heuer. Arabic, Hebrew, and Latin scripts are included. This typeface was specifically designed for people working with a mix of RTL and LRT scripts in text editors and IDEs. Hasubi is a transliteration of “حاسوبي (my computer)” in Arabic.
 
-![Sample Image](documentation/drawbot/square-image-001.png)
+![Sample Image](documentation/drawbot/wide-image-002.png)
 ![Sample Image](documentation/drawbot/wide-image-001.png)
 
 ## About
