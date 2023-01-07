@@ -2,10 +2,10 @@
 venv
 build.stamp
 proof
-fonts
 node_modules
 package-lock.json
 package.json
+documentation/specimen-fonts/InputMonoCompressed-Regular.ttf
 
 # OS generated files #
 ######################
