@@ -80,19 +80,19 @@ def draw_background():
 
 
 # Draw main text
-# GRID_VIEW = True
+#GRID_VIEW = True
 def draw_main_text():
     fill(1)
     stroke(None)
     font(FONT_PATH)
-    fontSize(320)
+    fontSize(256)
     fontVariations(wght = 400)
     # Adjust this line to center main text manually.
     # TODO: This should be done automatically when drawbot-skia
     # has support for textBox() and FormattedString
 
-    text("كـــن فيكون", (MARGIN*15, MARGIN*5))
-    text("Hello World", (MARGIN-4, MARGIN*2))
+    text("كـــن فيكون", ((MARGIN*13), MARGIN*4.5))
+    text("Hello World", ((MARGIN-4)+MARGIN*1.4, MARGIN*2.5))
 
 
 # Divider lines
@@ -100,8 +100,8 @@ def draw_divider_lines():
     stroke(1)
     strokeWidth(4)
     lineCap("round")
-    line((MARGIN, HEIGHT - MARGIN*1.5), (WIDTH - MARGIN, HEIGHT - MARGIN*1.5))
-    line((MARGIN, MARGIN + (MARGIN / 2)), (WIDTH - MARGIN, MARGIN + (MARGIN / 2)))
+    line((MARGIN+64, HEIGHT - MARGIN*1.5), (WIDTH - MARGIN-64, HEIGHT - MARGIN*1.5))
+    line((MARGIN+64, MARGIN + (MARGIN / 2)), (WIDTH - MARGIN-64, MARGIN + (MARGIN / 2)))
     stroke(None)
 
 
@@ -110,10 +110,10 @@ def draw_auxiliary_text():
     # Setup
     font(AUXILIARY_FONT_PATH)
     fontSize(48)
-    POS_TOP_LEFT = (MARGIN, HEIGHT - MARGIN * 1.275)
-    POS_TOP_RIGHT = (WIDTH - MARGIN, HEIGHT - MARGIN * 1.275)
-    POS_BOTTOM_LEFT = (MARGIN, MARGIN)
-    POS_BOTTOM_RIGHT = (WIDTH - MARGIN * 0.8, MARGIN)
+    POS_TOP_LEFT = (MARGIN+64, HEIGHT - MARGIN * 1.275)
+    POS_TOP_RIGHT = (WIDTH - 64 -MARGIN, HEIGHT - MARGIN * 1.275)
+    POS_BOTTOM_LEFT = (MARGIN+64, MARGIN)
+    POS_BOTTOM_RIGHT = (WIDTH - 64 - MARGIN * 0.8, MARGIN)
     AT_HASH = "Git Commit: " + MY_HASH
     AT_HASH = AT_HASH.replace("\n", " ")
     # Draw Text
@@ -122,13 +122,20 @@ def draw_auxiliary_text():
     text(MY_URL, POS_BOTTOM_LEFT, align="left")
     text(AT_HASH, POS_BOTTOM_RIGHT, align="right")
 
+    font("documentation/drawbot/specimen-fonts/InputMonoCompressed-Regular.ttf")
+    fontSize(48)
+    text(FONT_NAME, (MARGIN+64, HEIGHT - ((MARGIN * 1.275/2))), align="left")
+    text(FONT_LICENSE, (WIDTH - 64 -MARGIN, HEIGHT - ((MARGIN * 1.275)/2)), align="right")
+    text(MY_URL, (MARGIN+64, MARGIN/2), align="left")
+    text(AT_HASH, (WIDTH - 64 - MARGIN * 0.8, MARGIN/2), align="right")
+
 
 # Build and save the image
 if __name__ == "__main__":
     draw_background()
     draw_main_text()
-    #draw_divider_lines()
-    #draw_auxiliary_text()
+    draw_divider_lines()
+    draw_auxiliary_text()
     # Save output, using the "--output" flag location
     saveImage(args.output)
     # Print done in the terminal
