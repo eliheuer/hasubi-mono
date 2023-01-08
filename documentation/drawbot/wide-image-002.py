@@ -91,8 +91,9 @@ def draw_main_text():
     # TODO: This should be done automatically when drawbot-skia
     # has support for textBox() and FormattedString
 
-    text("كـــن فيكون", ((MARGIN*13), MARGIN*4.5))
+    text("كـــن فيكون", ((MARGIN*13.63), MARGIN*4.6))
     text("Hello World", ((MARGIN-4)+MARGIN*1.4, MARGIN*2.5))
+    #text("Hello World", ((MARGIN-4)+MARGIN*1.4, MARGIN*4))
 
 
 # Divider lines
@@ -117,17 +118,17 @@ def draw_auxiliary_text():
     AT_HASH = "Git Commit: " + MY_HASH
     AT_HASH = AT_HASH.replace("\n", " ")
     # Draw Text
-    text(FONT_NAME, POS_TOP_LEFT, align="left")
+    text("Hasubi Mono Regular v0.1-Alpha", POS_TOP_LEFT, align="left")
     text(FONT_LICENSE, POS_TOP_RIGHT, align="right")
     text(MY_URL, POS_BOTTOM_LEFT, align="left")
     text(AT_HASH, POS_BOTTOM_RIGHT, align="right")
 
     font("documentation/drawbot/specimen-fonts/InputMonoCompressed-Regular.ttf")
     fontSize(48)
-    text(FONT_NAME, (MARGIN+64, HEIGHT - ((MARGIN * 1.275/2))), align="left")
-    text(FONT_LICENSE, (WIDTH - 64 -MARGIN, HEIGHT - ((MARGIN * 1.275)/2)), align="right")
-    text(MY_URL, (MARGIN+64, MARGIN/2), align="left")
-    text(AT_HASH, (WIDTH - 64 - MARGIN * 0.8, MARGIN/2), align="right")
+    #text("Hasubi Mono Regular v0.1-Alpha", (MARGIN+64, HEIGHT - ((MARGIN * 1.275/2))), align="left")
+    #text(FONT_LICENSE, (WIDTH - 64 -MARGIN, HEIGHT - ((MARGIN * 1.275)/2)), align="right")
+    #text(MY_URL, (MARGIN+64, MARGIN/2), align="left")
+    #text(AT_HASH, (WIDTH - 64 - MARGIN * 0.8, MARGIN/2), align="right")
 
 
 # Build and save the image
