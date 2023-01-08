@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zain-ar" format="2">
+  <advance width="512"/>
+  <unicode hex="0632"/>
+  <anchor x="340" y="192" name="top"/>
+  <outline>
+    <component base="reh-ar"/>
+    <component base="dotabove-ar" xOffset="268" yOffset="192"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>space</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

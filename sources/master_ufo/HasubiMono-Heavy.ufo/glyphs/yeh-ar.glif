@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yeh-ar" format="2">
+  <advance width="512"/>
+  <unicode hex="064A"/>
+  <anchor x="276" y="-126" name="bottom"/>
+  <anchor x="69" y="0" name="top"/>
+  <outline>
+    <component base="alefMaksura-ar"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="116" yOffset="-126"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

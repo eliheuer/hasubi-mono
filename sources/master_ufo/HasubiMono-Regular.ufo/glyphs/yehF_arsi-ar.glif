@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehFarsi-ar" format="2">
+  <advance width="512"/>
+  <unicode hex="06CC"/>
+  <anchor x="276" y="-158" name="bottom"/>
+  <anchor x="69" y="-15" name="top"/>
+  <outline>
+    <component base="alefMaksura-ar"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

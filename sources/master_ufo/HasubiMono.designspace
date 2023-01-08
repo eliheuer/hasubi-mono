@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="900" default="400">
+      <map input="400" output="72"/>
+      <map input="500" output="82"/>
+      <map input="600" output="92"/>
+      <map input="700" output="102"/>
+      <map input="800" output="112"/>
+      <map input="900" output="128"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="HasubiMono-Regular.ufo" name="Hasubi Mono Regular" familyname="Hasubi Mono" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="72"/>
+      </location>
+    </source>
+    <source filename="HasubiMono-Heavy.ufo" name="Hasubi Mono Heavy" familyname="Hasubi Mono" stylename="Heavy">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Hasubi Mono Regular" familyname="Hasubi Mono" stylename="Regular" filename="../instance_ufo/HasubiMono-Regular.ufo" stylemapfamilyname="Hasubi Mono" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="72"/>
+      </location>
+    </instance>
+    <instance name="Hasubi Mono Medium" familyname="Hasubi Mono" stylename="Medium" filename="../instance_ufo/HasubiMono-Medium.ufo" stylemapfamilyname="Hasubi Mono Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="82"/>
+      </location>
+    </instance>
+    <instance name="Hasubi Mono SemiBold" familyname="Hasubi Mono" stylename="SemiBold" filename="../instance_ufo/HasubiMono-SemiBold.ufo" stylemapfamilyname="Hasubi Mono SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="92"/>
+      </location>
+    </instance>
+    <instance name="Hasubi Mono Bold" familyname="Hasubi Mono" stylename="Bold" filename="../instance_ufo/HasubiMono-Bold.ufo" stylemapfamilyname="Hasubi Mono" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="102"/>
+      </location>
+    </instance>
+    <instance name="Hasubi Mono ExtraBold" familyname="Hasubi Mono" stylename="ExtraBold" filename="../instance_ufo/HasubiMono-ExtraBold.ufo" stylemapfamilyname="Hasubi Mono ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="112"/>
+      </location>
+    </instance>
+    <instance name="Hasubi Mono Black" familyname="Hasubi Mono" stylename="Black" filename="../instance_ufo/HasubiMono-Black.ufo" stylemapfamilyname="Hasubi Mono Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+      </location>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>4FBB1917-F682-4041-B654-F2E0D2EF1242</key>
+        <dict>
+          <key>HH</key>
+          <string>144</string>
+          <key>HV</key>
+          <string>128</string>
+          <key>OH</key>
+          <string>8</string>
+          <key>OV</key>
+          <string>7</string>
+          <key>arAlef</key>
+          <string>128</string>
+          <key>arBar</key>
+          <string>144</string>
+        </dict>
+        <key>m01</key>
+        <dict>
+          <key>HH</key>
+          <string>80</string>
+          <key>HV</key>
+          <string>72</string>
+          <key>arAlef</key>
+          <string>72</string>
+          <key>arBar</key>
+          <string>80</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</designspace>

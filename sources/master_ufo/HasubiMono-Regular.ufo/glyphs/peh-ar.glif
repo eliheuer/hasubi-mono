@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="peh-ar" format="2">
+  <advance width="512"/>
+  <unicode hex="067E"/>
+  <anchor x="256" y="0" name="bottom"/>
+  <anchor x="256" y="336" name="top"/>
+  <outline>
+    <component base="behDotless-ar"/>
+    <component base="threedotsdownbelow-ar"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>space</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

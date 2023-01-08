@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>ascender</key>
+    <integer>768</integer>
+    <key>capHeight</key>
+    <integer>704</integer>
+    <key>copyright</key>
+    <string>Copyright 2022 The Hasubi Mono Project Authors (https://github.com/eliheuer/hasubi-mono)</string>
+    <key>descender</key>
+    <integer>-408</integer>
+    <key>familyName</key>
+    <string>Hasubi Mono</string>
+    <key>italicAngle</key>
+    <integer>0</integer>
+    <key>openTypeHeadCreated</key>
+    <string>2022/06/17 04:34:39</string>
+    <key>openTypeHheaAscender</key>
+    <integer>940</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-260</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>0</integer>
+    <key>openTypeNameDesigner</key>
+    <string>Eli Heuer</string>
+    <key>openTypeNameDesignerURL</key>
+    <string>https//elih.blog</string>
+    <key>openTypeNameLicense</key>
+    <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
+    <key>openTypeNameLicenseURL</key>
+    <string>https://scripts.sil.org/OFL</string>
+    <key>openTypeNameManufacturer</key>
+    <string>Eli Heuer</string>
+    <key>openTypeNameManufacturerURL</key>
+    <string>https//elih.blog</string>
+    <key>openTypeOS2Selection</key>
+    <array>
+      <integer>7</integer>
+    </array>
+    <key>openTypeOS2Type</key>
+    <array/>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>940</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-260</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>0</integer>
+    <key>openTypeOS2WinAscent</key>
+    <integer>960</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>360</integer>
+    <key>postscriptIsFixedPitch</key>
+    <true/>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-50</integer>
+    <key>postscriptUnderlineThickness</key>
+    <integer>50</integer>
+    <key>styleMapFamilyName</key>
+    <string>Hasubi Mono Heavy</string>
+    <key>styleMapStyleName</key>
+    <string>regular</string>
+    <key>styleName</key>
+    <string>Heavy</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>0</integer>
+    <key>xHeight</key>
+    <integer>512</integer>
+  </dict>
+</plist>

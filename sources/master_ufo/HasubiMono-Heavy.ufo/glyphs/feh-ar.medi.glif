@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="feh-ar.medi" format="2">
+  <advance width="512"/>
+  <anchor x="256" y="336" name="top"/>
+  <outline>
+    <component base="fehDotless-ar.medi"/>
+    <component base="dotabove-ar" xOffset="184" yOffset="336"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>space</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>
