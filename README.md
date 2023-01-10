@@ -12,6 +12,10 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fhasubi-mono%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fhasubi-mono%2Fgh-pages%2Fbadges%2FUniversal.json
 
+🚧 WARNING! 🚧 This font is under construction!
+
+This is an alpha quality pre-1.0 typeface, not ready for use and currently under development.
+
 Hasubi Mono (حاسوبي مونو) is an  condensed horizontal contrast monospace typeface designed by Eli Heuer. Arabic, Hebrew, and Latin scripts are included. This typeface was specifically designed for people working with a mix of RTL and LRT scripts in text editors and IDEs. Hasubi is a transliteration of “حاسوبي (my computer)” in Arabic.
 
 ![Sample Image](documentation/drawbot/wide-image-002.png)
@@ -20,7 +24,7 @@ Hasubi Mono (حاسوبي مونو) is an  condensed horizontal contrast monospa
 
 ## About
 
-🚧 Under Construction
+🚧 WARNING! 🚧 This font is Under Construction!
 
 ## Building
 
