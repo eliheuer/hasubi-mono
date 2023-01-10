@@ -1054,10 +1054,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni030C (U+030C): X=347.5,Y=723.0 (should be at cap-height 725?)
 
-	* uni0631 (U+0631): X=290.0,Y=-258.0 (should be at descender -260?)
-
-	* uni0632 (U+0632): X=290.0,Y=-258.0 (should be at descender -260?)
-
 	* uni0635 (U+0635): X=128.0,Y=-261.0 (should be at descender -260?)
 
 	* uni0635 (U+0635): X=-32.0,Y=-261.0 (should be at descender -260?)
@@ -1069,8 +1065,6 @@ The following glyphs do not have the recommended number of contours:
 	* uni0654 (U+0654): X=177.0,Y=726.0 (should be at cap-height 725?)
 
 	* uni0654 (U+0654): X=335.0,Y=726.0 (should be at cap-height 725?)
-
-	* uni0698 (U+0698): X=290.0,Y=-258.0 (should be at descender -260?)
 
 	* uni06A4 (U+06A4): X=312.0,Y=723.5 (should be at cap-height 725?)
 
@@ -1534,10 +1528,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni030C (U+030C): X=392.0,Y=714.0 (should be at cap-height 713?)
 
-	* uni0631 (U+0631): X=290.0,Y=-258.0 (should be at descender -260?)
-
-	* uni0632 (U+0632): X=290.0,Y=-258.0 (should be at descender -260?)
-
 	* uni0635 (U+0635): X=128.0,Y=-261.0 (should be at descender -260?)
 
 	* uni0635 (U+0635): X=-32.0,Y=-261.0 (should be at descender -260?)
@@ -1545,8 +1535,6 @@ The following glyphs do not have the recommended number of contours:
 	* uni0636 (U+0636): X=128.0,Y=-261.0 (should be at descender -260?)
 
 	* uni0636 (U+0636): X=-32.0,Y=-261.0 (should be at descender -260?)
-
-	* uni0698 (U+0698): X=290.0,Y=-258.0 (should be at descender -260?)
 
 	* Wgrave (U+1E80): X=487.0,Y=711.0 (should be at cap-height 713?)
 
@@ -1639,7 +1627,7 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] HasubiMono-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] HasubiMono-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 976, but got 960 instead [code: ascent]
@@ -1872,6 +1860,206 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* a (U+0061): X=135.0,Y=0.5 (should be at baseline 0?)
+
+	* a (U+0061): X=340.5,Y=510.0 (should be at x-height 512?)
+
+	* b (U+0062): X=216.5,Y=-2.0 (should be at baseline 0?)
+
+	* c (U+0063): X=357.5,Y=510.5 (should be at x-height 512?)
+
+	* d (U+0064): X=303.5,Y=1.0 (should be at baseline 0?)
+
+	* d (U+0064): X=308.5,Y=510.0 (should be at x-height 512?)
+
+	* j (U+006A): X=242.5,Y=702.0 (should be at cap-height 704?)
+
+	* j (U+006A): X=333.5,Y=702.0 (should be at cap-height 704?)
+
+	* m (U+006D): X=166.0,Y=510.5 (should be at x-height 512?)
+
+	* m (U+006D): X=257.0,Y=510.5 (should be at x-height 512?)
+
+	* m (U+006D): X=321.0,Y=510.5 (should be at x-height 512?)
+
+	* p (U+0070): X=195.0,Y=510.0 (should be at x-height 512?)
+
+	* q (U+0071): X=317.5,Y=510.0 (should be at x-height 512?)
+
+	* r (U+0072): X=282.5,Y=513.0 (should be at x-height 512?)
+
+	* s (U+0073): X=177.5,Y=-2.0 (should be at baseline 0?)
+
+	* copyright (U+00A9): X=370.0,Y=-0.5 (should be at baseline 0?)
+
+	* copyright (U+00A9): X=142.5,Y=-0.5 (should be at baseline 0?)
+
+	* newGlyph (U+00B5): X=184.0,Y=-1.5 (should be at baseline 0?)
+
+	* agrave (U+00E0): X=135.0,Y=0.5 (should be at baseline 0?)
+
+	* aacute (U+00E1): X=135.0,Y=0.5 (should be at baseline 0?)
+
+	* acircumflex (U+00E2): X=135.0,Y=0.5 (should be at baseline 0?)
+
+	* atilde (U+00E3): X=135.0,Y=0.5 (should be at baseline 0?)
+
+	* adieresis (U+00E4): X=135.0,Y=0.5 (should be at baseline 0?)
+
+	* aring (U+00E5): X=135.0,Y=0.5 (should be at baseline 0?)
+
+	* aring (U+00E5): X=193.5,Y=705.0 (should be at cap-height 704?)
+
+	* aring (U+00E5): X=306.5,Y=705.0 (should be at cap-height 704?)
+
+	* ae (U+00E6): X=461.5,Y=1.5 (should be at baseline 0?)
+
+	* ae (U+00E6): X=38.5,Y=0.5 (should be at baseline 0?)
+
+	* eth (U+00F0): X=299.5,Y=1.0 (should be at baseline 0?)
+
+	* thorn (U+00FE): X=212.5,Y=1.0 (should be at baseline 0?)
+
+	* amacron (U+0101): X=135.0,Y=0.5 (should be at baseline 0?)
+
+	* abreve (U+0103): X=135.0,Y=0.5 (should be at baseline 0?)
+
+	* abreve (U+0103): X=135.0,Y=706.0 (should be at cap-height 704?)
+
+	* abreve (U+0103): X=188.0,Y=706.0 (should be at cap-height 704?)
+
+	* abreve (U+0103): X=302.0,Y=706.0 (should be at cap-height 704?)
+
+	* abreve (U+0103): X=355.0,Y=706.0 (should be at cap-height 704?)
+
+	* cdotaccent (U+010B): X=223.0,Y=703.5 (should be at cap-height 704?)
+
+	* cdotaccent (U+010B): X=302.5,Y=703.5 (should be at cap-height 704?)
+
+	* edotaccent (U+0117): X=216.0,Y=703.5 (should be at cap-height 704?)
+
+	* edotaccent (U+0117): X=295.5,Y=703.5 (should be at cap-height 704?)
+
+	* gbreve (U+011F): X=151.0,Y=706.0 (should be at cap-height 704?)
+
+	* gbreve (U+011F): X=204.0,Y=706.0 (should be at cap-height 704?)
+
+	* gbreve (U+011F): X=318.0,Y=706.0 (should be at cap-height 704?)
+
+	* gbreve (U+011F): X=371.0,Y=706.0 (should be at cap-height 704?)
+
+	* gdotaccent (U+0121): X=226.0,Y=703.5 (should be at cap-height 704?)
+
+	* gdotaccent (U+0121): X=305.5,Y=703.5 (should be at cap-height 704?)
+
+	* ohungarumlaut (U+0151): X=302.0,Y=706.0 (should be at cap-height 704?)
+
+	* ohungarumlaut (U+0151): X=394.0,Y=706.0 (should be at cap-height 704?)
+
+	* ohungarumlaut (U+0151): X=159.0,Y=706.0 (should be at cap-height 704?)
+
+	* ohungarumlaut (U+0151): X=251.0,Y=706.0 (should be at cap-height 704?)
+
+	* oe (U+0153): X=455.5,Y=1.5 (should be at baseline 0?)
+
+	* oe (U+0153): X=221.0,Y=-2.0 (should be at baseline 0?)
+
+	* sacute (U+015B): X=177.5,Y=-2.0 (should be at baseline 0?)
+
+	* scaron (U+0161): X=177.5,Y=-2.0 (should be at baseline 0?)
+
+	* ubreve (U+016D): X=146.0,Y=706.0 (should be at cap-height 704?)
+
+	* ubreve (U+016D): X=199.0,Y=706.0 (should be at cap-height 704?)
+
+	* ubreve (U+016D): X=313.0,Y=706.0 (should be at cap-height 704?)
+
+	* ubreve (U+016D): X=366.0,Y=706.0 (should be at cap-height 704?)
+
+	* uring (U+016F): X=199.5,Y=705.0 (should be at cap-height 704?)
+
+	* uring (U+016F): X=312.5,Y=705.0 (should be at cap-height 704?)
+
+	* uhungarumlaut (U+0171): X=302.0,Y=706.0 (should be at cap-height 704?)
+
+	* uhungarumlaut (U+0171): X=394.0,Y=706.0 (should be at cap-height 704?)
+
+	* uhungarumlaut (U+0171): X=159.0,Y=706.0 (should be at cap-height 704?)
+
+	* uhungarumlaut (U+0171): X=251.0,Y=706.0 (should be at cap-height 704?)
+
+	* zdotaccent (U+017C): X=219.0,Y=703.5 (should be at cap-height 704?)
+
+	* zdotaccent (U+017C): X=298.5,Y=703.5 (should be at cap-height 704?)
+
+	* breve (U+02D8): X=146.0,Y=706.0 (should be at cap-height 704?)
+
+	* breve (U+02D8): X=199.0,Y=706.0 (should be at cap-height 704?)
+
+	* breve (U+02D8): X=313.0,Y=706.0 (should be at cap-height 704?)
+
+	* breve (U+02D8): X=366.0,Y=706.0 (should be at cap-height 704?)
+
+	* dotaccent (U+02D9): X=216.0,Y=703.5 (should be at cap-height 704?)
+
+	* dotaccent (U+02D9): X=295.5,Y=703.5 (should be at cap-height 704?)
+
+	* ring (U+02DA): X=199.5,Y=705.0 (should be at cap-height 704?)
+
+	* ring (U+02DA): X=312.5,Y=705.0 (should be at cap-height 704?)
+
+	* hungarumlaut (U+02DD): X=302.0,Y=706.0 (should be at cap-height 704?)
+
+	* hungarumlaut (U+02DD): X=394.0,Y=706.0 (should be at cap-height 704?)
+
+	* hungarumlaut (U+02DD): X=159.0,Y=706.0 (should be at cap-height 704?)
+
+	* hungarumlaut (U+02DD): X=251.0,Y=706.0 (should be at cap-height 704?)
+
+	* uni0306 (U+0306): X=146.0,Y=706.0 (should be at cap-height 704?)
+
+	* uni0306 (U+0306): X=199.0,Y=706.0 (should be at cap-height 704?)
+
+	* uni0306 (U+0306): X=313.0,Y=706.0 (should be at cap-height 704?)
+
+	* uni0306 (U+0306): X=366.0,Y=706.0 (should be at cap-height 704?)
+
+	* uni0307 (U+0307): X=216.0,Y=703.5 (should be at cap-height 704?)
+
+	* uni0307 (U+0307): X=295.5,Y=703.5 (should be at cap-height 704?)
+
+	* uni030A (U+030A): X=199.5,Y=705.0 (should be at cap-height 704?)
+
+	* uni030A (U+030A): X=312.5,Y=705.0 (should be at cap-height 704?)
+
+	* uni030B (U+030B): X=302.0,Y=706.0 (should be at cap-height 704?)
+
+	* uni030B (U+030B): X=394.0,Y=706.0 (should be at cap-height 704?)
+
+	* uni030B (U+030B): X=159.0,Y=706.0 (should be at cap-height 704?)
+
+	* uni030B (U+030B): X=251.0,Y=706.0 (should be at cap-height 704?)
+
+	* uni0635 (U+0635): X=128.0,Y=-261.0 (should be at descender -260?)
+
+	* uni0635 (U+0635): X=-32.0,Y=-261.0 (should be at descender -260?)
+
+	* uni0636 (U+0636): X=128.0,Y=-261.0 (should be at descender -260?)
+
+	* uni0636 (U+0636): X=-32.0,Y=-261.0 (should be at descender -260?)
+
+	* uni064A (U+064A): X=116.0,Y=-262.0 (should be at descender -260?)
+
+	* uni064A (U+064A): X=260.0,Y=-262.0 (should be at descender -260?)
+
+	* uni064A (U+064A): X=292.0,Y=-262.0 (should be at descender -260?) 
+
+	* And uni064A (U+064A): X=436.0,Y=-262.0 (should be at descender -260?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -2228,10 +2416,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* Wcircumflex (U+0174): X=304.0,Y=938.0 (should be at ascender 940?)
 
-	* uni0631 (U+0631): X=290.0,Y=-258.0 (should be at descender -260?)
-
-	* uni0632 (U+0632): X=290.0,Y=-258.0 (should be at descender -260?)
-
 	* uni0635 (U+0635): X=128.0,Y=-261.0 (should be at descender -260?)
 
 	* uni0635 (U+0635): X=-32.0,Y=-261.0 (should be at descender -260?)
@@ -2247,8 +2431,6 @@ The following glyphs do not have the recommended number of contours:
 	* uni064A (U+064A): X=319.0,Y=-259.5 (should be at descender -260?)
 
 	* uni064A (U+064A): X=402.0,Y=-259.5 (should be at descender -260?)
-
-	* uni0698 (U+0698): X=290.0,Y=-258.0 (should be at descender -260?)
 
 	* uni06A4 (U+06A4): X=312.5,Y=730.5 (should be at cap-height 730?)
 
@@ -2316,7 +2498,7 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 12 | 49 | 668 | 37 | 521 | 0 |
+| 0 | 12 | 50 | 668 | 37 | 520 | 0 |
 | 0% | 1% | 4% | 52% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
