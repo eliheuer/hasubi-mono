@@ -85,7 +85,7 @@ def draw_main_text():
     fill(1)
     stroke(None)
     font(FONT_PATH)
-    fontSize(78)
+    fontSize(77.5)
     fontVariations(wght = 400)
     # Adjust this line to center main text manually.
     # TODO: This should be done automatically when drawbot-skia
