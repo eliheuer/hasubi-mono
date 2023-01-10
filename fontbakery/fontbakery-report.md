@@ -300,10 +300,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* scaron (U+0161): X=352.0,Y=-2.0 (should be at baseline 0?)
 
-	* uni0631 (U+0631): X=290.0,Y=-258.0 (should be at descender -260?)
-
-	* uni0632 (U+0632): X=290.0,Y=-258.0 (should be at descender -260?)
-
 	* uni0635 (U+0635): X=128.0,Y=-261.0 (should be at descender -260?)
 
 	* uni0635 (U+0635): X=-32.0,Y=-261.0 (should be at descender -260?)
@@ -311,8 +307,6 @@ The following glyphs do not have the recommended number of contours:
 	* uni0636 (U+0636): X=128.0,Y=-261.0 (should be at descender -260?)
 
 	* uni0636 (U+0636): X=-32.0,Y=-261.0 (should be at descender -260?)
-
-	* uni0698 (U+0698): X=290.0,Y=-258.0 (should be at descender -260?)
 
 	* uni06A4 (U+06A4): X=312.5,Y=737.5 (should be at cap-height 736?) 
 
