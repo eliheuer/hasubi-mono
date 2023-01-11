@@ -1,5 +1,8 @@
-# How to build(install skia-drawbot first):
-# $ python3 image.py --output image.png
+# This script is meant to be run from the root level
+# of your font's git repository. For example, from a Unix terminal:
+# $ git clone my-font
+# $ cd my-font
+# $ python3 documentation/drawbot/image1.py --output documentation/drawbot/image1.png
 
 # Import moduels from external python packages: https://pypi.org/
 from drawbot_skia.drawbot import *
@@ -13,18 +16,10 @@ import argparse
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 2048, 128, 1
-FONT_PATH = "specimen-fonts/Hasubi-Mono[wght].ttf"
-FONT_LICENSE = "OFL v1.1"
-AUXILIARY_FONT = "specimen-fonts/Hasubi-Mono[wght].ttf"
-#AUXILIARY_FONT = "Helvetica"
-AUXILIARY_FONT_SIZE = 48
-BIG_TEXT = "Hello World"
-BIG_TEXT_B = "كـــن فيكون"
-BIG_TEXT_FONT_SIZE = 140
-BIG_TEXT_SIDE_MARGIN = MARGIN * 8
-BIG_TEXT_BOTTOM_MARGIN = MARGIN * 13.25
-TRACKING = 141
-GRID_VIEW = False # Change this to "True" for a grid overlay
+FONT_PATH = "fonts/variable/Hasubi-Mono[wght].ttf"
+AUXILIARY_FONT_PATH = "fonts/variable/Hasubi-Mono[wght].ttf"
+GRID_VIEW = False
+
 
 # Handel the "--output" flag
 # For example: $ python3 documentation/image1.py --output documentation/image1.png
@@ -37,18 +32,18 @@ args = parser.parse_args()
 # Docs Link: https://fonttools.readthedocs.io/en/latest/ttLib/ttFont.html
 ttFont = TTFont(FONT_PATH)
 
-# Constants that are worked out dynamically
-#MY_URL = subprocess.check_output("git remote get-url origin", shell=True).decode()
+# Font Info Constants
+MY_URL = subprocess.check_output("git remote get-url origin", shell=True).decode()
 MY_URL = "https://github.com/eliheuer/hasubi-mono "
 MY_HASH = subprocess.check_output("git rev-parse --short HEAD", shell=True).decode()
 FONT_NAME = ttFont["name"].getDebugName(4)
-FONT_NAME = "Hasubi Mono: Weight Axis Full Range [wght]"
 FONT_VERSION = "v%s" % floatToFixedToStr(ttFont["head"].fontRevision, 16)
+FONT_LICENSE = "License: OFL v1.1"
 
 
 # Draws a grid
 def grid():
-    stroke(1, 0, 0, 0.5)
+    stroke(1, 0, 0, 0.75)
     strokeWidth(2)
     STEP_X, STEP_Y = 0, 0
     INCREMENT_X, INCREMENT_Y = MARGIN / 2, MARGIN / 2
@@ -85,28 +80,37 @@ def draw_background():
 
 
 # Draw main text
+#GRID_VIEW = True
 def draw_main_text():
     fill(1)
     stroke(None)
     font(FONT_PATH)
-    fontSize(BIG_TEXT_FONT_SIZE)
+    fontSize(128)
     fontVariations(wght = 400)
-    # Adjust this line to center main text manually.
-    # TODO: This should be done automatically when drawbot-skia
-    # has support for textBox() and FormattedString
-    #text(BIG_TEXT, ((WIDTH / 2) - MARGIN * 4.75, (HEIGHT / 2) - MARGIN * 2.5))
+
+    #TOP_TEXT = MARGIN*6.55
+    #LEADING = MARGIN-16
+    #text("هـــــو الشافي الكافي المعين الغفور الرحيم", ((MARGIN-4)+MARGIN*13.55, TOP_TEXT))
+
     font_var = 400
+    TRACKING = 132
     track = 128
     for i in range(11):
         fontVariations(wght = font_var)
-        text(BIG_TEXT, (BIG_TEXT_SIDE_MARGIN+115, BIG_TEXT_BOTTOM_MARGIN-(i*TRACKING)))
+        text("Hello World", (MARGIN * 9, (MARGIN*13)-(i*TRACKING)))
         print("font_var = ", font_var)
         font_var += 50
     font_var = 400
     for i in range(11):
         fontVariations(wght = font_var)
-        text(BIG_TEXT_B, (BIG_TEXT_SIDE_MARGIN-117, BIG_TEXT_BOTTOM_MARGIN-(i*TRACKING)))
+        text("كـــن فيكون", (MARGIN*7, (MARGIN*13)-(i*TRACKING)))
         font_var += 50
+
+    fontVariations(wght = 400)
+    fontSize(77.5/2)
+    font_weights = ["400","450","500","550","600","650","700","750","800","850","900","950"]
+    for i in range(11):
+        text(font_weights[i], (MARGIN*7.75, (MARGIN*13)-(i*TRACKING)))
 
 
 # Divider lines
@@ -114,33 +118,34 @@ def draw_divider_lines():
     stroke(1)
     strokeWidth(4)
     lineCap("round")
-    line((MARGIN, HEIGHT - MARGIN*1.5), (WIDTH - MARGIN, HEIGHT - MARGIN*1.5))
-    line((MARGIN, MARGIN + (MARGIN / 2)), (WIDTH - MARGIN, MARGIN + (MARGIN / 2)))
+    line((MARGIN+64, HEIGHT - MARGIN*2), (WIDTH - MARGIN-64, HEIGHT - MARGIN*2))
+    line((MARGIN+64, MARGIN + 128), (WIDTH - MARGIN-64, MARGIN + 128))
     stroke(None)
 
 
 # Draw text describing the font and it's git status & repo URL
 def draw_auxiliary_text():
     # Setup
-    font(AUXILIARY_FONT)
-    fontSize(AUXILIARY_FONT_SIZE)
-    fontVariations(wght = 400)
-    POS_TOP_LEFT = (MARGIN, HEIGHT - MARGIN * 1.275)
-    POS_TOP_RIGHT = (WIDTH - MARGIN, HEIGHT - MARGIN * 1.275)
-    POS_BOTTOM_LEFT = (MARGIN, MARGIN)
-    POS_BOTTOM_RIGHT = (WIDTH - MARGIN * 0.95, MARGIN)
-    URL_AND_HASH = MY_URL + "at commit " + MY_HASH
-    URL_AND_HASH = URL_AND_HASH.replace("\n", " ")
+    font(AUXILIARY_FONT_PATH)
+    fontSize(48)
+    POS_TOP_LEFT = (MARGIN+64, HEIGHT - MARGIN * 1.8)
+    POS_TOP_RIGHT = (WIDTH - 64 -MARGIN, HEIGHT - MARGIN * 1.8)
+    POS_BOTTOM_LEFT = (MARGIN+64, MARGIN *1.5)
+    POS_BOTTOM_RIGHT = (WIDTH - 64 - MARGIN * 0.8, MARGIN*1.5)
+    AT_HASH = "Git Commit: " + MY_HASH
+    AT_HASH = AT_HASH.replace("\n", " ")
     # Draw Text
-    text(FONT_NAME, POS_TOP_LEFT, align="left")
-    text(FONT_VERSION, POS_TOP_RIGHT, align="right")
-    text(URL_AND_HASH, POS_BOTTOM_LEFT, align="left")
-    text(FONT_LICENSE, POS_BOTTOM_RIGHT, align="right")
+    text("Hasubi Mono Regular: Latin+Arabic Basic Character Set", POS_TOP_LEFT, align="left")
+    text("v0.1-Alpha", POS_TOP_RIGHT, align="right")
+    text(MY_URL, POS_BOTTOM_LEFT, align="left")
+    text(AT_HASH, POS_BOTTOM_RIGHT, align="right")
 
-    font_weights = ["400","450","500","550","600","650","700","750","800","850","900","950"]
-    for i in range(11):
-        text(font_weights[i], (BIG_TEXT_SIDE_MARGIN-41, BIG_TEXT_BOTTOM_MARGIN-(i*TRACKING)))
-
+    font("documentation/drawbot/specimen-fonts/InputMonoCompressed-Regular.ttf")
+    fontSize(48)
+    #text("Hasubi Mono Regular v0.1-Alpha", (MARGIN+64, HEIGHT - ((MARGIN * 1.275/2))), align="left")
+    #text(FONT_LICENSE, (WIDTH - 64 -MARGIN, HEIGHT - ((MARGIN * 1.275)/2)), align="right")
+    #text(MY_URL, (MARGIN+64, MARGIN/2), align="left")
+    #text(AT_HASH, (WIDTH - 64 - MARGIN * 0.8, MARGIN/2), align="right")
 
 
 # Build and save the image
