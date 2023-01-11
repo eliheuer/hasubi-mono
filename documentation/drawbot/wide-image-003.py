@@ -80,7 +80,7 @@ def draw_background():
 
 
 # Draw main text
-GRID_VIEW = True
+#GRID_VIEW = True
 def draw_main_text():
     fill(1)
     stroke(None)

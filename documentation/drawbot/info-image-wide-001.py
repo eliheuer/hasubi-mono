@@ -19,10 +19,10 @@ import argparse
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 1024, 128, 1
-FONT_PATH = "specimen-fonts/Hasubi-Mono[wght].ttf"
-INPUT_FONT = "specimen-fonts/InputMonoCompressed-Regular.ttf"
+FONT_PATH = "fonts/variable/Hasubi-Mono[wght].ttf"
+INPUT_FONT = "documentation/drawbot/specimen-fonts/InputMonoCompressed-Regular.ttf"
 FONT_LICENSE = "OFL v1.1"
-AUXILIARY_FONT = "specimen-fonts/Hasubi-Mono[wght].ttf"
+AUXILIARY_FONT = "fonts/variable/Hasubi-Mono[wght].ttf"
 AUXILIARY_FONT_SIZE = 48
 BIG_TEXT_A = "miب"
 BIG_TEXT_B = "m"
@@ -31,6 +31,7 @@ BIG_TEXT_FONT_SIZE = 1024/5.85
 BIG_TEXT_SIDE_MARGIN = MARGIN * 1
 BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.05
 GRID_VIEW = False # Change this to "True" for a grid overlay
+#GRID_VIEW = True # Change this to "True" for a grid overlay
 
 # Handel the "--output" flag
 # For example: $ python3 documentation/image1.py --output documentation/image1.png
@@ -102,12 +103,12 @@ def draw_main_text():
     fontVariations(wght = 400)
 
     fontSize(512+128+60)
-    text(BIG_TEXT_A, (MARGIN, 256))
+    text(BIG_TEXT_A, (MARGIN, 256+64+32))
 
     font(INPUT_FONT)
     fontSize(512+128+60)
-    text(BIG_TEXT_B, (MARGIN+512+256+310, 256))
-    text(BIG_TEXT_C, (MARGIN+512+256+670, 256))
+    text(BIG_TEXT_B, (MARGIN+512+256+310, 256+64+32))
+    text(BIG_TEXT_C, (MARGIN+512+256+670, 256+64+32))
 
 
 # Draw Red lines
@@ -121,31 +122,32 @@ def draw_red_lines():
 
     #line((MARGIN+40, MARGIN+110), (MARGIN+90, MARGIN+110))
     stroke(None)
-    text("72", (MARGIN+51, MARGIN+145), align="left")
-    text("64", (MARGIN+166, MARGIN+145), align="left")
-    text("72", (MARGIN+278, MARGIN+145), align="left")
-    text("80", (MARGIN+248, MARGIN+456), align="left")
-    text("80", (MARGIN+128, MARGIN+456), align="left")
+    text("72", (MARGIN+51,  MARGIN+145+96), align="left")
+    text("64", (MARGIN+166, MARGIN+145+96), align="left")
+    text("72", (MARGIN+278, MARGIN+145+96), align="left")
+    text("80", (MARGIN+248, MARGIN+456+96), align="left")
+    text("80", (MARGIN+128, MARGIN+456+96), align="left")
+
+    text("80", (MARGIN+436, MARGIN+448+96), align="left")
+    text("72", (MARGIN+528, MARGIN+300+96), align="left")
+    text("80", (MARGIN+420, MARGIN+145+96), align="left")
+    text("80", (MARGIN+630, MARGIN+145+96), align="left")
+
+    text("72", (MARGIN+750,  MARGIN+332+96), align="left")
+    text("80", (MARGIN+885,  MARGIN+145+96), align="left")
+    text("72", (MARGIN+1013, MARGIN+332+96), align="left")
+
+    text("80", (MARGIN+1133, MARGIN+145+96), align="left")
+    text("79", (MARGIN+1249, MARGIN+145+96), align="left")
+    text("70", (MARGIN+1225, MARGIN+480+96), align="left")
+    text("70", (MARGIN+1340, MARGIN+480+96), align="left")
+    text("80", (MARGIN+1365, MARGIN+145+96), align="left")
 
 
-    text("80", (MARGIN+436, MARGIN+448), align="left")
-    text("72", (MARGIN+528, MARGIN+300), align="left")
-    text("80", (MARGIN+420, MARGIN+145), align="left")
-    text("80", (MARGIN+630, MARGIN+145), align="left")
-
-    text("72", (MARGIN+750, MARGIN+332), align="left")
-    text("80", (MARGIN+885, MARGIN+145), align="left")
-    text("72", (MARGIN+1013, MARGIN+332), align="left")
-
-    text("80", (MARGIN+1133, MARGIN+145), align="left")
-    text("79", (MARGIN+1249, MARGIN+145), align="left")
-    text("80", (MARGIN+1365, MARGIN+145), align="left")
-
-
-    text("82", (MARGIN+1520, MARGIN+145), align="left")
-    text("82", (MARGIN+1520, MARGIN+475), align="left")
-    text("91", (MARGIN+1608, MARGIN+300), align="left")
-    text("82", (MARGIN+1700, MARGIN+145), align="left")
+    text("82", (MARGIN+1520, MARGIN+145+96), align="left")
+    text("82", (MARGIN+1520, MARGIN+475+96), align="left")
+    text("91", (MARGIN+1608, MARGIN+300+96), align="left")
+    text("82", (MARGIN+1700, MARGIN+145+96), align="left")
 
     fill(1,0,0)
     stroke(1,0,0)
@@ -158,12 +160,12 @@ def draw_white_lines():
     stroke(1)
     strokeWidth(3)
     lineCap("round")
-    line((MARGIN, MARGIN), (MARGIN, HEIGHT - MARGIN))
-    line((MARGIN+(359*1), MARGIN), (MARGIN+(359*1), HEIGHT - MARGIN))
-    line((MARGIN+(359*2)-6, MARGIN), (MARGIN+(359*2)-6, HEIGHT - MARGIN))
-    line((MARGIN+(359*3)+2, MARGIN), (MARGIN+(359*3)+2, HEIGHT - MARGIN))
-    line((MARGIN+(359*4)+8, MARGIN), (MARGIN+(359*4)+8, HEIGHT - MARGIN))
-    line((WIDTH-MARGIN, MARGIN), (WIDTH-MARGIN, HEIGHT - MARGIN))
+    line((MARGIN, MARGIN+96), (MARGIN, HEIGHT - MARGIN))
+    line((MARGIN+(359*1), MARGIN+96), (MARGIN+(359*1), HEIGHT - MARGIN))
+    line((MARGIN+(359*2)-6, MARGIN+96), (MARGIN+(359*2)-6, HEIGHT - MARGIN))
+    line((MARGIN+(359*3)+2, MARGIN+96), (MARGIN+(359*3)+2, HEIGHT - MARGIN))
+    line((MARGIN+(359*4)+8, MARGIN+96), (MARGIN+(359*4)+8, HEIGHT - MARGIN))
+    line((WIDTH-MARGIN, MARGIN+96), (WIDTH-MARGIN, HEIGHT - MARGIN))
     stroke(None)
 
 # Draw text describing the font and it's git status & repo URL
@@ -177,6 +179,11 @@ def draw_auxiliary_text():
     text("Input Mono: m U+006D", (MARGIN+(359*3)+2+12, HEIGHT-MARGIN-19), align="left")
     text("Input Mono: i U+0069", (MARGIN+(359*4)+8+12, HEIGHT-MARGIN-19), align="left")
 
+
+    text("Hasubi Mono-Line Length Test: the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog", (MARGIN, MARGIN+32), align="left")
+    text("Input Mono--Line Length Test: ", (MARGIN, MARGIN), align="left")
+    font(INPUT_FONT)
+    text("the quick brown fox jumps over the lazy dog the quick brown fox jumps over the lazy dog", (MARGIN+430, MARGIN), align="left")
 
 # Build and save the image
 if __name__ == "__main__":
