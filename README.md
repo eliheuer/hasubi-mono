@@ -22,6 +22,11 @@ Hasubi Mono (حاسوبي مونو) is an  condensed horizontal contrast monospa
 ![Sample Image](documentation/drawbot/wide-image-001.png)
 ![Sample Image](documentation/drawbot/wide-image-004.png)
 
+
+## Gaps Axis
+Note that the Arabic glyphs in this font have gaps, in the variable font version of this font there will be a GAPS custom axis that interpolates between open and closed gaps. This is inspired by printing in older [books](https://archive.org/details/materialsforstud0000brow) make with metal type.
+![Sample Image](documentation/refrence/browne.jpg)
+
 ## About
 
 🚧 WARNING! 🚧 This font is Under Construction!
