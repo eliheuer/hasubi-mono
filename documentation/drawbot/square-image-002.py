@@ -93,24 +93,24 @@ def draw_main_text():
     #text("هـــــو الشافي الكافي المعين الغفور الرحيم", ((MARGIN-4)+MARGIN*13.55, TOP_TEXT))
 
     font_var = 400
-    TRACKING = 132
+    TRACKING = 128
     track = 128
     for i in range(11):
         fontVariations(wght = font_var)
-        text("Hello World", (MARGIN * 9, (MARGIN*13)-(i*TRACKING)))
+        text("Hello World", (MARGIN * 8.9, (MARGIN*12.75)-(i*TRACKING)))
         print("font_var = ", font_var)
         font_var += 50
     font_var = 400
     for i in range(11):
         fontVariations(wght = font_var)
-        text("كـــن فيكون", (MARGIN*7, (MARGIN*13)-(i*TRACKING)))
+        text("كـــن فيكون", (MARGIN*7.06, (MARGIN*12.75)-(i*TRACKING)))
         font_var += 50
 
     fontVariations(wght = 400)
     fontSize(77.5/2)
     font_weights = ["400","450","500","550","600","650","700","750","800","850","900","950"]
     for i in range(11):
-        text(font_weights[i], (MARGIN*7.75, (MARGIN*13)-(i*TRACKING)))
+        text(font_weights[i], (MARGIN*7.76, (MARGIN*12.75)-(i*TRACKING)))
 
 
 # Divider lines
@@ -135,7 +135,7 @@ def draw_auxiliary_text():
     AT_HASH = "Git Commit: " + MY_HASH
     AT_HASH = AT_HASH.replace("\n", " ")
     # Draw Text
-    text("Hasubi Mono Regular: Latin+Arabic Basic Character Set", POS_TOP_LEFT, align="left")
+    text("Hasubi Mono: Variable Font Weight Range", POS_TOP_LEFT, align="left")
     text("v0.1-Alpha", POS_TOP_RIGHT, align="right")
     text(MY_URL, POS_BOTTOM_LEFT, align="left")
     text(AT_HASH, POS_BOTTOM_RIGHT, align="right")

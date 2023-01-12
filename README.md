@@ -20,6 +20,7 @@ Hasubi Mono (حاسوبي مونو) is a condensed horizontal contrast monospace
 
 ![Sample Image](documentation/drawbot/wide-image-002.png)
 ![Sample Image](documentation/drawbot/wide-image-004.png)
+![Sample Image](documentation/drawbot/square-image-002.png)
 ![Sample Image](documentation/drawbot/wide-image-001.png)
 
 ## Design Notes
