@@ -11,7 +11,7 @@ HEIGHT = 612   # Height
 MARGIN = 36    # Margin
 UNIT = 9       # Unit
 TODAY = str(date.today())
-HASUBI_MONO_VF = "specimen-fonts/Hasubi-Mono[wght].ttf"
+HASUBI_MONO_VF = "fonts/variable/Hasubi-Mono[wght].ttf"
 GRID_VIEW = False # Change this to "True" for a grid overlay
 
 
@@ -309,7 +309,7 @@ page_number += 1
 
 
 # Saving and post-processing #--------------------------------#
-saveImage("hasubi-mono-print-proof.pdf")
+saveImage("documentation/drawbot/hasubi-mono-print-proof.pdf")
 print("DrawBot: Done :-)")
 
 
