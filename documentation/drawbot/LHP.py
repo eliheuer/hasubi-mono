@@ -106,11 +106,125 @@ text("أنت الكافي وأنت الشافي وأنت الباقي يا با�
 text("بـــــــك يا معشوق بك يا محبوب بك يا مجذوب", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*13)))
 text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*14)))
 #text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*5)))
-saveImage("documentation/drawbot/LHP-001.png")
+
+
+# Page 2
+#GRID_VIEW = True
+draw_background()
+fill(1)
+stroke(None)
+font(FONT_PATH)
+fontSize(77.5)
+fontVariations(wght = 400)
+TOP_TEXT = MARGIN*14.05
+LEADING = MARGIN-16
+SIDE = 13.55
+text("بــــــــــك يا عزيز بك يا نصير بك يا قدير", ((MARGIN-4)+MARGIN*SIDE, TOP_TEXT))
+text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*1)))
+text("بــــــــــك يا حاكم بك يا قائم بك يا عالم", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*2)))
+text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*3)))
+text("بــــــــــــك يا روح بك يا نور بك يا ظهور", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*4)))
+text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*5)))
+text("بـــــــك يا معمور بك يا مشهور بك يا مستور", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*6)))
+text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*7)))
+text("بــــــــــك يا غائب بك يا غالب بك يا واهب", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*8)))
+text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*9)))
+text("بــــــــــك يا قادر بك يا ناصر بك يا ساتر", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*10)))
+text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*11)))
+text("بــــــــــك يا صانع بك يا قانع بك يا قالع", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*12)))
+text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*13)))
+text("بــــــــــك يا طالع بك يا جامع بك يا رافع", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*14)))
+#text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*5)))
 
 
 
+# Page 3
+#GRID_VIEW = True
+draw_background()
+fill(1)
+stroke(None)
+font(FONT_PATH)
+fontSize(77.5)
+fontVariations(wght = 400)
+TOP_TEXT = MARGIN*14.05
+LEADING = MARGIN-16
+SIDE = 13.55
+text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, TOP_TEXT))
+text("بــــــــــك يا بالغ بك يا فارغ بك يا سابغ", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*1)))
+text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*2)))
+text("بـــــــــــــك يا نافع بك يا مانع يا صانع", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*3)))
+text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*4)))
+text("بــــــــــك يا جليل بك يا جميل بك يا فضيل", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*5)))
+text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*6)))
+text("بــــــــــك يا عادل بك يا فاضل بك يا باذل", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*7)))
+text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*8)))
+text("بـــــــــك يا قيوم بك يا ديموم بك يا علوم", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*9)))
+text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*10)))
+text("بــــــــــك يا عظوم بك يا قدوم بك يا كروم", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*11)))
+text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*12)))
+text("بـــــــك يا محفوظ بك يا محظوظ بك يا ملحوظ", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*13)))
+text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*14)))
+
+# text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, TOP_TEXT))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*1)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*2)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*3)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*4)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*5)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*6)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*7)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*8)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*9)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*10)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*11)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*12)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*13)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*14)))
 
 
+# Page 4
+#GRID_VIEW = True
+draw_background()
+fill(1)
+stroke(None)
+font(FONT_PATH)
+fontSize(77.5)
+fontVariations(wght = 400)
+TOP_TEXT = MARGIN*14.05
+LEADING = MARGIN-16
+SIDE = 13.55
+text("بــــــــــك يا عطوف بك يا رؤوف بك يا لطوف", ((MARGIN-4)+MARGIN*SIDE, TOP_TEXT))
+text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*1)))
+text("بـــــــــك يا ملاذ بك يا معاذ بك يا مستعاذ", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*2)))
+text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*3)))
+text("بــــــــك يا غياث بك يا مستغاث بك يا نفاث", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*4)))
+text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*5)))
+text("بــــــــــك يا كاشف بك يا ناشف بك يا عاطف", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*6)))
+text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*7)))
+text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*8)))
+text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*9)))
+text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*10)))
+text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*11)))
+text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*12)))
+text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*13)))
+text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*14)))
+
+# text("أنت الكافي وأنت الشافي وأنت الباقي يا باقي", ((MARGIN-4)+MARGIN*SIDE, TOP_TEXT))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*1)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*2)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*3)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*4)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*5)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*6)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*7)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*8)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*9)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*10)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*11)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*12)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*13)))
+# text("", ((MARGIN-4)+MARGIN*SIDE, (TOP_TEXT)-(LEADING*14)))
+
+saveImage("documentation/drawbot/LHP.png")
 # Print done in the terminal
 print("DrawBot: Done")
