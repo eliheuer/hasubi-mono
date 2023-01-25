@@ -1,10 +1,6 @@
 {
 .appVersion = "3172";
 .formatVersion = 3;
-DisplayStrings = (
-A,
-" ABCDEFGHIJKLMNOPQRST"
-);
 axes = (
 {
 name = Weight;
@@ -2545,7 +2541,7 @@ shapes = (
 ref = G;
 },
 {
-pos = (-1,4);
+pos = (0,36);
 ref = brevecomb.case;
 }
 );
@@ -2603,7 +2599,7 @@ shapes = (
 ref = G;
 },
 {
-pos = (-1,4);
+pos = (0,36);
 ref = dotaccentcomb.case;
 }
 );
