@@ -1,5 +1,5 @@
 {
-.appVersion = "3175";
+.appVersion = "3150";
 .formatVersion = 3;
 DisplayStrings = (
 "أشهد يا إله/alefMaksura-ar.fina ي بأنك /hah-ar.init/hah-ar.medi خل/fehDotless-ar.medi ق/behDotless-ar.medi تني ",
@@ -65,12 +65,12 @@ value = 1;
 name = "Axis Mappings";
 value = {
 wght = {
-72 = 400;
-82 = 500;
-92 = 600;
-102 = 700;
-112 = 800;
-128 = 900;
+400 = 72;
+500 = 82;
+600 = 92;
+700 = 102;
+800 = 112;
+900 = 128;
 };
 };
 },
@@ -16374,11 +16374,9 @@ width = 512;
 layerId = "4FBB1917-F682-4041-B654-F2E0D2EF1242";
 shapes = (
 {
-alignment = -1;
 ref = "dal-ar";
 },
 {
-alignment = -1;
 pos = (105,-176);
 ref = "dotabove-ar";
 }
@@ -25669,11 +25667,9 @@ width = 512;
 layerId = "4FBB1917-F682-4041-B654-F2E0D2EF1242";
 shapes = (
 {
-alignment = -1;
 ref = "waw-ar.fina";
 },
 {
-alignment = -1;
 pos = (0,-191);
 ref = "hamzaabove-ar";
 }
