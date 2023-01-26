@@ -619,6 +619,18 @@ The following glyphs do not have the recommended number of contours:
 
 	* newGlyph (U+00B5): X=184.0,Y=-1.5 (should be at baseline 0?)
 
+	* Agrave (U+00C0): X=151.0,Y=938.0 (should be at ascender 940?)
+
+	* Agrave (U+00C0): X=243.0,Y=938.0 (should be at ascender 940?)
+
+	* Aacute (U+00C1): X=277.0,Y=938.0 (should be at ascender 940?)
+
+	* Aacute (U+00C1): X=369.0,Y=938.0 (should be at ascender 940?)
+
+	* Acircumflex (U+00C2): X=208.0,Y=938.0 (should be at ascender 940?)
+
+	* Acircumflex (U+00C2): X=304.0,Y=938.0 (should be at ascender 940?)
+
 	* agrave (U+00E0): X=135.0,Y=0.5 (should be at baseline 0?)
 
 	* aacute (U+00E1): X=135.0,Y=0.5 (should be at baseline 0?)
@@ -642,6 +654,18 @@ The following glyphs do not have the recommended number of contours:
 	* amacron (U+0101): X=135.0,Y=0.5 (should be at baseline 0?)
 
 	* abreve (U+0103): X=135.0,Y=0.5 (should be at baseline 0?)
+
+	* Cacute (U+0106): X=277.0,Y=938.0 (should be at ascender 940?)
+
+	* Cacute (U+0106): X=369.0,Y=938.0 (should be at ascender 940?)
+
+	* Ccaron (U+010C): X=128.0,Y=942.0 (should be at ascender 940?)
+
+	* Ccaron (U+010C): X=176.0,Y=942.0 (should be at ascender 940?)
+
+	* Ccaron (U+010C): X=336.0,Y=942.0 (should be at ascender 940?)
+
+	* Ccaron (U+010C): X=384.0,Y=942.0 (should be at ascender 940?)
 
 	* oe (U+0153): X=455.5,Y=1.5 (should be at baseline 0?)
 
@@ -964,6 +988,18 @@ The following glyphs do not have the recommended number of contours:
 
 	* newGlyph (U+00B5): X=184.0,Y=-1.5 (should be at baseline 0?)
 
+	* Agrave (U+00C0): X=159.0,Y=941.0 (should be at ascender 940?)
+
+	* Agrave (U+00C0): X=235.0,Y=941.0 (should be at ascender 940?)
+
+	* Aacute (U+00C1): X=285.0,Y=941.0 (should be at ascender 940?)
+
+	* Aacute (U+00C1): X=361.0,Y=941.0 (should be at ascender 940?)
+
+	* Acircumflex (U+00C2): X=216.0,Y=941.0 (should be at ascender 940?)
+
+	* Acircumflex (U+00C2): X=296.0,Y=941.0 (should be at ascender 940?)
+
 	* agrave (U+00E0): X=135.0,Y=0.5 (should be at baseline 0?)
 
 	* aacute (U+00E1): X=135.0,Y=0.5 (should be at baseline 0?)
@@ -987,6 +1023,10 @@ The following glyphs do not have the recommended number of contours:
 	* amacron (U+0101): X=135.0,Y=0.5 (should be at baseline 0?)
 
 	* abreve (U+0103): X=135.0,Y=0.5 (should be at baseline 0?)
+
+	* Cacute (U+0106): X=285.0,Y=941.0 (should be at ascender 940?)
+
+	* Cacute (U+0106): X=361.0,Y=941.0 (should be at ascender 940?)
 
 	* oe (U+0153): X=455.5,Y=1.5 (should be at baseline 0?)
 
@@ -1070,7 +1110,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 22 glyphs (3.53%) have a different width. You should check the widths of: ['AE', 'Lcaron', 'uni0145', 'Eng', 'dcaron', 'dcroat', 'uni0123', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uogonek', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'trademark', 'logicalnot'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 21 glyphs (3.37%) have a different width. You should check the widths of: ['Lcaron', 'uni0145', 'Eng', 'dcaron', 'dcroat', 'uni0123', 'lcaron', 'uni013C', 'lslash', 'uni0146', 'eng', 'uogonek', 'uniFEF8', 'uniFEFA', 'uniFEF6', 'lam_alefWaslaar.fina', 'uni066B', 'uni066C', 'uni2074', 'trademark', 'logicalnot'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
