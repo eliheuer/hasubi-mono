@@ -355,7 +355,7 @@ The following glyphs do not have the recommended number of contours:
 	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> 
 
 	* And uniFEDC (U+FEDC): L<<481.0,148.0>--<480.0,8.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] HasubiMono-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] HasubiMono-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1035, but got 960 instead [code: ascent]
@@ -588,100 +588,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
-
-	* a (U+0061): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* a (U+0061): X=340.0,Y=510.0 (should be at x-height 512?)
-
-	* d (U+0064): X=303.0,Y=511.0 (should be at x-height 512?)
-
-	* h (U+0068): X=79.0,Y=734.0 (should be at cap-height 736?)
-
-	* h (U+0068): X=151.0,Y=734.0 (should be at cap-height 736?)
-
-	* p (U+0070): X=195.0,Y=510.0 (should be at x-height 512?)
-
-	* q (U+0071): X=317.5,Y=510.0 (should be at x-height 512?)
-
-	* r (U+0072): X=283.5,Y=513.0 (should be at x-height 512?)
-
-	* s (U+0073): X=351.5,Y=-2.0 (should be at baseline 0?)
-
-	* w (U+0077): X=416.0,Y=511.0 (should be at x-height 512?)
-
-	* copyright (U+00A9): X=370.0,Y=-0.5 (should be at baseline 0?)
-
-	* copyright (U+00A9): X=142.5,Y=-0.5 (should be at baseline 0?)
-
-	* newGlyph (U+00B5): X=184.0,Y=-1.5 (should be at baseline 0?)
-
-	* Agrave (U+00C0): X=151.0,Y=938.0 (should be at ascender 940?)
-
-	* Agrave (U+00C0): X=243.0,Y=938.0 (should be at ascender 940?)
-
-	* Aacute (U+00C1): X=277.0,Y=938.0 (should be at ascender 940?)
-
-	* Aacute (U+00C1): X=369.0,Y=938.0 (should be at ascender 940?)
-
-	* Acircumflex (U+00C2): X=208.0,Y=938.0 (should be at ascender 940?)
-
-	* Acircumflex (U+00C2): X=304.0,Y=938.0 (should be at ascender 940?)
-
-	* agrave (U+00E0): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* aacute (U+00E1): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* acircumflex (U+00E2): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* atilde (U+00E3): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* adieresis (U+00E4): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* aring (U+00E5): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* ae (U+00E6): X=461.5,Y=1.5 (should be at baseline 0?)
-
-	* ae (U+00E6): X=38.5,Y=0.5 (should be at baseline 0?)
-
-	* eth (U+00F0): X=299.5,Y=1.0 (should be at baseline 0?)
-
-	* thorn (U+00FE): X=212.5,Y=1.0 (should be at baseline 0?)
-
-	* amacron (U+0101): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* abreve (U+0103): X=135.0,Y=0.5 (should be at baseline 0?)
-
-	* Cacute (U+0106): X=277.0,Y=938.0 (should be at ascender 940?)
-
-	* Cacute (U+0106): X=369.0,Y=938.0 (should be at ascender 940?)
-
-	* Ccaron (U+010C): X=128.0,Y=942.0 (should be at ascender 940?)
-
-	* Ccaron (U+010C): X=176.0,Y=942.0 (should be at ascender 940?)
-
-	* Ccaron (U+010C): X=336.0,Y=942.0 (should be at ascender 940?)
-
-	* Ccaron (U+010C): X=384.0,Y=942.0 (should be at ascender 940?)
-
-	* oe (U+0153): X=455.5,Y=1.5 (should be at baseline 0?)
-
-	* oe (U+0153): X=221.0,Y=-2.0 (should be at baseline 0?)
-
-	* sacute (U+015B): X=351.5,Y=-2.0 (should be at baseline 0?)
-
-	* scaron (U+0161): X=351.5,Y=-2.0 (should be at baseline 0?)
-
-	* uni0635 (U+0635): X=128.0,Y=-261.0 (should be at descender -260?)
-
-	* uni0635 (U+0635): X=-32.0,Y=-261.0 (should be at descender -260?)
-
-	* uni0636 (U+0636): X=128.0,Y=-261.0 (should be at descender -260?) 
-
-	* And uni0636 (U+0636): X=-32.0,Y=-261.0 (should be at descender -260?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1000,6 +906,58 @@ The following glyphs do not have the recommended number of contours:
 
 	* Acircumflex (U+00C2): X=296.0,Y=941.0 (should be at ascender 940?)
 
+	* Egrave (U+00C8): X=170.0,Y=941.0 (should be at ascender 940?)
+
+	* Egrave (U+00C8): X=246.0,Y=941.0 (should be at ascender 940?)
+
+	* Eacute (U+00C9): X=296.0,Y=941.0 (should be at ascender 940?)
+
+	* Eacute (U+00C9): X=372.0,Y=941.0 (should be at ascender 940?)
+
+	* Ecircumflex (U+00CA): X=227.0,Y=941.0 (should be at ascender 940?)
+
+	* Ecircumflex (U+00CA): X=307.0,Y=941.0 (should be at ascender 940?)
+
+	* Igrave (U+00CC): X=161.0,Y=941.0 (should be at ascender 940?)
+
+	* Igrave (U+00CC): X=237.0,Y=941.0 (should be at ascender 940?)
+
+	* Iacute (U+00CD): X=287.0,Y=941.0 (should be at ascender 940?)
+
+	* Iacute (U+00CD): X=363.0,Y=941.0 (should be at ascender 940?)
+
+	* Icircumflex (U+00CE): X=218.0,Y=941.0 (should be at ascender 940?)
+
+	* Icircumflex (U+00CE): X=298.0,Y=941.0 (should be at ascender 940?)
+
+	* Ograve (U+00D2): X=159.0,Y=941.0 (should be at ascender 940?)
+
+	* Ograve (U+00D2): X=235.0,Y=941.0 (should be at ascender 940?)
+
+	* Oacute (U+00D3): X=285.0,Y=941.0 (should be at ascender 940?)
+
+	* Oacute (U+00D3): X=361.0,Y=941.0 (should be at ascender 940?)
+
+	* Ocircumflex (U+00D4): X=216.0,Y=941.0 (should be at ascender 940?)
+
+	* Ocircumflex (U+00D4): X=296.0,Y=941.0 (should be at ascender 940?)
+
+	* Ugrave (U+00D9): X=158.0,Y=941.0 (should be at ascender 940?)
+
+	* Ugrave (U+00D9): X=234.0,Y=941.0 (should be at ascender 940?)
+
+	* Uacute (U+00DA): X=284.0,Y=941.0 (should be at ascender 940?)
+
+	* Uacute (U+00DA): X=360.0,Y=941.0 (should be at ascender 940?)
+
+	* Ucircumflex (U+00DB): X=215.0,Y=941.0 (should be at ascender 940?)
+
+	* Ucircumflex (U+00DB): X=295.0,Y=941.0 (should be at ascender 940?)
+
+	* Yacute (U+00DD): X=277.0,Y=941.0 (should be at ascender 940?)
+
+	* Yacute (U+00DD): X=353.0,Y=941.0 (should be at ascender 940?)
+
 	* agrave (U+00E0): X=135.0,Y=0.5 (should be at baseline 0?)
 
 	* aacute (U+00E1): X=135.0,Y=0.5 (should be at baseline 0?)
@@ -1028,6 +986,14 @@ The following glyphs do not have the recommended number of contours:
 
 	* Cacute (U+0106): X=361.0,Y=941.0 (should be at ascender 940?)
 
+	* Lacute (U+0139): X=152.0,Y=941.0 (should be at ascender 940?)
+
+	* Lacute (U+0139): X=228.0,Y=941.0 (should be at ascender 940?)
+
+	* Nacute (U+0143): X=289.0,Y=941.0 (should be at ascender 940?)
+
+	* Nacute (U+0143): X=365.0,Y=941.0 (should be at ascender 940?)
+
 	* oe (U+0153): X=455.5,Y=1.5 (should be at baseline 0?)
 
 	* oe (U+0153): X=221.0,Y=-2.0 (should be at baseline 0?)
@@ -1035,6 +1001,14 @@ The following glyphs do not have the recommended number of contours:
 	* sacute (U+015B): X=351.5,Y=-2.0 (should be at baseline 0?)
 
 	* scaron (U+0161): X=351.5,Y=-2.0 (should be at baseline 0?)
+
+	* Ycircumflex (U+0176): X=208.0,Y=941.0 (should be at ascender 940?)
+
+	* Ycircumflex (U+0176): X=288.0,Y=941.0 (should be at ascender 940?)
+
+	* Zacute (U+0179): X=294.0,Y=941.0 (should be at ascender 940?)
+
+	* Zacute (U+0179): X=370.0,Y=941.0 (should be at ascender 940?)
 
 	* uni0635 (U+0635): X=128.0,Y=-261.0 (should be at descender -260?)
 
@@ -1044,9 +1018,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0636 (U+0636): X=-32.0,Y=-261.0 (should be at descender -260?)
 
-	* uni0654 (U+0654): X=169.0,Y=734.0 (should be at cap-height 736?) 
+	* uni0654 (U+0654): X=169.0,Y=734.0 (should be at cap-height 736?)
 
-	* And uni0654 (U+0654): X=343.0,Y=734.0 (should be at cap-height 736?) [code: found-misalignments]
+	* uni0654 (U+0654): X=343.0,Y=734.0 (should be at cap-height 736?)
+
+	* Ygrave (U+1EF2): X=151.0,Y=941.0 (should be at ascender 940?) 
+
+	* And Ygrave (U+1EF2): X=227.0,Y=941.0 (should be at ascender 940?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1682,6 +1660,8 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
+	* S (U+0053): X=256.0,Y=735.0 (should be at cap-height 736?)
+
 	* a (U+0061): X=135.0,Y=0.5 (should be at baseline 0?)
 
 	* a (U+0061): X=340.0,Y=510.0 (should be at x-height 512?)
@@ -1738,17 +1718,61 @@ The following glyphs do not have the recommended number of contours:
 
 	* abreve (U+0103): X=135.0,Y=0.5 (should be at baseline 0?)
 
+	* Dcaron (U+010E): X=109.0,Y=939.0 (should be at ascender 940?)
+
+	* Dcaron (U+010E): X=133.0,Y=939.0 (should be at ascender 940?)
+
+	* Dcaron (U+010E): X=325.0,Y=939.0 (should be at ascender 940?)
+
+	* Dcaron (U+010E): X=349.0,Y=939.0 (should be at ascender 940?)
+
+	* Ecaron (U+011A): X=147.0,Y=939.0 (should be at ascender 940?)
+
+	* Ecaron (U+011A): X=171.0,Y=939.0 (should be at ascender 940?)
+
+	* Ecaron (U+011A): X=363.0,Y=939.0 (should be at ascender 940?)
+
+	* Ecaron (U+011A): X=387.0,Y=939.0 (should be at ascender 940?)
+
+	* Ncaron (U+0147): X=140.0,Y=939.0 (should be at ascender 940?)
+
+	* Ncaron (U+0147): X=164.0,Y=939.0 (should be at ascender 940?)
+
+	* Ncaron (U+0147): X=356.0,Y=939.0 (should be at ascender 940?)
+
+	* Ncaron (U+0147): X=380.0,Y=939.0 (should be at ascender 940?)
+
 	* oe (U+0153): X=455.5,Y=1.5 (should be at baseline 0?)
 
 	* oe (U+0153): X=221.0,Y=-2.0 (should be at baseline 0?)
+
+	* Sacute (U+015A): X=256.0,Y=735.0 (should be at cap-height 736?)
 
 	* sacute (U+015B): X=170.0,Y=-1.0 (should be at baseline 0?)
 
 	* sacute (U+015B): X=351.0,Y=-2.0 (should be at baseline 0?)
 
+	* Scaron (U+0160): X=256.0,Y=735.0 (should be at cap-height 736?)
+
 	* scaron (U+0161): X=170.0,Y=-1.0 (should be at baseline 0?)
 
 	* scaron (U+0161): X=351.0,Y=-2.0 (should be at baseline 0?)
+
+	* Tcaron (U+0164): X=138.0,Y=939.0 (should be at ascender 940?)
+
+	* Tcaron (U+0164): X=162.0,Y=939.0 (should be at ascender 940?)
+
+	* Tcaron (U+0164): X=354.0,Y=939.0 (should be at ascender 940?)
+
+	* Tcaron (U+0164): X=378.0,Y=939.0 (should be at ascender 940?)
+
+	* Zcaron (U+017D): X=145.0,Y=939.0 (should be at ascender 940?)
+
+	* Zcaron (U+017D): X=169.0,Y=939.0 (should be at ascender 940?)
+
+	* Zcaron (U+017D): X=361.0,Y=939.0 (should be at ascender 940?)
+
+	* Zcaron (U+017D): X=385.0,Y=939.0 (should be at ascender 940?)
 
 	* uni0635 (U+0635): X=128.0,Y=-261.0 (should be at descender -260?)
 
@@ -2218,8 +2242,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 12 | 49 | 668 | 37 | 521 | 0 |
-| 0% | 1% | 4% | 52% | 3% | 40% | 0% |
+| 0 | 12 | 48 | 668 | 37 | 522 | 0 |
+| 0% | 1% | 4% | 52% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
