@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam_alef-ar.fina" format="2">
+  <advance width="512"/>
+  <anchor x="300" y="0" name="bottom"/>
+  <anchor x="240" y="768" name="top"/>
+  <outline>
+    <component base="alef-ar.fina"/>
+  </outline>
+</glyph>

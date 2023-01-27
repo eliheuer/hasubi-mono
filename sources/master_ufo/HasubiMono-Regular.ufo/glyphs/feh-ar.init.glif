@@ -2,15 +2,24 @@
 <glyph name="feh-ar.init" format="2">
   <advance width="512"/>
   <unicode hex="FED3"/>
-  <anchor x="344" y="416" name="top"/>
+  <anchor x="296" y="408" name="top"/>
   <outline>
     <component base="fehDotless-ar.init"/>
-    <component base="dotabove-ar" xOffset="88" yOffset="-96"/>
+    <component base="dotabove-ar" xOffset="40" yOffset="-96"/>
   </outline>
   <lib>
     <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+      </array>
     </dict>
   </lib>
 </glyph>

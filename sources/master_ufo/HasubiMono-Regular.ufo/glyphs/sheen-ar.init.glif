@@ -1,16 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sheen-ar.init" format="2">
   <advance width="512"/>
-  <anchor x="276" y="0" name="bottom"/>
-  <anchor x="284" y="336" name="top"/>
+  <anchor x="256" y="0" name="bottom"/>
+  <anchor x="256" y="384" name="top"/>
   <outline>
     <component base="seen-ar.init"/>
-    <component base="threedotsupabove-ar" xOffset="28" yOffset="-176"/>
+    <component base="threedotsupabove-ar" yOffset="-128"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

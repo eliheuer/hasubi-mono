@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="veh-ar.init" format="2">
+  <advance width="512"/>
+  <anchor x="256" y="512" name="top"/>
+  <outline>
+    <component base="fehDotless-ar.init"/>
+    <component base="threedotsupabove-ar" xOffset="100" yOffset="254"/>
+  </outline>
+</glyph>

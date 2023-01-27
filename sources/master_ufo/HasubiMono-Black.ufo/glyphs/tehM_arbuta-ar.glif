@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tehMarbuta-ar" format="2">
+  <advance width="512"/>
+  <unicode hex="0629"/>
+  <anchor x="256" y="0" name="bottom"/>
+  <anchor x="257" y="384" name="top"/>
+  <outline>
+    <component base="heh-ar"/>
+    <component base="twodotshorizontalabove-ar" xOffset="101" yOffset="126"/>
+  </outline>
+</glyph>

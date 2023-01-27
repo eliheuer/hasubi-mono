@@ -2,15 +2,9 @@
 <glyph name="Uacute" format="2">
   <advance width="512"/>
   <unicode hex="00DA"/>
-  <anchor x="319" y="920" name="top"/>
+  <anchor x="320" y="952" name="top"/>
   <outline>
     <component base="U"/>
-    <component base="acutecomb.case" xOffset="-1"/>
+    <component base="acutecomb.case" yOffset="32"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

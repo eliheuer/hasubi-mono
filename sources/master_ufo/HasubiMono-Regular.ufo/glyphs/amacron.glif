@@ -2,17 +2,11 @@
 <glyph name="amacron" format="2">
   <advance width="512"/>
   <unicode hex="0101"/>
-  <anchor x="212" y="0" name="bottom"/>
-  <anchor x="402" y="58" name="ogonek"/>
-  <anchor x="251" y="704" name="top"/>
+  <anchor x="220" y="0" name="bottom"/>
+  <anchor x="410" y="58" name="ogonek"/>
+  <anchor x="259" y="704" name="top"/>
   <outline>
     <component base="a"/>
-    <component base="macroncomb" xOffset="-4"/>
+    <component base="macroncomb" xOffset="4"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

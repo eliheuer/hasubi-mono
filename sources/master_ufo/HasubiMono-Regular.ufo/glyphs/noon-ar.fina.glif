@@ -1,15 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="noon-ar.fina" format="2">
   <advance width="512"/>
-  <anchor x="256" y="208" name="top"/>
+  <anchor x="256" y="264" name="top"/>
   <outline>
     <component base="noonghunna-ar.fina"/>
-    <component base="dotabove-ar" yOffset="-304"/>
+    <component base="dotabove-ar" yOffset="-248"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

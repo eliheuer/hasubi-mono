@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alef-ar" format="2">
+  <advance width="512"/>
+  <unicode hex="0627"/>
+  <anchor x="256" y="0" name="bottom"/>
+  <anchor x="256" y="704" name="top"/>
+  <outline>
+    <contour>
+      <point x="200" y="0" type="line"/>
+      <point x="312" y="0" type="line"/>
+      <point x="320" y="8" type="line"/>
+      <point x="320" y="696" type="line"/>
+      <point x="312" y="704" type="line"/>
+      <point x="200" y="704" type="line"/>
+      <point x="192" y="696" type="line"/>
+      <point x="192" y="8" type="line"/>
+    </contour>
+  </outline>
+</glyph>

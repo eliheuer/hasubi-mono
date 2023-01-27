@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam_alefHamzabelow-ar" format="2">
+  <advance width="512"/>
+  <anchor x="157" y="0" name="bottom"/>
+  <anchor x="157" y="736" name="top"/>
+  <outline>
+    <component base="lam_alef-ar"/>
+    <component base="hamzabelow-ar" xOffset="-106"/>
+  </outline>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="teh-ar.init" format="2">
+  <advance width="512"/>
+  <anchor x="176" y="0" name="bottom"/>
+  <anchor x="333" y="232" name="top"/>
+  <outline>
+    <component base="behDotless-ar.init"/>
+    <component base="twodotshorizontalabove-ar" xOffset="177" yOffset="-26"/>
+  </outline>
+</glyph>

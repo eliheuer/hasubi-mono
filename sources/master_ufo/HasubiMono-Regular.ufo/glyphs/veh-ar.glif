@@ -7,10 +7,4 @@
     <component base="fehDotless-ar"/>
     <component base="threedotsupabove-ar" xOffset="96" yOffset="-96"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

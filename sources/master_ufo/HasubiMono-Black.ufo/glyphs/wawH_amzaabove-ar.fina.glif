@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wawHamzaabove-ar.fina" format="2">
+  <advance width="512"/>
+  <anchor x="256" y="384" name="top"/>
+  <outline>
+    <component base="waw-ar.fina"/>
+    <component base="hamzaabove-ar" yOffset="-191"/>
+  </outline>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zah-ar.medi" format="2">
+  <advance width="512"/>
+  <anchor x="304" y="312" name="top"/>
+  <outline>
+    <component base="tah-ar.medi"/>
+    <component base="dotabove-ar" xOffset="48" yOffset="-200"/>
+  </outline>
+</glyph>

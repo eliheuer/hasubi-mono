@@ -2,15 +2,9 @@
 <glyph name="Edieresis" format="2">
   <advance width="512"/>
   <unicode hex="00CB"/>
-  <anchor x="267" y="880" name="top"/>
+  <anchor x="267" y="912" name="top"/>
   <outline>
     <component base="E"/>
-    <component base="dieresiscomb.case" xOffset="11"/>
+    <component base="dieresiscomb.case" xOffset="11" yOffset="32"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

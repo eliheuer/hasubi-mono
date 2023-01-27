@@ -20,7 +20,7 @@
         <dimension name="Weight" xvalue="72"/>
       </location>
     </source>
-    <source filename="HasubiMono-Heavy.ufo" name="Hasubi Mono Heavy" familyname="Hasubi Mono" stylename="Heavy">
+    <source filename="HasubiMono-Black.ufo" name="Hasubi Mono Black" familyname="Hasubi Mono" stylename="Black">
       <location>
         <dimension name="Weight" xvalue="128"/>
       </location>
@@ -65,9 +65,9 @@
         <key>4FBB1917-F682-4041-B654-F2E0D2EF1242</key>
         <dict>
           <key>HH</key>
-          <string>144</string>
+          <string>160</string>
           <key>HV</key>
-          <string>128</string>
+          <string>160</string>
           <key>OH</key>
           <string>8</string>
           <key>OV</key>

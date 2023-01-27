@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcheh-ar" format="2">
+  <advance width="512"/>
+  <unicode hex="0686"/>
+  <anchor x="328" y="0" name="bottom"/>
+  <anchor x="255" y="336" name="top"/>
+  <outline>
+    <component base="hah-ar"/>
+    <component base="threedotsdowncenter-ar" xOffset="72"/>
+  </outline>
+</glyph>

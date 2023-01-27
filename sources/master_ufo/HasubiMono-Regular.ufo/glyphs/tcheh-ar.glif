@@ -2,8 +2,8 @@
 <glyph name="tcheh-ar" format="2">
   <advance width="512"/>
   <unicode hex="0686"/>
-  <anchor x="296" y="0" name="bottom"/>
-  <anchor x="255" y="336" name="top"/>
+  <anchor x="328" y="0" name="bottom"/>
+  <anchor x="279" y="336" name="top"/>
   <outline>
     <component base="hah-ar"/>
     <component base="threedotsdowncenter-ar" xOffset="72" yOffset="44"/>
@@ -21,10 +21,6 @@
           <string>threedotsdowncenter-ar</string>
         </dict>
       </array>
-      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
-      <string>space</string>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

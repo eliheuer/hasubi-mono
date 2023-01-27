@@ -1,16 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yehHamzaabove-ar.init" format="2">
   <advance width="512"/>
-  <anchor x="312" y="0" name="bottom"/>
-  <anchor x="412" y="336" name="top"/>
+  <anchor x="296" y="0" name="bottom"/>
+  <anchor x="396" y="384" name="top"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="hamzaabove-ar" xOffset="156" yOffset="-368"/>
+    <component base="hamzaabove-ar" xOffset="140" yOffset="-320"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

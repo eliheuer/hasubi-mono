@@ -2,15 +2,9 @@
 <glyph name="Lacute" format="2">
   <advance width="512"/>
   <unicode hex="0139"/>
-  <anchor x="178" y="920" name="top"/>
+  <anchor x="178" y="952" name="top"/>
   <outline>
     <component base="L"/>
-    <component base="acutecomb.case" xOffset="-142"/>
+    <component base="acutecomb.case" xOffset="-142" yOffset="32"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

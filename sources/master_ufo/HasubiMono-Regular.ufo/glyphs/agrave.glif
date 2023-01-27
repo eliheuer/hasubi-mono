@@ -2,17 +2,11 @@
 <glyph name="agrave" format="2">
   <advance width="512"/>
   <unicode hex="00E0"/>
-  <anchor x="212" y="0" name="bottom"/>
-  <anchor x="402" y="58" name="ogonek"/>
-  <anchor x="206" y="670" name="top"/>
+  <anchor x="220" y="0" name="bottom"/>
+  <anchor x="410" y="58" name="ogonek"/>
+  <anchor x="214" y="670" name="top"/>
   <outline>
     <component base="a"/>
-    <component base="gravecomb" xOffset="-6"/>
+    <component base="gravecomb" xOffset="2"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

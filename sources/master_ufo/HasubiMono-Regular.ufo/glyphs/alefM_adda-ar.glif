@@ -3,17 +3,9 @@
   <advance width="512"/>
   <unicode hex="0622"/>
   <anchor x="256" y="0" name="bottom"/>
-  <anchor x="265" y="912" name="top"/>
+  <anchor x="265" y="944" name="top"/>
   <outline>
     <component base="alef-ar"/>
-    <component base="madda-ar" xOffset="-16" yOffset="192"/>
+    <component base="madda-ar" xOffset="-16" yOffset="224"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
-      <string>space</string>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

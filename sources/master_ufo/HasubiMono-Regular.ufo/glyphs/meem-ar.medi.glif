@@ -7,10 +7,10 @@
       <point x="317" y="-80"/>
       <point x="370" y="-48"/>
       <point x="399" y="0" type="curve"/>
-      <point x="480" y="0" type="line"/>
-      <point x="488" y="8" type="line"/>
-      <point x="488" y="71" type="line"/>
-      <point x="480" y="80" type="line"/>
+      <point x="472" y="0" type="line"/>
+      <point x="480" y="8" type="line"/>
+      <point x="480" y="71" type="line"/>
+      <point x="472" y="80" type="line"/>
       <point x="432" y="80" type="line"/>
       <point x="424" y="88" type="line"/>
       <point x="424" y="181"/>
@@ -44,12 +44,4 @@
       <point x="164" y="42"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
-      <string>space</string>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
-    </dict>
-  </lib>
 </glyph>

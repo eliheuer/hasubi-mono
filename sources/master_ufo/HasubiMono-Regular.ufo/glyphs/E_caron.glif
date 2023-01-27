@@ -2,15 +2,9 @@
 <glyph name="Ecaron" format="2">
   <advance width="512"/>
   <unicode hex="011A"/>
-  <anchor x="267" y="908" name="top"/>
+  <anchor x="267" y="940" name="top"/>
   <outline>
     <component base="E"/>
-    <component base="caroncomb.case" xOffset="11" yOffset="4"/>
+    <component base="caroncomb.case" xOffset="11" yOffset="36"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

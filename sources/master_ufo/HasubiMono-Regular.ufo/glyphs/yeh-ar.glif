@@ -2,16 +2,10 @@
 <glyph name="yeh-ar" format="2">
   <advance width="512"/>
   <unicode hex="064A"/>
-  <anchor x="276" y="-158" name="bottom"/>
+  <anchor x="258" y="-208" name="bottom"/>
   <anchor x="69" y="-15" name="top"/>
   <outline>
     <component base="alefMaksura-ar"/>
-    <component base="twodotshorizontalbelow-ar" xOffset="20" yOffset="-158"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="2" yOffset="-208"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

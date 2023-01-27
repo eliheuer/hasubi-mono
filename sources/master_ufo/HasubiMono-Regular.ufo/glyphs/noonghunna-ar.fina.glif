@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="noonghunna-ar.fina" format="2">
   <advance width="512"/>
-  <anchor x="256" y="208" name="top"/>
+  <anchor x="256" y="264" name="top"/>
   <outline>
     <contour>
       <point x="248" y="-208" type="curve" smooth="yes"/>
@@ -17,10 +17,10 @@
       <point x="472" y="80" type="line"/>
       <point x="440" y="80" type="line"/>
       <point x="432" y="88" type="line"/>
-      <point x="432" y="200" type="line"/>
-      <point x="424" y="208" type="line"/>
-      <point x="368" y="208" type="line"/>
-      <point x="360" y="200" type="line"/>
+      <point x="432" y="256" type="line"/>
+      <point x="424" y="264" type="line"/>
+      <point x="368" y="264" type="line"/>
+      <point x="360" y="256" type="line"/>
       <point x="360" y="-64" type="line" smooth="yes"/>
       <point x="360" y="-112"/>
       <point x="344" y="-128"/>
@@ -38,10 +38,4 @@
       <point x="120" y="-208"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
-    </dict>
-  </lib>
 </glyph>

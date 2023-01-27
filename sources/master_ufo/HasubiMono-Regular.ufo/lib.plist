@@ -13,8 +13,6 @@
         <true/>
       </dict>
     </array>
-    <key>com.schriftgestaltung.appVersion</key>
-    <string>3150</string>
     <key>com.schriftgestaltung.customParameter.GSFont.Axis Mappings</key>
     <dict>
       <key>wght</key>
@@ -59,14 +57,8 @@
     <integer>100</integer>
     <key>com.schriftgestaltung.fontMasterOrder</key>
     <integer>0</integer>
-    <key>com.schriftgestaltung.keyboardIncrement</key>
-    <integer>1</integer>
-    <key>com.schriftgestaltung.weight</key>
-    <string>Regular</string>
     <key>com.schriftgestaltung.weightValue</key>
     <integer>72</integer>
-    <key>com.schriftgestaltung.width</key>
-    <string>Regular</string>
     <key>com.schriftgestaltung.widthValue</key>
     <integer>100</integer>
     <key>public.glyphOrder</key>
@@ -714,6 +706,14 @@
       <string>base</string>
       <key>Atilde</key>
       <string>base</string>
+      <key>C</key>
+      <string>base</string>
+      <key>Cacute</key>
+      <string>base</string>
+      <key>Ccaron</key>
+      <string>base</string>
+      <key>Cdotaccent</key>
+      <string>base</string>
       <key>D</key>
       <string>base</string>
       <key>Dcaron</key>
@@ -1101,6 +1101,10 @@
       <key>lam_alef-ar</key>
       <string>ligature</string>
       <key>lam_alef-ar.fina</key>
+      <string>ligature</string>
+      <key>lam_alefHamzaabove-ar</key>
+      <string>ligature</string>
+      <key>lam_alefHamzabelow-ar</key>
       <string>ligature</string>
       <key>macroncomb</key>
       <string>mark</string>

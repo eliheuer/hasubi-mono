@@ -3,15 +3,9 @@
   <advance width="512"/>
   <unicode hex="062A"/>
   <anchor x="256" y="0" name="bottom"/>
-  <anchor x="256" y="336" name="top"/>
+  <anchor x="256" y="384" name="top"/>
   <outline>
     <component base="behDotless-ar"/>
-    <component base="twodotshorizontalabove-ar" yOffset="-176"/>
+    <component base="twodotshorizontalabove-ar" yOffset="-128"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

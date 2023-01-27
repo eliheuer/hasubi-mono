@@ -2,16 +2,10 @@
 <glyph name="khah-ar" format="2">
   <advance width="512"/>
   <unicode hex="062E"/>
-  <anchor x="296" y="0" name="bottom"/>
-  <anchor x="255" y="336" name="top"/>
+  <anchor x="328" y="0" name="bottom"/>
+  <anchor x="279" y="336" name="top"/>
   <outline>
     <component base="hah-ar"/>
-    <component base="dotabove-ar" xOffset="-1" yOffset="-176"/>
+    <component base="dotabove-ar" xOffset="23" yOffset="-176"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

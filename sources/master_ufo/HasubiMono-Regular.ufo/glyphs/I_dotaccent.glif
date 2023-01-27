@@ -2,15 +2,9 @@
 <glyph name="Idotaccent" format="2">
   <advance width="512"/>
   <unicode hex="0130"/>
-  <anchor x="258" y="856" name="top"/>
+  <anchor x="258" y="888" name="top"/>
   <outline>
     <component base="I"/>
-    <component base="dotaccentcomb.case" xOffset="2"/>
+    <component base="dotaccentcomb.case" xOffset="2" yOffset="32"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,17 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zah-ar.medi" format="2">
   <advance width="512"/>
-  <anchor x="360" y="336" name="top"/>
+  <anchor x="304" y="308" name="top"/>
   <outline>
-    <component base="tah-ar"/>
-    <component base="dotabove-ar" xOffset="104" yOffset="-176"/>
+    <component base="tah-ar.medi"/>
+    <component base="dotabove-ar" xOffset="48" yOffset="-204"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
-      <string>space</string>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

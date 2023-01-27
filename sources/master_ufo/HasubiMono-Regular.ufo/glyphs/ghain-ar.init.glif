@@ -1,17 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ghain-ar.init" format="2">
   <advance width="512"/>
-  <anchor x="334" y="336" name="top"/>
+  <anchor x="334" y="384" name="top"/>
   <outline>
     <component base="ain-ar.init"/>
-    <component base="dotabove-ar" xOffset="78" yOffset="-176"/>
+    <component base="dotabove-ar" xOffset="78" yOffset="-128"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
-      <string>space</string>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>
