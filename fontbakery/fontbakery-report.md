@@ -1635,13 +1635,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0635 (U+0635): X=-32.0,Y=-261.0 (should be at descender -260?)
 
-	* uni0636 (U+0636): X=128.0,Y=-261.0 (should be at descender -260?)
+	* uni0636 (U+0636): X=128.0,Y=-261.0 (should be at descender -260?) 
 
-	* uni0636 (U+0636): X=-32.0,Y=-261.0 (should be at descender -260?)
-
-	* uni06A4 (U+06A4): X=312.5,Y=737.5 (should be at cap-height 736?) 
-
-	* And uni06A4 (U+06A4): X=391.5,Y=737.5 (should be at cap-height 736?) [code: found-misalignments]
+	* And uni0636 (U+0636): X=-32.0,Y=-261.0 (should be at descender -260?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -2664,7 +2660,9 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
+	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> 
+
+	* And uniFEDC (U+FEDC): L<<481.0,126.0>--<480.0,8.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
 ### Summary
 
