@@ -109,10 +109,15 @@ def draw_main_text():
     fontVariations(wght = 400)
 
     # x, y, w, h, radius
+    fill(0,0,0,0.2)
+    #rectRounded( MARGIN+(UNIT*1.5), MARGIN+(UNIT*1.5), UNIT*34, UNIT*20, UNIT*2.75)
+    rectRounded( MARGIN+(UNIT*1.75), MARGIN+(UNIT*1.75), UNIT*34.5, UNIT*20.5, UNIT*2.75)
     fill(0.07, 0.07, 0.07, 1)
     rectRounded( MARGIN+(UNIT*2), MARGIN+(UNIT*2), UNIT*34, UNIT*20, UNIT*2)
-    fill(0,0,0,0.2)
-    #rectRounded( MARGIN+(UNIT*1), MARGIN+(UNIT*1), UNIT*12.1, UNIT*10.1, UNIT)
+
+
+    fill(0.07, 0.07, 0.07, 1)
+    rectRounded( MARGIN+(UNIT*38), MARGIN+(UNIT*2), UNIT*16, UNIT*20, UNIT*2)
 
     fill(0.2, 0.2, 0.2)
     text("01", ( MARGIN+(UNIT*3), MARGIN+(UNIT*17.5)))
@@ -125,7 +130,7 @@ def draw_main_text():
 
 
     fill(0.4, 0.4, 0.4)
-    text('   # Print "كن فيكون" six times', ( MARGIN+(UNIT*3), MARGIN+(UNIT*17.5)))
+    text('   # Print "كــن فيكون" six times', ( MARGIN+(UNIT*3), MARGIN+(UNIT*17.5)))
     fill(1, 1, 1)
     
     
@@ -176,8 +181,20 @@ def draw_main_text():
     #text('                              , (M+U, M))', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
     #text('                              , (M+U, M))', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
     #text('                              , (M+U, M))', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
-    
-    
+
+    # Output
+    fill(0, 1, 0.5)
+    text("كــن فيكون", ( MARGIN+(UNIT*45), MARGIN+(UNIT*17.5)))
+    text("كــن فيكون", ( MARGIN+(UNIT*45), MARGIN+(UNIT*15.5)))
+    text("كــن فيكون", ( MARGIN+(UNIT*45), MARGIN+(UNIT*13.5)))
+    text("كــن فيكون", ( MARGIN+(UNIT*45), MARGIN+(UNIT*11.5)))
+    text("كــن فيكون", ( MARGIN+(UNIT*45), MARGIN+(UNIT*9.5)))
+    text("كــن فيكون", ( MARGIN+(UNIT*45), MARGIN+(UNIT*7.5)))
+    fill(1)
+    text("PC", ( MARGIN+(UNIT*39), MARGIN+(UNIT*3.5)))
+    fill(0, 1, 0.5)
+    rectRounded( MARGIN+(UNIT*41), MARGIN+(UNIT*3), UNIT*0.5, UNIT*2, UNIT/4)
+
     #text("       else:", ( MARGIN+(UNIT*3), MARGIN+(UNIT*9.5)))
     fill(0, 0.5, 1)
     text("       else", ( MARGIN+(UNIT*3), MARGIN+(UNIT*9.5)))
@@ -192,14 +209,45 @@ def draw_main_text():
 
 
     fill(0.3, 0.3, 0.3, 0.5)
-    rectRounded( MARGIN+(UNIT*3), MARGIN+(UNIT*3), UNIT*25, UNIT*2, UNIT/2)
+    rectRounded( MARGIN+(UNIT*3), MARGIN+(UNIT*3), UNIT*32, UNIT*2, UNIT/1.5)
 
     fill(0.4, 0.4, 0.4)
     text(" hasubi-mono-specimen.py", ( MARGIN+(UNIT*3), MARGIN+(UNIT*3.5)))
 
+    # Red
+    fill(0.02)
+    oval( MARGIN+(UNIT*2.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
+    fill(1, 0.1, 0) 
     oval( MARGIN+(UNIT*3), MARGIN+(UNIT*20), UNIT, UNIT)
+
+    # YELLOW
+    fill(0.02)
+    oval( MARGIN+(UNIT*4.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
+    fill(1, 0.5, 0) 
     oval( MARGIN+(UNIT*5), MARGIN+(UNIT*20), UNIT, UNIT)
+    
+   # GREEN 
+    fill(0.02)
+    oval( MARGIN+(UNIT*6.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
+    fill(0, 1, 0.5)
     oval( MARGIN+(UNIT*7), MARGIN+(UNIT*20), UNIT, UNIT)
+
+    # GRAY
+    fill(0.02)
+    oval( MARGIN+(UNIT*38.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
+    fill(0.5)
+    oval( MARGIN+(UNIT*39), MARGIN+(UNIT*20), UNIT, UNIT)
+
+    fill(0.02)
+    oval( MARGIN+(UNIT*40.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
+    fill(0.5)
+    oval( MARGIN+(UNIT*41), MARGIN+(UNIT*20), UNIT, UNIT)
+
+    fill(0.02)
+    oval( MARGIN+(UNIT*42.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
+    fill(0.5)
+    oval( MARGIN+(UNIT*43), MARGIN+(UNIT*20), UNIT, UNIT)
+
 
 # Divider lines
 def draw_divider_lines():
