@@ -683,19 +683,21 @@ The following glyphs do not have the recommended number of contours:
 
 	* f (U+0066): X=479.0,Y=734.0 (should be at cap-height 736?)
 
-	* g (U+0067): X=303.0,Y=513.0 (should be at x-height 512?)
+	* g (U+0067): X=303.0,Y=539.0 (should be at x-height 538?)
 
-	* h (U+0068): X=219.5,Y=513.0 (should be at x-height 512?)
+	* h (U+0068): X=219.5,Y=539.0 (should be at x-height 538?)
 
-	* p (U+0070): X=209.0,Y=513.0 (should be at x-height 512?)
+	* p (U+0070): X=209.0,Y=539.0 (should be at x-height 538?)
 
-	* q (U+0071): X=303.0,Y=513.0 (should be at x-height 512?)
+	* q (U+0071): X=303.0,Y=539.0 (should be at x-height 538?)
+
+	* s (U+0073): X=330.5,Y=540.0 (should be at x-height 538?)
 
 	* s (U+0073): X=351.5,Y=-0.5 (should be at baseline 0?)
 
 	* u (U+0075): X=294.5,Y=2.0 (should be at baseline 0?)
 
-	* w (U+0077): X=416.0,Y=511.0 (should be at x-height 512?)
+	* w (U+0077): X=416.0,Y=537.0 (should be at x-height 538?)
 
 	* copyright (U+00A9): X=370.0,Y=-0.5 (should be at baseline 0?)
 
@@ -857,15 +859,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* backslash (U+005C): L<<364.0,-201.0>--<117.0,536.0>> -> L<<117.0,536.0>--<71.0,703.0>>
 
-	* w (U+0077): L<<364.0,97.0>--<403.0,432.0>> -> L<<403.0,432.0>--<416.0,511.0>>
+	* w (U+0077): L<<364.0,97.0>--<403.0,459.0>> -> L<<403.0,459.0>--<416.0,537.0>>
 
-	* wacute (U+1E83): L<<364.0,97.0>--<403.0,432.0>> -> L<<403.0,432.0>--<416.0,511.0>>
+	* wacute (U+1E83): L<<364.0,97.0>--<403.0,459.0>> -> L<<403.0,459.0>--<416.0,537.0>>
 
-	* wcircumflex (U+0175): L<<364.0,97.0>--<403.0,432.0>> -> L<<403.0,432.0>--<416.0,511.0>>
+	* wcircumflex (U+0175): L<<364.0,97.0>--<403.0,459.0>> -> L<<403.0,459.0>--<416.0,537.0>>
 
-	* wdieresis (U+1E85): L<<364.0,97.0>--<403.0,432.0>> -> L<<403.0,432.0>--<416.0,511.0>> 
+	* wdieresis (U+1E85): L<<364.0,97.0>--<403.0,459.0>> -> L<<403.0,459.0>--<416.0,537.0>> 
 
-	* And wgrave (U+1E81): L<<364.0,97.0>--<403.0,432.0>> -> L<<403.0,432.0>--<416.0,511.0>> [code: found-colinear-vectors]
+	* And wgrave (U+1E81): L<<364.0,97.0>--<403.0,459.0>> -> L<<403.0,459.0>--<416.0,537.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1128,13 +1130,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* d (U+0064): X=303.0,Y=-1.0 (should be at baseline 0?)
 
-	* g (U+0067): X=303.0,Y=513.0 (should be at x-height 512?)
+	* g (U+0067): X=303.0,Y=534.0 (should be at x-height 533?)
 
-	* h (U+0068): X=219.5,Y=513.0 (should be at x-height 512?)
+	* h (U+0068): X=219.5,Y=534.0 (should be at x-height 533?)
 
-	* p (U+0070): X=209.0,Y=513.0 (should be at x-height 512?)
+	* p (U+0070): X=209.0,Y=534.0 (should be at x-height 533?)
 
-	* q (U+0071): X=303.0,Y=513.0 (should be at x-height 512?)
+	* q (U+0071): X=303.0,Y=534.0 (should be at x-height 533?)
 
 	* s (U+0073): X=351.5,Y=-0.5 (should be at baseline 0?)
 
@@ -1190,9 +1192,21 @@ The following glyphs do not have the recommended number of contours:
 
 	* abreve (U+0103): X=141.5,Y=1.0 (should be at baseline 0?)
 
+	* ccaron (U+010D): X=125.0,Y=735.0 (should be at cap-height 736?)
+
+	* ccaron (U+010D): X=397.0,Y=735.0 (should be at cap-height 736?)
+
+	* ncaron (U+0148): X=126.0,Y=735.0 (should be at cap-height 736?)
+
+	* ncaron (U+0148): X=398.0,Y=735.0 (should be at cap-height 736?)
+
 	* oe (U+0153): X=455.5,Y=1.5 (should be at baseline 0?)
 
 	* oe (U+0153): X=221.0,Y=-2.0 (should be at baseline 0?)
+
+	* rcaron (U+0159): X=135.0,Y=735.0 (should be at cap-height 736?)
+
+	* rcaron (U+0159): X=407.0,Y=735.0 (should be at cap-height 736?)
 
 	* Sacute (U+015A): X=285.0,Y=941.0 (should be at ascender 940?)
 
@@ -1201,6 +1215,10 @@ The following glyphs do not have the recommended number of contours:
 	* sacute (U+015B): X=351.5,Y=-0.5 (should be at baseline 0?)
 
 	* scaron (U+0161): X=351.5,Y=-0.5 (should be at baseline 0?)
+
+	* scaron (U+0161): X=116.0,Y=735.0 (should be at cap-height 736?)
+
+	* scaron (U+0161): X=388.0,Y=735.0 (should be at cap-height 736?)
 
 	* umacron (U+016B): X=294.5,Y=2.0 (should be at baseline 0?)
 
@@ -1290,25 +1308,29 @@ The following glyphs do not have the recommended number of contours:
 
 	* backslash (U+005C): L<<366.0,-203.0>--<171.0,376.0>> -> L<<171.0,376.0>--<69.0,701.0>>
 
-	* w (U+0077): L<<101.0,504.0>--<128.0,239.0>> -> L<<128.0,239.0>--<151.0,98.0>>
+	* w (U+0077): L<<101.0,525.0>--<128.0,239.0>> -> L<<128.0,239.0>--<151.0,98.0>>
 
-	* w (U+0077): L<<365.0,98.0>--<398.0,360.0>> -> L<<398.0,360.0>--<416.0,509.0>>
+	* w (U+0077): L<<365.0,98.0>--<398.0,381.0>> -> L<<398.0,381.0>--<416.0,530.0>>
 
-	* wacute (U+1E83): L<<101.0,504.0>--<128.0,239.0>> -> L<<128.0,239.0>--<151.0,98.0>>
+	* wacute (U+1E83): L<<101.0,525.0>--<128.0,239.0>> -> L<<128.0,239.0>--<151.0,98.0>>
 
-	* wacute (U+1E83): L<<365.0,98.0>--<398.0,360.0>> -> L<<398.0,360.0>--<416.0,509.0>>
+	* wacute (U+1E83): L<<365.0,98.0>--<398.0,381.0>> -> L<<398.0,381.0>--<416.0,530.0>>
 
-	* wcircumflex (U+0175): L<<101.0,504.0>--<128.0,239.0>> -> L<<128.0,239.0>--<151.0,98.0>>
+	* wcircumflex (U+0175): L<<101.0,525.0>--<128.0,239.0>> -> L<<128.0,239.0>--<151.0,98.0>>
 
-	* wcircumflex (U+0175): L<<365.0,98.0>--<398.0,360.0>> -> L<<398.0,360.0>--<416.0,509.0>>
+	* wcircumflex (U+0175): L<<365.0,98.0>--<398.0,381.0>> -> L<<398.0,381.0>--<416.0,530.0>>
 
-	* wdieresis (U+1E85): L<<101.0,504.0>--<128.0,239.0>> -> L<<128.0,239.0>--<151.0,98.0>>
+	* wdieresis (U+1E85): L<<101.0,525.0>--<128.0,239.0>> -> L<<128.0,239.0>--<151.0,98.0>>
 
-	* wdieresis (U+1E85): L<<365.0,98.0>--<398.0,360.0>> -> L<<398.0,360.0>--<416.0,509.0>>
+	* wdieresis (U+1E85): L<<365.0,98.0>--<398.0,381.0>> -> L<<398.0,381.0>--<416.0,530.0>>
 
-	* wgrave (U+1E81): L<<101.0,504.0>--<128.0,239.0>> -> L<<128.0,239.0>--<151.0,98.0>> 
+	* wgrave (U+1E81): L<<101.0,525.0>--<128.0,239.0>> -> L<<128.0,239.0>--<151.0,98.0>>
 
-	* And wgrave (U+1E81): L<<365.0,98.0>--<398.0,360.0>> -> L<<398.0,360.0>--<416.0,509.0>> [code: found-colinear-vectors]
+	* wgrave (U+1E81): L<<365.0,98.0>--<398.0,381.0>> -> L<<398.0,381.0>--<416.0,530.0>>
+
+	* x (U+0078): L<<102.0,91.0>--<97.0,99.0>> -> L<<97.0,99.0>--<43.0,187.0>> 
+
+	* And x (U+0078): L<<398.0,444.0>--<403.0,436.0>> -> L<<403.0,436.0>--<458.0,345.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -1557,23 +1579,29 @@ The following glyphs do not have the recommended number of contours:
 
 	* a (U+0061): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* a (U+0061): X=165.5,Y=510.5 (should be at x-height 512?)
-
 	* b (U+0062): X=209.0,Y=-1.0 (should be at baseline 0?)
 
 	* d (U+0064): X=303.0,Y=-1.0 (should be at baseline 0?)
 
-	* e (U+0065): X=356.5,Y=1.5 (should be at baseline 0?)
+	* g (U+0067): X=303.0,Y=545.0 (should be at x-height 544?)
 
-	* g (U+0067): X=303.0,Y=513.0 (should be at x-height 512?)
+	* h (U+0068): X=219.5,Y=545.0 (should be at x-height 544?)
 
-	* h (U+0068): X=219.5,Y=513.0 (should be at x-height 512?)
+	* i (U+0069): X=202.5,Y=734.0 (should be at cap-height 736?)
 
-	* n (U+006E): X=217.5,Y=510.0 (should be at x-height 512?)
+	* i (U+0069): X=293.5,Y=734.0 (should be at cap-height 736?)
 
-	* p (U+0070): X=209.0,Y=513.0 (should be at x-height 512?)
+	* j (U+006A): X=242.5,Y=734.0 (should be at cap-height 736?)
 
-	* q (U+0071): X=303.0,Y=513.0 (should be at x-height 512?)
+	* j (U+006A): X=333.5,Y=734.0 (should be at cap-height 736?)
+
+	* n (U+006E): X=217.5,Y=542.0 (should be at x-height 544?)
+
+	* p (U+0070): X=209.0,Y=545.0 (should be at x-height 544?)
+
+	* q (U+0071): X=303.0,Y=545.0 (should be at x-height 544?)
+
+	* s (U+0073): X=329.5,Y=546.0 (should be at x-height 544?)
 
 	* u (U+0075): X=294.5,Y=2.0 (should be at baseline 0?)
 
@@ -1595,17 +1623,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* aring (U+00E5): X=146.0,Y=1.0 (should be at baseline 0?)
 
+	* aring (U+00E5): X=201.5,Y=737.0 (should be at cap-height 736?)
+
+	* aring (U+00E5): X=314.5,Y=737.0 (should be at cap-height 736?)
+
 	* ae (U+00E6): X=461.5,Y=1.5 (should be at baseline 0?)
 
 	* ae (U+00E6): X=38.5,Y=0.5 (should be at baseline 0?)
-
-	* egrave (U+00E8): X=356.5,Y=1.5 (should be at baseline 0?)
-
-	* eacute (U+00E9): X=356.5,Y=1.5 (should be at baseline 0?)
-
-	* ecircumflex (U+00EA): X=356.5,Y=1.5 (should be at baseline 0?)
-
-	* edieresis (U+00EB): X=356.5,Y=1.5 (should be at baseline 0?)
 
 	* eth (U+00F0): X=299.5,Y=1.0 (should be at baseline 0?)
 
@@ -1621,17 +1645,39 @@ The following glyphs do not have the recommended number of contours:
 
 	* amacron (U+0101): X=146.0,Y=1.0 (should be at baseline 0?)
 
+	* amacron (U+0101): X=106.0,Y=735.0 (should be at cap-height 736?)
+
+	* amacron (U+0101): X=414.0,Y=735.0 (should be at cap-height 736?)
+
 	* abreve (U+0103): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* emacron (U+0113): X=356.5,Y=1.5 (should be at baseline 0?)
+	* abreve (U+0103): X=143.0,Y=738.0 (should be at cap-height 736?)
 
-	* edotaccent (U+0117): X=356.5,Y=1.5 (should be at baseline 0?)
+	* abreve (U+0103): X=196.0,Y=738.0 (should be at cap-height 736?)
 
-	* ecaron (U+011B): X=356.5,Y=1.5 (should be at baseline 0?)
+	* abreve (U+0103): X=310.0,Y=738.0 (should be at cap-height 736?)
+
+	* abreve (U+0103): X=363.0,Y=738.0 (should be at cap-height 736?)
+
+	* cdotaccent (U+010B): X=216.0,Y=735.5 (should be at cap-height 736?)
+
+	* cdotaccent (U+010B): X=295.5,Y=735.5 (should be at cap-height 736?)
 
 	* Gbreve (U+011E): X=306.5,Y=-1.0 (should be at baseline 0?)
 
+	* gbreve (U+011F): X=151.0,Y=738.0 (should be at cap-height 736?)
+
+	* gbreve (U+011F): X=204.0,Y=738.0 (should be at cap-height 736?)
+
+	* gbreve (U+011F): X=318.0,Y=738.0 (should be at cap-height 736?)
+
+	* gbreve (U+011F): X=371.0,Y=738.0 (should be at cap-height 736?)
+
 	* Gdotaccent (U+0120): X=306.5,Y=-1.0 (should be at baseline 0?)
+
+	* gdotaccent (U+0121): X=226.0,Y=735.5 (should be at cap-height 736?)
+
+	* gdotaccent (U+0121): X=305.5,Y=735.5 (should be at cap-height 736?)
 
 	* uni0122 (U+0122): X=306.5,Y=-1.0 (should be at baseline 0?)
 
@@ -1984,15 +2030,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* d (U+0064): X=303.0,Y=-1.0 (should be at baseline 0?)
 
-	* g (U+0067): X=303.0,Y=513.0 (should be at x-height 512?)
+	* g (U+0067): X=303.0,Y=528.0 (should be at x-height 527?)
 
-	* h (U+0068): X=219.5,Y=513.0 (should be at x-height 512?)
+	* h (U+0068): X=219.5,Y=528.0 (should be at x-height 527?)
 
-	* p (U+0070): X=209.0,Y=513.0 (should be at x-height 512?)
+	* j (U+006A): X=288.0,Y=735.0 (should be at cap-height 736?)
 
-	* q (U+0071): X=303.0,Y=513.0 (should be at x-height 512?)
+	* p (U+0070): X=209.0,Y=528.0 (should be at x-height 527?)
 
-	* s (U+0073): X=170.0,Y=-1.0 (should be at baseline 0?)
+	* q (U+0071): X=303.0,Y=528.0 (should be at x-height 527?)
+
+	* s (U+0073): X=170.0,Y=-0.5 (should be at baseline 0?)
 
 	* s (U+0073): X=351.0,Y=-1.0 (should be at baseline 0?)
 
@@ -2044,6 +2092,18 @@ The following glyphs do not have the recommended number of contours:
 
 	* abreve (U+0103): X=140.0,Y=1.0 (should be at baseline 0?)
 
+	* abreve (U+0103): X=144.0,Y=734.5 (should be at cap-height 736?)
+
+	* abreve (U+0103): X=187.0,Y=734.5 (should be at cap-height 736?)
+
+	* abreve (U+0103): X=311.0,Y=734.5 (should be at cap-height 736?)
+
+	* abreve (U+0103): X=354.0,Y=734.5 (should be at cap-height 736?)
+
+	* ccaron (U+010D): X=170.5,Y=738.0 (should be at cap-height 736?)
+
+	* ccaron (U+010D): X=353.5,Y=738.0 (should be at cap-height 736?)
+
 	* Gbreve (U+011E): X=149.0,Y=938.0 (should be at ascender 940?)
 
 	* Gbreve (U+011E): X=185.0,Y=938.0 (should be at ascender 940?)
@@ -2052,13 +2112,29 @@ The following glyphs do not have the recommended number of contours:
 
 	* Gbreve (U+011E): X=363.0,Y=938.0 (should be at ascender 940?)
 
+	* gbreve (U+011F): X=156.0,Y=734.5 (should be at cap-height 736?)
+
+	* gbreve (U+011F): X=199.0,Y=734.5 (should be at cap-height 736?)
+
+	* gbreve (U+011F): X=323.0,Y=734.5 (should be at cap-height 736?)
+
+	* gbreve (U+011F): X=366.0,Y=734.5 (should be at cap-height 736?)
+
+	* ncaron (U+0148): X=170.5,Y=738.0 (should be at cap-height 736?)
+
+	* ncaron (U+0148): X=353.5,Y=738.0 (should be at cap-height 736?)
+
 	* oe (U+0153): X=455.5,Y=1.5 (should be at baseline 0?)
 
 	* oe (U+0153): X=221.0,Y=-2.0 (should be at baseline 0?)
 
+	* rcaron (U+0159): X=179.5,Y=738.0 (should be at cap-height 736?)
+
+	* rcaron (U+0159): X=362.5,Y=738.0 (should be at cap-height 736?)
+
 	* Sacute (U+015A): X=256.0,Y=735.0 (should be at cap-height 736?)
 
-	* sacute (U+015B): X=170.0,Y=-1.0 (should be at baseline 0?)
+	* sacute (U+015B): X=170.0,Y=-0.5 (should be at baseline 0?)
 
 	* sacute (U+015B): X=351.0,Y=-1.0 (should be at baseline 0?)
 
@@ -2072,9 +2148,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* Scaron (U+0160): X=376.0,Y=939.0 (should be at ascender 940?)
 
-	* scaron (U+0161): X=170.0,Y=-1.0 (should be at baseline 0?)
+	* scaron (U+0161): X=170.0,Y=-0.5 (should be at baseline 0?)
 
 	* scaron (U+0161): X=351.0,Y=-1.0 (should be at baseline 0?)
+
+	* scaron (U+0161): X=161.5,Y=738.0 (should be at cap-height 736?)
+
+	* scaron (U+0161): X=344.5,Y=738.0 (should be at cap-height 736?)
 
 	* umacron (U+016B): X=294.5,Y=2.0 (should be at baseline 0?)
 
@@ -2172,35 +2252,29 @@ The following glyphs do not have the recommended number of contours:
 
 	* backslash (U+005C): L<<367.0,-204.0>--<224.0,216.0>> -> L<<224.0,216.0>--<68.0,700.0>>
 
-	* w (U+0077): L<<145.0,99.0>--<179.0,229.0>> -> L<<179.0,229.0>--<220.0,345.0>>
+	* w (U+0077): L<<365.0,99.0>--<394.0,304.0>> -> L<<394.0,304.0>--<417.0,523.0>>
 
-	* w (U+0077): L<<365.0,99.0>--<394.0,289.0>> -> L<<394.0,289.0>--<417.0,508.0>>
+	* w (U+0077): L<<99.0,519.0>--<119.0,310.0>> -> L<<119.0,310.0>--<145.0,99.0>>
 
-	* w (U+0077): L<<99.0,504.0>--<119.0,310.0>> -> L<<119.0,310.0>--<145.0,99.0>>
+	* wacute (U+1E83): L<<365.0,99.0>--<394.0,304.0>> -> L<<394.0,304.0>--<417.0,523.0>>
 
-	* wacute (U+1E83): L<<145.0,99.0>--<179.0,229.0>> -> L<<179.0,229.0>--<220.0,345.0>>
+	* wacute (U+1E83): L<<99.0,519.0>--<119.0,310.0>> -> L<<119.0,310.0>--<145.0,99.0>>
 
-	* wacute (U+1E83): L<<365.0,99.0>--<394.0,289.0>> -> L<<394.0,289.0>--<417.0,508.0>>
+	* wcircumflex (U+0175): L<<365.0,99.0>--<394.0,304.0>> -> L<<394.0,304.0>--<417.0,523.0>>
 
-	* wacute (U+1E83): L<<99.0,504.0>--<119.0,310.0>> -> L<<119.0,310.0>--<145.0,99.0>>
+	* wcircumflex (U+0175): L<<99.0,519.0>--<119.0,310.0>> -> L<<119.0,310.0>--<145.0,99.0>>
 
-	* wcircumflex (U+0175): L<<145.0,99.0>--<179.0,229.0>> -> L<<179.0,229.0>--<220.0,345.0>>
+	* wdieresis (U+1E85): L<<365.0,99.0>--<394.0,304.0>> -> L<<394.0,304.0>--<417.0,523.0>>
 
-	* wcircumflex (U+0175): L<<365.0,99.0>--<394.0,289.0>> -> L<<394.0,289.0>--<417.0,508.0>>
+	* wdieresis (U+1E85): L<<99.0,519.0>--<119.0,310.0>> -> L<<119.0,310.0>--<145.0,99.0>>
 
-	* wcircumflex (U+0175): L<<99.0,504.0>--<119.0,310.0>> -> L<<119.0,310.0>--<145.0,99.0>>
+	* wgrave (U+1E81): L<<365.0,99.0>--<394.0,304.0>> -> L<<394.0,304.0>--<417.0,523.0>>
 
-	* wdieresis (U+1E85): L<<145.0,99.0>--<179.0,229.0>> -> L<<179.0,229.0>--<220.0,345.0>>
+	* wgrave (U+1E81): L<<99.0,519.0>--<119.0,310.0>> -> L<<119.0,310.0>--<145.0,99.0>>
 
-	* wdieresis (U+1E85): L<<365.0,99.0>--<394.0,289.0>> -> L<<394.0,289.0>--<417.0,508.0>>
+	* x (U+0078): L<<374.0,394.0>--<378.0,386.0>> -> L<<378.0,386.0>--<459.0,254.0>> 
 
-	* wdieresis (U+1E85): L<<99.0,504.0>--<119.0,310.0>> -> L<<119.0,310.0>--<145.0,99.0>>
-
-	* wgrave (U+1E81): L<<145.0,99.0>--<179.0,229.0>> -> L<<179.0,229.0>--<220.0,345.0>>
-
-	* wgrave (U+1E81): L<<365.0,99.0>--<394.0,289.0>> -> L<<394.0,289.0>--<417.0,508.0>> 
-
-	* And wgrave (U+1E81): L<<99.0,504.0>--<119.0,310.0>> -> L<<119.0,310.0>--<145.0,99.0>> [code: found-colinear-vectors]
+	* And x (U+0078): L<<459.0,254.0>--<406.0,143.0>> -> L<<406.0,143.0>--<401.0,131.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -2460,21 +2534,23 @@ The following glyphs do not have the recommended number of contours:
 
 	* d (U+0064): X=303.0,Y=-1.0 (should be at baseline 0?)
 
-	* g (U+0067): X=303.0,Y=513.0 (should be at x-height 512?)
+	* g (U+0067): X=303.0,Y=522.0 (should be at x-height 521?)
 
-	* h (U+0068): X=219.5,Y=513.0 (should be at x-height 512?)
+	* h (U+0068): X=219.5,Y=522.0 (should be at x-height 521?)
 
-	* p (U+0070): X=209.0,Y=513.0 (should be at x-height 512?)
+	* i (U+0069): X=234.0,Y=738.0 (should be at cap-height 736?)
 
-	* q (U+0071): X=303.0,Y=513.0 (should be at x-height 512?)
+	* p (U+0070): X=209.0,Y=522.0 (should be at x-height 521?)
 
-	* s (U+0073): X=172.5,Y=-1.5 (should be at baseline 0?)
+	* q (U+0071): X=303.0,Y=522.0 (should be at x-height 521?)
+
+	* s (U+0073): X=172.5,Y=-1.0 (should be at baseline 0?)
 
 	* s (U+0073): X=350.5,Y=-1.5 (should be at baseline 0?)
 
 	* u (U+0075): X=294.5,Y=2.0 (should be at baseline 0?)
 
-	* w (U+0077): X=483.0,Y=510.0 (should be at x-height 512?)
+	* w (U+0077): X=483.0,Y=519.0 (should be at x-height 521?)
 
 	* copyright (U+00A9): X=370.0,Y=-0.5 (should be at baseline 0?)
 
@@ -2505,6 +2581,8 @@ The following glyphs do not have the recommended number of contours:
 	* aring (U+00E5): X=138.0,Y=1.0 (should be at baseline 0?)
 
 	* aring (U+00E5): X=272.5,Y=2.0 (should be at baseline 0?)
+
+	* aring (U+00E5): X=252.0,Y=735.0 (should be at cap-height 736?)
 
 	* ae (U+00E6): X=461.5,Y=1.5 (should be at baseline 0?)
 
@@ -2538,6 +2616,22 @@ The following glyphs do not have the recommended number of contours:
 
 	* abreve (U+0103): X=272.5,Y=2.0 (should be at baseline 0?)
 
+	* abreve (U+0103): X=156.0,Y=734.0 (should be at cap-height 736?)
+
+	* abreve (U+0103): X=171.0,Y=734.0 (should be at cap-height 736?)
+
+	* abreve (U+0103): X=323.0,Y=734.0 (should be at cap-height 736?)
+
+	* abreve (U+0103): X=338.0,Y=734.0 (should be at cap-height 736?)
+
+	* ccaron (U+010D): X=141.0,Y=734.0 (should be at cap-height 736?)
+
+	* ccaron (U+010D): X=158.0,Y=734.0 (should be at cap-height 736?)
+
+	* ccaron (U+010D): X=368.0,Y=734.0 (should be at cap-height 736?)
+
+	* ccaron (U+010D): X=385.0,Y=734.0 (should be at cap-height 736?)
+
 	* Gbreve (U+011E): X=149.0,Y=939.0 (should be at ascender 940?)
 
 	* Gbreve (U+011E): X=185.0,Y=939.0 (should be at ascender 940?)
@@ -2546,17 +2640,49 @@ The following glyphs do not have the recommended number of contours:
 
 	* Gbreve (U+011E): X=363.0,Y=939.0 (should be at ascender 940?)
 
+	* gbreve (U+011F): X=170.0,Y=734.0 (should be at cap-height 736?)
+
+	* gbreve (U+011F): X=185.0,Y=734.0 (should be at cap-height 736?)
+
+	* gbreve (U+011F): X=337.0,Y=734.0 (should be at cap-height 736?)
+
+	* gbreve (U+011F): X=352.0,Y=734.0 (should be at cap-height 736?)
+
+	* ncaron (U+0148): X=140.0,Y=734.0 (should be at cap-height 736?)
+
+	* ncaron (U+0148): X=157.0,Y=734.0 (should be at cap-height 736?)
+
+	* ncaron (U+0148): X=367.0,Y=734.0 (should be at cap-height 736?)
+
+	* ncaron (U+0148): X=384.0,Y=734.0 (should be at cap-height 736?)
+
 	* oe (U+0153): X=455.5,Y=1.5 (should be at baseline 0?)
 
 	* oe (U+0153): X=221.0,Y=-2.0 (should be at baseline 0?)
 
-	* sacute (U+015B): X=172.5,Y=-1.5 (should be at baseline 0?)
+	* rcaron (U+0159): X=149.0,Y=734.0 (should be at cap-height 736?)
+
+	* rcaron (U+0159): X=166.0,Y=734.0 (should be at cap-height 736?)
+
+	* rcaron (U+0159): X=376.0,Y=734.0 (should be at cap-height 736?)
+
+	* rcaron (U+0159): X=393.0,Y=734.0 (should be at cap-height 736?)
+
+	* sacute (U+015B): X=172.5,Y=-1.0 (should be at baseline 0?)
 
 	* sacute (U+015B): X=350.5,Y=-1.5 (should be at baseline 0?)
 
-	* scaron (U+0161): X=172.5,Y=-1.5 (should be at baseline 0?)
+	* scaron (U+0161): X=172.5,Y=-1.0 (should be at baseline 0?)
 
 	* scaron (U+0161): X=350.5,Y=-1.5 (should be at baseline 0?)
+
+	* scaron (U+0161): X=133.0,Y=734.0 (should be at cap-height 736?)
+
+	* scaron (U+0161): X=150.0,Y=734.0 (should be at cap-height 736?)
+
+	* scaron (U+0161): X=360.0,Y=734.0 (should be at cap-height 736?)
+
+	* scaron (U+0161): X=377.0,Y=734.0 (should be at cap-height 736?)
 
 	* umacron (U+016B): X=294.5,Y=2.0 (should be at baseline 0?)
 
@@ -2658,25 +2784,35 @@ The following glyphs do not have the recommended number of contours:
 
 	* backslash (U+005C): L<<369.0,-206.0>--<278.0,56.0>> -> L<<278.0,56.0>--<66.0,698.0>>
 
-	* w (U+0077): L<<139.0,100.0>--<166.0,180.0>> -> L<<166.0,180.0>--<218.0,333.0>>
+	* w (U+0077): L<<139.0,100.0>--<166.0,189.0>> -> L<<166.0,189.0>--<218.0,342.0>>
 
-	* w (U+0077): L<<96.0,504.0>--<109.0,382.0>> -> L<<109.0,382.0>--<139.0,100.0>>
+	* w (U+0077): L<<365.0,100.0>--<389.0,226.0>> -> L<<389.0,226.0>--<418.0,515.0>>
 
-	* wacute (U+1E83): L<<139.0,100.0>--<166.0,180.0>> -> L<<166.0,180.0>--<218.0,333.0>>
+	* w (U+0077): L<<96.0,513.0>--<109.0,382.0>> -> L<<109.0,382.0>--<139.0,100.0>>
 
-	* wacute (U+1E83): L<<96.0,504.0>--<109.0,382.0>> -> L<<109.0,382.0>--<139.0,100.0>>
+	* wacute (U+1E83): L<<139.0,100.0>--<166.0,189.0>> -> L<<166.0,189.0>--<218.0,342.0>>
 
-	* wcircumflex (U+0175): L<<139.0,100.0>--<166.0,180.0>> -> L<<166.0,180.0>--<218.0,333.0>>
+	* wacute (U+1E83): L<<365.0,100.0>--<389.0,226.0>> -> L<<389.0,226.0>--<418.0,515.0>>
 
-	* wcircumflex (U+0175): L<<96.0,504.0>--<109.0,382.0>> -> L<<109.0,382.0>--<139.0,100.0>>
+	* wacute (U+1E83): L<<96.0,513.0>--<109.0,382.0>> -> L<<109.0,382.0>--<139.0,100.0>>
 
-	* wdieresis (U+1E85): L<<139.0,100.0>--<166.0,180.0>> -> L<<166.0,180.0>--<218.0,333.0>>
+	* wcircumflex (U+0175): L<<139.0,100.0>--<166.0,189.0>> -> L<<166.0,189.0>--<218.0,342.0>>
 
-	* wdieresis (U+1E85): L<<96.0,504.0>--<109.0,382.0>> -> L<<109.0,382.0>--<139.0,100.0>>
+	* wcircumflex (U+0175): L<<365.0,100.0>--<389.0,226.0>> -> L<<389.0,226.0>--<418.0,515.0>>
 
-	* wgrave (U+1E81): L<<139.0,100.0>--<166.0,180.0>> -> L<<166.0,180.0>--<218.0,333.0>> 
+	* wcircumflex (U+0175): L<<96.0,513.0>--<109.0,382.0>> -> L<<109.0,382.0>--<139.0,100.0>>
 
-	* And wgrave (U+1E81): L<<96.0,504.0>--<109.0,382.0>> -> L<<109.0,382.0>--<139.0,100.0>> [code: found-colinear-vectors]
+	* wdieresis (U+1E85): L<<139.0,100.0>--<166.0,189.0>> -> L<<166.0,189.0>--<218.0,342.0>>
+
+	* wdieresis (U+1E85): L<<365.0,100.0>--<389.0,226.0>> -> L<<389.0,226.0>--<418.0,515.0>>
+
+	* wdieresis (U+1E85): L<<96.0,513.0>--<109.0,382.0>> -> L<<109.0,382.0>--<139.0,100.0>>
+
+	* wgrave (U+1E81): L<<139.0,100.0>--<166.0,189.0>> -> L<<166.0,189.0>--<218.0,342.0>>
+
+	* wgrave (U+1E81): L<<365.0,100.0>--<389.0,226.0>> -> L<<389.0,226.0>--<418.0,515.0>> 
+
+	* And wgrave (U+1E81): L<<96.0,513.0>--<109.0,382.0>> -> L<<109.0,382.0>--<139.0,100.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
