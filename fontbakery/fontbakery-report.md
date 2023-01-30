@@ -665,6 +665,14 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
+	* four (U+0034): X=261.0,Y=735.0 (should be at cap-height 736?)
+
+	* four (U+0034): X=370.0,Y=735.0 (should be at cap-height 736?)
+
+	* five (U+0035): X=105.0,Y=735.0 (should be at cap-height 736?)
+
+	* five (U+0035): X=394.0,Y=735.0 (should be at cap-height 736?)
+
 	* G (U+0047): X=308.5,Y=1.0 (should be at baseline 0?)
 
 	* a (U+0061): X=144.0,Y=1.0 (should be at baseline 0?)
@@ -1101,6 +1109,18 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* four (U+0034): X=271.0,Y=735.0 (should be at cap-height 736?)
+
+	* four (U+0034): X=364.0,Y=735.0 (should be at cap-height 736?)
+
+	* five (U+0035): X=114.0,Y=735.0 (should be at cap-height 736?)
+
+	* five (U+0035): X=384.0,Y=735.0 (should be at cap-height 736?)
+
+	* seven (U+0037): X=80.0,Y=735.0 (should be at cap-height 736?)
+
+	* seven (U+0037): X=432.0,Y=735.0 (should be at cap-height 736?)
 
 	* a (U+0061): X=141.5,Y=1.0 (should be at baseline 0?)
 
@@ -1631,9 +1651,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0635 (U+0635): X=-32.0,Y=-261.0 (should be at descender -260?)
 
-	* uni0636 (U+0636): X=128.0,Y=-261.0 (should be at descender -260?) 
+	* uni0636 (U+0636): X=128.0,Y=-261.0 (should be at descender -260?)
 
-	* And uni0636 (U+0636): X=-32.0,Y=-261.0 (should be at descender -260?) [code: found-misalignments]
+	* uni0636 (U+0636): X=-32.0,Y=-261.0 (should be at descender -260?)
+
+	* uniFED3 (U+FED3): X=240.5,Y=735.5 (should be at cap-height 736?) 
+
+	* And uniFED3 (U+FED3): X=319.5,Y=735.5 (should be at cap-height 736?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -1941,6 +1965,16 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* zero (U+0030): X=256.0,Y=735.0 (should be at cap-height 736?)
+
+	* two (U+0032): X=256.0,Y=735.0 (should be at cap-height 736?)
+
+	* eight (U+0038): X=257.0,Y=735.0 (should be at cap-height 736?)
+
+	* nine (U+0039): X=256.0,Y=735.0 (should be at cap-height 736?)
+
+	* nine (U+0039): X=256.0,Y=735.0 (should be at cap-height 736?)
 
 	* S (U+0053): X=256.0,Y=735.0 (should be at cap-height 736?)
 
