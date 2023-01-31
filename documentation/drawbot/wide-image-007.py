@@ -47,7 +47,7 @@ FONT_LICENSE = "License: OFL v1.1"
 
 # Draws a grid
 def grid():
-    stroke(1, 0, 0)
+    stroke(0)
     strokeWidth(2)
     STEP_X, STEP_Y = 0, 0
     INCREMENT_X, INCREMENT_Y = MARGIN / 4, MARGIN / 4
@@ -108,40 +108,113 @@ def draw_main_text():
     fontSize(UNIT*1.5)
     fontVariations(wght = 400)
 
+    # main window
     # x, y, w, h, radius
-    fill(0,0,0,0.2)
-    #rectRounded( MARGIN+(UNIT*1.5), MARGIN+(UNIT*1.5), UNIT*34, UNIT*20, UNIT*2.75)
-    rectRounded( MARGIN+(UNIT*1.75), MARGIN+(UNIT*1.75), UNIT*34.5, UNIT*20.5, UNIT*2.75)
+    fill(0.05,0.05,0.3,0.15)
+    rectRounded( MARGIN+(UNIT*1.5), MARGIN+(UNIT*1.5), UNIT*37, UNIT*20, UNIT*2.75)
+    rectRounded( MARGIN+(UNIT*1.75), MARGIN+(UNIT*1.75), UNIT*37.5, UNIT*20.5, UNIT*2.4)
     fill(0.07, 0.07, 0.07, 1)
-    rectRounded( MARGIN+(UNIT*2), MARGIN+(UNIT*2), UNIT*34, UNIT*20, UNIT*2)
+    rectRounded( MARGIN+(UNIT*2), MARGIN+(UNIT*2), UNIT*37, UNIT*20, UNIT*2)
 
 
+    fill(0.05,0.05,0.3,0.15)
+    rectRounded( MARGIN+(UNIT*40.5), MARGIN+(UNIT*1.5), UNIT*13, UNIT*20, UNIT*2.75)
+    rectRounded( MARGIN+(UNIT*40.75), MARGIN+(UNIT*1.75), UNIT*13.5, UNIT*20.5, UNIT*2.4)
     fill(0.07, 0.07, 0.07, 1)
-    rectRounded( MARGIN+(UNIT*38), MARGIN+(UNIT*2), UNIT*16, UNIT*20, UNIT*2)
+    rectRounded( MARGIN+(UNIT*41), MARGIN+(UNIT*2), UNIT*13, UNIT*20, UNIT*2)
 
-    fill(0.2, 0.2, 0.2)
+    # Buttons
+    # Red
+    fill(0.03, 0.03, 0.03, 0.4)
+    oval( MARGIN+(UNIT*2.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
+    fill(1, 0.2, 0, 0.5) 
+    oval( MARGIN+(UNIT*3), MARGIN+(UNIT*20), UNIT, UNIT)
+    fill(1, 0.25, 0) 
+    oval( MARGIN+(UNIT*3.1), MARGIN+(UNIT*20.1), UNIT/1.25, UNIT/1.25)
+    fill(1, 0.6, 0.0, 0.6) 
+    oval( MARGIN+(UNIT*3.375), MARGIN+(UNIT*20.375), UNIT/4, UNIT/4)
+
+    # YELLOW
+    fill(0.03, 0.03, 0.03, 0.4)
+    oval( MARGIN+(UNIT*4.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
+    fill(1, 0.3, 0, 0.9) 
+    oval( MARGIN+(UNIT*5), MARGIN+(UNIT*20), UNIT, UNIT)
+    fill(1, 0.55, 0) 
+    oval( MARGIN+(UNIT*5.1), MARGIN+(UNIT*20.1), UNIT/1.25, UNIT/1.25)
+    fill(1, 0.9, 0.3, 0.5) 
+    oval( MARGIN+(UNIT*5.375), MARGIN+(UNIT*20.375), UNIT/4, UNIT/4)
+    
+   # GREEN 
+    fill(0.03, 0.03, 0.03, 0.4)
+    oval( MARGIN+(UNIT*6.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
+    fill(0, 0.8, 0.4, 0.5)
+    oval( MARGIN+(UNIT*7), MARGIN+(UNIT*20), UNIT, UNIT)
+    fill(0, 0.8, 0.4)
+    oval( MARGIN+(UNIT*7.1), MARGIN+(UNIT*20.1), UNIT/1.25, UNIT/1.25)
+    fill(0.2, 1, 1, 0.8)
+    oval( MARGIN+(UNIT*7.375), MARGIN+(UNIT*20.375), UNIT/4, UNIT/4)
+
+    # GRAY
+    fill(0.03, 0.03, 0.03, 0.4)
+    oval( MARGIN+(UNIT*41.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
+    fill(0.5, 0.5, 0.5, 0.4)
+    oval( MARGIN+(UNIT*42), MARGIN+(UNIT*20), UNIT, UNIT)
+    fill(0.4, 0.4, 0.4)
+    oval( MARGIN+(UNIT*42.1), MARGIN+(UNIT*20.1), UNIT/1.25, UNIT/1.25)
+    fill(0.5, 0.5, 0.5)
+    oval( MARGIN+(UNIT*42.375), MARGIN+(UNIT*20.375), UNIT/4, UNIT/4)
+
+    fill(0.03, 0.03, 0.03, 0.4)
+    oval( MARGIN+(UNIT*43.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
+    fill(0.5, 0.5, 0.5, 0.4)
+    oval( MARGIN+(UNIT*44), MARGIN+(UNIT*20), UNIT, UNIT)
+    fill(0.4, 0.4, 0.4)
+    oval( MARGIN+(UNIT*44.1), MARGIN+(UNIT*20.1), UNIT/1.25, UNIT/1.25)
+    fill(0.5, 0.5, 0.5)
+    oval( MARGIN+(UNIT*44.375), MARGIN+(UNIT*20.375), UNIT/4, UNIT/4)
+
+    fill(0.03, 0.03, 0.03, 0.4)
+    oval( MARGIN+(UNIT*45.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
+    fill(0.5, 0.5, 0.5, 0.4)
+    oval( MARGIN+(UNIT*46), MARGIN+(UNIT*20), UNIT, UNIT)
+    fill(0.4, 0.4, 0.4)
+    oval( MARGIN+(UNIT*46.1), MARGIN+(UNIT*20.1), UNIT/1.25, UNIT/1.25)
+    fill(0.5, 0.5, 0.5)
+    oval( MARGIN+(UNIT*46.375), MARGIN+(UNIT*20.375), UNIT/4, UNIT/4)
+
+    # Line Numbers
+    fill(0.3, 0.3, 0.3)
     text("01", ( MARGIN+(UNIT*3), MARGIN+(UNIT*17.5)))
     text("02", ( MARGIN+(UNIT*3), MARGIN+(UNIT*15.5)))
     text("03", ( MARGIN+(UNIT*3), MARGIN+(UNIT*13.5)))
     text("04", ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
     text("05", ( MARGIN+(UNIT*3), MARGIN+(UNIT*9.5)))
+    fill(0, 1, 0.5, 0.05)
+    rectRounded( MARGIN+(UNIT*5), MARGIN+(UNIT*7), UNIT*33, UNIT*2, UNIT/1.5)
+    fill(None)
+    stroke(0,1,0.4)
+    strokeWidth(6)
+    rectRounded( MARGIN+(UNIT*14.75), MARGIN+(UNIT*7), UNIT*1, UNIT*2, UNIT/1.5)
+    stroke(None)
+    fill(0, 1, 0.4)
     text("06", ( MARGIN+(UNIT*3), MARGIN+(UNIT*7.5)))
+    fill(0.3, 0.3, 0.3)
     text("07", ( MARGIN+(UNIT*3), MARGIN+(UNIT*5.5)))
 
 
-    fill(0.4, 0.4, 0.4)
+    fill(0.45, 0.45, 0.45)
     text('   # Print "كــن فيكون" six times', ( MARGIN+(UNIT*3), MARGIN+(UNIT*17.5)))
-    fill(1, 1, 1)
-    
     
    #text("   if PRINT_DEMO == True:", ( MARGIN+(UNIT*3), MARGIN+(UNIT*15.5)))
-    fill(0, 0.5, 1)
+    fill(0, 0.6, 1)
     text("   if", ( MARGIN+(UNIT*3), MARGIN+(UNIT*15.5)))
     fill(1)
-    text("      PRINT_DEMO == True:", ( MARGIN+(UNIT*3), MARGIN+(UNIT*15.5)))
-    fill(0, 0.5, 1)
+    text("      PRINT_DEMO", ( MARGIN+(UNIT*3), MARGIN+(UNIT*15.5)))
+    #fill(1)
+    #text("      PRINT_DEMO == True:", ( MARGIN+(UNIT*3), MARGIN+(UNIT*15.5)))
+    fill(0, 0.6, 1)
     text("                 ==", ( MARGIN+(UNIT*3), MARGIN+(UNIT*15.5)))
-    fill(1, 0.5, 0) 
+    fill(1, 0.6, 0) 
     text("                    True", ( MARGIN+(UNIT*3), MARGIN+(UNIT*15.5)))
     fill(1)
     text("                        :", ( MARGIN+(UNIT*3), MARGIN+(UNIT*15.5)))
@@ -149,13 +222,13 @@ def draw_main_text():
     
     
     #text("       for i in range(6):", ( MARGIN+(UNIT*3), MARGIN+(UNIT*13.5)))
-    fill(0, 0.5, 1)
+    fill(0, 0.6, 1)
     text("       for", ( MARGIN+(UNIT*3), MARGIN+(UNIT*13.5)))
     fill(1)
     text("           i", ( MARGIN+(UNIT*3), MARGIN+(UNIT*13.5)))
-    fill(0, 0.5, 1)
+    fill(0, 0.6, 1)
     text("             in", ( MARGIN+(UNIT*3), MARGIN+(UNIT*13.5)))
-    fill(1, 0.5, 0) 
+    fill(1, 0.6, 0) 
     text("                range", ( MARGIN+(UNIT*3), MARGIN+(UNIT*13.5)))
     fill(1)
     text("                     (", ( MARGIN+(UNIT*3), MARGIN+(UNIT*13.5)))
@@ -169,21 +242,38 @@ def draw_main_text():
 
 
     #text('                              , (M+U, M+U))', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
+    fill(1)
     text('           text(', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
-    fill(0, 1, 0.5)
+    fill(1, 0.1, 0)
+    text('               (', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
+    fill(0, 1, 0.4)
     text('"كــن فيكون"', ( MARGIN+(UNIT*15.4), MARGIN+(UNIT*11.5)))
     fill(1)
-    text('                            , (M', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
-    fill(0, 0.5, 1)
-    text('                                +', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
+    text('                            ,', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
+    fill(1, 0.6, 0)
+    text('                              ( ', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
+    fill(1, 0.1, 0)
+    text('                               32', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
+    fill(0, 0.6, 1)
+    text('                                 +', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
     fill(1)
-    text('                                 U, U*i))', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
+    text('                                  U,', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
+    fill(1, 0.1, 0)
+    text('                                     8', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
+    fill(0, 0.6, 1)
+    text('                                      *', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
+    fill(1)
+    text('                                       i', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
+    fill(1, 0.6, 0)
+    text('                                        )', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
+    fill(1, 0.1, 0)
+    text('                                         )', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
     #text('                              , (M+U, M))', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
     #text('                              , (M+U, M))', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
     #text('                              , (M+U, M))', ( MARGIN+(UNIT*3), MARGIN+(UNIT*11.5)))
 
     # Output
-    fill(0, 1, 0.5)
+    fill(0, 1, 0.4)
     text("كــن فيكون", ( MARGIN+(UNIT*45), MARGIN+(UNIT*17.5)))
     text("كــن فيكون", ( MARGIN+(UNIT*45), MARGIN+(UNIT*15.5)))
     text("كــن فيكون", ( MARGIN+(UNIT*45), MARGIN+(UNIT*13.5)))
@@ -191,62 +281,29 @@ def draw_main_text():
     text("كــن فيكون", ( MARGIN+(UNIT*45), MARGIN+(UNIT*9.5)))
     text("كــن فيكون", ( MARGIN+(UNIT*45), MARGIN+(UNIT*7.5)))
     fill(1)
-    text("PC", ( MARGIN+(UNIT*39), MARGIN+(UNIT*3.5)))
+    text("حاسوبي", ( MARGIN+(UNIT*48), MARGIN+(UNIT*5.5)))
     fill(0, 1, 0.5)
-    rectRounded( MARGIN+(UNIT*41), MARGIN+(UNIT*3), UNIT*0.5, UNIT*2, UNIT/4)
+    #rectRounded( MARGIN+(UNIT*47), MARGIN+(UNIT*5), UNIT*0.25, UNIT*2, UNIT/4)
 
     #text("       else:", ( MARGIN+(UNIT*3), MARGIN+(UNIT*9.5)))
-    fill(0, 0.5, 1)
+    fill(0, 0.6, 1)
     text("       else", ( MARGIN+(UNIT*3), MARGIN+(UNIT*9.5)))
     fill(1)
     text("           :", ( MARGIN+(UNIT*3), MARGIN+(UNIT*9.5)))
     #text("       else:", ( MARGIN+(UNIT*3), MARGIN+(UNIT*9.5)))
     #text("       else:", ( MARGIN+(UNIT*3), MARGIN+(UNIT*9.5)))
 
-    fill(0, 0.5, 1)
+    fill(0, 0.6, 1)
     text("           pass", ( MARGIN+(UNIT*3), MARGIN+(UNIT*7.5)))
     #text(, ( MARGIN+(UNIT*3), MARGIN+(UNIT*19)))
 
-
-    fill(0.3, 0.3, 0.3, 0.5)
-    rectRounded( MARGIN+(UNIT*3), MARGIN+(UNIT*3), UNIT*32, UNIT*2, UNIT/1.5)
-
+    # Status Bar
+    fill(0.3, 0.3, 0.3, 0.4)
+    rectRounded( MARGIN+(UNIT*3), MARGIN+(UNIT*3), UNIT*35, UNIT*2, UNIT/1.5)
     fill(0.4, 0.4, 0.4)
+    fill(0, 1, 0.4)
     text(" hasubi-mono-specimen.py", ( MARGIN+(UNIT*3), MARGIN+(UNIT*3.5)))
 
-    # Red
-    fill(0.02)
-    oval( MARGIN+(UNIT*2.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
-    fill(1, 0.1, 0) 
-    oval( MARGIN+(UNIT*3), MARGIN+(UNIT*20), UNIT, UNIT)
-
-    # YELLOW
-    fill(0.02)
-    oval( MARGIN+(UNIT*4.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
-    fill(1, 0.5, 0) 
-    oval( MARGIN+(UNIT*5), MARGIN+(UNIT*20), UNIT, UNIT)
-    
-   # GREEN 
-    fill(0.02)
-    oval( MARGIN+(UNIT*6.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
-    fill(0, 1, 0.5)
-    oval( MARGIN+(UNIT*7), MARGIN+(UNIT*20), UNIT, UNIT)
-
-    # GRAY
-    fill(0.02)
-    oval( MARGIN+(UNIT*38.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
-    fill(0.5)
-    oval( MARGIN+(UNIT*39), MARGIN+(UNIT*20), UNIT, UNIT)
-
-    fill(0.02)
-    oval( MARGIN+(UNIT*40.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
-    fill(0.5)
-    oval( MARGIN+(UNIT*41), MARGIN+(UNIT*20), UNIT, UNIT)
-
-    fill(0.02)
-    oval( MARGIN+(UNIT*42.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
-    fill(0.5)
-    oval( MARGIN+(UNIT*43), MARGIN+(UNIT*20), UNIT, UNIT)
 
 
 # Divider lines
