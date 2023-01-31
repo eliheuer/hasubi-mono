@@ -21,6 +21,7 @@ Hasubi Mono (حاسوبي مونو) is an Arabic, Hebrew, and Latin condensed ho
 
 A PDF print specimen in avaiable [here](documentation/drawbot/hasubi-mono-print-proof.pdf).
 
+![Sample Image](documentation/drawbot/wide-image-007.png)
 ![Sample Image](documentation/drawbot/wide-image-002.png)
 ![Sample Image](documentation/drawbot/wide-image-004.png)
 ![Sample Image](documentation/drawbot/square-image-002.png)

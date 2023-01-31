@@ -92,7 +92,7 @@ def rectRounded(x,y,w,h,radius):
 def draw_background():
     newPage(WIDTH, HEIGHT)
     fill(0.3)
-    rect(-2, -2, WIDTH + 2, HEIGHT + 2)
+    #rect(-2, -2, WIDTH + 2, HEIGHT + 2)
     if GRID_VIEW:
         grid()
     else:
@@ -110,14 +110,14 @@ def draw_main_text():
 
     # main window
     # x, y, w, h, radius
-    fill(0.05,0.05,0.3,0.15)
+    fill(0.05,0.05,0.1,0.2)
     rectRounded( MARGIN+(UNIT*1.5), MARGIN+(UNIT*1.5), UNIT*37, UNIT*20, UNIT*2.75)
     rectRounded( MARGIN+(UNIT*1.75), MARGIN+(UNIT*1.75), UNIT*37.5, UNIT*20.5, UNIT*2.4)
     fill(0.07, 0.07, 0.07, 1)
     rectRounded( MARGIN+(UNIT*2), MARGIN+(UNIT*2), UNIT*37, UNIT*20, UNIT*2)
 
 
-    fill(0.05,0.05,0.3,0.15)
+    fill(0.05,0.05,0.1,0.2)
     rectRounded( MARGIN+(UNIT*40.5), MARGIN+(UNIT*1.5), UNIT*13, UNIT*20, UNIT*2.75)
     rectRounded( MARGIN+(UNIT*40.75), MARGIN+(UNIT*1.75), UNIT*13.5, UNIT*20.5, UNIT*2.4)
     fill(0.07, 0.07, 0.07, 1)
@@ -125,7 +125,7 @@ def draw_main_text():
 
     # Buttons
     # Red
-    fill(0.03, 0.03, 0.03, 0.4)
+    fill(0.03, 0.03, 0.03, 0.3)
     oval( MARGIN+(UNIT*2.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
     fill(1, 0.2, 0, 0.5) 
     oval( MARGIN+(UNIT*3), MARGIN+(UNIT*20), UNIT, UNIT)
@@ -135,7 +135,7 @@ def draw_main_text():
     oval( MARGIN+(UNIT*3.375), MARGIN+(UNIT*20.375), UNIT/4, UNIT/4)
 
     # YELLOW
-    fill(0.03, 0.03, 0.03, 0.4)
+    fill(0.03, 0.03, 0.03, 0.3)
     oval( MARGIN+(UNIT*4.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
     fill(1, 0.3, 0, 0.9) 
     oval( MARGIN+(UNIT*5), MARGIN+(UNIT*20), UNIT, UNIT)
@@ -145,7 +145,7 @@ def draw_main_text():
     oval( MARGIN+(UNIT*5.375), MARGIN+(UNIT*20.375), UNIT/4, UNIT/4)
     
    # GREEN 
-    fill(0.03, 0.03, 0.03, 0.4)
+    fill(0.03, 0.03, 0.03, 0.3)
     oval( MARGIN+(UNIT*6.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
     fill(0, 0.8, 0.4, 0.5)
     oval( MARGIN+(UNIT*7), MARGIN+(UNIT*20), UNIT, UNIT)
@@ -155,7 +155,7 @@ def draw_main_text():
     oval( MARGIN+(UNIT*7.375), MARGIN+(UNIT*20.375), UNIT/4, UNIT/4)
 
     # GRAY
-    fill(0.03, 0.03, 0.03, 0.4)
+    fill(0.03, 0.03, 0.03, 0.3)
     oval( MARGIN+(UNIT*41.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
     fill(0.5, 0.5, 0.5, 0.4)
     oval( MARGIN+(UNIT*42), MARGIN+(UNIT*20), UNIT, UNIT)
@@ -164,7 +164,7 @@ def draw_main_text():
     fill(0.5, 0.5, 0.5)
     oval( MARGIN+(UNIT*42.375), MARGIN+(UNIT*20.375), UNIT/4, UNIT/4)
 
-    fill(0.03, 0.03, 0.03, 0.4)
+    fill(0.03, 0.03, 0.03, 0.3)
     oval( MARGIN+(UNIT*43.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
     fill(0.5, 0.5, 0.5, 0.4)
     oval( MARGIN+(UNIT*44), MARGIN+(UNIT*20), UNIT, UNIT)
@@ -173,7 +173,7 @@ def draw_main_text():
     fill(0.5, 0.5, 0.5)
     oval( MARGIN+(UNIT*44.375), MARGIN+(UNIT*20.375), UNIT/4, UNIT/4)
 
-    fill(0.03, 0.03, 0.03, 0.4)
+    fill(0.03, 0.03, 0.03, 0.3)
     oval( MARGIN+(UNIT*45.75), MARGIN+(UNIT*19.75), UNIT*1.5, UNIT*1.5)
     fill(0.5, 0.5, 0.5, 0.4)
     oval( MARGIN+(UNIT*46), MARGIN+(UNIT*20), UNIT, UNIT)
