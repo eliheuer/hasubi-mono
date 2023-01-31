@@ -113,14 +113,16 @@ def draw_main_text():
     fill(0.05,0.05,0.1,0.2)
     rectRounded( MARGIN+(UNIT*1.5), MARGIN+(UNIT*1.5), UNIT*37, UNIT*20, UNIT*2.75)
     rectRounded( MARGIN+(UNIT*1.75), MARGIN+(UNIT*1.75), UNIT*37.5, UNIT*20.5, UNIT*2.4)
-    fill(0.07, 0.07, 0.07, 1)
+    fill(0.05, 0.05, 0.05, 1)
+    fill(0)
     rectRounded( MARGIN+(UNIT*2), MARGIN+(UNIT*2), UNIT*37, UNIT*20, UNIT*2)
 
 
     fill(0.05,0.05,0.1,0.2)
     rectRounded( MARGIN+(UNIT*40.5), MARGIN+(UNIT*1.5), UNIT*13, UNIT*20, UNIT*2.75)
     rectRounded( MARGIN+(UNIT*40.75), MARGIN+(UNIT*1.75), UNIT*13.5, UNIT*20.5, UNIT*2.4)
-    fill(0.07, 0.07, 0.07, 1)
+    fill(0.05, 0.05, 0.05, 1)
+    fill(0)
     rectRounded( MARGIN+(UNIT*41), MARGIN+(UNIT*2), UNIT*13, UNIT*20, UNIT*2)
 
     # Buttons
@@ -183,7 +185,7 @@ def draw_main_text():
     oval( MARGIN+(UNIT*46.375), MARGIN+(UNIT*20.375), UNIT/4, UNIT/4)
 
     # Line Numbers
-    fill(0.3, 0.3, 0.3)
+    fill(0.25, 0.25, 0.25)
     text("01", ( MARGIN+(UNIT*3), MARGIN+(UNIT*17.5)))
     text("02", ( MARGIN+(UNIT*3), MARGIN+(UNIT*15.5)))
     text("03", ( MARGIN+(UNIT*3), MARGIN+(UNIT*13.5)))
@@ -198,7 +200,7 @@ def draw_main_text():
     stroke(None)
     fill(0, 1, 0.4)
     text("06", ( MARGIN+(UNIT*3), MARGIN+(UNIT*7.5)))
-    fill(0.3, 0.3, 0.3)
+    fill(0.25, 0.25, 0.25)
     text("07", ( MARGIN+(UNIT*3), MARGIN+(UNIT*5.5)))
 
 
