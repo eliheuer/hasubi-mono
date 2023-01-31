@@ -240,11 +240,7 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* a (U+0061): X=135.0,Y=1.0 (should be at baseline 0?)
-
-	* a (U+0061): X=340.0,Y=510.0 (should be at x-height 512?)
-
-	* a (U+0061): X=267.0,Y=1.0 (should be at baseline 0?)
+	* a (U+0061): X=146.0,Y=1.0 (should be at baseline 0?)
 
 	* b (U+0062): X=209.0,Y=-1.0 (should be at baseline 0?)
 
@@ -260,8 +256,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* q (U+0071): X=303.0,Y=513.0 (should be at x-height 512?)
 
-	* s (U+0073): X=177.5,Y=-2.0 (should be at baseline 0?)
-
 	* u (U+0075): X=294.5,Y=2.0 (should be at baseline 0?)
 
 	* copyright (U+00A9): X=370.0,Y=-0.5 (should be at baseline 0?)
@@ -270,29 +264,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* newGlyph (U+00B5): X=184.0,Y=-1.5 (should be at baseline 0?)
 
-	* agrave (U+00E0): X=135.0,Y=1.0 (should be at baseline 0?)
+	* agrave (U+00E0): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* agrave (U+00E0): X=267.0,Y=1.0 (should be at baseline 0?)
+	* aacute (U+00E1): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* aacute (U+00E1): X=135.0,Y=1.0 (should be at baseline 0?)
+	* acircumflex (U+00E2): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* aacute (U+00E1): X=267.0,Y=1.0 (should be at baseline 0?)
+	* atilde (U+00E3): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* acircumflex (U+00E2): X=135.0,Y=1.0 (should be at baseline 0?)
+	* adieresis (U+00E4): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* acircumflex (U+00E2): X=267.0,Y=1.0 (should be at baseline 0?)
-
-	* atilde (U+00E3): X=135.0,Y=1.0 (should be at baseline 0?)
-
-	* atilde (U+00E3): X=267.0,Y=1.0 (should be at baseline 0?)
-
-	* adieresis (U+00E4): X=135.0,Y=1.0 (should be at baseline 0?)
-
-	* adieresis (U+00E4): X=267.0,Y=1.0 (should be at baseline 0?)
-
-	* aring (U+00E5): X=135.0,Y=1.0 (should be at baseline 0?)
-
-	* aring (U+00E5): X=267.0,Y=1.0 (should be at baseline 0?)
+	* aring (U+00E5): X=146.0,Y=1.0 (should be at baseline 0?)
 
 	* ae (U+00E6): X=461.5,Y=1.5 (should be at baseline 0?)
 
@@ -310,21 +292,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* thorn (U+00FE): X=212.5,Y=1.0 (should be at baseline 0?)
 
-	* amacron (U+0101): X=135.0,Y=1.0 (should be at baseline 0?)
+	* amacron (U+0101): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* amacron (U+0101): X=267.0,Y=1.0 (should be at baseline 0?)
-
-	* abreve (U+0103): X=135.0,Y=1.0 (should be at baseline 0?)
-
-	* abreve (U+0103): X=267.0,Y=1.0 (should be at baseline 0?)
+	* abreve (U+0103): X=146.0,Y=1.0 (should be at baseline 0?)
 
 	* oe (U+0153): X=455.5,Y=1.5 (should be at baseline 0?)
 
 	* oe (U+0153): X=221.0,Y=-2.0 (should be at baseline 0?)
-
-	* sacute (U+015B): X=177.5,Y=-2.0 (should be at baseline 0?)
-
-	* scaron (U+0161): X=177.5,Y=-2.0 (should be at baseline 0?)
 
 	* umacron (U+016B): X=294.5,Y=2.0 (should be at baseline 0?)
 
@@ -667,7 +641,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* G (U+0047): X=308.5,Y=1.0 (should be at baseline 0?)
 
-	* a (U+0061): X=144.0,Y=1.0 (should be at baseline 0?)
+	* a (U+0061): X=146.0,Y=1.0 (should be at baseline 0?)
+
+	* a (U+0061): X=163.5,Y=538.5 (should be at x-height 538?)
 
 	* b (U+0062): X=209.0,Y=-1.0 (should be at baseline 0?)
 
@@ -682,10 +658,6 @@ The following glyphs do not have the recommended number of contours:
 	* p (U+0070): X=209.0,Y=539.0 (should be at x-height 538?)
 
 	* q (U+0071): X=303.0,Y=539.0 (should be at x-height 538?)
-
-	* s (U+0073): X=330.5,Y=540.0 (should be at x-height 538?)
-
-	* s (U+0073): X=351.5,Y=-0.5 (should be at baseline 0?)
 
 	* u (U+0075): X=294.5,Y=2.0 (should be at baseline 0?)
 
@@ -709,17 +681,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* Icircumflex (U+00CE): X=306.0,Y=938.0 (should be at ascender 940?)
 
-	* agrave (U+00E0): X=144.0,Y=1.0 (should be at baseline 0?)
+	* agrave (U+00E0): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* aacute (U+00E1): X=144.0,Y=1.0 (should be at baseline 0?)
+	* aacute (U+00E1): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* acircumflex (U+00E2): X=144.0,Y=1.0 (should be at baseline 0?)
+	* acircumflex (U+00E2): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* atilde (U+00E3): X=144.0,Y=1.0 (should be at baseline 0?)
+	* atilde (U+00E3): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* adieresis (U+00E4): X=144.0,Y=1.0 (should be at baseline 0?)
+	* adieresis (U+00E4): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* aring (U+00E5): X=144.0,Y=1.0 (should be at baseline 0?)
+	* aring (U+00E5): X=146.0,Y=1.0 (should be at baseline 0?)
 
 	* ae (U+00E6): X=461.5,Y=1.5 (should be at baseline 0?)
 
@@ -737,9 +709,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* thorn (U+00FE): X=212.5,Y=1.0 (should be at baseline 0?)
 
-	* amacron (U+0101): X=144.0,Y=1.0 (should be at baseline 0?)
+	* amacron (U+0101): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* abreve (U+0103): X=144.0,Y=1.0 (should be at baseline 0?)
+	* abreve (U+0103): X=146.0,Y=1.0 (should be at baseline 0?)
 
 	* Gbreve (U+011E): X=308.5,Y=1.0 (should be at baseline 0?)
 
@@ -755,8 +727,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* Sacute (U+015A): X=369.0,Y=938.0 (should be at ascender 940?)
 
-	* sacute (U+015B): X=351.5,Y=-0.5 (should be at baseline 0?)
-
 	* Scaron (U+0160): X=128.0,Y=942.0 (should be at ascender 940?)
 
 	* Scaron (U+0160): X=176.0,Y=942.0 (should be at ascender 940?)
@@ -764,8 +734,6 @@ The following glyphs do not have the recommended number of contours:
 	* Scaron (U+0160): X=336.0,Y=942.0 (should be at ascender 940?)
 
 	* Scaron (U+0160): X=384.0,Y=942.0 (should be at ascender 940?)
-
-	* scaron (U+0161): X=351.5,Y=-0.5 (should be at baseline 0?)
 
 	* umacron (U+016B): X=294.5,Y=2.0 (should be at baseline 0?)
 
@@ -1104,7 +1072,7 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* a (U+0061): X=141.5,Y=1.0 (should be at baseline 0?)
+	* a (U+0061): X=146.0,Y=1.0 (should be at baseline 0?)
 
 	* b (U+0062): X=209.0,Y=-1.0 (should be at baseline 0?)
 
@@ -1117,8 +1085,6 @@ The following glyphs do not have the recommended number of contours:
 	* p (U+0070): X=209.0,Y=534.0 (should be at x-height 533?)
 
 	* q (U+0071): X=303.0,Y=534.0 (should be at x-height 533?)
-
-	* s (U+0073): X=351.5,Y=-0.5 (should be at baseline 0?)
 
 	* u (U+0075): X=294.5,Y=2.0 (should be at baseline 0?)
 
@@ -1140,17 +1106,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* Icircumflex (U+00CE): X=298.0,Y=941.0 (should be at ascender 940?)
 
-	* agrave (U+00E0): X=141.5,Y=1.0 (should be at baseline 0?)
+	* agrave (U+00E0): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* aacute (U+00E1): X=141.5,Y=1.0 (should be at baseline 0?)
+	* aacute (U+00E1): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* acircumflex (U+00E2): X=141.5,Y=1.0 (should be at baseline 0?)
+	* acircumflex (U+00E2): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* atilde (U+00E3): X=141.5,Y=1.0 (should be at baseline 0?)
+	* atilde (U+00E3): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* adieresis (U+00E4): X=141.5,Y=1.0 (should be at baseline 0?)
+	* adieresis (U+00E4): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* aring (U+00E5): X=141.5,Y=1.0 (should be at baseline 0?)
+	* aring (U+00E5): X=146.0,Y=1.0 (should be at baseline 0?)
 
 	* ae (U+00E6): X=461.5,Y=1.5 (should be at baseline 0?)
 
@@ -1168,9 +1134,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* thorn (U+00FE): X=212.5,Y=1.0 (should be at baseline 0?)
 
-	* amacron (U+0101): X=141.5,Y=1.0 (should be at baseline 0?)
+	* amacron (U+0101): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* abreve (U+0103): X=141.5,Y=1.0 (should be at baseline 0?)
+	* abreve (U+0103): X=146.0,Y=1.0 (should be at baseline 0?)
 
 	* ccaron (U+010D): X=125.0,Y=735.0 (should be at cap-height 736?)
 
@@ -1191,10 +1157,6 @@ The following glyphs do not have the recommended number of contours:
 	* Sacute (U+015A): X=285.0,Y=941.0 (should be at ascender 940?)
 
 	* Sacute (U+015A): X=361.0,Y=941.0 (should be at ascender 940?)
-
-	* sacute (U+015B): X=351.5,Y=-0.5 (should be at baseline 0?)
-
-	* scaron (U+0161): X=351.5,Y=-0.5 (should be at baseline 0?)
 
 	* scaron (U+0161): X=116.0,Y=735.0 (should be at cap-height 736?)
 
@@ -1996,7 +1958,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* S (U+0053): X=256.0,Y=735.0 (should be at cap-height 736?)
 
-	* a (U+0061): X=140.0,Y=1.0 (should be at baseline 0?)
+	* a (U+0061): X=146.0,Y=1.0 (should be at baseline 0?)
+
+	* a (U+0061): X=377.0,Y=525.0 (should be at x-height 527?)
 
 	* b (U+0062): X=209.0,Y=-1.0 (should be at baseline 0?)
 
@@ -2012,9 +1976,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* q (U+0071): X=303.0,Y=528.0 (should be at x-height 527?)
 
-	* s (U+0073): X=170.0,Y=-0.5 (should be at baseline 0?)
-
-	* s (U+0073): X=351.0,Y=-1.0 (should be at baseline 0?)
+	* s (U+0073): X=130.0,Y=527.5 (should be at x-height 527?)
 
 	* u (U+0075): X=294.5,Y=2.0 (should be at baseline 0?)
 
@@ -2024,17 +1986,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* newGlyph (U+00B5): X=184.0,Y=-1.5 (should be at baseline 0?)
 
-	* agrave (U+00E0): X=140.0,Y=1.0 (should be at baseline 0?)
+	* agrave (U+00E0): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* aacute (U+00E1): X=140.0,Y=1.0 (should be at baseline 0?)
+	* aacute (U+00E1): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* acircumflex (U+00E2): X=140.0,Y=1.0 (should be at baseline 0?)
+	* acircumflex (U+00E2): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* atilde (U+00E3): X=140.0,Y=1.0 (should be at baseline 0?)
+	* atilde (U+00E3): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* adieresis (U+00E4): X=140.0,Y=1.0 (should be at baseline 0?)
+	* adieresis (U+00E4): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* aring (U+00E5): X=140.0,Y=1.0 (should be at baseline 0?)
+	* aring (U+00E5): X=146.0,Y=1.0 (should be at baseline 0?)
 
 	* ae (U+00E6): X=461.5,Y=1.5 (should be at baseline 0?)
 
@@ -2052,7 +2014,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* thorn (U+00FE): X=212.5,Y=1.0 (should be at baseline 0?)
 
-	* amacron (U+0101): X=140.0,Y=1.0 (should be at baseline 0?)
+	* amacron (U+0101): X=146.0,Y=1.0 (should be at baseline 0?)
 
 	* Abreve (U+0102): X=149.0,Y=938.0 (should be at ascender 940?)
 
@@ -2062,7 +2024,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* Abreve (U+0102): X=363.0,Y=938.0 (should be at ascender 940?)
 
-	* abreve (U+0103): X=140.0,Y=1.0 (should be at baseline 0?)
+	* abreve (U+0103): X=146.0,Y=1.0 (should be at baseline 0?)
 
 	* abreve (U+0103): X=144.0,Y=734.5 (should be at cap-height 736?)
 
@@ -2106,10 +2068,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* Sacute (U+015A): X=256.0,Y=735.0 (should be at cap-height 736?)
 
-	* sacute (U+015B): X=170.0,Y=-0.5 (should be at baseline 0?)
-
-	* sacute (U+015B): X=351.0,Y=-1.0 (should be at baseline 0?)
-
 	* Scaron (U+0160): X=256.0,Y=735.0 (should be at cap-height 736?)
 
 	* Scaron (U+0160): X=136.0,Y=939.0 (should be at ascender 940?)
@@ -2119,10 +2077,6 @@ The following glyphs do not have the recommended number of contours:
 	* Scaron (U+0160): X=352.0,Y=939.0 (should be at ascender 940?)
 
 	* Scaron (U+0160): X=376.0,Y=939.0 (should be at ascender 940?)
-
-	* scaron (U+0161): X=170.0,Y=-0.5 (should be at baseline 0?)
-
-	* scaron (U+0161): X=351.0,Y=-1.0 (should be at baseline 0?)
 
 	* scaron (U+0161): X=161.5,Y=738.0 (should be at cap-height 736?)
 
@@ -2242,11 +2196,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* wgrave (U+1E81): L<<365.0,99.0>--<394.0,304.0>> -> L<<394.0,304.0>--<417.0,523.0>>
 
-	* wgrave (U+1E81): L<<99.0,519.0>--<119.0,310.0>> -> L<<119.0,310.0>--<145.0,99.0>>
+	* wgrave (U+1E81): L<<99.0,519.0>--<119.0,310.0>> -> L<<119.0,310.0>--<145.0,99.0>> 
 
-	* x (U+0078): L<<374.0,394.0>--<378.0,386.0>> -> L<<378.0,386.0>--<459.0,254.0>> 
-
-	* And x (U+0078): L<<459.0,254.0>--<406.0,143.0>> -> L<<406.0,143.0>--<401.0,131.0>> [code: found-colinear-vectors]
+	* And x (U+0078): L<<374.0,394.0>--<378.0,386.0>> -> L<<378.0,386.0>--<459.0,254.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -2498,9 +2450,7 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* a (U+0061): X=138.0,Y=1.0 (should be at baseline 0?)
-
-	* a (U+0061): X=272.5,Y=2.0 (should be at baseline 0?)
+	* a (U+0061): X=146.0,Y=1.0 (should be at baseline 0?)
 
 	* b (U+0062): X=209.0,Y=-1.0 (should be at baseline 0?)
 
@@ -2516,10 +2466,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* q (U+0071): X=303.0,Y=522.0 (should be at x-height 521?)
 
-	* s (U+0073): X=172.5,Y=-1.0 (should be at baseline 0?)
-
-	* s (U+0073): X=350.5,Y=-1.5 (should be at baseline 0?)
-
 	* u (U+0075): X=294.5,Y=2.0 (should be at baseline 0?)
 
 	* w (U+0077): X=483.0,Y=519.0 (should be at x-height 521?)
@@ -2530,29 +2476,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* newGlyph (U+00B5): X=184.0,Y=-1.5 (should be at baseline 0?)
 
-	* agrave (U+00E0): X=138.0,Y=1.0 (should be at baseline 0?)
+	* agrave (U+00E0): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* agrave (U+00E0): X=272.5,Y=2.0 (should be at baseline 0?)
+	* aacute (U+00E1): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* aacute (U+00E1): X=138.0,Y=1.0 (should be at baseline 0?)
+	* acircumflex (U+00E2): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* aacute (U+00E1): X=272.5,Y=2.0 (should be at baseline 0?)
+	* atilde (U+00E3): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* acircumflex (U+00E2): X=138.0,Y=1.0 (should be at baseline 0?)
+	* adieresis (U+00E4): X=146.0,Y=1.0 (should be at baseline 0?)
 
-	* acircumflex (U+00E2): X=272.5,Y=2.0 (should be at baseline 0?)
-
-	* atilde (U+00E3): X=138.0,Y=1.0 (should be at baseline 0?)
-
-	* atilde (U+00E3): X=272.5,Y=2.0 (should be at baseline 0?)
-
-	* adieresis (U+00E4): X=138.0,Y=1.0 (should be at baseline 0?)
-
-	* adieresis (U+00E4): X=272.5,Y=2.0 (should be at baseline 0?)
-
-	* aring (U+00E5): X=138.0,Y=1.0 (should be at baseline 0?)
-
-	* aring (U+00E5): X=272.5,Y=2.0 (should be at baseline 0?)
+	* aring (U+00E5): X=146.0,Y=1.0 (should be at baseline 0?)
 
 	* aring (U+00E5): X=252.0,Y=735.0 (should be at cap-height 736?)
 
@@ -2572,9 +2506,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* thorn (U+00FE): X=212.5,Y=1.0 (should be at baseline 0?)
 
-	* amacron (U+0101): X=138.0,Y=1.0 (should be at baseline 0?)
-
-	* amacron (U+0101): X=272.5,Y=2.0 (should be at baseline 0?)
+	* amacron (U+0101): X=146.0,Y=1.0 (should be at baseline 0?)
 
 	* Abreve (U+0102): X=149.0,Y=939.0 (should be at ascender 940?)
 
@@ -2584,9 +2516,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* Abreve (U+0102): X=363.0,Y=939.0 (should be at ascender 940?)
 
-	* abreve (U+0103): X=138.0,Y=1.0 (should be at baseline 0?)
-
-	* abreve (U+0103): X=272.5,Y=2.0 (should be at baseline 0?)
+	* abreve (U+0103): X=146.0,Y=1.0 (should be at baseline 0?)
 
 	* abreve (U+0103): X=156.0,Y=734.0 (should be at cap-height 736?)
 
@@ -2639,14 +2569,6 @@ The following glyphs do not have the recommended number of contours:
 	* rcaron (U+0159): X=376.0,Y=734.0 (should be at cap-height 736?)
 
 	* rcaron (U+0159): X=393.0,Y=734.0 (should be at cap-height 736?)
-
-	* sacute (U+015B): X=172.5,Y=-1.0 (should be at baseline 0?)
-
-	* sacute (U+015B): X=350.5,Y=-1.5 (should be at baseline 0?)
-
-	* scaron (U+0161): X=172.5,Y=-1.0 (should be at baseline 0?)
-
-	* scaron (U+0161): X=350.5,Y=-1.5 (should be at baseline 0?)
 
 	* scaron (U+0161): X=133.0,Y=734.0 (should be at cap-height 736?)
 
