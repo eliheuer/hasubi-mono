@@ -10,7 +10,7 @@ Fontbakery version: 0.8.10
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 640 glyphs (73.90%) have a different width. You should check the widths of: ['A', 'Aacute', 'Abreve', 'uni1EAE', 'uni1EB6', 'uni1EB0', 'uni1EB2', 'uni1EB4', 'Acircumflex', 'uni1EA4', 'uni1EAC', 'uni1EA6', 'uni1EA8', 'uni1EAA', 'Adieresis', 'uni1EA0', 'Agrave', 'uni1EA2', 'Amacron', 'Aogonek', 'Aring', 'Atilde', 'AE', 'B', 'C', 'Cacute', 'Ccaron', 'Ccedilla', 'Cdotaccent', 'D', 'Eth', 'Dcaron', 'Dcroat', 'E', 'Eacute', 'Ecaron', 'Ecircumflex', 'uni1EBE', 'uni1EC6', 'uni1EC0', 'uni1EC2', 'uni1EC4', 'Edieresis', 'Edotaccent', 'uni1EB8', 'Egrave', 'uni1EBA', 'Emacron', 'Eogonek', 'uni1EBC', 'F', 'G', 'Gbreve', 'uni0122', 'Gdotaccent', 'H', 'Hbar', 'I', 'IJ', 'Iacute', 'Icircumflex', 'Idieresis', 'Idotaccent', 'uni1ECA', 'Igrave', 'uni1EC8', 'Imacron', 'Iogonek', 'Itilde', 'J', 'K', 'uni0136', 'L', 'Lacute', 'Lcaron', 'uni013B', 'Lslash', 'M', 'N', 'Nacute', 'Ncaron', 'uni0145', 'Ntilde', 'Eng', 'O', 'Oacute', 'Ocircumflex', 'uni1ED0', 'uni1ED8', 'uni1ED2', 'uni1ED4', 'uni1ED6', 'Odieresis', 'uni1ECC', 'Ograve', 'uni1ECE', 'Ohorn', 'uni1EDA', 'uni1EE2', 'uni1EDC', 'uni1EDE', 'uni1EE0', 'Ohungarumlaut', 'Omacron', 'Oslash', 'Otilde', 'OE', 'P', 'Thorn', 'Q', 'R', 'Racute', 'Rcaron', 'uni0156', 'S', 'Sacute', 'Scaron', 'Scedilla', 'uni0218', 'uni1E9E', 'T', 'Tcaron', 'uni021A', 'U', 'Uacute', 'Ubreve', 'Ucircumflex', 'Udieresis', 'uni1EE4', 'Ugrave', 'uni1EE6', 'Uhorn', 'uni1EE8', 'uni1EF0', 'uni1EEA', 'uni1EEC', 'uni1EEE', 'Uhungarumlaut', 'Umacron', 'Uogonek', 'Uring', 'Utilde', 'V', 'W', 'Wacute', 'Wcircumflex', 'Wdieresis', 'Wgrave', 'X', 'Y', 'Yacute', 'Ycircumflex', 'Ydieresis', 'uni1EF4', 'Ygrave', 'uni1EF6', 'uni1EF8', 'Z', 'Zacute', 'Zcaron', 'Zdotaccent', 'a', 'aacute', 'abreve', 'uni1EAF', 'uni1EB7', 'uni1EB1', 'uni1EB3', 'uni1EB5', 'acircumflex', 'uni1EA5', 'uni1EAD', 'uni1EA7', 'uni1EA9', 'uni1EAB', 'adieresis', 'uni1EA1', 'agrave', 'uni1EA3', 'amacron', 'aogonek', 'aring', 'atilde', 'ae', 'b', 'c', 'cacute', 'ccaron', 'ccedilla', 'cdotaccent', 'd', 'eth', 'dcaron', 'dcroat', 'e', 'eacute', 'ecaron', 'ecircumflex', 'uni1EBF', 'uni1EC7', 'uni1EC1', 'uni1EC3', 'uni1EC5', 'edieresis', 'edotaccent', 'uni1EB9', 'egrave', 'uni1EBB', 'emacron', 'eogonek', 'uni1EBD', 'f', 'g', 'gbreve', 'uni0123', 'gdotaccent', 'h', 'hbar', 'i', 'dotlessi', 'iacute', 'icircumflex', 'idieresis', 'uni1ECB', 'igrave', 'uni1EC9', 'ij', 'imacron', 'iogonek', 'itilde', 'j', 'uni0237', 'k', 'uni0137', 'l', 'lacute', 'lcaron', 'uni013C', 'lslash', 'm', 'n', 'nacute', 'ncaron', 'uni0146', 'ntilde', 'eng', 'o', 'oacute', 'ocircumflex', 'uni1ED1', 'uni1ED9', 'uni1ED3', 'uni1ED5', 'uni1ED7', 'odieresis', 'uni1ECD', 'ograve', 'uni1ECF', 'ohorn', 'uni1EDB', 'uni1EE3', 'uni1EDD', 'uni1EDF', 'uni1EE1', 'ohungarumlaut', 'omacron', 'oslash', 'otilde', 'oe', 'p', 'thorn', 'q', 'r', 'racute', 'rcaron', 'uni0157', 's', 'sacute', 'scaron', 'scedilla', 'uni0219', 'germandbls', 't', 'tcaron', 'uni021B', 'u', 'uacute', 'ubreve', 'ucircumflex', 'udieresis', 'uni1EE5', 'ugrave', 'uni1EE7', 'uhorn', 'uni1EE9', 'uni1EF1', 'uni1EEB', 'uni1EED', 'uni1EEF', 'uhungarumlaut', 'umacron', 'uogonek', 'uring', 'utilde', 'v', 'w', 'wacute', 'wcircumflex', 'wdieresis', 'wgrave', 'x', 'y', 'yacute', 'ycircumflex', 'ydieresis', 'uni1EF5', 'ygrave', 'uni1EF7', 'uni1EF9', 'z', 'zacute', 'zcaron', 'zdotaccent', 'ordfeminine', 'ordmasculine', 'pi', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni0622', 'uniFE82', 'uni0671', 'uniFB51', 'uni066E', 'uni066E.fina', 'uni066E.medi', 'uni066E.init', 'uni0628', 'uniFE90', 'uniFE92', 'uniFE91', 'uni067E', 'uniFB57', 'uniFB59', 'uniFB58', 'uni062A', 'uniFE96', 'uniFE98', 'uniFE97', 'uni062B', 'uniFE9A', 'uniFE9C', 'uniFE9B', 'uni062C', 'uniFE9E', 'uniFEA0', 'uniFE9F', 'uni0686', 'uniFB7B', 'uniFB7D', 'uniFB7C', 'uni062D', 'uniFEA2', 'uniFEA4', 'uniFEA3', 'uni062E', 'uniFEA6', 'uniFEA8', 'uniFEA7', 'uni062F', 'uniFEAA', 'uni0630', 'uniFEAC', 'uni0631', 'uniFEAE', 'uni0632', 'uniFEB0', 'uni0698', 'uniFB8B', 'uni0633', 'uniFEB2', 'uniFEB4', 'uniFEB3', 'uni0634', 'uniFEB6', 'uniFEB8', 'uniFEB7', 'uni0635', 'uniFEBA', 'uniFEBC', 'uniFEBB', 'uni0636', 'uniFEBE', 'uniFEC0', 'uniFEBF', 'uni0637', 'uniFEC2', 'uniFEC4', 'uniFEC3', 'uni0638', 'uniFEC6', 'uniFEC8', 'uniFEC7', 'uni0639', 'uniFECA', 'uniFECC', 'uniFECB', 'uni063A', 'uniFECE', 'uniFED0', 'uniFECF', 'uni0641', 'uniFED2', 'uniFED4', 'uniFED3', 'uni06A4', 'uniFB6B', 'uniFB6D', 'uniFB6C', 'uni06A1', 'uni06A1.fina', 'uni06A1.medi', 'uni06A1.init', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uniFED8', 'uniFED7', 'uni0643', 'uniFEDA', 'uniFEDC', 'uniFEDB', 'uni06A9', 'uniFB8F', 'uniFB91', 'uniFB90', 'uni06AF', 'uniFB93', 'uniFB95', 'uniFB94', 'uni0644', 'uniFEDE', 'uniFEE0', 'uniFEDF', 'uni0645', 'uniFEE2', 'uniFEE4', 'uniFEE3', 'uni0646', 'uniFEE6', 'uniFEE8', 'uniFEE7', 'uni06BA', 'uniFB9F', 'uni0647', 'uniFEEA', 'uniFEEC', 'uniFEEB', 'uni0629', 'uniFE94', 'uni0648', 'uniFEEE', 'uni0624', 'uniFE86', 'uni0649', 'uniFEF0', 'uni064A', 'uniFEF2', 'uniFEF4', 'uniFEF3', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'yehFarsiar.fina', 'yehFarsiar.medi', 'yehFarsiar.init', 'uni0640', 'uniFEFB', 'uniFEFC', 'uniFEF7', 'uniFEF8', 'uniFEF9', 'uniFEFA', 'uniFEF5', 'uniFEF6', 'lam_alefWaslaar', 'lam_alefWaslaar.fina', 'uniFDF2', 'uni05D0', 'uni05D1', 'uni05D2', 'uni05D3', 'uni05D4', 'uni05D5', 'uni05D6', 'uni05D7', 'uni05D8', 'uni05D9', 'kafFinalhb', 'uni05DB', 'uni05DC', 'memFinalhb', 'uni05DE', 'nunFinalhb', 'uni05E0', 'uni05E1', 'uni05E2', 'peFinalhb', 'uni05E4', 'tsadiFinalhb', 'uni05E6', 'uni05E7', 'uni05E8', 'uni05E9', 'uni05EA', 'uni0660', 'uni0661', 'uni0662', 'uni0663', 'uni0664', 'uni0665', 'uni0666', 'uni0667', 'uni0668', 'uni0669', 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'fraction', 'onehalf', 'uni2153', 'uni2154', 'onequarter', 'threequarters', 'uni00B9', 'uni00B2', 'uni00B3', 'uni2074', 'space', 'uni00A0', 'uni060C', 'uni061B', 'uni061F', 'uni066D', 'uniFD3E', 'uniFD3F', 'period', 'comma', 'colon', 'semicolon', 'ellipsis', 'exclam', 'exclamdown', 'question', 'questiondown', 'periodcentered', 'bullet', 'asterisk', 'numbersign', 'slash', 'backslash', 'hyphen', 'endash', 'emdash', 'underscore', 'parenleft', 'parenright', 'braceleft', 'braceright', 'bracketleft', 'bracketright', 'quotesinglbase', 'quotedblbase', 'quotedblleft', 'quotedblright', 'quoteleft', 'quoteright', 'guillemotright', 'guilsinglleft', 'guilsinglright', 'quotedbl', 'quotesingle', 'at', 'ampersand', 'paragraph', 'section', 'copyright', 'registered', 'trademark', 'degree', 'bar', 'brokenbar', 'cent', 'dollar', 'Euro', 'sterling', 'yen', 'plus', 'minus', 'multiply', 'divide', 'equal', 'notequal', 'greater', 'less', 'greaterequal', 'lessequal', 'plusminus', 'asciitilde', 'asciicircum', 'newGlyph', 'percent', 'dieresis', 'dotaccent', 'grave', 'acute', 'hungarumlaut', 'circumflex', 'caron', 'breve', 'ring', 'tilde', 'macron', 'cedilla', 'ogonek', 'ar.test.001'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 73 glyphs (8.45%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'brokenbar.001', 'uni20BF', 'uni20B5', 'colonmonetary', 'dong', 'uni20B2', 'uni20B4', 'uni20AD', 'uni20BE', 'uni20BA', 'uni20BC', 'uni20A6', 'uni20B1', 'uni20BD', 'uni20A8', 'uni20B9', 'uni20AA', 'uni20B8', 'uni20AE', 'uni20A9', 'approxequal', 'logicalnot', 'emptyset', 'infinity', 'integral', 'uni2126', 'uni2206', 'product', 'summation', 'radical', 'partialdiff', 'uni00B5', 'perthousand', 'arrowup', 'uni2197', 'arrowright', 'uni2198', 'arrowdown', 'uni2199', 'arrowleft', 'uni2196', 'arrowboth', 'arrowupdn', 'uni25CF', 'circle', 'openbullet', 'uni25C6', 'uni25C7', 'lozenge', 'filledbox', 'uni25A1', 'uni25AA', 'uni25AB', 'triagup', 'uni25B6', 'triagdn', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25B4', 'uni25B8', 'uni25BE', 'uni25C2', 'uni25B5', 'uni25B9', 'uni25BF', 'uni25C3', 'newGlyph.001'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -31,19 +31,13 @@ Fontbakery version: 0.8.10
 
 	- doublestrokear
 
-	- eight.dnom
-
 	- eight.numr
 
 	- eight.tf
 
-	- five.dnom
-
 	- five.numr
 
 	- five.tf
-
-	- four.dnom
 
 	- four.numr
 
@@ -57,31 +51,21 @@ Fontbakery version: 0.8.10
 
 	- newGlyph.001
 
-	- nine.dnom
-
 	- nine.numr
 
 	- nine.tf
-
-	- one.dnom
 
 	- one.numr
 
 	- one.tf
 
-	- seven.dnom
-
 	- seven.numr
 
 	- seven.tf
 
-	- six.dnom
-
 	- six.numr
 
 	- six.tf
-
-	- three.dnom
 
 	- three.numr
 
@@ -92,8 +76,6 @@ Fontbakery version: 0.8.10
 	- threedotsdowncenterar
 
 	- threedotsupbelowar
-
-	- two.dnom
 
 	- two.numr
 
@@ -137,13 +119,9 @@ Fontbakery version: 0.8.10
 
 	- uni03060309.case
 
-	- zero.dnom
+	- zero.numr 
 
-	- zero.numr
-
-	- zero.tf 
-
-	- And zero.zero
+	- And zero.tf
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -152,65 +130,19 @@ Fontbakery version: 0.8.10
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: onequarter	Contours detected: 1	Expected: 3 or 4
-
-	- Glyph name: onehalf	Contours detected: 1	Expected: 3
-
-	- Glyph name: threequarters	Contours detected: 1	Expected: 3 or 4
-
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni031B	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni0327	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
-
-	- Glyph name: dagger	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: daggerdbl	Contours detected: 0	Expected: 1 or 3
+	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
-
-	- Glyph name: minute	Contours detected: 0	Expected: 1
-
-	- Glyph name: second	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2075	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2076	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2077	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2078	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2079	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2081	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2082	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2083	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2084	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni2085	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2086	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2087	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2088	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2089	Contours detected: 0	Expected: 2
 
 	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
 
@@ -248,15 +180,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
 
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2116	Contours detected: 0	Expected: 3 or 4
-
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2153	Contours detected: 1	Expected: 3
 
 	- Glyph name: arrowleft	Contours detected: 0	Expected: 1
 
@@ -348,15 +272,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
 
-	- Glyph name: dagger	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: daggerdbl	Contours detected: 0	Expected: 1 or 3
-
 	- Glyph name: dong	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
 
 	- Glyph name: infinity	Contours detected: 0	Expected: 3
 
@@ -365,10 +283,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: lozenge	Contours detected: 0	Expected: 2
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
-
-	- Glyph name: onehalf	Contours detected: 1	Expected: 3
-
-	- Glyph name: onequarter	Contours detected: 1	Expected: 3 or 4
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
@@ -382,23 +296,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: summation	Contours detected: 0	Expected: 1
 
-	- Glyph name: threequarters	Contours detected: 1	Expected: 3 or 4
-
 	- Glyph name: triagdn	Contours detected: 0	Expected: 1
 
 	- Glyph name: triagup	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni031B	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni0327	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
+	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
 	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3 or 5
 
@@ -429,10 +337,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2116	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
 
@@ -605,6 +509,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni0654 (U+0654): X=273.0,Y=734.0 (should be at cap-height 736?)
 
+	* uni0E3F (U+0E3F): X=264.0,Y=735.0 (should be at cap-height 736?)
+
 	* uni1EA1 (U+1EA1): X=146.0,Y=1.0 (should be at baseline 0?)
 
 	* uni1EA3 (U+1EA3): X=146.0,Y=1.0 (should be at baseline 0?)
@@ -737,6 +643,14 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EF8 (U+1EF8): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>>
 
+	* uni2116 (U+2116): L<<207.0,88.0>--<207.0,96.0>> -> L<<207.0,96.0>--<183.0,392.0>>
+
+	* uni2116 (U+2116): L<<207.0,96.0>--<183.0,392.0>> -> L<<183.0,392.0>--<183.0,728.0>>
+
+	* uni2116 (U+2116): L<<65.0,640.0>--<89.0,336.0>> -> L<<89.0,336.0>--<89.0,8.0>>
+
+	* uni2116 (U+2116): L<<65.0,648.0>--<65.0,640.0>> -> L<<65.0,640.0>--<89.0,336.0>>
+
 	* w (U+0077): L<<93.0,504.0>--<93.0,496.0>> -> L<<93.0,496.0>--<130.0,102.0>>
 
 	* wacute (U+1E83): L<<93.0,504.0>--<93.0,496.0>> -> L<<93.0,496.0>--<130.0,102.0>>
@@ -762,7 +676,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 641 glyphs (74.02%) have a different width. You should check the widths of: ['A', 'Aacute', 'Abreve', 'uni1EAE', 'uni1EB6', 'uni1EB0', 'uni1EB2', 'uni1EB4', 'Acircumflex', 'uni1EA4', 'uni1EAC', 'uni1EA6', 'uni1EA8', 'uni1EAA', 'Adieresis', 'uni1EA0', 'Agrave', 'uni1EA2', 'Amacron', 'Aogonek', 'Aring', 'Atilde', 'AE', 'B', 'C', 'Cacute', 'Ccaron', 'Ccedilla', 'Cdotaccent', 'D', 'Eth', 'Dcaron', 'Dcroat', 'E', 'Eacute', 'Ecaron', 'Ecircumflex', 'uni1EBE', 'uni1EC6', 'uni1EC0', 'uni1EC2', 'uni1EC4', 'Edieresis', 'Edotaccent', 'uni1EB8', 'Egrave', 'uni1EBA', 'Emacron', 'Eogonek', 'uni1EBC', 'F', 'G', 'Gbreve', 'uni0122', 'Gdotaccent', 'H', 'Hbar', 'I', 'IJ', 'Iacute', 'Icircumflex', 'Idieresis', 'Idotaccent', 'uni1ECA', 'Igrave', 'uni1EC8', 'Imacron', 'Iogonek', 'Itilde', 'J', 'K', 'uni0136', 'L', 'Lacute', 'Lcaron', 'uni013B', 'Lslash', 'M', 'N', 'Nacute', 'Ncaron', 'uni0145', 'Ntilde', 'Eng', 'O', 'Oacute', 'Ocircumflex', 'uni1ED0', 'uni1ED8', 'uni1ED2', 'uni1ED4', 'uni1ED6', 'Odieresis', 'uni1ECC', 'Ograve', 'uni1ECE', 'Ohorn', 'uni1EDA', 'uni1EE2', 'uni1EDC', 'uni1EDE', 'uni1EE0', 'Ohungarumlaut', 'Omacron', 'Oslash', 'Otilde', 'OE', 'P', 'Thorn', 'Q', 'R', 'Racute', 'Rcaron', 'uni0156', 'S', 'Sacute', 'Scaron', 'Scedilla', 'uni0218', 'uni1E9E', 'T', 'Tcaron', 'uni021A', 'U', 'Uacute', 'Ubreve', 'Ucircumflex', 'Udieresis', 'uni1EE4', 'Ugrave', 'uni1EE6', 'Uhorn', 'uni1EE8', 'uni1EF0', 'uni1EEA', 'uni1EEC', 'uni1EEE', 'Uhungarumlaut', 'Umacron', 'Uogonek', 'Uring', 'Utilde', 'V', 'W', 'Wacute', 'Wcircumflex', 'Wdieresis', 'Wgrave', 'X', 'Y', 'Yacute', 'Ycircumflex', 'Ydieresis', 'uni1EF4', 'Ygrave', 'uni1EF6', 'uni1EF8', 'Z', 'Zacute', 'Zcaron', 'Zdotaccent', 'a', 'aacute', 'abreve', 'uni1EAF', 'uni1EB7', 'uni1EB1', 'uni1EB3', 'uni1EB5', 'acircumflex', 'uni1EA5', 'uni1EAD', 'uni1EA7', 'uni1EA9', 'uni1EAB', 'adieresis', 'uni1EA1', 'agrave', 'uni1EA3', 'amacron', 'aogonek', 'aring', 'atilde', 'ae', 'b', 'c', 'cacute', 'ccaron', 'ccedilla', 'cdotaccent', 'd', 'eth', 'dcaron', 'dcroat', 'e', 'eacute', 'ecaron', 'ecircumflex', 'uni1EBF', 'uni1EC7', 'uni1EC1', 'uni1EC3', 'uni1EC5', 'edieresis', 'edotaccent', 'uni1EB9', 'egrave', 'uni1EBB', 'emacron', 'eogonek', 'uni1EBD', 'f', 'g', 'gbreve', 'uni0123', 'gdotaccent', 'h', 'hbar', 'i', 'dotlessi', 'iacute', 'icircumflex', 'idieresis', 'uni1ECB', 'igrave', 'uni1EC9', 'ij', 'imacron', 'iogonek', 'itilde', 'j', 'uni0237', 'k', 'uni0137', 'l', 'lacute', 'lcaron', 'uni013C', 'lslash', 'm', 'n', 'nacute', 'ncaron', 'uni0146', 'ntilde', 'eng', 'o', 'oacute', 'ocircumflex', 'uni1ED1', 'uni1ED9', 'uni1ED3', 'uni1ED5', 'uni1ED7', 'odieresis', 'uni1ECD', 'ograve', 'uni1ECF', 'ohorn', 'uni1EDB', 'uni1EE3', 'uni1EDD', 'uni1EDF', 'uni1EE1', 'ohungarumlaut', 'omacron', 'oslash', 'otilde', 'oe', 'p', 'thorn', 'q', 'r', 'racute', 'rcaron', 'uni0157', 's', 'sacute', 'scaron', 'scedilla', 'uni0219', 'germandbls', 't', 'tcaron', 'uni021B', 'u', 'uacute', 'ubreve', 'ucircumflex', 'udieresis', 'uni1EE5', 'ugrave', 'uni1EE7', 'uhorn', 'uni1EE9', 'uni1EF1', 'uni1EEB', 'uni1EED', 'uni1EEF', 'uhungarumlaut', 'umacron', 'uogonek', 'uring', 'utilde', 'v', 'w', 'wacute', 'wcircumflex', 'wdieresis', 'wgrave', 'x', 'y', 'yacute', 'ycircumflex', 'ydieresis', 'uni1EF5', 'ygrave', 'uni1EF7', 'uni1EF9', 'z', 'zacute', 'zcaron', 'zdotaccent', 'ordfeminine', 'ordmasculine', 'pi', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni0622', 'uniFE82', 'uni0671', 'uniFB51', 'uni066E', 'uni066E.fina', 'uni066E.medi', 'uni066E.init', 'uni0628', 'uniFE90', 'uniFE92', 'uniFE91', 'uni067E', 'uniFB57', 'uniFB59', 'uniFB58', 'uni062A', 'uniFE96', 'uniFE98', 'uniFE97', 'uni062B', 'uniFE9A', 'uniFE9C', 'uniFE9B', 'uni062C', 'uniFE9E', 'uniFEA0', 'uniFE9F', 'uni0686', 'uniFB7B', 'uniFB7D', 'uniFB7C', 'uni062D', 'uniFEA2', 'uniFEA4', 'uniFEA3', 'uni062E', 'uniFEA6', 'uniFEA8', 'uniFEA7', 'uni062F', 'uniFEAA', 'uni0630', 'uniFEAC', 'uni0631', 'uniFEAE', 'uni0632', 'uniFEB0', 'uni0698', 'uniFB8B', 'uni0633', 'uniFEB2', 'uniFEB4', 'uniFEB3', 'uni0634', 'uniFEB6', 'uniFEB8', 'uniFEB7', 'uni0635', 'uniFEBA', 'uniFEBC', 'uniFEBB', 'uni0636', 'uniFEBE', 'uniFEC0', 'uniFEBF', 'uni0637', 'uniFEC2', 'uniFEC4', 'uniFEC3', 'uni0638', 'uniFEC6', 'uniFEC8', 'uniFEC7', 'uni0639', 'uniFECA', 'uniFECC', 'uniFECB', 'uni063A', 'uniFECE', 'uniFED0', 'uniFECF', 'uni0641', 'uniFED2', 'uniFED4', 'uniFED3', 'uni06A4', 'uniFB6B', 'uniFB6D', 'uniFB6C', 'uni06A1', 'uni06A1.fina', 'uni06A1.medi', 'uni06A1.init', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uniFED8', 'uniFED7', 'uni0643', 'uniFEDA', 'uniFEDC', 'uniFEDB', 'uni06A9', 'uniFB8F', 'uniFB91', 'uniFB90', 'uni06AF', 'uniFB93', 'uniFB95', 'uniFB94', 'uni0644', 'uniFEDE', 'uniFEE0', 'uniFEDF', 'uni0645', 'uniFEE2', 'uniFEE4', 'uniFEE3', 'uni0646', 'uniFEE6', 'uniFEE8', 'uniFEE7', 'uni06BA', 'uniFB9F', 'uni0647', 'uniFEEA', 'uniFEEC', 'uniFEEB', 'uni0629', 'uniFE94', 'uni0648', 'uniFEEE', 'uni0624', 'uniFE86', 'uni0649', 'uniFEF0', 'uni064A', 'uniFEF2', 'uniFEF4', 'uniFEF3', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'yehFarsiar.fina', 'yehFarsiar.medi', 'yehFarsiar.init', 'uni0640', 'uniFEFB', 'uniFEFC', 'uniFEF7', 'uniFEF8', 'uniFEF9', 'uniFEFA', 'uniFEF5', 'uniFEF6', 'lam_alefWaslaar', 'lam_alefWaslaar.fina', 'uniFDF2', 'uni05D0', 'uni05D1', 'uni05D2', 'uni05D3', 'uni05D4', 'uni05D5', 'uni05D6', 'uni05D7', 'uni05D8', 'uni05D9', 'kafFinalhb', 'uni05DB', 'uni05DC', 'memFinalhb', 'uni05DE', 'nunFinalhb', 'uni05E0', 'uni05E1', 'uni05E2', 'peFinalhb', 'uni05E4', 'tsadiFinalhb', 'uni05E6', 'uni05E7', 'uni05E8', 'uni05E9', 'uni05EA', 'uni0660', 'uni0661', 'uni0662', 'uni0663', 'uni0664', 'uni0665', 'uni0666', 'uni0667', 'uni0668', 'uni0669', 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'fraction', 'onehalf', 'uni2153', 'uni2154', 'onequarter', 'threequarters', 'uni00B9', 'uni00B2', 'uni00B3', 'uni2074', 'space', 'uni00A0', 'uni060C', 'uni061B', 'uni061F', 'uni066D', 'uniFD3E', 'uniFD3F', 'period', 'comma', 'colon', 'semicolon', 'ellipsis', 'exclam', 'exclamdown', 'question', 'questiondown', 'periodcentered', 'bullet', 'asterisk', 'numbersign', 'slash', 'backslash', 'hyphen', 'endash', 'emdash', 'underscore', 'parenleft', 'parenright', 'braceleft', 'braceright', 'bracketleft', 'bracketright', 'quotesinglbase', 'quotedblbase', 'quotedblleft', 'quotedblright', 'quoteleft', 'quoteright', 'guillemotright', 'guilsinglleft', 'guilsinglright', 'quotedbl', 'quotesingle', 'at', 'ampersand', 'paragraph', 'section', 'copyright', 'registered', 'trademark', 'degree', 'bar', 'brokenbar', 'cent', 'dollar', 'Euro', 'sterling', 'yen', 'plus', 'minus', 'multiply', 'divide', 'equal', 'notequal', 'greater', 'less', 'greaterequal', 'lessequal', 'plusminus', 'asciitilde', 'logicalnot', 'asciicircum', 'newGlyph', 'percent', 'dieresis', 'dotaccent', 'grave', 'acute', 'hungarumlaut', 'circumflex', 'caron', 'breve', 'ring', 'tilde', 'macron', 'cedilla', 'ogonek', 'ar.test.001'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 73 glyphs (8.45%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'brokenbar.001', 'uni20BF', 'uni20B5', 'colonmonetary', 'dong', 'uni20B2', 'uni20B4', 'uni20AD', 'uni20BE', 'uni20BA', 'uni20BC', 'uni20A6', 'uni20B1', 'uni20BD', 'uni20A8', 'uni20B9', 'uni20AA', 'uni20B8', 'uni20AE', 'uni20A9', 'approxequal', 'logicalnot', 'emptyset', 'infinity', 'integral', 'uni2126', 'uni2206', 'product', 'summation', 'radical', 'partialdiff', 'uni00B5', 'perthousand', 'arrowup', 'uni2197', 'arrowright', 'uni2198', 'arrowdown', 'uni2199', 'arrowleft', 'uni2196', 'arrowboth', 'arrowupdn', 'uni25CF', 'circle', 'openbullet', 'uni25C6', 'uni25C7', 'lozenge', 'filledbox', 'uni25A1', 'uni25AA', 'uni25AB', 'triagup', 'uni25B6', 'triagdn', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25B4', 'uni25B8', 'uni25BE', 'uni25C2', 'uni25B5', 'uni25B9', 'uni25BF', 'uni25C3', 'newGlyph.001'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -783,19 +697,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- doublestrokear
 
-	- eight.dnom
-
 	- eight.numr
 
 	- eight.tf
 
-	- five.dnom
-
 	- five.numr
 
 	- five.tf
-
-	- four.dnom
 
 	- four.numr
 
@@ -809,31 +717,21 @@ The following glyphs do not have the recommended number of contours:
 
 	- newGlyph.001
 
-	- nine.dnom
-
 	- nine.numr
 
 	- nine.tf
-
-	- one.dnom
 
 	- one.numr
 
 	- one.tf
 
-	- seven.dnom
-
 	- seven.numr
 
 	- seven.tf
 
-	- six.dnom
-
 	- six.numr
 
 	- six.tf
-
-	- three.dnom
 
 	- three.numr
 
@@ -844,8 +742,6 @@ The following glyphs do not have the recommended number of contours:
 	- threedotsdowncenterar
 
 	- threedotsupbelowar
-
-	- two.dnom
 
 	- two.numr
 
@@ -889,13 +785,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- uni03060309.case
 
-	- zero.dnom
+	- zero.numr 
 
-	- zero.numr
-
-	- zero.tf 
-
-	- And zero.zero
+	- And zero.tf
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -904,65 +796,19 @@ The following glyphs do not have the recommended number of contours:
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: onequarter	Contours detected: 1	Expected: 3 or 4
-
-	- Glyph name: onehalf	Contours detected: 1	Expected: 3
-
-	- Glyph name: threequarters	Contours detected: 1	Expected: 3 or 4
-
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni031B	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni0327	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
-
-	- Glyph name: dagger	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: daggerdbl	Contours detected: 0	Expected: 1 or 3
+	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
-
-	- Glyph name: minute	Contours detected: 0	Expected: 1
-
-	- Glyph name: second	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2075	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2076	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2077	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2078	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2079	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2081	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2082	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2083	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2084	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni2085	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2086	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2087	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2088	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2089	Contours detected: 0	Expected: 2
 
 	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
 
@@ -1000,15 +846,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
 
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2116	Contours detected: 0	Expected: 3 or 4
-
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2153	Contours detected: 1	Expected: 3
 
 	- Glyph name: arrowleft	Contours detected: 0	Expected: 1
 
@@ -1100,15 +938,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
 
-	- Glyph name: dagger	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: daggerdbl	Contours detected: 0	Expected: 1 or 3
-
 	- Glyph name: dong	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
 
 	- Glyph name: infinity	Contours detected: 0	Expected: 3
 
@@ -1117,10 +949,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: lozenge	Contours detected: 0	Expected: 2
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
-
-	- Glyph name: onehalf	Contours detected: 1	Expected: 3
-
-	- Glyph name: onequarter	Contours detected: 1	Expected: 3 or 4
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
@@ -1134,23 +962,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: summation	Contours detected: 0	Expected: 1
 
-	- Glyph name: threequarters	Contours detected: 1	Expected: 3 or 4
-
 	- Glyph name: triagdn	Contours detected: 0	Expected: 1
 
 	- Glyph name: triagup	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni031B	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni0327	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
+	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
 	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3 or 5
 
@@ -1181,10 +1003,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2116	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
 
@@ -1311,6 +1129,14 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EF8 (U+1EF8): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>>
 
+	* uni2116 (U+2116): L<<207.0,88.0>--<207.0,96.0>> -> L<<207.0,96.0>--<183.0,392.0>>
+
+	* uni2116 (U+2116): L<<207.0,96.0>--<183.0,392.0>> -> L<<183.0,392.0>--<183.0,728.0>>
+
+	* uni2116 (U+2116): L<<65.0,640.0>--<89.0,336.0>> -> L<<89.0,336.0>--<89.0,8.0>>
+
+	* uni2116 (U+2116): L<<65.0,648.0>--<65.0,640.0>> -> L<<65.0,640.0>--<89.0,336.0>>
+
 	* w (U+0077): L<<364.0,97.0>--<403.0,459.0>> -> L<<403.0,459.0>--<416.0,537.0>>
 
 	* wacute (U+1E83): L<<364.0,97.0>--<403.0,459.0>> -> L<<403.0,459.0>--<416.0,537.0>>
@@ -1334,7 +1160,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 641 glyphs (74.02%) have a different width. You should check the widths of: ['A', 'Aacute', 'Abreve', 'uni1EAE', 'uni1EB6', 'uni1EB0', 'uni1EB2', 'uni1EB4', 'Acircumflex', 'uni1EA4', 'uni1EAC', 'uni1EA6', 'uni1EA8', 'uni1EAA', 'Adieresis', 'uni1EA0', 'Agrave', 'uni1EA2', 'Amacron', 'Aogonek', 'Aring', 'Atilde', 'AE', 'B', 'C', 'Cacute', 'Ccaron', 'Ccedilla', 'Cdotaccent', 'D', 'Eth', 'Dcaron', 'Dcroat', 'E', 'Eacute', 'Ecaron', 'Ecircumflex', 'uni1EBE', 'uni1EC6', 'uni1EC0', 'uni1EC2', 'uni1EC4', 'Edieresis', 'Edotaccent', 'uni1EB8', 'Egrave', 'uni1EBA', 'Emacron', 'Eogonek', 'uni1EBC', 'F', 'G', 'Gbreve', 'uni0122', 'Gdotaccent', 'H', 'Hbar', 'I', 'IJ', 'Iacute', 'Icircumflex', 'Idieresis', 'Idotaccent', 'uni1ECA', 'Igrave', 'uni1EC8', 'Imacron', 'Iogonek', 'Itilde', 'J', 'K', 'uni0136', 'L', 'Lacute', 'Lcaron', 'uni013B', 'Lslash', 'M', 'N', 'Nacute', 'Ncaron', 'uni0145', 'Ntilde', 'Eng', 'O', 'Oacute', 'Ocircumflex', 'uni1ED0', 'uni1ED8', 'uni1ED2', 'uni1ED4', 'uni1ED6', 'Odieresis', 'uni1ECC', 'Ograve', 'uni1ECE', 'Ohorn', 'uni1EDA', 'uni1EE2', 'uni1EDC', 'uni1EDE', 'uni1EE0', 'Ohungarumlaut', 'Omacron', 'Oslash', 'Otilde', 'OE', 'P', 'Thorn', 'Q', 'R', 'Racute', 'Rcaron', 'uni0156', 'S', 'Sacute', 'Scaron', 'Scedilla', 'uni0218', 'uni1E9E', 'T', 'Tcaron', 'uni021A', 'U', 'Uacute', 'Ubreve', 'Ucircumflex', 'Udieresis', 'uni1EE4', 'Ugrave', 'uni1EE6', 'Uhorn', 'uni1EE8', 'uni1EF0', 'uni1EEA', 'uni1EEC', 'uni1EEE', 'Uhungarumlaut', 'Umacron', 'Uogonek', 'Uring', 'Utilde', 'V', 'W', 'Wacute', 'Wcircumflex', 'Wdieresis', 'Wgrave', 'X', 'Y', 'Yacute', 'Ycircumflex', 'Ydieresis', 'uni1EF4', 'Ygrave', 'uni1EF6', 'uni1EF8', 'Z', 'Zacute', 'Zcaron', 'Zdotaccent', 'a', 'aacute', 'abreve', 'uni1EAF', 'uni1EB7', 'uni1EB1', 'uni1EB3', 'uni1EB5', 'acircumflex', 'uni1EA5', 'uni1EAD', 'uni1EA7', 'uni1EA9', 'uni1EAB', 'adieresis', 'uni1EA1', 'agrave', 'uni1EA3', 'amacron', 'aogonek', 'aring', 'atilde', 'ae', 'b', 'c', 'cacute', 'ccaron', 'ccedilla', 'cdotaccent', 'd', 'eth', 'dcaron', 'dcroat', 'e', 'eacute', 'ecaron', 'ecircumflex', 'uni1EBF', 'uni1EC7', 'uni1EC1', 'uni1EC3', 'uni1EC5', 'edieresis', 'edotaccent', 'uni1EB9', 'egrave', 'uni1EBB', 'emacron', 'eogonek', 'uni1EBD', 'f', 'g', 'gbreve', 'uni0123', 'gdotaccent', 'h', 'hbar', 'i', 'dotlessi', 'iacute', 'icircumflex', 'idieresis', 'uni1ECB', 'igrave', 'uni1EC9', 'ij', 'imacron', 'iogonek', 'itilde', 'j', 'uni0237', 'k', 'uni0137', 'l', 'lacute', 'lcaron', 'uni013C', 'lslash', 'm', 'n', 'nacute', 'ncaron', 'uni0146', 'ntilde', 'eng', 'o', 'oacute', 'ocircumflex', 'uni1ED1', 'uni1ED9', 'uni1ED3', 'uni1ED5', 'uni1ED7', 'odieresis', 'uni1ECD', 'ograve', 'uni1ECF', 'ohorn', 'uni1EDB', 'uni1EE3', 'uni1EDD', 'uni1EDF', 'uni1EE1', 'ohungarumlaut', 'omacron', 'oslash', 'otilde', 'oe', 'p', 'thorn', 'q', 'r', 'racute', 'rcaron', 'uni0157', 's', 'sacute', 'scaron', 'scedilla', 'uni0219', 'germandbls', 't', 'tcaron', 'uni021B', 'u', 'uacute', 'ubreve', 'ucircumflex', 'udieresis', 'uni1EE5', 'ugrave', 'uni1EE7', 'uhorn', 'uni1EE9', 'uni1EF1', 'uni1EEB', 'uni1EED', 'uni1EEF', 'uhungarumlaut', 'umacron', 'uogonek', 'uring', 'utilde', 'v', 'w', 'wacute', 'wcircumflex', 'wdieresis', 'wgrave', 'x', 'y', 'yacute', 'ycircumflex', 'ydieresis', 'uni1EF5', 'ygrave', 'uni1EF7', 'uni1EF9', 'z', 'zacute', 'zcaron', 'zdotaccent', 'ordfeminine', 'ordmasculine', 'pi', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni0622', 'uniFE82', 'uni0671', 'uniFB51', 'uni066E', 'uni066E.fina', 'uni066E.medi', 'uni066E.init', 'uni0628', 'uniFE90', 'uniFE92', 'uniFE91', 'uni067E', 'uniFB57', 'uniFB59', 'uniFB58', 'uni062A', 'uniFE96', 'uniFE98', 'uniFE97', 'uni062B', 'uniFE9A', 'uniFE9C', 'uniFE9B', 'uni062C', 'uniFE9E', 'uniFEA0', 'uniFE9F', 'uni0686', 'uniFB7B', 'uniFB7D', 'uniFB7C', 'uni062D', 'uniFEA2', 'uniFEA4', 'uniFEA3', 'uni062E', 'uniFEA6', 'uniFEA8', 'uniFEA7', 'uni062F', 'uniFEAA', 'uni0630', 'uniFEAC', 'uni0631', 'uniFEAE', 'uni0632', 'uniFEB0', 'uni0698', 'uniFB8B', 'uni0633', 'uniFEB2', 'uniFEB4', 'uniFEB3', 'uni0634', 'uniFEB6', 'uniFEB8', 'uniFEB7', 'uni0635', 'uniFEBA', 'uniFEBC', 'uniFEBB', 'uni0636', 'uniFEBE', 'uniFEC0', 'uniFEBF', 'uni0637', 'uniFEC2', 'uniFEC4', 'uniFEC3', 'uni0638', 'uniFEC6', 'uniFEC8', 'uniFEC7', 'uni0639', 'uniFECA', 'uniFECC', 'uniFECB', 'uni063A', 'uniFECE', 'uniFED0', 'uniFECF', 'uni0641', 'uniFED2', 'uniFED4', 'uniFED3', 'uni06A4', 'uniFB6B', 'uniFB6D', 'uniFB6C', 'uni06A1', 'uni06A1.fina', 'uni06A1.medi', 'uni06A1.init', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uniFED8', 'uniFED7', 'uni0643', 'uniFEDA', 'uniFEDC', 'uniFEDB', 'uni06A9', 'uniFB8F', 'uniFB91', 'uniFB90', 'uni06AF', 'uniFB93', 'uniFB95', 'uniFB94', 'uni0644', 'uniFEDE', 'uniFEE0', 'uniFEDF', 'uni0645', 'uniFEE2', 'uniFEE4', 'uniFEE3', 'uni0646', 'uniFEE6', 'uniFEE8', 'uniFEE7', 'uni06BA', 'uniFB9F', 'uni0647', 'uniFEEA', 'uniFEEC', 'uniFEEB', 'uni0629', 'uniFE94', 'uni0648', 'uniFEEE', 'uni0624', 'uniFE86', 'uni0649', 'uniFEF0', 'uni064A', 'uniFEF2', 'uniFEF4', 'uniFEF3', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'yehFarsiar.fina', 'yehFarsiar.medi', 'yehFarsiar.init', 'uni0640', 'uniFEFB', 'uniFEFC', 'uniFEF7', 'uniFEF8', 'uniFEF9', 'uniFEFA', 'uniFEF5', 'uniFEF6', 'lam_alefWaslaar', 'lam_alefWaslaar.fina', 'uniFDF2', 'uni05D0', 'uni05D1', 'uni05D2', 'uni05D3', 'uni05D4', 'uni05D5', 'uni05D6', 'uni05D7', 'uni05D8', 'uni05D9', 'kafFinalhb', 'uni05DB', 'uni05DC', 'memFinalhb', 'uni05DE', 'nunFinalhb', 'uni05E0', 'uni05E1', 'uni05E2', 'peFinalhb', 'uni05E4', 'tsadiFinalhb', 'uni05E6', 'uni05E7', 'uni05E8', 'uni05E9', 'uni05EA', 'uni0660', 'uni0661', 'uni0662', 'uni0663', 'uni0664', 'uni0665', 'uni0666', 'uni0667', 'uni0668', 'uni0669', 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'fraction', 'onehalf', 'uni2153', 'uni2154', 'onequarter', 'threequarters', 'uni00B9', 'uni00B2', 'uni00B3', 'uni2074', 'space', 'uni00A0', 'uni060C', 'uni061B', 'uni061F', 'uni066D', 'uniFD3E', 'uniFD3F', 'period', 'comma', 'colon', 'semicolon', 'ellipsis', 'exclam', 'exclamdown', 'question', 'questiondown', 'periodcentered', 'bullet', 'asterisk', 'numbersign', 'slash', 'backslash', 'hyphen', 'endash', 'emdash', 'underscore', 'parenleft', 'parenright', 'braceleft', 'braceright', 'bracketleft', 'bracketright', 'quotesinglbase', 'quotedblbase', 'quotedblleft', 'quotedblright', 'quoteleft', 'quoteright', 'guillemotright', 'guilsinglleft', 'guilsinglright', 'quotedbl', 'quotesingle', 'at', 'ampersand', 'paragraph', 'section', 'copyright', 'registered', 'trademark', 'degree', 'bar', 'brokenbar', 'cent', 'dollar', 'Euro', 'sterling', 'yen', 'plus', 'minus', 'multiply', 'divide', 'equal', 'notequal', 'greater', 'less', 'greaterequal', 'lessequal', 'plusminus', 'asciitilde', 'logicalnot', 'asciicircum', 'newGlyph', 'percent', 'dieresis', 'dotaccent', 'grave', 'acute', 'hungarumlaut', 'circumflex', 'caron', 'breve', 'ring', 'tilde', 'macron', 'cedilla', 'ogonek', 'ar.test.001'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 73 glyphs (8.45%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'brokenbar.001', 'uni20BF', 'uni20B5', 'colonmonetary', 'dong', 'uni20B2', 'uni20B4', 'uni20AD', 'uni20BE', 'uni20BA', 'uni20BC', 'uni20A6', 'uni20B1', 'uni20BD', 'uni20A8', 'uni20B9', 'uni20AA', 'uni20B8', 'uni20AE', 'uni20A9', 'approxequal', 'logicalnot', 'emptyset', 'infinity', 'integral', 'uni2126', 'uni2206', 'product', 'summation', 'radical', 'partialdiff', 'uni00B5', 'perthousand', 'arrowup', 'uni2197', 'arrowright', 'uni2198', 'arrowdown', 'uni2199', 'arrowleft', 'uni2196', 'arrowboth', 'arrowupdn', 'uni25CF', 'circle', 'openbullet', 'uni25C6', 'uni25C7', 'lozenge', 'filledbox', 'uni25A1', 'uni25AA', 'uni25AB', 'triagup', 'uni25B6', 'triagdn', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25B4', 'uni25B8', 'uni25BE', 'uni25C2', 'uni25B5', 'uni25B9', 'uni25BF', 'uni25C3', 'newGlyph.001'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1355,19 +1181,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- doublestrokear
 
-	- eight.dnom
-
 	- eight.numr
 
 	- eight.tf
 
-	- five.dnom
-
 	- five.numr
 
 	- five.tf
-
-	- four.dnom
 
 	- four.numr
 
@@ -1381,31 +1201,21 @@ The following glyphs do not have the recommended number of contours:
 
 	- newGlyph.001
 
-	- nine.dnom
-
 	- nine.numr
 
 	- nine.tf
-
-	- one.dnom
 
 	- one.numr
 
 	- one.tf
 
-	- seven.dnom
-
 	- seven.numr
 
 	- seven.tf
 
-	- six.dnom
-
 	- six.numr
 
 	- six.tf
-
-	- three.dnom
 
 	- three.numr
 
@@ -1416,8 +1226,6 @@ The following glyphs do not have the recommended number of contours:
 	- threedotsdowncenterar
 
 	- threedotsupbelowar
-
-	- two.dnom
 
 	- two.numr
 
@@ -1461,13 +1269,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- uni03060309.case
 
-	- zero.dnom
+	- zero.numr 
 
-	- zero.numr
-
-	- zero.tf 
-
-	- And zero.zero
+	- And zero.tf
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1476,65 +1280,19 @@ The following glyphs do not have the recommended number of contours:
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: onequarter	Contours detected: 1	Expected: 3 or 4
-
-	- Glyph name: onehalf	Contours detected: 1	Expected: 3
-
-	- Glyph name: threequarters	Contours detected: 1	Expected: 3 or 4
-
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni031B	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni0327	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
-
-	- Glyph name: dagger	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: daggerdbl	Contours detected: 0	Expected: 1 or 3
+	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
-
-	- Glyph name: minute	Contours detected: 0	Expected: 1
-
-	- Glyph name: second	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2075	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2076	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2077	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2078	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2079	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2081	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2082	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2083	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2084	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni2085	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2086	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2087	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2088	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2089	Contours detected: 0	Expected: 2
 
 	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
 
@@ -1572,15 +1330,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
 
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2116	Contours detected: 0	Expected: 3 or 4
-
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2153	Contours detected: 1	Expected: 3
 
 	- Glyph name: arrowleft	Contours detected: 0	Expected: 1
 
@@ -1672,15 +1422,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
 
-	- Glyph name: dagger	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: daggerdbl	Contours detected: 0	Expected: 1 or 3
-
 	- Glyph name: dong	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
 
 	- Glyph name: infinity	Contours detected: 0	Expected: 3
 
@@ -1689,10 +1433,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: lozenge	Contours detected: 0	Expected: 2
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
-
-	- Glyph name: onehalf	Contours detected: 1	Expected: 3
-
-	- Glyph name: onequarter	Contours detected: 1	Expected: 3 or 4
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
@@ -1706,23 +1446,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: summation	Contours detected: 0	Expected: 1
 
-	- Glyph name: threequarters	Contours detected: 1	Expected: 3 or 4
-
 	- Glyph name: triagdn	Contours detected: 0	Expected: 1
 
 	- Glyph name: triagup	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni031B	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni0327	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
+	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
 	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3 or 5
 
@@ -1753,10 +1487,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2116	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
 
@@ -1883,6 +1613,14 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EF8 (U+1EF8): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>>
 
+	* uni2116 (U+2116): L<<207.0,88.0>--<207.0,96.0>> -> L<<207.0,96.0>--<183.0,392.0>>
+
+	* uni2116 (U+2116): L<<207.0,96.0>--<183.0,392.0>> -> L<<183.0,392.0>--<183.0,728.0>>
+
+	* uni2116 (U+2116): L<<65.0,640.0>--<89.0,336.0>> -> L<<89.0,336.0>--<89.0,8.0>>
+
+	* uni2116 (U+2116): L<<65.0,648.0>--<65.0,640.0>> -> L<<65.0,640.0>--<89.0,336.0>>
+
 	* w (U+0077): L<<101.0,525.0>--<128.0,239.0>> -> L<<128.0,239.0>--<151.0,98.0>>
 
 	* w (U+0077): L<<365.0,98.0>--<398.0,381.0>> -> L<<398.0,381.0>--<416.0,530.0>>
@@ -1920,7 +1658,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 2 glyphs (0.23%) have a different width. You should check the widths of: ['uni2074', 'logicalnot'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 1 glyphs (0.12%) have a different width. You should check the widths of: ['logicalnot'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1941,19 +1679,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- doublestrokear
 
-	- eight.dnom
-
 	- eight.numr
 
 	- eight.tf
 
-	- five.dnom
-
 	- five.numr
 
 	- five.tf
-
-	- four.dnom
 
 	- four.numr
 
@@ -1967,31 +1699,21 @@ The following glyphs do not have the recommended number of contours:
 
 	- newGlyph.001
 
-	- nine.dnom
-
 	- nine.numr
 
 	- nine.tf
-
-	- one.dnom
 
 	- one.numr
 
 	- one.tf
 
-	- seven.dnom
-
 	- seven.numr
 
 	- seven.tf
 
-	- six.dnom
-
 	- six.numr
 
 	- six.tf
-
-	- three.dnom
 
 	- three.numr
 
@@ -2002,8 +1724,6 @@ The following glyphs do not have the recommended number of contours:
 	- threedotsdowncenterar
 
 	- threedotsupbelowar
-
-	- two.dnom
 
 	- two.numr
 
@@ -2047,13 +1767,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- uni03060309.case
 
-	- zero.dnom
+	- zero.numr 
 
-	- zero.numr
-
-	- zero.tf 
-
-	- And zero.zero
+	- And zero.tf
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2062,65 +1778,19 @@ The following glyphs do not have the recommended number of contours:
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: onequarter	Contours detected: 1	Expected: 3 or 4
-
-	- Glyph name: onehalf	Contours detected: 1	Expected: 3
-
-	- Glyph name: threequarters	Contours detected: 1	Expected: 3 or 4
-
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni031B	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni0327	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
-
-	- Glyph name: dagger	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: daggerdbl	Contours detected: 0	Expected: 1 or 3
+	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
-
-	- Glyph name: minute	Contours detected: 0	Expected: 1
-
-	- Glyph name: second	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2075	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2076	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2077	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2078	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2079	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2081	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2082	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2083	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2084	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni2085	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2086	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2087	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2088	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2089	Contours detected: 0	Expected: 2
 
 	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
 
@@ -2158,15 +1828,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
 
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2116	Contours detected: 0	Expected: 3 or 4
-
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2153	Contours detected: 1	Expected: 3
 
 	- Glyph name: arrowleft	Contours detected: 0	Expected: 1
 
@@ -2258,15 +1920,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
 
-	- Glyph name: dagger	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: daggerdbl	Contours detected: 0	Expected: 1 or 3
-
 	- Glyph name: dong	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
 
 	- Glyph name: infinity	Contours detected: 0	Expected: 3
 
@@ -2275,10 +1931,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: lozenge	Contours detected: 0	Expected: 2
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
-
-	- Glyph name: onehalf	Contours detected: 1	Expected: 3
-
-	- Glyph name: onequarter	Contours detected: 1	Expected: 3 or 4
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
@@ -2292,23 +1944,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: summation	Contours detected: 0	Expected: 1
 
-	- Glyph name: threequarters	Contours detected: 1	Expected: 3 or 4
-
 	- Glyph name: triagdn	Contours detected: 0	Expected: 1
 
 	- Glyph name: triagup	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni031B	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni0327	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
+	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
 	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3 or 5
 
@@ -2339,10 +1985,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2116	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
 
@@ -2461,9 +2103,17 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EF6 (U+1EF6): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>>
 
-	* uni1EF8 (U+1EF8): L<<108.0,728.0>--<199.0,512.0>> -> L<<199.0,512.0>--<232.0,416.0>> 
+	* uni1EF8 (U+1EF8): L<<108.0,728.0>--<199.0,512.0>> -> L<<199.0,512.0>--<232.0,416.0>>
 
-	* And uni1EF8 (U+1EF8): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>> [code: found-colinear-vectors]
+	* uni1EF8 (U+1EF8): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>>
+
+	* uni2116 (U+2116): L<<207.0,88.0>--<207.0,96.0>> -> L<<207.0,96.0>--<183.0,392.0>>
+
+	* uni2116 (U+2116): L<<207.0,96.0>--<183.0,392.0>> -> L<<183.0,392.0>--<183.0,728.0>>
+
+	* uni2116 (U+2116): L<<65.0,640.0>--<89.0,336.0>> -> L<<89.0,336.0>--<89.0,8.0>> 
+
+	* And uni2116 (U+2116): L<<65.0,648.0>--<65.0,640.0>> -> L<<65.0,640.0>--<89.0,336.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -2478,7 +2128,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 641 glyphs (74.02%) have a different width. You should check the widths of: ['A', 'Aacute', 'Abreve', 'uni1EAE', 'uni1EB6', 'uni1EB0', 'uni1EB2', 'uni1EB4', 'Acircumflex', 'uni1EA4', 'uni1EAC', 'uni1EA6', 'uni1EA8', 'uni1EAA', 'Adieresis', 'uni1EA0', 'Agrave', 'uni1EA2', 'Amacron', 'Aogonek', 'Aring', 'Atilde', 'AE', 'B', 'C', 'Cacute', 'Ccaron', 'Ccedilla', 'Cdotaccent', 'D', 'Eth', 'Dcaron', 'Dcroat', 'E', 'Eacute', 'Ecaron', 'Ecircumflex', 'uni1EBE', 'uni1EC6', 'uni1EC0', 'uni1EC2', 'uni1EC4', 'Edieresis', 'Edotaccent', 'uni1EB8', 'Egrave', 'uni1EBA', 'Emacron', 'Eogonek', 'uni1EBC', 'F', 'G', 'Gbreve', 'uni0122', 'Gdotaccent', 'H', 'Hbar', 'I', 'IJ', 'Iacute', 'Icircumflex', 'Idieresis', 'Idotaccent', 'uni1ECA', 'Igrave', 'uni1EC8', 'Imacron', 'Iogonek', 'Itilde', 'J', 'K', 'uni0136', 'L', 'Lacute', 'Lcaron', 'uni013B', 'Lslash', 'M', 'N', 'Nacute', 'Ncaron', 'uni0145', 'Ntilde', 'Eng', 'O', 'Oacute', 'Ocircumflex', 'uni1ED0', 'uni1ED8', 'uni1ED2', 'uni1ED4', 'uni1ED6', 'Odieresis', 'uni1ECC', 'Ograve', 'uni1ECE', 'Ohorn', 'uni1EDA', 'uni1EE2', 'uni1EDC', 'uni1EDE', 'uni1EE0', 'Ohungarumlaut', 'Omacron', 'Oslash', 'Otilde', 'OE', 'P', 'Thorn', 'Q', 'R', 'Racute', 'Rcaron', 'uni0156', 'S', 'Sacute', 'Scaron', 'Scedilla', 'uni0218', 'uni1E9E', 'T', 'Tcaron', 'uni021A', 'U', 'Uacute', 'Ubreve', 'Ucircumflex', 'Udieresis', 'uni1EE4', 'Ugrave', 'uni1EE6', 'Uhorn', 'uni1EE8', 'uni1EF0', 'uni1EEA', 'uni1EEC', 'uni1EEE', 'Uhungarumlaut', 'Umacron', 'Uogonek', 'Uring', 'Utilde', 'V', 'W', 'Wacute', 'Wcircumflex', 'Wdieresis', 'Wgrave', 'X', 'Y', 'Yacute', 'Ycircumflex', 'Ydieresis', 'uni1EF4', 'Ygrave', 'uni1EF6', 'uni1EF8', 'Z', 'Zacute', 'Zcaron', 'Zdotaccent', 'a', 'aacute', 'abreve', 'uni1EAF', 'uni1EB7', 'uni1EB1', 'uni1EB3', 'uni1EB5', 'acircumflex', 'uni1EA5', 'uni1EAD', 'uni1EA7', 'uni1EA9', 'uni1EAB', 'adieresis', 'uni1EA1', 'agrave', 'uni1EA3', 'amacron', 'aogonek', 'aring', 'atilde', 'ae', 'b', 'c', 'cacute', 'ccaron', 'ccedilla', 'cdotaccent', 'd', 'eth', 'dcaron', 'dcroat', 'e', 'eacute', 'ecaron', 'ecircumflex', 'uni1EBF', 'uni1EC7', 'uni1EC1', 'uni1EC3', 'uni1EC5', 'edieresis', 'edotaccent', 'uni1EB9', 'egrave', 'uni1EBB', 'emacron', 'eogonek', 'uni1EBD', 'f', 'g', 'gbreve', 'uni0123', 'gdotaccent', 'h', 'hbar', 'i', 'dotlessi', 'iacute', 'icircumflex', 'idieresis', 'uni1ECB', 'igrave', 'uni1EC9', 'ij', 'imacron', 'iogonek', 'itilde', 'j', 'uni0237', 'k', 'uni0137', 'l', 'lacute', 'lcaron', 'uni013C', 'lslash', 'm', 'n', 'nacute', 'ncaron', 'uni0146', 'ntilde', 'eng', 'o', 'oacute', 'ocircumflex', 'uni1ED1', 'uni1ED9', 'uni1ED3', 'uni1ED5', 'uni1ED7', 'odieresis', 'uni1ECD', 'ograve', 'uni1ECF', 'ohorn', 'uni1EDB', 'uni1EE3', 'uni1EDD', 'uni1EDF', 'uni1EE1', 'ohungarumlaut', 'omacron', 'oslash', 'otilde', 'oe', 'p', 'thorn', 'q', 'r', 'racute', 'rcaron', 'uni0157', 's', 'sacute', 'scaron', 'scedilla', 'uni0219', 'germandbls', 't', 'tcaron', 'uni021B', 'u', 'uacute', 'ubreve', 'ucircumflex', 'udieresis', 'uni1EE5', 'ugrave', 'uni1EE7', 'uhorn', 'uni1EE9', 'uni1EF1', 'uni1EEB', 'uni1EED', 'uni1EEF', 'uhungarumlaut', 'umacron', 'uogonek', 'uring', 'utilde', 'v', 'w', 'wacute', 'wcircumflex', 'wdieresis', 'wgrave', 'x', 'y', 'yacute', 'ycircumflex', 'ydieresis', 'uni1EF5', 'ygrave', 'uni1EF7', 'uni1EF9', 'z', 'zacute', 'zcaron', 'zdotaccent', 'ordfeminine', 'ordmasculine', 'pi', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni0622', 'uniFE82', 'uni0671', 'uniFB51', 'uni066E', 'uni066E.fina', 'uni066E.medi', 'uni066E.init', 'uni0628', 'uniFE90', 'uniFE92', 'uniFE91', 'uni067E', 'uniFB57', 'uniFB59', 'uniFB58', 'uni062A', 'uniFE96', 'uniFE98', 'uniFE97', 'uni062B', 'uniFE9A', 'uniFE9C', 'uniFE9B', 'uni062C', 'uniFE9E', 'uniFEA0', 'uniFE9F', 'uni0686', 'uniFB7B', 'uniFB7D', 'uniFB7C', 'uni062D', 'uniFEA2', 'uniFEA4', 'uniFEA3', 'uni062E', 'uniFEA6', 'uniFEA8', 'uniFEA7', 'uni062F', 'uniFEAA', 'uni0630', 'uniFEAC', 'uni0631', 'uniFEAE', 'uni0632', 'uniFEB0', 'uni0698', 'uniFB8B', 'uni0633', 'uniFEB2', 'uniFEB4', 'uniFEB3', 'uni0634', 'uniFEB6', 'uniFEB8', 'uniFEB7', 'uni0635', 'uniFEBA', 'uniFEBC', 'uniFEBB', 'uni0636', 'uniFEBE', 'uniFEC0', 'uniFEBF', 'uni0637', 'uniFEC2', 'uniFEC4', 'uniFEC3', 'uni0638', 'uniFEC6', 'uniFEC8', 'uniFEC7', 'uni0639', 'uniFECA', 'uniFECC', 'uniFECB', 'uni063A', 'uniFECE', 'uniFED0', 'uniFECF', 'uni0641', 'uniFED2', 'uniFED4', 'uniFED3', 'uni06A4', 'uniFB6B', 'uniFB6D', 'uniFB6C', 'uni06A1', 'uni06A1.fina', 'uni06A1.medi', 'uni06A1.init', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uniFED8', 'uniFED7', 'uni0643', 'uniFEDA', 'uniFEDC', 'uniFEDB', 'uni06A9', 'uniFB8F', 'uniFB91', 'uniFB90', 'uni06AF', 'uniFB93', 'uniFB95', 'uniFB94', 'uni0644', 'uniFEDE', 'uniFEE0', 'uniFEDF', 'uni0645', 'uniFEE2', 'uniFEE4', 'uniFEE3', 'uni0646', 'uniFEE6', 'uniFEE8', 'uniFEE7', 'uni06BA', 'uniFB9F', 'uni0647', 'uniFEEA', 'uniFEEC', 'uniFEEB', 'uni0629', 'uniFE94', 'uni0648', 'uniFEEE', 'uni0624', 'uniFE86', 'uni0649', 'uniFEF0', 'uni064A', 'uniFEF2', 'uniFEF4', 'uniFEF3', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'yehFarsiar.fina', 'yehFarsiar.medi', 'yehFarsiar.init', 'uni0640', 'uniFEFB', 'uniFEFC', 'uniFEF7', 'uniFEF8', 'uniFEF9', 'uniFEFA', 'uniFEF5', 'uniFEF6', 'lam_alefWaslaar', 'lam_alefWaslaar.fina', 'uniFDF2', 'uni05D0', 'uni05D1', 'uni05D2', 'uni05D3', 'uni05D4', 'uni05D5', 'uni05D6', 'uni05D7', 'uni05D8', 'uni05D9', 'kafFinalhb', 'uni05DB', 'uni05DC', 'memFinalhb', 'uni05DE', 'nunFinalhb', 'uni05E0', 'uni05E1', 'uni05E2', 'peFinalhb', 'uni05E4', 'tsadiFinalhb', 'uni05E6', 'uni05E7', 'uni05E8', 'uni05E9', 'uni05EA', 'uni0660', 'uni0661', 'uni0662', 'uni0663', 'uni0664', 'uni0665', 'uni0666', 'uni0667', 'uni0668', 'uni0669', 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'fraction', 'onehalf', 'uni2153', 'uni2154', 'onequarter', 'threequarters', 'uni00B9', 'uni00B2', 'uni00B3', 'uni2074', 'space', 'uni00A0', 'uni060C', 'uni061B', 'uni061F', 'uni066D', 'uniFD3E', 'uniFD3F', 'period', 'comma', 'colon', 'semicolon', 'ellipsis', 'exclam', 'exclamdown', 'question', 'questiondown', 'periodcentered', 'bullet', 'asterisk', 'numbersign', 'slash', 'backslash', 'hyphen', 'endash', 'emdash', 'underscore', 'parenleft', 'parenright', 'braceleft', 'braceright', 'bracketleft', 'bracketright', 'quotesinglbase', 'quotedblbase', 'quotedblleft', 'quotedblright', 'quoteleft', 'quoteright', 'guillemotright', 'guilsinglleft', 'guilsinglright', 'quotedbl', 'quotesingle', 'at', 'ampersand', 'paragraph', 'section', 'copyright', 'registered', 'trademark', 'degree', 'bar', 'brokenbar', 'cent', 'dollar', 'Euro', 'sterling', 'yen', 'plus', 'minus', 'multiply', 'divide', 'equal', 'notequal', 'greater', 'less', 'greaterequal', 'lessequal', 'plusminus', 'asciitilde', 'logicalnot', 'asciicircum', 'newGlyph', 'percent', 'dieresis', 'dotaccent', 'grave', 'acute', 'hungarumlaut', 'circumflex', 'caron', 'breve', 'ring', 'tilde', 'macron', 'cedilla', 'ogonek', 'ar.test.001'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 73 glyphs (8.45%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'brokenbar.001', 'uni20BF', 'uni20B5', 'colonmonetary', 'dong', 'uni20B2', 'uni20B4', 'uni20AD', 'uni20BE', 'uni20BA', 'uni20BC', 'uni20A6', 'uni20B1', 'uni20BD', 'uni20A8', 'uni20B9', 'uni20AA', 'uni20B8', 'uni20AE', 'uni20A9', 'approxequal', 'logicalnot', 'emptyset', 'infinity', 'integral', 'uni2126', 'uni2206', 'product', 'summation', 'radical', 'partialdiff', 'uni00B5', 'perthousand', 'arrowup', 'uni2197', 'arrowright', 'uni2198', 'arrowdown', 'uni2199', 'arrowleft', 'uni2196', 'arrowboth', 'arrowupdn', 'uni25CF', 'circle', 'openbullet', 'uni25C6', 'uni25C7', 'lozenge', 'filledbox', 'uni25A1', 'uni25AA', 'uni25AB', 'triagup', 'uni25B6', 'triagdn', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25B4', 'uni25B8', 'uni25BE', 'uni25C2', 'uni25B5', 'uni25B9', 'uni25BF', 'uni25C3', 'newGlyph.001'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2499,19 +2149,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- doublestrokear
 
-	- eight.dnom
-
 	- eight.numr
 
 	- eight.tf
 
-	- five.dnom
-
 	- five.numr
 
 	- five.tf
-
-	- four.dnom
 
 	- four.numr
 
@@ -2525,31 +2169,21 @@ The following glyphs do not have the recommended number of contours:
 
 	- newGlyph.001
 
-	- nine.dnom
-
 	- nine.numr
 
 	- nine.tf
-
-	- one.dnom
 
 	- one.numr
 
 	- one.tf
 
-	- seven.dnom
-
 	- seven.numr
 
 	- seven.tf
 
-	- six.dnom
-
 	- six.numr
 
 	- six.tf
-
-	- three.dnom
 
 	- three.numr
 
@@ -2560,8 +2194,6 @@ The following glyphs do not have the recommended number of contours:
 	- threedotsdowncenterar
 
 	- threedotsupbelowar
-
-	- two.dnom
 
 	- two.numr
 
@@ -2605,13 +2237,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- uni03060309.case
 
-	- zero.dnom
+	- zero.numr 
 
-	- zero.numr
-
-	- zero.tf 
-
-	- And zero.zero
+	- And zero.tf
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -2620,65 +2248,19 @@ The following glyphs do not have the recommended number of contours:
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: onequarter	Contours detected: 1	Expected: 3 or 4
-
-	- Glyph name: onehalf	Contours detected: 1	Expected: 3
-
-	- Glyph name: threequarters	Contours detected: 1	Expected: 3 or 4
-
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni031B	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni0327	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
-
-	- Glyph name: dagger	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: daggerdbl	Contours detected: 0	Expected: 1 or 3
+	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
-
-	- Glyph name: minute	Contours detected: 0	Expected: 1
-
-	- Glyph name: second	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2075	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2076	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2077	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2078	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2079	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2081	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2082	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2083	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2084	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni2085	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2086	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2087	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2088	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2089	Contours detected: 0	Expected: 2
 
 	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
 
@@ -2716,15 +2298,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
 
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2116	Contours detected: 0	Expected: 3 or 4
-
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2153	Contours detected: 1	Expected: 3
 
 	- Glyph name: arrowleft	Contours detected: 0	Expected: 1
 
@@ -2816,15 +2390,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
 
-	- Glyph name: dagger	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: daggerdbl	Contours detected: 0	Expected: 1 or 3
-
 	- Glyph name: dong	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
 
 	- Glyph name: infinity	Contours detected: 0	Expected: 3
 
@@ -2833,10 +2401,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: lozenge	Contours detected: 0	Expected: 2
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
-
-	- Glyph name: onehalf	Contours detected: 1	Expected: 3
-
-	- Glyph name: onequarter	Contours detected: 1	Expected: 3 or 4
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
@@ -2850,23 +2414,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: summation	Contours detected: 0	Expected: 1
 
-	- Glyph name: threequarters	Contours detected: 1	Expected: 3 or 4
-
 	- Glyph name: triagdn	Contours detected: 0	Expected: 1
 
 	- Glyph name: triagup	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni031B	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni0327	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
+	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
 	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3 or 5
 
@@ -2897,10 +2455,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2116	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
 
@@ -3027,6 +2581,14 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EF8 (U+1EF8): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>>
 
+	* uni2116 (U+2116): L<<207.0,88.0>--<207.0,96.0>> -> L<<207.0,96.0>--<183.0,392.0>>
+
+	* uni2116 (U+2116): L<<207.0,96.0>--<183.0,392.0>> -> L<<183.0,392.0>--<183.0,728.0>>
+
+	* uni2116 (U+2116): L<<65.0,640.0>--<89.0,336.0>> -> L<<89.0,336.0>--<89.0,8.0>>
+
+	* uni2116 (U+2116): L<<65.0,648.0>--<65.0,640.0>> -> L<<65.0,640.0>--<89.0,336.0>>
+
 	* w (U+0077): L<<365.0,99.0>--<394.0,304.0>> -> L<<394.0,304.0>--<417.0,523.0>>
 
 	* w (U+0077): L<<99.0,519.0>--<119.0,310.0>> -> L<<119.0,310.0>--<145.0,99.0>>
@@ -3062,7 +2624,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 641 glyphs (74.02%) have a different width. You should check the widths of: ['A', 'Aacute', 'Abreve', 'uni1EAE', 'uni1EB6', 'uni1EB0', 'uni1EB2', 'uni1EB4', 'Acircumflex', 'uni1EA4', 'uni1EAC', 'uni1EA6', 'uni1EA8', 'uni1EAA', 'Adieresis', 'uni1EA0', 'Agrave', 'uni1EA2', 'Amacron', 'Aogonek', 'Aring', 'Atilde', 'AE', 'B', 'C', 'Cacute', 'Ccaron', 'Ccedilla', 'Cdotaccent', 'D', 'Eth', 'Dcaron', 'Dcroat', 'E', 'Eacute', 'Ecaron', 'Ecircumflex', 'uni1EBE', 'uni1EC6', 'uni1EC0', 'uni1EC2', 'uni1EC4', 'Edieresis', 'Edotaccent', 'uni1EB8', 'Egrave', 'uni1EBA', 'Emacron', 'Eogonek', 'uni1EBC', 'F', 'G', 'Gbreve', 'uni0122', 'Gdotaccent', 'H', 'Hbar', 'I', 'IJ', 'Iacute', 'Icircumflex', 'Idieresis', 'Idotaccent', 'uni1ECA', 'Igrave', 'uni1EC8', 'Imacron', 'Iogonek', 'Itilde', 'J', 'K', 'uni0136', 'L', 'Lacute', 'Lcaron', 'uni013B', 'Lslash', 'M', 'N', 'Nacute', 'Ncaron', 'uni0145', 'Ntilde', 'Eng', 'O', 'Oacute', 'Ocircumflex', 'uni1ED0', 'uni1ED8', 'uni1ED2', 'uni1ED4', 'uni1ED6', 'Odieresis', 'uni1ECC', 'Ograve', 'uni1ECE', 'Ohorn', 'uni1EDA', 'uni1EE2', 'uni1EDC', 'uni1EDE', 'uni1EE0', 'Ohungarumlaut', 'Omacron', 'Oslash', 'Otilde', 'OE', 'P', 'Thorn', 'Q', 'R', 'Racute', 'Rcaron', 'uni0156', 'S', 'Sacute', 'Scaron', 'Scedilla', 'uni0218', 'uni1E9E', 'T', 'Tcaron', 'uni021A', 'U', 'Uacute', 'Ubreve', 'Ucircumflex', 'Udieresis', 'uni1EE4', 'Ugrave', 'uni1EE6', 'Uhorn', 'uni1EE8', 'uni1EF0', 'uni1EEA', 'uni1EEC', 'uni1EEE', 'Uhungarumlaut', 'Umacron', 'Uogonek', 'Uring', 'Utilde', 'V', 'W', 'Wacute', 'Wcircumflex', 'Wdieresis', 'Wgrave', 'X', 'Y', 'Yacute', 'Ycircumflex', 'Ydieresis', 'uni1EF4', 'Ygrave', 'uni1EF6', 'uni1EF8', 'Z', 'Zacute', 'Zcaron', 'Zdotaccent', 'a', 'aacute', 'abreve', 'uni1EAF', 'uni1EB7', 'uni1EB1', 'uni1EB3', 'uni1EB5', 'acircumflex', 'uni1EA5', 'uni1EAD', 'uni1EA7', 'uni1EA9', 'uni1EAB', 'adieresis', 'uni1EA1', 'agrave', 'uni1EA3', 'amacron', 'aogonek', 'aring', 'atilde', 'ae', 'b', 'c', 'cacute', 'ccaron', 'ccedilla', 'cdotaccent', 'd', 'eth', 'dcaron', 'dcroat', 'e', 'eacute', 'ecaron', 'ecircumflex', 'uni1EBF', 'uni1EC7', 'uni1EC1', 'uni1EC3', 'uni1EC5', 'edieresis', 'edotaccent', 'uni1EB9', 'egrave', 'uni1EBB', 'emacron', 'eogonek', 'uni1EBD', 'f', 'g', 'gbreve', 'uni0123', 'gdotaccent', 'h', 'hbar', 'i', 'dotlessi', 'iacute', 'icircumflex', 'idieresis', 'uni1ECB', 'igrave', 'uni1EC9', 'ij', 'imacron', 'iogonek', 'itilde', 'j', 'uni0237', 'k', 'uni0137', 'l', 'lacute', 'lcaron', 'uni013C', 'lslash', 'm', 'n', 'nacute', 'ncaron', 'uni0146', 'ntilde', 'eng', 'o', 'oacute', 'ocircumflex', 'uni1ED1', 'uni1ED9', 'uni1ED3', 'uni1ED5', 'uni1ED7', 'odieresis', 'uni1ECD', 'ograve', 'uni1ECF', 'ohorn', 'uni1EDB', 'uni1EE3', 'uni1EDD', 'uni1EDF', 'uni1EE1', 'ohungarumlaut', 'omacron', 'oslash', 'otilde', 'oe', 'p', 'thorn', 'q', 'r', 'racute', 'rcaron', 'uni0157', 's', 'sacute', 'scaron', 'scedilla', 'uni0219', 'germandbls', 't', 'tcaron', 'uni021B', 'u', 'uacute', 'ubreve', 'ucircumflex', 'udieresis', 'uni1EE5', 'ugrave', 'uni1EE7', 'uhorn', 'uni1EE9', 'uni1EF1', 'uni1EEB', 'uni1EED', 'uni1EEF', 'uhungarumlaut', 'umacron', 'uogonek', 'uring', 'utilde', 'v', 'w', 'wacute', 'wcircumflex', 'wdieresis', 'wgrave', 'x', 'y', 'yacute', 'ycircumflex', 'ydieresis', 'uni1EF5', 'ygrave', 'uni1EF7', 'uni1EF9', 'z', 'zacute', 'zcaron', 'zdotaccent', 'ordfeminine', 'ordmasculine', 'pi', 'uni0621', 'uni0627', 'uniFE8E', 'uni0623', 'uniFE84', 'uni0625', 'uniFE88', 'uni0622', 'uniFE82', 'uni0671', 'uniFB51', 'uni066E', 'uni066E.fina', 'uni066E.medi', 'uni066E.init', 'uni0628', 'uniFE90', 'uniFE92', 'uniFE91', 'uni067E', 'uniFB57', 'uniFB59', 'uniFB58', 'uni062A', 'uniFE96', 'uniFE98', 'uniFE97', 'uni062B', 'uniFE9A', 'uniFE9C', 'uniFE9B', 'uni062C', 'uniFE9E', 'uniFEA0', 'uniFE9F', 'uni0686', 'uniFB7B', 'uniFB7D', 'uniFB7C', 'uni062D', 'uniFEA2', 'uniFEA4', 'uniFEA3', 'uni062E', 'uniFEA6', 'uniFEA8', 'uniFEA7', 'uni062F', 'uniFEAA', 'uni0630', 'uniFEAC', 'uni0631', 'uniFEAE', 'uni0632', 'uniFEB0', 'uni0698', 'uniFB8B', 'uni0633', 'uniFEB2', 'uniFEB4', 'uniFEB3', 'uni0634', 'uniFEB6', 'uniFEB8', 'uniFEB7', 'uni0635', 'uniFEBA', 'uniFEBC', 'uniFEBB', 'uni0636', 'uniFEBE', 'uniFEC0', 'uniFEBF', 'uni0637', 'uniFEC2', 'uniFEC4', 'uniFEC3', 'uni0638', 'uniFEC6', 'uniFEC8', 'uniFEC7', 'uni0639', 'uniFECA', 'uniFECC', 'uniFECB', 'uni063A', 'uniFECE', 'uniFED0', 'uniFECF', 'uni0641', 'uniFED2', 'uniFED4', 'uniFED3', 'uni06A4', 'uniFB6B', 'uniFB6D', 'uniFB6C', 'uni06A1', 'uni06A1.fina', 'uni06A1.medi', 'uni06A1.init', 'uni066F', 'uni066F.fina', 'uni0642', 'uniFED6', 'uniFED8', 'uniFED7', 'uni0643', 'uniFEDA', 'uniFEDC', 'uniFEDB', 'uni06A9', 'uniFB8F', 'uniFB91', 'uniFB90', 'uni06AF', 'uniFB93', 'uniFB95', 'uniFB94', 'uni0644', 'uniFEDE', 'uniFEE0', 'uniFEDF', 'uni0645', 'uniFEE2', 'uniFEE4', 'uniFEE3', 'uni0646', 'uniFEE6', 'uniFEE8', 'uniFEE7', 'uni06BA', 'uniFB9F', 'uni0647', 'uniFEEA', 'uniFEEC', 'uniFEEB', 'uni0629', 'uniFE94', 'uni0648', 'uniFEEE', 'uni0624', 'uniFE86', 'uni0649', 'uniFEF0', 'uni064A', 'uniFEF2', 'uniFEF4', 'uniFEF3', 'uni0626', 'uniFE8A', 'uniFE8C', 'uniFE8B', 'yehFarsiar', 'yehFarsiar.fina', 'yehFarsiar.medi', 'yehFarsiar.init', 'uni0640', 'uniFEFB', 'uniFEFC', 'uniFEF7', 'uniFEF8', 'uniFEF9', 'uniFEFA', 'uniFEF5', 'uniFEF6', 'lam_alefWaslaar', 'lam_alefWaslaar.fina', 'uniFDF2', 'uni05D0', 'uni05D1', 'uni05D2', 'uni05D3', 'uni05D4', 'uni05D5', 'uni05D6', 'uni05D7', 'uni05D8', 'uni05D9', 'kafFinalhb', 'uni05DB', 'uni05DC', 'memFinalhb', 'uni05DE', 'nunFinalhb', 'uni05E0', 'uni05E1', 'uni05E2', 'peFinalhb', 'uni05E4', 'tsadiFinalhb', 'uni05E6', 'uni05E7', 'uni05E8', 'uni05E9', 'uni05EA', 'uni0660', 'uni0661', 'uni0662', 'uni0663', 'uni0664', 'uni0665', 'uni0666', 'uni0667', 'uni0668', 'uni0669', 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'fraction', 'onehalf', 'uni2153', 'uni2154', 'onequarter', 'threequarters', 'uni00B9', 'uni00B2', 'uni00B3', 'uni2074', 'space', 'uni00A0', 'uni060C', 'uni061B', 'uni061F', 'uni066D', 'uniFD3E', 'uniFD3F', 'period', 'comma', 'colon', 'semicolon', 'ellipsis', 'exclam', 'exclamdown', 'question', 'questiondown', 'periodcentered', 'bullet', 'asterisk', 'numbersign', 'slash', 'backslash', 'hyphen', 'endash', 'emdash', 'underscore', 'parenleft', 'parenright', 'braceleft', 'braceright', 'bracketleft', 'bracketright', 'quotesinglbase', 'quotedblbase', 'quotedblleft', 'quotedblright', 'quoteleft', 'quoteright', 'guillemotright', 'guilsinglleft', 'guilsinglright', 'quotedbl', 'quotesingle', 'at', 'ampersand', 'paragraph', 'section', 'copyright', 'registered', 'trademark', 'degree', 'bar', 'brokenbar', 'cent', 'dollar', 'Euro', 'sterling', 'yen', 'plus', 'minus', 'multiply', 'divide', 'equal', 'notequal', 'greater', 'less', 'greaterequal', 'lessequal', 'plusminus', 'asciitilde', 'logicalnot', 'asciicircum', 'newGlyph', 'percent', 'dieresis', 'dotaccent', 'grave', 'acute', 'hungarumlaut', 'circumflex', 'caron', 'breve', 'ring', 'tilde', 'macron', 'cedilla', 'ogonek', 'ar.test.001'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 73 glyphs (8.45%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'brokenbar.001', 'uni20BF', 'uni20B5', 'colonmonetary', 'dong', 'uni20B2', 'uni20B4', 'uni20AD', 'uni20BE', 'uni20BA', 'uni20BC', 'uni20A6', 'uni20B1', 'uni20BD', 'uni20A8', 'uni20B9', 'uni20AA', 'uni20B8', 'uni20AE', 'uni20A9', 'approxequal', 'logicalnot', 'emptyset', 'infinity', 'integral', 'uni2126', 'uni2206', 'product', 'summation', 'radical', 'partialdiff', 'uni00B5', 'perthousand', 'arrowup', 'uni2197', 'arrowright', 'uni2198', 'arrowdown', 'uni2199', 'arrowleft', 'uni2196', 'arrowboth', 'arrowupdn', 'uni25CF', 'circle', 'openbullet', 'uni25C6', 'uni25C7', 'lozenge', 'filledbox', 'uni25A1', 'uni25AA', 'uni25AB', 'triagup', 'uni25B6', 'triagdn', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25B4', 'uni25B8', 'uni25BE', 'uni25C2', 'uni25B5', 'uni25B9', 'uni25BF', 'uni25C3', 'newGlyph.001'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -3090,19 +2652,13 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- doublestrokear
 
-	- eight.dnom
-
 	- eight.numr
 
 	- eight.tf
 
-	- five.dnom
-
 	- five.numr
 
 	- five.tf
-
-	- four.dnom
 
 	- four.numr
 
@@ -3116,31 +2672,21 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- newGlyph.001
 
-	- nine.dnom
-
 	- nine.numr
 
 	- nine.tf
-
-	- one.dnom
 
 	- one.numr
 
 	- one.tf
 
-	- seven.dnom
-
 	- seven.numr
 
 	- seven.tf
 
-	- six.dnom
-
 	- six.numr
 
 	- six.tf
-
-	- three.dnom
 
 	- three.numr
 
@@ -3151,8 +2697,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 	- threedotsdowncenterar
 
 	- threedotsupbelowar
-
-	- two.dnom
 
 	- two.numr
 
@@ -3196,13 +2740,9 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- uni03060309.case
 
-	- zero.dnom
+	- zero.numr 
 
-	- zero.numr
-
-	- zero.tf 
-
-	- And zero.zero
+	- And zero.tf
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -3211,65 +2751,19 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: onequarter	Contours detected: 1	Expected: 3 or 4
-
-	- Glyph name: onehalf	Contours detected: 1	Expected: 3
-
-	- Glyph name: threequarters	Contours detected: 1	Expected: 3 or 4
-
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni031B	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni0327	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
-
-	- Glyph name: dagger	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: daggerdbl	Contours detected: 0	Expected: 1 or 3
+	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
-
-	- Glyph name: minute	Contours detected: 0	Expected: 1
-
-	- Glyph name: second	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2075	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2076	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2077	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2078	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2079	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2081	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2082	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2083	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2084	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni2085	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2086	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2087	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2088	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2089	Contours detected: 0	Expected: 2
 
 	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
 
@@ -3307,15 +2801,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
 
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2116	Contours detected: 0	Expected: 3 or 4
-
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2153	Contours detected: 1	Expected: 3
 
 	- Glyph name: arrowleft	Contours detected: 0	Expected: 1
 
@@ -3407,15 +2893,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
 
-	- Glyph name: dagger	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: daggerdbl	Contours detected: 0	Expected: 1 or 3
-
 	- Glyph name: dong	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: estimated	Contours detected: 0	Expected: 2
 
 	- Glyph name: infinity	Contours detected: 0	Expected: 3
 
@@ -3424,10 +2904,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: lozenge	Contours detected: 0	Expected: 2
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
-
-	- Glyph name: onehalf	Contours detected: 1	Expected: 3
-
-	- Glyph name: onequarter	Contours detected: 1	Expected: 3 or 4
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
@@ -3441,23 +2917,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: summation	Contours detected: 0	Expected: 1
 
-	- Glyph name: threequarters	Contours detected: 1	Expected: 3 or 4
-
 	- Glyph name: triagdn	Contours detected: 0	Expected: 1
 
 	- Glyph name: triagup	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni031B	Contours detected: 0	Expected: 1
-
 	- Glyph name: uni0327	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
-	- Glyph name: uni0E3F	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2016	Contours detected: 0	Expected: 2
+	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
 	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3 or 5
 
@@ -3488,10 +2958,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
 
 	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2113	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni2116	Contours detected: 0	Expected: 3 or 4
 
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
 
@@ -3617,6 +3083,14 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EF8 (U+1EF8): L<<108.0,728.0>--<199.0,512.0>> -> L<<199.0,512.0>--<232.0,416.0>>
 
 	* uni1EF8 (U+1EF8): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>>
+
+	* uni2116 (U+2116): L<<207.0,88.0>--<207.0,96.0>> -> L<<207.0,96.0>--<183.0,392.0>>
+
+	* uni2116 (U+2116): L<<207.0,96.0>--<183.0,392.0>> -> L<<183.0,392.0>--<183.0,728.0>>
+
+	* uni2116 (U+2116): L<<65.0,640.0>--<89.0,336.0>> -> L<<89.0,336.0>--<89.0,8.0>>
+
+	* uni2116 (U+2116): L<<65.0,648.0>--<65.0,640.0>> -> L<<65.0,640.0>--<89.0,336.0>>
 
 	* w (U+0077): L<<139.0,100.0>--<166.0,189.0>> -> L<<166.0,189.0>--<218.0,342.0>>
 
