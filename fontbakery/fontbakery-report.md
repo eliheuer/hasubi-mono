@@ -10,7 +10,7 @@ Fontbakery version: 0.8.10
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 73 glyphs (8.45%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'brokenbar.001', 'uni20BF', 'uni20B5', 'colonmonetary', 'dong', 'uni20B2', 'uni20B4', 'uni20AD', 'uni20BE', 'uni20BA', 'uni20BC', 'uni20A6', 'uni20B1', 'uni20BD', 'uni20A8', 'uni20B9', 'uni20AA', 'uni20B8', 'uni20AE', 'uni20A9', 'approxequal', 'logicalnot', 'emptyset', 'infinity', 'integral', 'uni2126', 'uni2206', 'product', 'summation', 'radical', 'partialdiff', 'uni00B5', 'perthousand', 'arrowup', 'uni2197', 'arrowright', 'uni2198', 'arrowdown', 'uni2199', 'arrowleft', 'uni2196', 'arrowboth', 'arrowupdn', 'uni25CF', 'circle', 'openbullet', 'uni25C6', 'uni25C7', 'lozenge', 'filledbox', 'uni25A1', 'uni25AA', 'uni25AB', 'triagup', 'uni25B6', 'triagdn', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25B4', 'uni25B8', 'uni25BE', 'uni25C2', 'uni25B5', 'uni25B9', 'uni25BF', 'uni25C3', 'newGlyph.001'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 53 glyphs (6.14%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'approxequal', 'logicalnot', 'emptyset', 'infinity', 'integral', 'uni2126', 'uni2206', 'product', 'summation', 'radical', 'partialdiff', 'uni00B5', 'perthousand', 'arrowup', 'uni2197', 'arrowright', 'uni2198', 'arrowdown', 'uni2199', 'arrowleft', 'uni2196', 'arrowboth', 'arrowupdn', 'uni25CF', 'circle', 'openbullet', 'uni25C6', 'uni25C7', 'lozenge', 'filledbox', 'uni25A1', 'uni25AA', 'uni25AB', 'triagup', 'uni25B6', 'triagdn', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25B4', 'uni25B8', 'uni25BE', 'uni25C2', 'uni25B5', 'uni25B9', 'uni25BF', 'uni25C3', 'newGlyph.001'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -26,8 +26,6 @@ Fontbakery version: 0.8.10
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
 	- ar.test.001
-
-	- brokenbar.001
 
 	- doublestrokear
 
@@ -144,42 +142,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
 
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
-
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3 or 5
-
-	- Glyph name: uni20A8	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
-
-	- Glyph name: dong	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: uni20AD	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2 or 3
-
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
 
 	- Glyph name: arrowleft	Contours detected: 0	Expected: 1
@@ -270,10 +232,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: circle	Contours detected: 0	Expected: 2
 
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
-
-	- Glyph name: dong	Contours detected: 0	Expected: 3 or 4
-
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
 
 	- Glyph name: infinity	Contours detected: 0	Expected: 3
@@ -307,36 +265,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3 or 5
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20AD	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2 or 3
-
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
 
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
 
@@ -563,9 +491,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EED (U+1EED): X=294.5,Y=2.0 (should be at baseline 0?)
 
-	* uni1EEF (U+1EEF): X=294.5,Y=2.0 (should be at baseline 0?) 
+	* uni1EEF (U+1EEF): X=294.5,Y=2.0 (should be at baseline 0?)
 
-	* And uni1EF1 (U+1EF1): X=294.5,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
+	* uni1EF1 (U+1EF1): X=294.5,Y=2.0 (should be at baseline 0?)
+
+	* colonmonetary (U+20A1): X=352.0,Y=734.0 (should be at cap-height 736?) 
+
+	* And uni20BF (U+20BF): X=264.0,Y=735.0 (should be at cap-height 736?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -643,6 +575,14 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EF8 (U+1EF8): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>>
 
+	* uni20A9 (U+20A9): L<<460.0,224.0>--<449.0,24.0>> -> L<<449.0,24.0>--<449.0,8.0>>
+
+	* uni20A9 (U+20A9): L<<47.0,304.0>--<24.0,712.0>> -> L<<24.0,712.0>--<24.0,728.0>>
+
+	* uni20A9 (U+20A9): L<<488.0,728.0>--<488.0,712.0>> -> L<<488.0,712.0>--<465.0,304.0>>
+
+	* uni20A9 (U+20A9): L<<63.0,8.0>--<63.0,24.0>> -> L<<63.0,24.0>--<52.0,224.0>>
+
 	* uni2116 (U+2116): L<<207.0,88.0>--<207.0,96.0>> -> L<<207.0,96.0>--<183.0,392.0>>
 
 	* uni2116 (U+2116): L<<207.0,96.0>--<183.0,392.0>> -> L<<183.0,392.0>--<183.0,728.0>>
@@ -676,7 +616,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 73 glyphs (8.45%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'brokenbar.001', 'uni20BF', 'uni20B5', 'colonmonetary', 'dong', 'uni20B2', 'uni20B4', 'uni20AD', 'uni20BE', 'uni20BA', 'uni20BC', 'uni20A6', 'uni20B1', 'uni20BD', 'uni20A8', 'uni20B9', 'uni20AA', 'uni20B8', 'uni20AE', 'uni20A9', 'approxequal', 'logicalnot', 'emptyset', 'infinity', 'integral', 'uni2126', 'uni2206', 'product', 'summation', 'radical', 'partialdiff', 'uni00B5', 'perthousand', 'arrowup', 'uni2197', 'arrowright', 'uni2198', 'arrowdown', 'uni2199', 'arrowleft', 'uni2196', 'arrowboth', 'arrowupdn', 'uni25CF', 'circle', 'openbullet', 'uni25C6', 'uni25C7', 'lozenge', 'filledbox', 'uni25A1', 'uni25AA', 'uni25AB', 'triagup', 'uni25B6', 'triagdn', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25B4', 'uni25B8', 'uni25BE', 'uni25C2', 'uni25B5', 'uni25B9', 'uni25BF', 'uni25C3', 'newGlyph.001'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 53 glyphs (6.14%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'approxequal', 'logicalnot', 'emptyset', 'infinity', 'integral', 'uni2126', 'uni2206', 'product', 'summation', 'radical', 'partialdiff', 'uni00B5', 'perthousand', 'arrowup', 'uni2197', 'arrowright', 'uni2198', 'arrowdown', 'uni2199', 'arrowleft', 'uni2196', 'arrowboth', 'arrowupdn', 'uni25CF', 'circle', 'openbullet', 'uni25C6', 'uni25C7', 'lozenge', 'filledbox', 'uni25A1', 'uni25AA', 'uni25AB', 'triagup', 'uni25B6', 'triagdn', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25B4', 'uni25B8', 'uni25BE', 'uni25C2', 'uni25B5', 'uni25B9', 'uni25BF', 'uni25C3', 'newGlyph.001'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -692,8 +632,6 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
 	- ar.test.001
-
-	- brokenbar.001
 
 	- doublestrokear
 
@@ -810,42 +748,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
 
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
-
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3 or 5
-
-	- Glyph name: uni20A8	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
-
-	- Glyph name: dong	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: uni20AD	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2 or 3
-
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
 
 	- Glyph name: arrowleft	Contours detected: 0	Expected: 1
@@ -936,10 +838,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: circle	Contours detected: 0	Expected: 2
 
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
-
-	- Glyph name: dong	Contours detected: 0	Expected: 3 or 4
-
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
 
 	- Glyph name: infinity	Contours detected: 0	Expected: 3
@@ -973,36 +871,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3 or 5
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20AD	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2 or 3
-
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
 
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
 
@@ -1129,6 +997,14 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EF8 (U+1EF8): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>>
 
+	* uni20A9 (U+20A9): L<<460.0,224.0>--<449.0,24.0>> -> L<<449.0,24.0>--<449.0,8.0>>
+
+	* uni20A9 (U+20A9): L<<47.0,304.0>--<24.0,712.0>> -> L<<24.0,712.0>--<24.0,728.0>>
+
+	* uni20A9 (U+20A9): L<<488.0,728.0>--<488.0,712.0>> -> L<<488.0,712.0>--<465.0,304.0>>
+
+	* uni20A9 (U+20A9): L<<63.0,8.0>--<63.0,24.0>> -> L<<63.0,24.0>--<52.0,224.0>>
+
 	* uni2116 (U+2116): L<<207.0,88.0>--<207.0,96.0>> -> L<<207.0,96.0>--<183.0,392.0>>
 
 	* uni2116 (U+2116): L<<207.0,96.0>--<183.0,392.0>> -> L<<183.0,392.0>--<183.0,728.0>>
@@ -1160,7 +1036,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 73 glyphs (8.45%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'brokenbar.001', 'uni20BF', 'uni20B5', 'colonmonetary', 'dong', 'uni20B2', 'uni20B4', 'uni20AD', 'uni20BE', 'uni20BA', 'uni20BC', 'uni20A6', 'uni20B1', 'uni20BD', 'uni20A8', 'uni20B9', 'uni20AA', 'uni20B8', 'uni20AE', 'uni20A9', 'approxequal', 'logicalnot', 'emptyset', 'infinity', 'integral', 'uni2126', 'uni2206', 'product', 'summation', 'radical', 'partialdiff', 'uni00B5', 'perthousand', 'arrowup', 'uni2197', 'arrowright', 'uni2198', 'arrowdown', 'uni2199', 'arrowleft', 'uni2196', 'arrowboth', 'arrowupdn', 'uni25CF', 'circle', 'openbullet', 'uni25C6', 'uni25C7', 'lozenge', 'filledbox', 'uni25A1', 'uni25AA', 'uni25AB', 'triagup', 'uni25B6', 'triagdn', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25B4', 'uni25B8', 'uni25BE', 'uni25C2', 'uni25B5', 'uni25B9', 'uni25BF', 'uni25C3', 'newGlyph.001'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 53 glyphs (6.14%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'approxequal', 'logicalnot', 'emptyset', 'infinity', 'integral', 'uni2126', 'uni2206', 'product', 'summation', 'radical', 'partialdiff', 'uni00B5', 'perthousand', 'arrowup', 'uni2197', 'arrowright', 'uni2198', 'arrowdown', 'uni2199', 'arrowleft', 'uni2196', 'arrowboth', 'arrowupdn', 'uni25CF', 'circle', 'openbullet', 'uni25C6', 'uni25C7', 'lozenge', 'filledbox', 'uni25A1', 'uni25AA', 'uni25AB', 'triagup', 'uni25B6', 'triagdn', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25B4', 'uni25B8', 'uni25BE', 'uni25C2', 'uni25B5', 'uni25B9', 'uni25BF', 'uni25C3', 'newGlyph.001'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1176,8 +1052,6 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
 	- ar.test.001
-
-	- brokenbar.001
 
 	- doublestrokear
 
@@ -1294,42 +1168,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
 
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
-
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3 or 5
-
-	- Glyph name: uni20A8	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
-
-	- Glyph name: dong	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: uni20AD	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2 or 3
-
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
 
 	- Glyph name: arrowleft	Contours detected: 0	Expected: 1
@@ -1420,10 +1258,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: circle	Contours detected: 0	Expected: 2
 
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
-
-	- Glyph name: dong	Contours detected: 0	Expected: 3 or 4
-
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
 
 	- Glyph name: infinity	Contours detected: 0	Expected: 3
@@ -1457,36 +1291,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3 or 5
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20AD	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2 or 3
-
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
 
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
 
@@ -1613,6 +1417,14 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EF8 (U+1EF8): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>>
 
+	* uni20A9 (U+20A9): L<<460.0,224.0>--<449.0,24.0>> -> L<<449.0,24.0>--<449.0,8.0>>
+
+	* uni20A9 (U+20A9): L<<47.0,304.0>--<24.0,712.0>> -> L<<24.0,712.0>--<24.0,728.0>>
+
+	* uni20A9 (U+20A9): L<<488.0,728.0>--<488.0,712.0>> -> L<<488.0,712.0>--<465.0,304.0>>
+
+	* uni20A9 (U+20A9): L<<63.0,8.0>--<63.0,24.0>> -> L<<63.0,24.0>--<52.0,224.0>>
+
 	* uni2116 (U+2116): L<<207.0,88.0>--<207.0,96.0>> -> L<<207.0,96.0>--<183.0,392.0>>
 
 	* uni2116 (U+2116): L<<207.0,96.0>--<183.0,392.0>> -> L<<183.0,392.0>--<183.0,728.0>>
@@ -1674,8 +1486,6 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
 	- ar.test.001
-
-	- brokenbar.001
 
 	- doublestrokear
 
@@ -1792,42 +1602,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
 
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
-
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3 or 5
-
-	- Glyph name: uni20A8	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
-
-	- Glyph name: dong	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: uni20AD	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2 or 3
-
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
 
 	- Glyph name: arrowleft	Contours detected: 0	Expected: 1
@@ -1918,10 +1692,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: circle	Contours detected: 0	Expected: 2
 
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
-
-	- Glyph name: dong	Contours detected: 0	Expected: 3 or 4
-
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
 
 	- Glyph name: infinity	Contours detected: 0	Expected: 3
@@ -1955,36 +1725,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3 or 5
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20AD	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2 or 3
-
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
 
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
 
@@ -2107,6 +1847,14 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EF8 (U+1EF8): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>>
 
+	* uni20A9 (U+20A9): L<<460.0,224.0>--<449.0,24.0>> -> L<<449.0,24.0>--<449.0,8.0>>
+
+	* uni20A9 (U+20A9): L<<47.0,304.0>--<24.0,712.0>> -> L<<24.0,712.0>--<24.0,728.0>>
+
+	* uni20A9 (U+20A9): L<<488.0,728.0>--<488.0,712.0>> -> L<<488.0,712.0>--<465.0,304.0>>
+
+	* uni20A9 (U+20A9): L<<63.0,8.0>--<63.0,24.0>> -> L<<63.0,24.0>--<52.0,224.0>>
+
 	* uni2116 (U+2116): L<<207.0,88.0>--<207.0,96.0>> -> L<<207.0,96.0>--<183.0,392.0>>
 
 	* uni2116 (U+2116): L<<207.0,96.0>--<183.0,392.0>> -> L<<183.0,392.0>--<183.0,728.0>>
@@ -2128,7 +1876,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 73 glyphs (8.45%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'brokenbar.001', 'uni20BF', 'uni20B5', 'colonmonetary', 'dong', 'uni20B2', 'uni20B4', 'uni20AD', 'uni20BE', 'uni20BA', 'uni20BC', 'uni20A6', 'uni20B1', 'uni20BD', 'uni20A8', 'uni20B9', 'uni20AA', 'uni20B8', 'uni20AE', 'uni20A9', 'approxequal', 'logicalnot', 'emptyset', 'infinity', 'integral', 'uni2126', 'uni2206', 'product', 'summation', 'radical', 'partialdiff', 'uni00B5', 'perthousand', 'arrowup', 'uni2197', 'arrowright', 'uni2198', 'arrowdown', 'uni2199', 'arrowleft', 'uni2196', 'arrowboth', 'arrowupdn', 'uni25CF', 'circle', 'openbullet', 'uni25C6', 'uni25C7', 'lozenge', 'filledbox', 'uni25A1', 'uni25AA', 'uni25AB', 'triagup', 'uni25B6', 'triagdn', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25B4', 'uni25B8', 'uni25BE', 'uni25C2', 'uni25B5', 'uni25B9', 'uni25BF', 'uni25C3', 'newGlyph.001'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 53 glyphs (6.14%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'approxequal', 'logicalnot', 'emptyset', 'infinity', 'integral', 'uni2126', 'uni2206', 'product', 'summation', 'radical', 'partialdiff', 'uni00B5', 'perthousand', 'arrowup', 'uni2197', 'arrowright', 'uni2198', 'arrowdown', 'uni2199', 'arrowleft', 'uni2196', 'arrowboth', 'arrowupdn', 'uni25CF', 'circle', 'openbullet', 'uni25C6', 'uni25C7', 'lozenge', 'filledbox', 'uni25A1', 'uni25AA', 'uni25AB', 'triagup', 'uni25B6', 'triagdn', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25B4', 'uni25B8', 'uni25BE', 'uni25C2', 'uni25B5', 'uni25B9', 'uni25BF', 'uni25C3', 'newGlyph.001'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2144,8 +1892,6 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
 	- ar.test.001
-
-	- brokenbar.001
 
 	- doublestrokear
 
@@ -2262,42 +2008,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
 
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
-
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3 or 5
-
-	- Glyph name: uni20A8	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
-
-	- Glyph name: dong	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: uni20AD	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2 or 3
-
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
 
 	- Glyph name: arrowleft	Contours detected: 0	Expected: 1
@@ -2388,10 +2098,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: circle	Contours detected: 0	Expected: 2
 
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
-
-	- Glyph name: dong	Contours detected: 0	Expected: 3 or 4
-
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
 
 	- Glyph name: infinity	Contours detected: 0	Expected: 3
@@ -2425,36 +2131,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3 or 5
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20AD	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2 or 3
-
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
 
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
 
@@ -2581,6 +2257,14 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EF8 (U+1EF8): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>>
 
+	* uni20A9 (U+20A9): L<<460.0,224.0>--<449.0,24.0>> -> L<<449.0,24.0>--<449.0,8.0>>
+
+	* uni20A9 (U+20A9): L<<47.0,304.0>--<24.0,712.0>> -> L<<24.0,712.0>--<24.0,728.0>>
+
+	* uni20A9 (U+20A9): L<<488.0,728.0>--<488.0,712.0>> -> L<<488.0,712.0>--<465.0,304.0>>
+
+	* uni20A9 (U+20A9): L<<63.0,8.0>--<63.0,24.0>> -> L<<63.0,24.0>--<52.0,224.0>>
+
 	* uni2116 (U+2116): L<<207.0,88.0>--<207.0,96.0>> -> L<<207.0,96.0>--<183.0,392.0>>
 
 	* uni2116 (U+2116): L<<207.0,96.0>--<183.0,392.0>> -> L<<183.0,392.0>--<183.0,728.0>>
@@ -2624,7 +2308,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 73 glyphs (8.45%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'brokenbar.001', 'uni20BF', 'uni20B5', 'colonmonetary', 'dong', 'uni20B2', 'uni20B4', 'uni20AD', 'uni20BE', 'uni20BA', 'uni20BC', 'uni20A6', 'uni20B1', 'uni20BD', 'uni20A8', 'uni20B9', 'uni20AA', 'uni20B8', 'uni20AE', 'uni20A9', 'approxequal', 'logicalnot', 'emptyset', 'infinity', 'integral', 'uni2126', 'uni2206', 'product', 'summation', 'radical', 'partialdiff', 'uni00B5', 'perthousand', 'arrowup', 'uni2197', 'arrowright', 'uni2198', 'arrowdown', 'uni2199', 'arrowleft', 'uni2196', 'arrowboth', 'arrowupdn', 'uni25CF', 'circle', 'openbullet', 'uni25C6', 'uni25C7', 'lozenge', 'filledbox', 'uni25A1', 'uni25AA', 'uni25AB', 'triagup', 'uni25B6', 'triagdn', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25B4', 'uni25B8', 'uni25BE', 'uni25C2', 'uni25B5', 'uni25B9', 'uni25BF', 'uni25C3', 'newGlyph.001'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 53 glyphs (6.14%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'approxequal', 'logicalnot', 'emptyset', 'infinity', 'integral', 'uni2126', 'uni2206', 'product', 'summation', 'radical', 'partialdiff', 'uni00B5', 'perthousand', 'arrowup', 'uni2197', 'arrowright', 'uni2198', 'arrowdown', 'uni2199', 'arrowleft', 'uni2196', 'arrowboth', 'arrowupdn', 'uni25CF', 'circle', 'openbullet', 'uni25C6', 'uni25C7', 'lozenge', 'filledbox', 'uni25A1', 'uni25AA', 'uni25AB', 'triagup', 'uni25B6', 'triagdn', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25B4', 'uni25B8', 'uni25BE', 'uni25C2', 'uni25B5', 'uni25B9', 'uni25BF', 'uni25C3', 'newGlyph.001'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2647,8 +2331,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
 	- ar.test.001
-
-	- brokenbar.001
 
 	- doublestrokear
 
@@ -2765,42 +2447,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
 
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
-
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3 or 5
-
-	- Glyph name: uni20A8	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
-
-	- Glyph name: dong	Contours detected: 0	Expected: 3 or 4
-
-	- Glyph name: uni20AD	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2 or 3
-
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
-
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
 
 	- Glyph name: arrowleft	Contours detected: 0	Expected: 1
@@ -2891,10 +2537,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: circle	Contours detected: 0	Expected: 2
 
-	- Glyph name: colonmonetary	Contours detected: 0	Expected: 1 or 3
-
-	- Glyph name: dong	Contours detected: 0	Expected: 3 or 4
-
 	- Glyph name: emptyset	Contours detected: 0	Expected: 3
 
 	- Glyph name: infinity	Contours detected: 0	Expected: 3
@@ -2928,36 +2570,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni20A6	Contours detected: 0	Expected: 1, 3 or 5
-
-	- Glyph name: uni20A9	Contours detected: 0	Expected: 1, 3, 4 or 7
-
-	- Glyph name: uni20AA	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20AD	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20AE	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20B1	Contours detected: 0	Expected: 1, 2 or 4
-
-	- Glyph name: uni20B2	Contours detected: 0	Expected: 1, 2 or 3
-
-	- Glyph name: uni20B4	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B5	Contours detected: 0	Expected: 1 or 2
-
-	- Glyph name: uni20B8	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20B9	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BC	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni20BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni20BF	Contours detected: 0	Expected: 3
 
 	- Glyph name: uni2126	Contours detected: 0	Expected: 1
 
@@ -3083,6 +2695,14 @@ The following glyphs do not have the recommended number of contours:
 	* uni1EF8 (U+1EF8): L<<108.0,728.0>--<199.0,512.0>> -> L<<199.0,512.0>--<232.0,416.0>>
 
 	* uni1EF8 (U+1EF8): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>>
+
+	* uni20A9 (U+20A9): L<<460.0,224.0>--<449.0,24.0>> -> L<<449.0,24.0>--<449.0,8.0>>
+
+	* uni20A9 (U+20A9): L<<47.0,304.0>--<24.0,712.0>> -> L<<24.0,712.0>--<24.0,728.0>>
+
+	* uni20A9 (U+20A9): L<<488.0,728.0>--<488.0,712.0>> -> L<<488.0,712.0>--<465.0,304.0>>
+
+	* uni20A9 (U+20A9): L<<63.0,8.0>--<63.0,24.0>> -> L<<63.0,24.0>--<52.0,224.0>>
 
 	* uni2116 (U+2116): L<<207.0,88.0>--<207.0,96.0>> -> L<<207.0,96.0>--<183.0,392.0>>
 
