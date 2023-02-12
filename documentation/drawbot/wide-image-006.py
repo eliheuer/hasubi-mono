@@ -45,17 +45,19 @@ FONT_LICENSE = "License: OFL v1.1"
 
 # Draws a grid
 def grid():
-    stroke(1, 0, 0, 0.75)
+    stroke(1, 0, 0)
     strokeWidth(2)
     STEP_X, STEP_Y = 0, 0
     INCREMENT_X, INCREMENT_Y = MARGIN / 2, MARGIN / 2
-    rect(MARGIN, MARGIN, WIDTH - (MARGIN * 2), HEIGHT - (MARGIN * 2))
     for x in range(29):
         polygon((MARGIN + STEP_X, MARGIN), (MARGIN + STEP_X, HEIGHT - MARGIN))
         STEP_X += INCREMENT_X
-    for y in range(29):
+    for y in range(12):
         polygon((MARGIN, MARGIN + STEP_Y), (WIDTH - MARGIN, MARGIN + STEP_Y))
         STEP_Y += INCREMENT_Y
+    strokeWidth(4)
+    fill(None)
+    rect(MARGIN, MARGIN, WIDTH - (MARGIN * 2), HEIGHT - (MARGIN * 2))
     polygon((WIDTH / 2, 0), (WIDTH / 2, HEIGHT))
     polygon((0, HEIGHT / 2), (WIDTH, HEIGHT / 2))
 
@@ -86,7 +88,7 @@ def draw_background():
 #SAMPLE_TEXT_1 = 'Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do. Once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, "and what is the use of a book," thought Alice, "without pictures or conversations?" '
 SAMPLE_TEXT_1 = "In the Name of God, the Merciful, the Compassionate. Praise be to God, Who hath set the dove of eloquence, perched among the twigs of the tree of explanation, to weaving her divers melodies. Her lyrics tell of how there is no God but God, Who hath brought new beings into existence, and created the contingent world by means of His Primal Will, whereby He hath caused to exist all that was and yet shall be."
 SAMPLE_TEXT_2 = "May God be glorified, Who hath embellished the heavens of reality with the sun of metaphorical meanings and mystical insight, as inscribed by the Pen of the Most High. Sovereignty belongeth to God, the Omnipotent, the Help in Peril, the Self-Subsisting. He hath brought forth the Most Great Ocean, which uniteth in itself the waters flowing from the spring of the letter H, which flow into the Most Ancient Name..."
-SAMPLE_TEXT_3 =  "بـــــــــــــــــسم الله الرّحمن الرّحيم "
+SAMPLE_TEXT_3 =  "بســــــــــــــــــــم الله الرّحمن الرّحيم "
 SAMPLE_TEXT_4 =  "الحمد لله الّذي أنطق ورقاء البيان على أفنان دوحة التّبيان بفنون الألحان على أنّه لا إله إلّا هو قد أبدع الأكوان واخترع الإمكان بمشيّته الأوّليّة الّتي بها خلق ما كان وما يكون والحمد لله الّذي زيَّن سماءَ الحقيقة بشمس المعاني والعرفان الّتي رُقم عليها من القلم الأعلى الملك لله المقتدر المهيمن القيّوم الّذي أظهر البحرَ الأعظم المجتمعَ من الماء الجاري من عين الهاء المنتهية إلى الاسم الأقدم الّذي منه فصّلت النّقطة"
 def draw_main_text():
     fill(1)
@@ -99,20 +101,20 @@ def draw_main_text():
     # has support for textBox() and FormattedString
 
     TOP_TEXT = MARGIN*6.6
-    LEADING = UNIT*0.69
-    text("Commentary on the", (MARGIN+(UNIT*16), TOP_TEXT-UNIT))
-    text("Surah of the Sun", (MARGIN+(UNIT*16), TOP_TEXT-(UNIT*2)))
+    LEADING = UNIT*0.7
+    text("Commentary on the", (MARGIN+(UNIT*14.5), TOP_TEXT-UNIT))
+    text("Surah of the Sun", (MARGIN+(UNIT*14.5), TOP_TEXT-(UNIT*2)))
     
-    text("تفسير سورة", (MARGIN+(UNIT*7.2), TOP_TEXT-UNIT))
-    text("الشمس", (MARGIN+(UNIT*9.95), TOP_TEXT-(UNIT*2)))
+    text("تفسير سورة", (MARGIN+(UNIT*(8.4+0.5)), TOP_TEXT-UNIT))
+    text("الشمس", (MARGIN+(UNIT*(10.85+0.5)), TOP_TEXT-(UNIT*2)))
 
     #text("بـــــــــــــك يا علي بك يا وفي بك يا بهي", ((MARGIN-4)+MARGIN*13.55, (TOP_TEXT)-(LEADING*1)))
     fontSize(UNIT*0.52)
     lineHeight(LEADING)
-    textBox(SAMPLE_TEXT_1*1, (MARGIN+(UNIT*16), MARGIN+(UNIT*0.8), UNIT*10, UNIT*6.3), align="left")
-    textBox(SAMPLE_TEXT_3+SAMPLE_TEXT_4, (MARGIN+(UNIT*2), MARGIN+(UNIT*0.8), UNIT*10, UNIT*6.3), align="right")
-    oval(MARGIN+(UNIT*13), MARGIN+(UNIT*9), UNIT*2, UNIT*2)
-    oval(MARGIN+(UNIT*13.87), MARGIN+(UNIT*6.70), UNIT*0.25, UNIT*0.25)
+    textBox(SAMPLE_TEXT_1*1, (MARGIN+(UNIT*14.5), MARGIN+(UNIT*0.8), UNIT*11, UNIT*5.6), align="left")
+    textBox(SAMPLE_TEXT_3+SAMPLE_TEXT_4, (MARGIN+(UNIT*2.5), MARGIN+(UNIT*0.8), UNIT*11, UNIT*5.6), align="right")
+    #oval(MARGIN+(UNIT*13), MARGIN+(UNIT*9), UNIT*2, UNIT*2)
+    #oval(MARGIN+(UNIT*13.87), MARGIN+(UNIT*6.60), UNIT*0.25, UNIT*0.25)
 
 # Divider lines
 def draw_divider_lines():

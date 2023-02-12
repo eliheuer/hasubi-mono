@@ -110,19 +110,19 @@ def draw_main_text():
 
     # main window
     # x, y, w, h, radius
-    fill(0.05,0.05,0.1,0.2)
+    fill(0.05,0.05,0.07,0.1)
     rectRounded( MARGIN+(UNIT*1.5), MARGIN+(UNIT*1.5), UNIT*37, UNIT*20, UNIT*2.75)
     rectRounded( MARGIN+(UNIT*1.75), MARGIN+(UNIT*1.75), UNIT*37.5, UNIT*20.5, UNIT*2.4)
     fill(0.05, 0.05, 0.05, 1)
-    fill(0)
+    #fill(0)
     rectRounded( MARGIN+(UNIT*2), MARGIN+(UNIT*2), UNIT*37, UNIT*20, UNIT*2)
 
 
-    fill(0.05,0.05,0.1,0.2)
+    fill(0.05,0.05,0.07,0.1)
     rectRounded( MARGIN+(UNIT*40.5), MARGIN+(UNIT*1.5), UNIT*13, UNIT*20, UNIT*2.75)
     rectRounded( MARGIN+(UNIT*40.75), MARGIN+(UNIT*1.75), UNIT*13.5, UNIT*20.5, UNIT*2.4)
     fill(0.05, 0.05, 0.05, 1)
-    fill(0)
+    #fill(0)
     rectRounded( MARGIN+(UNIT*41), MARGIN+(UNIT*2), UNIT*13, UNIT*20, UNIT*2)
 
     # Buttons
