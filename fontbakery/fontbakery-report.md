@@ -10,7 +10,7 @@ Fontbakery version: 0.8.10
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 53 glyphs (6.14%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'approxequal', 'logicalnot', 'emptyset', 'infinity', 'integral', 'uni2126', 'uni2206', 'product', 'summation', 'radical', 'partialdiff', 'uni00B5', 'perthousand', 'arrowup', 'uni2197', 'arrowright', 'uni2198', 'arrowdown', 'uni2199', 'arrowleft', 'uni2196', 'arrowboth', 'arrowupdn', 'uni25CF', 'circle', 'openbullet', 'uni25C6', 'uni25C7', 'lozenge', 'filledbox', 'uni25A1', 'uni25AA', 'uni25AB', 'triagup', 'uni25B6', 'triagdn', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25B4', 'uni25B8', 'uni25BE', 'uni25C2', 'uni25B5', 'uni25B9', 'uni25BF', 'uni25C3', 'newGlyph.001'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 4 glyphs (0.46%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'logicalnot'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -47,8 +47,6 @@ Fontbakery version: 0.8.10
 
 	- miniKehehar
 
-	- newGlyph.001
-
 	- nine.numr
 
 	- nine.tf
@@ -82,8 +80,6 @@ Fontbakery version: 0.8.10
 	- twodotsverticalabovear
 
 	- twodotsverticalbelowar
-
-	- uni00B5
 
 	- uni03020300
 
@@ -128,6 +124,8 @@ Fontbakery version: 0.8.10
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: percent	Contours detected: 7	Expected: 5
+
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
@@ -140,123 +138,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
-
-	- Glyph name: uni2126	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowleft	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowup	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowright	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowdown	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowboth	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowupdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2196	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2197	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2198	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2199	Contours detected: 0	Expected: 1
-
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
-
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: filledbox	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25A1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25AA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25AB	Contours detected: 0	Expected: 2
-
-	- Glyph name: triagup	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25B3	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25B6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25B7	Contours detected: 0	Expected: 2
-
-	- Glyph name: triagdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C0	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C7	Contours detected: 0	Expected: 2
-
-	- Glyph name: lozenge	Contours detected: 0	Expected: 2
-
-	- Glyph name: circle	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25CF	Contours detected: 0	Expected: 1
+	- Glyph name: perthousand	Contours detected: 10	Expected: 6 or 7
 
 	- Glyph name: uni27E8	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni27E9	Contours detected: 0	Expected: 1
 
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: arrowboth	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowdown	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowup	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowupdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: circle	Contours detected: 0	Expected: 2
-
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: lozenge	Contours detected: 0	Expected: 2
-
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
+	- Glyph name: percent	Contours detected: 7	Expected: 5
 
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: triagdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: triagup	Contours detected: 0	Expected: 1
+	- Glyph name: perthousand	Contours detected: 10	Expected: 6 or 7
 
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
@@ -265,42 +159,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni2126	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2196	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2197	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2198	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2199	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25A1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25AA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25AB	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25B3	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25B6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25B7	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C0	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C7	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25CF	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni27E8	Contours detected: 0	Expected: 1 
 
@@ -329,7 +187,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* copyright (U+00A9): X=142.5,Y=-0.5 (should be at baseline 0?)
 
-	* newGlyph (U+00B5): X=184.0,Y=-1.5 (should be at baseline 0?)
+	* uni00B5 (U+00B5): X=294.5,Y=2.0 (should be at baseline 0?)
 
 	* agrave (U+00E0): X=146.0,Y=1.0 (should be at baseline 0?)
 
@@ -495,9 +353,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1EF1 (U+1EF1): X=294.5,Y=2.0 (should be at baseline 0?)
 
-	* colonmonetary (U+20A1): X=352.0,Y=734.0 (should be at cap-height 736?) 
+	* colonmonetary (U+20A1): X=352.0,Y=734.0 (should be at cap-height 736?)
 
-	* And uni20BF (U+20BF): X=264.0,Y=735.0 (should be at cap-height 736?) [code: found-misalignments]
+	* uni20BF (U+20BF): X=264.0,Y=735.0 (should be at cap-height 736?)
+
+	* uni2197 (U+2197): X=92.0,Y=734.0 (should be at cap-height 736?)
+
+	* uni2197 (U+2197): X=473.0,Y=734.0 (should be at cap-height 736?) 
+
+	* And partialdiff (U+2202): X=187.0,Y=735.0 (should be at cap-height 736?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -563,6 +427,22 @@ The following glyphs do not have the recommended number of contours:
 
 	* Ygrave (U+1EF2): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>>
 
+	* arrowdown (U+2193): L<<206.0,171.0>--<199.0,266.0>> -> L<<199.0,266.0>--<199.0,736.0>>
+
+	* arrowdown (U+2193): L<<313.0,736.0>--<313.0,266.0>> -> L<<313.0,266.0>--<306.0,172.0>>
+
+	* arrowup (U+2191): L<<199.0,0.0>--<199.0,470.0>> -> L<<199.0,470.0>--<206.0,564.0>>
+
+	* arrowup (U+2191): L<<306.0,565.0>--<313.0,470.0>> -> L<<313.0,470.0>--<313.0,0.0>>
+
+	* arrowupdn (U+2195): L<<199.0,282.0>--<199.0,470.0>> -> L<<199.0,470.0>--<206.0,564.0>>
+
+	* arrowupdn (U+2195): L<<206.0,187.0>--<199.0,282.0>> -> L<<199.0,282.0>--<199.0,470.0>>
+
+	* arrowupdn (U+2195): L<<306.0,565.0>--<313.0,470.0>> -> L<<313.0,470.0>--<313.0,282.0>>
+
+	* arrowupdn (U+2195): L<<313.0,470.0>--<313.0,282.0>> -> L<<313.0,282.0>--<306.0,188.0>>
+
 	* uni1EF4 (U+1EF4): L<<108.0,728.0>--<199.0,512.0>> -> L<<199.0,512.0>--<232.0,416.0>>
 
 	* uni1EF4 (U+1EF4): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>>
@@ -605,7 +485,21 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> 
+	* uni2196 (U+2196): L<<139.0,530.0>--<140.0,307.0>>
+
+	* uni2196 (U+2196): L<<420.0,634.0>--<181.0,636.0>>
+
+	* uni2197 (U+2197): L<<331.0,634.0>--<92.0,632.0>>
+
+	* uni2197 (U+2197): L<<372.0,305.0>--<373.0,528.0>>
+
+	* uni2198 (U+2198): L<<373.0,206.0>--<372.0,429.0>>
+
+	* uni2198 (U+2198): L<<92.0,102.0>--<331.0,100.0>>
+
+	* uni2199 (U+2199): L<<140.0,429.0>--<139.0,206.0>>
+
+	* uni2199 (U+2199): L<<181.0,100.0>--<420.0,102.0>> 
 
 	* And uniFEDC (U+FEDC): L<<481.0,148.0>--<480.0,8.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[9] HasubiMono-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
@@ -616,7 +510,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 53 glyphs (6.14%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'approxequal', 'logicalnot', 'emptyset', 'infinity', 'integral', 'uni2126', 'uni2206', 'product', 'summation', 'radical', 'partialdiff', 'uni00B5', 'perthousand', 'arrowup', 'uni2197', 'arrowright', 'uni2198', 'arrowdown', 'uni2199', 'arrowleft', 'uni2196', 'arrowboth', 'arrowupdn', 'uni25CF', 'circle', 'openbullet', 'uni25C6', 'uni25C7', 'lozenge', 'filledbox', 'uni25A1', 'uni25AA', 'uni25AB', 'triagup', 'uni25B6', 'triagdn', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25B4', 'uni25B8', 'uni25BE', 'uni25C2', 'uni25B5', 'uni25B9', 'uni25BF', 'uni25C3', 'newGlyph.001'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 4 glyphs (0.46%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'logicalnot'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -653,8 +547,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- miniKehehar
 
-	- newGlyph.001
-
 	- nine.numr
 
 	- nine.tf
@@ -688,8 +580,6 @@ The following glyphs do not have the recommended number of contours:
 	- twodotsverticalabovear
 
 	- twodotsverticalbelowar
-
-	- uni00B5
 
 	- uni03020300
 
@@ -734,6 +624,8 @@ The following glyphs do not have the recommended number of contours:
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: percent	Contours detected: 7	Expected: 5
+
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
@@ -746,123 +638,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
-
-	- Glyph name: uni2126	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowleft	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowup	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowright	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowdown	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowboth	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowupdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2196	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2197	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2198	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2199	Contours detected: 0	Expected: 1
-
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
-
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: filledbox	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25A1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25AA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25AB	Contours detected: 0	Expected: 2
-
-	- Glyph name: triagup	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25B3	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25B6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25B7	Contours detected: 0	Expected: 2
-
-	- Glyph name: triagdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C0	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C7	Contours detected: 0	Expected: 2
-
-	- Glyph name: lozenge	Contours detected: 0	Expected: 2
-
-	- Glyph name: circle	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25CF	Contours detected: 0	Expected: 1
+	- Glyph name: perthousand	Contours detected: 10	Expected: 6 or 7
 
 	- Glyph name: uni27E8	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni27E9	Contours detected: 0	Expected: 1
 
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: arrowboth	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowdown	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowup	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowupdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: circle	Contours detected: 0	Expected: 2
-
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: lozenge	Contours detected: 0	Expected: 2
-
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
+	- Glyph name: percent	Contours detected: 7	Expected: 5
 
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: triagdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: triagup	Contours detected: 0	Expected: 1
+	- Glyph name: perthousand	Contours detected: 10	Expected: 6 or 7
 
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
@@ -871,42 +659,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni2126	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2196	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2197	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2198	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2199	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25A1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25AA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25AB	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25B3	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25B6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25B7	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C0	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C7	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25CF	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni27E8	Contours detected: 0	Expected: 1 
 
@@ -980,6 +732,22 @@ The following glyphs do not have the recommended number of contours:
 	* Ygrave (U+1EF2): L<<108.0,728.0>--<199.0,512.0>> -> L<<199.0,512.0>--<232.0,416.0>>
 
 	* Ygrave (U+1EF2): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>>
+
+	* arrowdown (U+2193): L<<206.0,171.0>--<199.0,266.0>> -> L<<199.0,266.0>--<199.0,736.0>>
+
+	* arrowdown (U+2193): L<<313.0,736.0>--<313.0,266.0>> -> L<<313.0,266.0>--<306.0,172.0>>
+
+	* arrowup (U+2191): L<<199.0,0.0>--<199.0,470.0>> -> L<<199.0,470.0>--<206.0,564.0>>
+
+	* arrowup (U+2191): L<<306.0,565.0>--<313.0,470.0>> -> L<<313.0,470.0>--<313.0,0.0>>
+
+	* arrowupdn (U+2195): L<<199.0,282.0>--<199.0,470.0>> -> L<<199.0,470.0>--<206.0,564.0>>
+
+	* arrowupdn (U+2195): L<<206.0,187.0>--<199.0,282.0>> -> L<<199.0,282.0>--<199.0,470.0>>
+
+	* arrowupdn (U+2195): L<<306.0,565.0>--<313.0,470.0>> -> L<<313.0,470.0>--<313.0,282.0>>
+
+	* arrowupdn (U+2195): L<<313.0,470.0>--<313.0,282.0>> -> L<<313.0,282.0>--<306.0,188.0>>
 
 	* backslash (U+005C): L<<148.0,697.0>--<395.0,-40.0>> -> L<<395.0,-40.0>--<441.0,-207.0>>
 
@@ -1027,7 +795,21 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
+	* uni2196 (U+2196): L<<139.0,530.0>--<140.0,307.0>>
+
+	* uni2196 (U+2196): L<<420.0,634.0>--<181.0,636.0>>
+
+	* uni2197 (U+2197): L<<331.0,634.0>--<92.0,632.0>>
+
+	* uni2197 (U+2197): L<<372.0,305.0>--<373.0,528.0>>
+
+	* uni2198 (U+2198): L<<373.0,206.0>--<372.0,429.0>>
+
+	* uni2198 (U+2198): L<<92.0,102.0>--<331.0,100.0>>
+
+	* uni2199 (U+2199): L<<140.0,429.0>--<139.0,206.0>> 
+
+	* And uni2199 (U+2199): L<<181.0,100.0>--<420.0,102.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[9] HasubiMono-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1036,7 +818,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 53 glyphs (6.14%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'approxequal', 'logicalnot', 'emptyset', 'infinity', 'integral', 'uni2126', 'uni2206', 'product', 'summation', 'radical', 'partialdiff', 'uni00B5', 'perthousand', 'arrowup', 'uni2197', 'arrowright', 'uni2198', 'arrowdown', 'uni2199', 'arrowleft', 'uni2196', 'arrowboth', 'arrowupdn', 'uni25CF', 'circle', 'openbullet', 'uni25C6', 'uni25C7', 'lozenge', 'filledbox', 'uni25A1', 'uni25AA', 'uni25AB', 'triagup', 'uni25B6', 'triagdn', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25B4', 'uni25B8', 'uni25BE', 'uni25C2', 'uni25B5', 'uni25B9', 'uni25BF', 'uni25C3', 'newGlyph.001'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 4 glyphs (0.46%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'logicalnot'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1073,8 +855,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- miniKehehar
 
-	- newGlyph.001
-
 	- nine.numr
 
 	- nine.tf
@@ -1108,8 +888,6 @@ The following glyphs do not have the recommended number of contours:
 	- twodotsverticalabovear
 
 	- twodotsverticalbelowar
-
-	- uni00B5
 
 	- uni03020300
 
@@ -1154,6 +932,8 @@ The following glyphs do not have the recommended number of contours:
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: percent	Contours detected: 7	Expected: 5
+
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
@@ -1166,123 +946,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
-
-	- Glyph name: uni2126	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowleft	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowup	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowright	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowdown	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowboth	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowupdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2196	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2197	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2198	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2199	Contours detected: 0	Expected: 1
-
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
-
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: filledbox	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25A1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25AA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25AB	Contours detected: 0	Expected: 2
-
-	- Glyph name: triagup	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25B3	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25B6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25B7	Contours detected: 0	Expected: 2
-
-	- Glyph name: triagdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C0	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C7	Contours detected: 0	Expected: 2
-
-	- Glyph name: lozenge	Contours detected: 0	Expected: 2
-
-	- Glyph name: circle	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25CF	Contours detected: 0	Expected: 1
+	- Glyph name: perthousand	Contours detected: 10	Expected: 6 or 7
 
 	- Glyph name: uni27E8	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni27E9	Contours detected: 0	Expected: 1
 
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: arrowboth	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowdown	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowup	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowupdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: circle	Contours detected: 0	Expected: 2
-
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: lozenge	Contours detected: 0	Expected: 2
-
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
+	- Glyph name: percent	Contours detected: 7	Expected: 5
 
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: triagdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: triagup	Contours detected: 0	Expected: 1
+	- Glyph name: perthousand	Contours detected: 10	Expected: 6 or 7
 
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
@@ -1291,42 +967,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni2126	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2196	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2197	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2198	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2199	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25A1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25AA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25AB	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25B3	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25B6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25B7	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C0	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C7	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25CF	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni27E8	Contours detected: 0	Expected: 1 
 
@@ -1400,6 +1040,22 @@ The following glyphs do not have the recommended number of contours:
 	* Ygrave (U+1EF2): L<<108.0,728.0>--<199.0,512.0>> -> L<<199.0,512.0>--<232.0,416.0>>
 
 	* Ygrave (U+1EF2): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>>
+
+	* arrowdown (U+2193): L<<206.0,171.0>--<199.0,266.0>> -> L<<199.0,266.0>--<199.0,736.0>>
+
+	* arrowdown (U+2193): L<<313.0,736.0>--<313.0,266.0>> -> L<<313.0,266.0>--<306.0,172.0>>
+
+	* arrowup (U+2191): L<<199.0,0.0>--<199.0,470.0>> -> L<<199.0,470.0>--<206.0,564.0>>
+
+	* arrowup (U+2191): L<<306.0,565.0>--<313.0,470.0>> -> L<<313.0,470.0>--<313.0,0.0>>
+
+	* arrowupdn (U+2195): L<<199.0,282.0>--<199.0,470.0>> -> L<<199.0,470.0>--<206.0,564.0>>
+
+	* arrowupdn (U+2195): L<<206.0,187.0>--<199.0,282.0>> -> L<<199.0,282.0>--<199.0,470.0>>
+
+	* arrowupdn (U+2195): L<<306.0,565.0>--<313.0,470.0>> -> L<<313.0,470.0>--<313.0,282.0>>
+
+	* arrowupdn (U+2195): L<<313.0,470.0>--<313.0,282.0>> -> L<<313.0,282.0>--<306.0,188.0>>
 
 	* backslash (U+005C): L<<146.0,699.0>--<341.0,120.0>> -> L<<341.0,120.0>--<443.0,-205.0>>
 
@@ -1461,7 +1117,21 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
+	* uni2196 (U+2196): L<<139.0,530.0>--<140.0,307.0>>
+
+	* uni2196 (U+2196): L<<420.0,634.0>--<181.0,636.0>>
+
+	* uni2197 (U+2197): L<<331.0,634.0>--<92.0,632.0>>
+
+	* uni2197 (U+2197): L<<372.0,305.0>--<373.0,528.0>>
+
+	* uni2198 (U+2198): L<<373.0,206.0>--<372.0,429.0>>
+
+	* uni2198 (U+2198): L<<92.0,102.0>--<331.0,100.0>>
+
+	* uni2199 (U+2199): L<<140.0,429.0>--<139.0,206.0>> 
+
+	* And uni2199 (U+2199): L<<181.0,100.0>--<420.0,102.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[9] HasubiMono-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1507,8 +1177,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- miniKehehar
 
-	- newGlyph.001
-
 	- nine.numr
 
 	- nine.tf
@@ -1542,8 +1210,6 @@ The following glyphs do not have the recommended number of contours:
 	- twodotsverticalabovear
 
 	- twodotsverticalbelowar
-
-	- uni00B5
 
 	- uni03020300
 
@@ -1588,6 +1254,8 @@ The following glyphs do not have the recommended number of contours:
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: percent	Contours detected: 7	Expected: 5
+
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
@@ -1600,123 +1268,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
-
-	- Glyph name: uni2126	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowleft	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowup	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowright	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowdown	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowboth	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowupdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2196	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2197	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2198	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2199	Contours detected: 0	Expected: 1
-
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
-
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: filledbox	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25A1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25AA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25AB	Contours detected: 0	Expected: 2
-
-	- Glyph name: triagup	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25B3	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25B6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25B7	Contours detected: 0	Expected: 2
-
-	- Glyph name: triagdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C0	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C7	Contours detected: 0	Expected: 2
-
-	- Glyph name: lozenge	Contours detected: 0	Expected: 2
-
-	- Glyph name: circle	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25CF	Contours detected: 0	Expected: 1
+	- Glyph name: perthousand	Contours detected: 10	Expected: 6 or 7
 
 	- Glyph name: uni27E8	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni27E9	Contours detected: 0	Expected: 1
 
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: arrowboth	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowdown	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowup	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowupdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: circle	Contours detected: 0	Expected: 2
-
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: lozenge	Contours detected: 0	Expected: 2
-
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
+	- Glyph name: percent	Contours detected: 7	Expected: 5
 
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: triagdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: triagup	Contours detected: 0	Expected: 1
+	- Glyph name: perthousand	Contours detected: 10	Expected: 6 or 7
 
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
@@ -1725,42 +1289,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni2126	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2196	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2197	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2198	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2199	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25A1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25AA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25AB	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25B3	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25B6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25B7	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C0	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C7	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25CF	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni27E8	Contours detected: 0	Expected: 1 
 
@@ -1835,6 +1363,22 @@ The following glyphs do not have the recommended number of contours:
 
 	* Ygrave (U+1EF2): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>>
 
+	* arrowdown (U+2193): L<<206.0,171.0>--<199.0,266.0>> -> L<<199.0,266.0>--<199.0,736.0>>
+
+	* arrowdown (U+2193): L<<313.0,736.0>--<313.0,266.0>> -> L<<313.0,266.0>--<306.0,172.0>>
+
+	* arrowup (U+2191): L<<199.0,0.0>--<199.0,470.0>> -> L<<199.0,470.0>--<206.0,564.0>>
+
+	* arrowup (U+2191): L<<306.0,565.0>--<313.0,470.0>> -> L<<313.0,470.0>--<313.0,0.0>>
+
+	* arrowupdn (U+2195): L<<199.0,282.0>--<199.0,470.0>> -> L<<199.0,470.0>--<206.0,564.0>>
+
+	* arrowupdn (U+2195): L<<206.0,187.0>--<199.0,282.0>> -> L<<199.0,282.0>--<199.0,470.0>>
+
+	* arrowupdn (U+2195): L<<306.0,565.0>--<313.0,470.0>> -> L<<313.0,470.0>--<313.0,282.0>>
+
+	* arrowupdn (U+2195): L<<313.0,470.0>--<313.0,282.0>> -> L<<313.0,282.0>--<306.0,188.0>>
+
 	* uni1EF4 (U+1EF4): L<<108.0,728.0>--<199.0,512.0>> -> L<<199.0,512.0>--<232.0,416.0>>
 
 	* uni1EF4 (U+1EF4): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>>
@@ -1867,7 +1411,21 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
+	* uni2196 (U+2196): L<<139.0,530.0>--<140.0,307.0>>
+
+	* uni2196 (U+2196): L<<420.0,634.0>--<181.0,636.0>>
+
+	* uni2197 (U+2197): L<<331.0,634.0>--<92.0,632.0>>
+
+	* uni2197 (U+2197): L<<372.0,305.0>--<373.0,528.0>>
+
+	* uni2198 (U+2198): L<<373.0,206.0>--<372.0,429.0>>
+
+	* uni2198 (U+2198): L<<92.0,102.0>--<331.0,100.0>>
+
+	* uni2199 (U+2199): L<<140.0,429.0>--<139.0,206.0>> 
+
+	* And uni2199 (U+2199): L<<181.0,100.0>--<420.0,102.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[9] HasubiMono-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -1876,7 +1434,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 53 glyphs (6.14%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'approxequal', 'logicalnot', 'emptyset', 'infinity', 'integral', 'uni2126', 'uni2206', 'product', 'summation', 'radical', 'partialdiff', 'uni00B5', 'perthousand', 'arrowup', 'uni2197', 'arrowright', 'uni2198', 'arrowdown', 'uni2199', 'arrowleft', 'uni2196', 'arrowboth', 'arrowupdn', 'uni25CF', 'circle', 'openbullet', 'uni25C6', 'uni25C7', 'lozenge', 'filledbox', 'uni25A1', 'uni25AA', 'uni25AB', 'triagup', 'uni25B6', 'triagdn', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25B4', 'uni25B8', 'uni25BE', 'uni25C2', 'uni25B5', 'uni25B9', 'uni25BF', 'uni25C3', 'newGlyph.001'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 4 glyphs (0.46%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'logicalnot'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -1913,8 +1471,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- miniKehehar
 
-	- newGlyph.001
-
 	- nine.numr
 
 	- nine.tf
@@ -1948,8 +1504,6 @@ The following glyphs do not have the recommended number of contours:
 	- twodotsverticalabovear
 
 	- twodotsverticalbelowar
-
-	- uni00B5
 
 	- uni03020300
 
@@ -1994,6 +1548,8 @@ The following glyphs do not have the recommended number of contours:
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: percent	Contours detected: 7	Expected: 5
+
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
@@ -2006,123 +1562,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
-
-	- Glyph name: uni2126	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowleft	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowup	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowright	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowdown	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowboth	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowupdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2196	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2197	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2198	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2199	Contours detected: 0	Expected: 1
-
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
-
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: filledbox	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25A1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25AA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25AB	Contours detected: 0	Expected: 2
-
-	- Glyph name: triagup	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25B3	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25B6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25B7	Contours detected: 0	Expected: 2
-
-	- Glyph name: triagdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C0	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C7	Contours detected: 0	Expected: 2
-
-	- Glyph name: lozenge	Contours detected: 0	Expected: 2
-
-	- Glyph name: circle	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25CF	Contours detected: 0	Expected: 1
+	- Glyph name: perthousand	Contours detected: 10	Expected: 6 or 7
 
 	- Glyph name: uni27E8	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni27E9	Contours detected: 0	Expected: 1
 
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: arrowboth	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowdown	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowup	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowupdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: circle	Contours detected: 0	Expected: 2
-
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: lozenge	Contours detected: 0	Expected: 2
-
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
+	- Glyph name: percent	Contours detected: 7	Expected: 5
 
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: triagdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: triagup	Contours detected: 0	Expected: 1
+	- Glyph name: perthousand	Contours detected: 10	Expected: 6 or 7
 
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
@@ -2131,42 +1583,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni2126	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2196	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2197	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2198	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2199	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25A1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25AA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25AB	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25B3	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25B6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25B7	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C0	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C7	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25CF	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni27E8	Contours detected: 0	Expected: 1 
 
@@ -2240,6 +1656,22 @@ The following glyphs do not have the recommended number of contours:
 	* Ygrave (U+1EF2): L<<108.0,728.0>--<199.0,512.0>> -> L<<199.0,512.0>--<232.0,416.0>>
 
 	* Ygrave (U+1EF2): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>>
+
+	* arrowdown (U+2193): L<<206.0,171.0>--<199.0,266.0>> -> L<<199.0,266.0>--<199.0,736.0>>
+
+	* arrowdown (U+2193): L<<313.0,736.0>--<313.0,266.0>> -> L<<313.0,266.0>--<306.0,172.0>>
+
+	* arrowup (U+2191): L<<199.0,0.0>--<199.0,470.0>> -> L<<199.0,470.0>--<206.0,564.0>>
+
+	* arrowup (U+2191): L<<306.0,565.0>--<313.0,470.0>> -> L<<313.0,470.0>--<313.0,0.0>>
+
+	* arrowupdn (U+2195): L<<199.0,282.0>--<199.0,470.0>> -> L<<199.0,470.0>--<206.0,564.0>>
+
+	* arrowupdn (U+2195): L<<206.0,187.0>--<199.0,282.0>> -> L<<199.0,282.0>--<199.0,470.0>>
+
+	* arrowupdn (U+2195): L<<306.0,565.0>--<313.0,470.0>> -> L<<313.0,470.0>--<313.0,282.0>>
+
+	* arrowupdn (U+2195): L<<313.0,470.0>--<313.0,282.0>> -> L<<313.0,282.0>--<306.0,188.0>>
 
 	* backslash (U+005C): L<<145.0,700.0>--<288.0,280.0>> -> L<<288.0,280.0>--<444.0,-204.0>>
 
@@ -2299,7 +1731,21 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> [code: found-semi-vertical]
+	* uni2196 (U+2196): L<<139.0,530.0>--<140.0,307.0>>
+
+	* uni2196 (U+2196): L<<420.0,634.0>--<181.0,636.0>>
+
+	* uni2197 (U+2197): L<<331.0,634.0>--<92.0,632.0>>
+
+	* uni2197 (U+2197): L<<372.0,305.0>--<373.0,528.0>>
+
+	* uni2198 (U+2198): L<<373.0,206.0>--<372.0,429.0>>
+
+	* uni2198 (U+2198): L<<92.0,102.0>--<331.0,100.0>>
+
+	* uni2199 (U+2199): L<<140.0,429.0>--<139.0,206.0>> 
+
+	* And uni2199 (U+2199): L<<181.0,100.0>--<420.0,102.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[10] HasubiMono-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -2308,7 +1754,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** Font is monospaced but 53 glyphs (6.14%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'approxequal', 'logicalnot', 'emptyset', 'infinity', 'integral', 'uni2126', 'uni2206', 'product', 'summation', 'radical', 'partialdiff', 'uni00B5', 'perthousand', 'arrowup', 'uni2197', 'arrowright', 'uni2198', 'arrowdown', 'uni2199', 'arrowleft', 'uni2196', 'arrowboth', 'arrowupdn', 'uni25CF', 'circle', 'openbullet', 'uni25C6', 'uni25C7', 'lozenge', 'filledbox', 'uni25A1', 'uni25AA', 'uni25AB', 'triagup', 'uni25B6', 'triagdn', 'uni25C0', 'uni25B3', 'uni25B7', 'uni25BD', 'uni25C1', 'uni25B4', 'uni25B8', 'uni25BE', 'uni25C2', 'uni25B5', 'uni25B9', 'uni25BF', 'uni25C3', 'newGlyph.001'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 4 glyphs (0.46%) have a different width. You should check the widths of: ['uni27E8', 'uni27E9', 'guillemotleft', 'logicalnot'] [code: mono-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
@@ -2352,8 +1798,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 	- miniKehehar
 
-	- newGlyph.001
-
 	- nine.numr
 
 	- nine.tf
@@ -2387,8 +1831,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 	- twodotsverticalabovear
 
 	- twodotsverticalbelowar
-
-	- uni00B5
 
 	- uni03020300
 
@@ -2433,6 +1875,8 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: percent	Contours detected: 7	Expected: 5
+
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
@@ -2445,123 +1889,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
 
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
-
-	- Glyph name: uni2126	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowleft	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowup	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowright	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowdown	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowboth	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowupdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2196	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2197	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2198	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2199	Contours detected: 0	Expected: 1
-
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
-
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: filledbox	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25A1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25AA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25AB	Contours detected: 0	Expected: 2
-
-	- Glyph name: triagup	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25B3	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25B6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25B7	Contours detected: 0	Expected: 2
-
-	- Glyph name: triagdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C0	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C7	Contours detected: 0	Expected: 2
-
-	- Glyph name: lozenge	Contours detected: 0	Expected: 2
-
-	- Glyph name: circle	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25CF	Contours detected: 0	Expected: 1
+	- Glyph name: perthousand	Contours detected: 10	Expected: 6 or 7
 
 	- Glyph name: uni27E8	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni27E9	Contours detected: 0	Expected: 1
 
-	- Glyph name: approxequal	Contours detected: 0	Expected: 2
-
-	- Glyph name: arrowboth	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowdown	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowup	Contours detected: 0	Expected: 1
-
-	- Glyph name: arrowupdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: circle	Contours detected: 0	Expected: 2
-
-	- Glyph name: emptyset	Contours detected: 0	Expected: 3
-
-	- Glyph name: infinity	Contours detected: 0	Expected: 3
-
-	- Glyph name: integral	Contours detected: 0	Expected: 1
-
-	- Glyph name: lozenge	Contours detected: 0	Expected: 2
-
 	- Glyph name: ogonek	Contours detected: 0	Expected: 1
 
 	- Glyph name: oslash	Contours detected: 2	Expected: 3
 
-	- Glyph name: partialdiff	Contours detected: 0	Expected: 2
+	- Glyph name: percent	Contours detected: 7	Expected: 5
 
-	- Glyph name: perthousand	Contours detected: 0	Expected: 6 or 7
-
-	- Glyph name: product	Contours detected: 0	Expected: 1
-
-	- Glyph name: radical	Contours detected: 0	Expected: 1
-
-	- Glyph name: summation	Contours detected: 0	Expected: 1
-
-	- Glyph name: triagdn	Contours detected: 0	Expected: 1
-
-	- Glyph name: triagup	Contours detected: 0	Expected: 1
+	- Glyph name: perthousand	Contours detected: 10	Expected: 6 or 7
 
 	- Glyph name: uni0312	Contours detected: 0	Expected: 1
 
@@ -2570,42 +1910,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0328	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni0E3F	Contours detected: 5	Expected: 3
-
-	- Glyph name: uni2126	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2196	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2197	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2198	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2199	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni2206	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25A1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25AA	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25AB	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25B3	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25B6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25B7	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25BD	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C0	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C1	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25C6	Contours detected: 0	Expected: 1
-
-	- Glyph name: uni25C7	Contours detected: 0	Expected: 2
-
-	- Glyph name: uni25CF	Contours detected: 0	Expected: 1
 
 	- Glyph name: uni27E8	Contours detected: 0	Expected: 1 
 
@@ -2679,6 +1983,22 @@ The following glyphs do not have the recommended number of contours:
 	* Ygrave (U+1EF2): L<<108.0,728.0>--<199.0,512.0>> -> L<<199.0,512.0>--<232.0,416.0>>
 
 	* Ygrave (U+1EF2): L<<280.0,416.0>--<313.0,512.0>> -> L<<313.0,512.0>--<404.0,728.0>>
+
+	* arrowdown (U+2193): L<<206.0,171.0>--<199.0,266.0>> -> L<<199.0,266.0>--<199.0,736.0>>
+
+	* arrowdown (U+2193): L<<313.0,736.0>--<313.0,266.0>> -> L<<313.0,266.0>--<306.0,172.0>>
+
+	* arrowup (U+2191): L<<199.0,0.0>--<199.0,470.0>> -> L<<199.0,470.0>--<206.0,564.0>>
+
+	* arrowup (U+2191): L<<306.0,565.0>--<313.0,470.0>> -> L<<313.0,470.0>--<313.0,0.0>>
+
+	* arrowupdn (U+2195): L<<199.0,282.0>--<199.0,470.0>> -> L<<199.0,470.0>--<206.0,564.0>>
+
+	* arrowupdn (U+2195): L<<206.0,187.0>--<199.0,282.0>> -> L<<199.0,282.0>--<199.0,470.0>>
+
+	* arrowupdn (U+2195): L<<306.0,565.0>--<313.0,470.0>> -> L<<313.0,470.0>--<313.0,282.0>>
+
+	* arrowupdn (U+2195): L<<313.0,470.0>--<313.0,282.0>> -> L<<313.0,282.0>--<306.0,188.0>>
 
 	* backslash (U+005C): L<<143.0,702.0>--<234.0,440.0>> -> L<<234.0,440.0>--<446.0,-202.0>>
 
@@ -2746,7 +2066,21 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* newGlyph (U+00B5): L<<59.0,-208.0>--<58.0,513.0>> 
+	* uni2196 (U+2196): L<<139.0,530.0>--<140.0,307.0>>
+
+	* uni2196 (U+2196): L<<420.0,634.0>--<181.0,636.0>>
+
+	* uni2197 (U+2197): L<<331.0,634.0>--<92.0,632.0>>
+
+	* uni2197 (U+2197): L<<372.0,305.0>--<373.0,528.0>>
+
+	* uni2198 (U+2198): L<<373.0,206.0>--<372.0,429.0>>
+
+	* uni2198 (U+2198): L<<92.0,102.0>--<331.0,100.0>>
+
+	* uni2199 (U+2199): L<<140.0,429.0>--<139.0,206.0>>
+
+	* uni2199 (U+2199): L<<181.0,100.0>--<420.0,102.0>> 
 
 	* And uniFEDC (U+FEDC): L<<481.0,126.0>--<480.0,8.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
