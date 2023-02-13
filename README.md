@@ -25,7 +25,6 @@ A PDF print specimen in avaiable [here](documentation/drawbot/hasubi-mono-print-
 ![Sample Image](documentation/drawbot/wide-image-002.png)
 ![Sample Image](documentation/drawbot/wide-image-004.png)
 ![Sample Image](documentation/drawbot/square-image-002.png)
-![Sample Image](documentation/drawbot/wide-image-003.png)
 
 # Design Notes
 Hasubi Mono has a few unique features that need some explanation, such as horizontal contrast and the GAPS axis.
