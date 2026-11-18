@@ -35,9 +35,7 @@ Variables = "variable"
 "fontgarden/precomposed_match:composite-differs" = { Regular=82, Medium=82, SemiBold=82, Bold=82, ExtraBold=82, Black=82, VF=82 }
 
 # The sources declare a monospaced design but contain a PANOSE mismatch.
-# Existing diacritics extend above WinAscent. This is a family-level check.
 "opentype/monospace:mono-bad-panose" = { Regular=1, Medium=1, SemiBold=1, Bold=1, ExtraBold=1, Black=1, VF=1 }
-"family/win_ascent_and_descent:ascent" = { Statics=6, Variables=1 }
 
 # Pinned Google Fonts checks flag Dutch acute attachment, missing Vietnamese
 # horn, and the Arabic positional forms of alef maksura.

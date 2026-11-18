@@ -47,7 +47,7 @@
     <key>openTypeOS2TypoLineGap</key>
     <integer>0</integer>
     <key>openTypeOS2WinAscent</key>
-    <integer>1035</integer>
+    <integer>1080</integer>
     <key>openTypeOS2WinDescent</key>
     <integer>464</integer>
     <key>postscriptBlueValues</key>
