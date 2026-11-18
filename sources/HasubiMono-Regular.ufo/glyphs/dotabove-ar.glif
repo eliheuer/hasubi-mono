@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotabove-ar" format="2">
+  <anchor x="256" y="512" name="_top"/>
+  <outline>
+    <contour>
+      <point x="256" y="640" type="curve" smooth="yes"/>
+      <point x="287" y="640"/>
+      <point x="312" y="665"/>
+      <point x="312" y="696" type="curve" smooth="yes"/>
+      <point x="312" y="727"/>
+      <point x="287" y="752"/>
+      <point x="256" y="752" type="curve" smooth="yes"/>
+      <point x="225" y="752"/>
+      <point x="200" y="727"/>
+      <point x="200" y="696" type="curve" smooth="yes"/>
+      <point x="200" y="665"/>
+      <point x="225" y="640"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>512</integer>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

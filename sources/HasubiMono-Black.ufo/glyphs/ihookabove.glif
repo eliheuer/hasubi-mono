@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ihookabove" format="2">
+  <advance width="512"/>
+  <unicode hex="1EC9"/>
+  <anchor x="269" y="704" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="hookabovecomb" xOffset="21" yOffset="-32"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

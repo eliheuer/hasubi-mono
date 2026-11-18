@@ -1,101 +1,92 @@
-name: Build font and specimen
+name: Build and check fonts
 
-on: [push, release]
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.8
-    - name: Install sys tools/deps
-      run: |
-        sudo apt-get update
-        sudo apt-get install ttfautohint
-        sudo snap install yq
-    - uses: actions/cache@v2
-      with:
-        path: ./venv/
-        key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-venv-
-    - name: Do first-run script if necessary
-      run: make .init.stamp
-      if: github.repository != 'googlefonts/googlefonts-project-template'
-    - uses: stefanzweifel/git-auto-commit-action@v4
-      name: First-run setup
-      if: github.repository != 'googlefonts/googlefonts-project-template'
-      with:
-        file_pattern: .init.stamp README.md requirements.txt OFL.txt
-        commit_message: "Personalize for this repo"
-    - name: gen zip file name
-      id: zip-name
-      shell: bash
-      # Set the archive name to repo name + "-assets" e.g "MavenPro-assets"
-      run: echo "ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-fonts" >> $GITHUB_ENV
-      # If a new release is cut, use the release tag to auto-bump the source files
-    - name: Bump release
-      if: github.event_name == 'release'
-      run: |
-        . venv/bin/activate
-        SRCS=$(yq e ".sources[]" sources/config.yaml)
-        TAG_NAME=${GITHUB_REF/refs\/tags\//}
-        echo "Bumping $SRCS to $TAG_NAME"
-        for src in $SRCS
-        do
-          bumpfontversion sources/$src --new-version $TAG_NAME;
-        done
-    - name: Build font
-      run: make build
-    - name: Check with fontbakery
-      run: make test
-      continue-on-error: true
-    - name: proof
-      run: make proof
-    - name: setup site
-      run: cp scripts/index.html out/index.html
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      if: ${{ github.ref == 'refs/heads/main' }}
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./out
-    - name: Archive artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: ${{ env.ZIP_NAME }}
-        path: |
-          fonts
-          out
-    outputs:
-      zip_name: ${{ env.ZIP_NAME }}
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.13'
+          cache: pip
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: |
+            .venv/bin/designbot
+            .venv/.crates.toml
+            .venv/.crates2.json
+          key: designbot-build-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+      - name: Install the fontconfig headers that DesignBot needs to compile
+        run: sudo apt-get update && sudo apt-get install -y libfontconfig1-dev pkg-config
+      - run: make setup
+      - run: make build
+      - run: make test NO_BUILD=1
+        env:
+          QA_OPTIONS: ${{ github.event_name == 'release' && '--require-online' || '' }}
+      - run: make proof NO_BUILD=1
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: always()
+        with:
+          name: fonts-and-qa
+          path: |
+            fonts/
+            output/qa/
+            output/proof/
+      - name: Assemble proof and QA site
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        run: make collect-site
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        with:
+          path: output/site
+      - name: Package release fonts
+        if: github.event_name == 'release'
+        run: zip -qr hasubi-mono-fonts.zip fonts OFL.txt AUTHORS.txt CONTRIBUTORS.txt output/qa output/proof
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: github.event_name == 'release'
+        with:
+          name: release-archive
+          path: hasubi-mono-fonts.zip
+
+  publish:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
+
   release:
-    # only run if the commit is tagged...
     if: github.event_name == 'release'
-    # ... and it builds successfully
-    needs:
-      - build
-    runs-on: ubuntu-latest
-    env:
-      ZIP_NAME: ${{ needs.build.outputs.zip_name }}
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      actions: read
+      contents: write
     steps:
-      - uses: actions/checkout@v2
-      - name: Download artefact files
-        uses: actions/download-artifact@v2
-        with:
-          name: ${{ env.ZIP_NAME }}
-          path: ${{ env.ZIP_NAME }}
-      - name: Zip files
-        run: zip -r ${{ env.ZIP_NAME }}.zip ${{ env.ZIP_NAME }}
-      - name: Upload binaries to release
-        uses: svenstaro/upload-release-action@v2
-        with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ${{ env.ZIP_NAME }}.zip
-          asset_name: ${{ env.ZIP_NAME }}.zip
-          tag: ${{ github.ref }}
-          overwrite: true
-          body: "Production ready fonts"
+      - name: Attach the tested archive to the published release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.event.release.tag_name }}
+        run: |
+          gh run download "$GITHUB_RUN_ID" --repo "$GITHUB_REPOSITORY" --name release-archive
+          gh release upload "$TAG" hasubi-mono-fonts.zip --repo "$GITHUB_REPOSITORY" --clobber

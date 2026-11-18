@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam_alef-ar" format="2">
+  <advance width="512"/>
+  <anchor x="157" y="0" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="31" y="446" type="line"/>
+      <point x="335" y="92" type="line"/>
+      <point x="427" y="92" type="line"/>
+      <point x="123" y="446" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

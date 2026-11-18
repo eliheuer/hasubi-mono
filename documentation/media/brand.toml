@@ -1,0 +1,14 @@
+# The terminal specimen in documentation/drawbot/wide-image-007.py uses
+# black, white and a green cursor. The title comes from the print proof.
+[colors]
+ground = "#000000"
+ink = "#ffffff"
+accent = "#00cc66"
+
+[text]
+designer = "Eli Heuer"
+url = "https://github.com/eliheuer/hasubi-mono"
+tagline = "A horizontal-contrast monospace for text editors and terminals"
+words = ["Hasubi", "Mono", "Print", "Proof", "Python", "grid", "polygon"]
+arabic = ["حاسوبي", "مونو", "أشهد", "إلهي", "خلقتني"]
+glyphs = ["A", "ب", "ح", "g", "0", "{"]

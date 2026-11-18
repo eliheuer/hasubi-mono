@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hookabovecomb.viet" format="2">
+  <anchor x="256" y="544" name="_top"/>
+  <anchor x="248" y="680" name="top"/>
+  <outline>
+    <contour>
+      <point x="229" y="560" type="line"/>
+      <point x="283" y="560" type="line"/>
+      <point x="291" y="568" type="line"/>
+      <point x="327" y="618" type="line"/>
+      <point x="297" y="664" type="line"/>
+      <point x="297" y="672" type="line"/>
+      <point x="289" y="680" type="line"/>
+      <point x="213" y="680" type="line"/>
+      <point x="205" y="672" type="line"/>
+      <point x="263" y="617" type="line"/>
+      <point x="221" y="568" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>512</integer>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

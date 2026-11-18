@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="900" default="400">
+      <map input="400" output="72"/>
+      <map input="500" output="82"/>
+      <map input="600" output="92"/>
+      <map input="700" output="102"/>
+      <map input="800" output="112"/>
+      <map input="900" output="128"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="HasubiMono-Regular.ufo" name="Hasubi Mono Regular" familyname="Hasubi Mono" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="72"/>
+      </location>
+    </source>
+    <source filename="HasubiMono-Black.ufo" name="Hasubi Mono Black" familyname="Hasubi Mono" stylename="Black">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Hasubi Mono Regular" familyname="Hasubi Mono" stylename="Regular" filename="../instance_ufos/HasubiMono-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="72"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m01</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hasubi Mono Medium" familyname="Hasubi Mono" stylename="Medium" filename="../instance_ufos/HasubiMono-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="82"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>4FBB1917-F682-4041-B654-F2E0D2EF1242</key>
+            <real>0.17857</real>
+            <key>m01</key>
+            <real>0.82143</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>500</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hasubi Mono SemiBold" familyname="Hasubi Mono" stylename="SemiBold" filename="../instance_ufos/HasubiMono-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="92"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>4FBB1917-F682-4041-B654-F2E0D2EF1242</key>
+            <real>0.35714</real>
+            <key>m01</key>
+            <real>0.64286</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>600</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hasubi Mono Bold" familyname="Hasubi Mono" stylename="Bold" filename="../instance_ufos/HasubiMono-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="102"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>4FBB1917-F682-4041-B654-F2E0D2EF1242</key>
+            <real>0.53571</real>
+            <key>m01</key>
+            <real>0.46429</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>700</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hasubi Mono ExtraBold" familyname="Hasubi Mono" stylename="ExtraBold" filename="../instance_ufos/HasubiMono-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="112"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>4FBB1917-F682-4041-B654-F2E0D2EF1242</key>
+            <real>0.71429</real>
+            <key>m01</key>
+            <real>0.28571</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>800</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hasubi Mono Black" familyname="Hasubi Mono" stylename="Black" filename="../instance_ufos/HasubiMono-Black.ufo">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>4FBB1917-F682-4041-B654-F2E0D2EF1242</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>900</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>4FBB1917-F682-4041-B654-F2E0D2EF1242</key>
+        <dict>
+          <key>HH</key>
+          <string>160</string>
+          <key>HV</key>
+          <string>160</string>
+          <key>OH</key>
+          <string>8</string>
+          <key>OV</key>
+          <string>7</string>
+          <key>arAlef</key>
+          <string>128</string>
+          <key>arBar</key>
+          <string>144</string>
+        </dict>
+        <key>m01</key>
+        <dict>
+          <key>HH</key>
+          <string>80</string>
+          <key>HV</key>
+          <string>72</string>
+          <key>arAlef</key>
+          <string>72</string>
+          <key>arBar</key>
+          <string>80</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</designspace>

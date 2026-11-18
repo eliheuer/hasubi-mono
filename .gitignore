@@ -16,3 +16,12 @@ documentation/specimen-fonts/InputMonoCompressed-Regular.ttf
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Font.Garden builds, local editor state and draft worktrees
+/.venv/
+/output/
+/fonts/
+/reference-fonts/
+/.omp/
+/.claude/
+__pycache__/

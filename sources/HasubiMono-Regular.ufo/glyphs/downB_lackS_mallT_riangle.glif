@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="downBlackSmallTriangle" format="2">
+  <advance width="512"/>
+  <unicode hex="25BE"/>
+  <outline>
+    <contour>
+      <point x="364" y="385" type="line"/>
+      <point x="148" y="385" type="line"/>
+      <point x="256" y="169" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

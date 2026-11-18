@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackDiamond" format="2">
+  <advance width="512"/>
+  <unicode hex="25C6"/>
+  <outline>
+    <contour>
+      <point x="240" y="49" type="line"/>
+      <point x="272" y="49" type="line"/>
+      <point x="496" y="273" type="line"/>
+      <point x="496" y="305" type="line"/>
+      <point x="272" y="528" type="line"/>
+      <point x="240" y="528" type="line"/>
+      <point x="16" y="305" type="line"/>
+      <point x="16" y="273" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

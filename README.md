@@ -1,17 +1,5 @@
 # Hasubi Mono (حاسوبي مونو)
 
-[![][Fontbakery]](https://eliheuer.github.io/hasubi-mono/fontbakery/fontbakery-report.html)
-[![][Universal]](https://eliheuer.github.io/hasubi-mono/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://eliheuer.github.io/hasubi-mono/fontbakery/fontbakery-report.html)
-[![][Outline Correctness]](https://eliheuer.github.io/hasubi-mono/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://eliheuer.github.io/hasubi-mono/fontbakery/fontbakery-report.html)
-
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fhasubi-mono%2Fgh-pages%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fhasubi-mono%2Fgh-pages%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fhasubi-mono%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fhasubi-mono%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2Fhasubi-mono%2Fgh-pages%2Fbadges%2FUniversal.json
-
 ## 🚧 WARNING! 🚧 This font is under construction!
 
 ## ⚠️ This is an alpha quality pre-1.0 typeface, not ready for use and currently under development. ⚠️
@@ -45,15 +33,9 @@ Note that the Arabic glyphs in this font have gaps, in the variable font version
 
 # Building
 
-Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
+Run `make setup`, `make build`, `make test` and `make proof`. The editable sources are the top-level Hasubi designspace and its Regular and Black UFOs. Build details and publishing instructions are in the [build guide](documentation/build.md).
 
-If you want to build fonts manually on your own computer:
-
-* `make build` will produce font files.
-* `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
-* `make proof` will generate HTML proof files.
-
-The proof files and QA tests are also available automatically via GitHub Actions - look at https://eliheuer.github.io/hasubi-mono.
+[Current print proof](https://eliheuer.github.io/hasubi-mono/proof.pdf) · [Historical DrawBot print specimen](documentation/drawbot/hasubi-mono-print-proof.pdf)
 
 # License
 
@@ -63,7 +45,7 @@ https://scripts.sil.org/OFL
 
 # Repository Layout
 
-This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.
+The [Font.Garden workflow](AGENTS.md) covers agent assignments and review. [Hasubi’s design rules](CONTEXT.md) describe the construction and the source colors.
 
 # Changelog
 

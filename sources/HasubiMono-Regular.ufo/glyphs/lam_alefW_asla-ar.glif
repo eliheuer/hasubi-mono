@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam_alefWasla-ar" format="2">
+  <advance width="512"/>
+  <anchor x="157" y="0" name="bottom_1"/>
+  <anchor x="157" y="736" name="top_1"/>
+  <anchor x="173" y="928" name="top"/>
+  <outline>
+    <component base="lam_alef-ar"/>
+    <component base="wasla-ar" xOffset="-97" yOffset="224"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>lam_alef-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>lam_alef-ar</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

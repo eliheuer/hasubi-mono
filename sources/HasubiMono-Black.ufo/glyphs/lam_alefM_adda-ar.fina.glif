@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam_alefMadda-ar.fina" format="2">
+  <advance width="512"/>
+  <anchor x="117" y="0" name="bottom_1"/>
+  <anchor x="80" y="736" name="top_1"/>
+  <anchor x="89" y="944" name="top"/>
+  <outline>
+    <component base="lam_alef-ar.fina"/>
+    <component base="madda-ar" xOffset="-192" yOffset="224"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

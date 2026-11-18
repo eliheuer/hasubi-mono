@@ -1,3 +1,4 @@
 sources:
-  - Hasubi-Mono.glyphs
+  - Hasubi-Mono.designspace
 familyName: Hasubi Mono
+outputDir: ../fonts

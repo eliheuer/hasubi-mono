@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="veh-ar.fina" format="2">
+  <advance width="512"/>
+  <anchor x="352" y="416" name="top"/>
+  <outline>
+    <component base="fehDotless-ar.fina"/>
+    <component base="threedotsupabove-ar" xOffset="196" yOffset="158"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>space</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

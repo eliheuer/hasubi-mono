@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hookabovecomb.case" format="2">
+  <anchor x="256" y="736" name="_top"/>
+  <anchor x="248" y="920" name="top"/>
+  <outline>
+    <contour>
+      <point x="229" y="800" type="line"/>
+      <point x="283" y="800" type="line"/>
+      <point x="291" y="808" type="line"/>
+      <point x="327" y="858" type="line"/>
+      <point x="297" y="904" type="line"/>
+      <point x="297" y="912" type="line"/>
+      <point x="289" y="920" type="line"/>
+      <point x="213" y="920" type="line"/>
+      <point x="205" y="912" type="line"/>
+      <point x="263" y="857" type="line"/>
+      <point x="221" y="808" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>512</integer>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

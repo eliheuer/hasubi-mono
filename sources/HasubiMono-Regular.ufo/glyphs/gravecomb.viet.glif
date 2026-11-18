@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gravecomb.viet" format="2">
+  <anchor x="256" y="544" name="_top"/>
+  <anchor x="197" y="712" name="top"/>
+  <outline>
+    <contour>
+      <point x="283" y="560" type="line"/>
+      <point x="291" y="568" type="line"/>
+      <point x="243" y="704" type="line"/>
+      <point x="235" y="712" type="line"/>
+      <point x="159" y="712" type="line"/>
+      <point x="151" y="704" type="line"/>
+      <point x="151" y="696" type="line"/>
+      <point x="221" y="568" type="line"/>
+      <point x="229" y="560" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>512</integer>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

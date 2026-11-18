@@ -1,0 +1,38 @@
+# Latin and Arabic lines come from the DrawBot print proof and the original
+# test strings. The Hebrew line follows the encoded base letters in cmap order.
+defaults = false
+
+[sample.family]
+label = "Family name"
+scripts = ["Arabic"]
+text = "حاسوبي مونو"
+
+[sample.forms]
+label = "Joining forms"
+scripts = ["Arabic"]
+text = "اأإ ب ببب ت تتت ث ثثث ج ججج ح ححح خ خخخ"
+
+[sample.terminal]
+label = "Python"
+scripts = ["Latin"]
+text = "def grid(): for x in range(41): STEP_X += INC_X"
+
+[sample.accents]
+label = "Latin accents"
+scripts = ["Latin"]
+text = "ÁĂÂÄÀĀÅÃ"
+
+[sample.hebrew]
+label = "Hebrew (undrawn)"
+scripts = ["Hebrew"]
+text = "אבגדהוזחטיךכלםמןנסעףפץצקרשת"
+
+[text.latin]
+label = "Print proof"
+scripts = ["Latin"]
+paragraphs = [{ text = "Hasubi Mono is a horizontal contrast monospace font designed by Eli Heuer." }]
+
+[text.arabic]
+label = "Print proof"
+scripts = ["Arabic"]
+paragraphs = [{ text = "حاسوبي مونو" }, { text = "أشهد يا إلهي بأنك خلقتني لعرفانك وعبادتك." }]

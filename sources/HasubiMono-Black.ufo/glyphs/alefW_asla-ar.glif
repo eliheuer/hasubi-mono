@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefWasla-ar" format="2">
+  <advance width="512"/>
+  <unicode hex="0671"/>
+  <anchor x="256" y="0" name="bottom"/>
+  <anchor x="272" y="896" name="top"/>
+  <outline>
+    <component base="alef-ar"/>
+    <component base="wasla-ar" xOffset="2" yOffset="192"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>space</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

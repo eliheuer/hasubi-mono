@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dblverticalbar" format="2">
+  <advance width="512"/>
+  <unicode hex="2016"/>
+  <outline>
+    <contour>
+      <point x="89" y="-208" type="line"/>
+      <point x="168" y="-208" type="line"/>
+      <point x="168" y="704" type="line"/>
+      <point x="89" y="704" type="line"/>
+    </contour>
+    <contour>
+      <point x="344" y="-208" type="line"/>
+      <point x="423" y="-208" type="line"/>
+      <point x="423" y="704" type="line"/>
+      <point x="344" y="704" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

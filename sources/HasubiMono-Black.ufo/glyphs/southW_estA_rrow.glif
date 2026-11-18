@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="southWestArrow" format="2">
+  <advance width="512"/>
+  <unicode hex="2199"/>
+  <outline>
+    <contour>
+      <point x="404" y="687" type="line"/>
+      <point x="139" y="206" type="line"/>
+      <point x="140" y="429" type="line"/>
+      <point x="39" y="429" type="line"/>
+      <point x="39" y="0" type="line"/>
+      <point x="420" y="0" type="line"/>
+      <point x="420" y="102" type="line"/>
+      <point x="181" y="100" type="line"/>
+      <point x="270" y="222" type="line"/>
+      <point x="485" y="606" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

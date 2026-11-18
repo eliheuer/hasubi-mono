@@ -1,0 +1,49 @@
+# Hasubi-Mono.glyphs at 605482c, compiled with the pinned gftools/fontmake.
+# Each limit applies only to the indicated check, result code and QA input.
+# A new result has a limit of zero. Tighten limits when a problem is fixed.
+# Full messages and glyph names remain in output/qa/all/fontspector.md.
+
+[subjects]
+Regular = "ttf/HasubiMono-Regular.ttf"
+Medium = "ttf/HasubiMono-Medium.ttf"
+SemiBold = "ttf/HasubiMono-SemiBold.ttf"
+Bold = "ttf/HasubiMono-Bold.ttf"
+ExtraBold = "ttf/HasubiMono-ExtraBold.ttf"
+Black = "ttf/HasubiMono-Black.ttf"
+VF = "variable/Hasubi-Mono[wght].ttf"
+Statics = "ttf"
+Variables = "variable"
+
+[limits]
+# The original masters use 1000 units per em, a blank vendor ID, and points
+# between the shared profile's two-unit grid lines. Counts are per master.
+"fontgarden/unitsperem:wrong-upm" = { Regular=1, Medium=1, SemiBold=1, Bold=1, ExtraBold=1, Black=1, VF=1 }
+"fontgarden/vendor_id:wrong-vendor-id" = { Regular=1, Medium=1, SemiBold=1, Bold=1, ExtraBold=1, Black=1, VF=1 }
+"fontgarden/grid:off-grid@400" = { VF=278 }
+"fontgarden/grid:off-grid@900" = { VF=281 }
+
+# Some encoded characters are blank. The two checks use different repertoires.
+# The variable ink check samples three weights.
+"contour_count:no-contour" = { Regular=35, Medium=35, SemiBold=35, Bold=35, ExtraBold=35, Black=35, VF=35 }
+"fontgarden/visible_ink:no-ink" = { Regular=49, Medium=49, SemiBold=49, Bold=49, ExtraBold=49, Black=49, VF=147 }
+
+# Counts of unattached marks, close stacks, gapped Arabic joins, and different
+# precomposed versus shaped outlines. Some gaps are intentional in Hasubi.
+"fontgarden/marks_attach:not-attached" = { Regular=31, Medium=30, SemiBold=30, Bold=30, ExtraBold=30, Black=30, VF=91 }
+"fontgarden/stacked_marks:marks-touch" = { ExtraBold=2, Black=13, VF=13 }
+"fontgarden/arabic_joins:join-gap" = { Regular=122, Medium=122, SemiBold=122, Bold=122, ExtraBold=122, Black=121, VF=365 }
+"fontgarden/precomposed_match:composite-differs" = { Regular=82, Medium=82, SemiBold=82, Bold=82, ExtraBold=82, Black=82, VF=82 }
+
+# The sources declare a monospaced design but contain a PANOSE mismatch.
+# Existing diacritics extend above WinAscent. This is a family-level check.
+"opentype/monospace:mono-bad-panose" = { Regular=1, Medium=1, SemiBold=1, Bold=1, ExtraBold=1, Black=1, VF=1 }
+"family/win_ascent_and_descent:ascent" = { Statics=6, Variables=1 }
+
+# Pinned Google Fonts checks flag Dutch acute attachment, missing Vietnamese
+# horn, and the Arabic positional forms of alef maksura.
+"googlefonts/glyphsets/shape_languages:failed-language-shaping" = { Regular=1, Medium=1, SemiBold=1, Bold=1, ExtraBold=1, Black=1, VF=1 }
+
+# Preserve the existing variable filename. The upstream build directory name
+# differs from the canonical google/fonts submission directory.
+"googlefonts/canonical_filename:bad-filename" = { VF=1 }
+"googlefonts/repo/dirname_matches_nameid_1:mismatch" = { Regular=1 }

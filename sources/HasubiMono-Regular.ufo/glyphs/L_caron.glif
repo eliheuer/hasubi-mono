@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lcaron" format="2">
+  <advance width="512"/>
+  <unicode hex="013D"/>
+  <anchor x="114" y="736" name="top"/>
+  <outline>
+    <component base="L"/>
+    <component base="comma" xOffset="107" yOffset="609"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,11 @@
+# The direct Python dependencies. requirements.txt pins every package of the
+# environment. To write it again, use a new environment, so that it holds
+# only what these lines require:
+#
+#   python3 -m venv /tmp/pins
+#   /tmp/pins/bin/pip install -r requirements.in
+#   /tmp/pins/bin/pip freeze > requirements.txt
+#
+# fgtools is the shared tooling of Font.Garden projects, pinned to a commit.
+# It brings gftools, fontc and Fontspector support with it.
+fgtools @ git+https://github.com/fontgarden/fgtools@58a5375ac5d679c1cca40175daf7bf810417bf02

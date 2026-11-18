@@ -1,0 +1,19 @@
+# Held-out glyphs for `fgtools evaluate-drafting`.
+#
+# Each task tests one kind of drafting work on green glyphs that the drafting
+# method has not seen. Add glyphs when they are green. Add a glyph when a
+# correction shows a decision that a drafting method has to learn, with a
+# comment that cites the correction commit.
+
+# Draw the glyph from nothing.
+[redraw]
+glyphs = []
+
+# Move the points back. The task moves some points of the glyph by 16 to 32
+# units, with their handles.
+[repair]
+glyphs = []
+
+# Draw the glyph from green glyphs of the same construction.
+[relatives]
+cases = []

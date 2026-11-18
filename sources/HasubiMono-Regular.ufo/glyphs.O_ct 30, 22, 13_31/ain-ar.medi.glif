@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ain-ar.medi" format="2">
+  <advance width="512"/>
+  <outline>
+    <contour>
+      <point x="3" y="320" type="line"/>
+      <point x="320" y="0" type="line"/>
+      <point x="416" y="0" type="line"/>
+      <point x="99" y="320" type="line"/>
+    </contour>
+    <contour>
+      <point x="413" y="320" type="line"/>
+      <point x="96" y="0" type="line"/>
+      <point x="192" y="0" type="line"/>
+      <point x="509" y="320" type="line"/>
+    </contour>
+    <contour>
+      <point x="26" y="232" type="line"/>
+      <point x="14" y="220" type="line"/>
+      <point x="128" y="106" type="line"/>
+      <point x="140" y="118" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

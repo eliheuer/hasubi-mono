@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "runebender": {
+      "command": "runebender",
+      "args": ["mcp", "--live"]
+    }
+  }
+}

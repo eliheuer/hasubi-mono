@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="six-ar" format="2">
+  <advance width="512"/>
+  <unicode hex="0666"/>
+  <outline>
+    <contour>
+      <point x="292" y="0" type="line"/>
+      <point x="348" y="0" type="line"/>
+      <point x="356" y="8" type="line"/>
+      <point x="356" y="728" type="line"/>
+      <point x="348" y="736" type="line"/>
+      <point x="104" y="736" type="line"/>
+      <point x="96" y="728" type="line"/>
+      <point x="96" y="664" type="line"/>
+      <point x="104" y="656" type="line"/>
+      <point x="284" y="656" type="line"/>
+      <point x="284" y="8" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>
