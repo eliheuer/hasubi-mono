@@ -37,6 +37,23 @@ jobs:
         env:
           QA_OPTIONS: ${{ github.event_name == 'release' && '--require-online' || '' }}
       - run: make proof NO_BUILD=1
+      - run: make package-google-fonts NO_BUILD=1
+      - name: Inspect design readiness
+        id: design
+        continue-on-error: true
+        run: make check-readiness NO_BUILD=1
+      - name: Inspect the Google Fonts catalog profile
+        id: catalog
+        continue-on-error: true
+        run: make test-catalog-profile NO_BUILD=1
+      - name: Verify readiness reports and summarize the candidate
+        env:
+          DESIGN: ${{ steps.design.outcome }}
+          CATALOG: ${{ steps.catalog.outcome }}
+        run: |
+          test -s output/readiness/design.json
+          test -s output/qa/catalog/fontspector.json
+          echo "Design readiness: $DESIGN. Google Fonts package checks: $CATALOG. See the fonts-and-qa artifact." >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: always()
         with:
@@ -45,6 +62,8 @@ jobs:
             fonts/
             output/qa/
             output/proof/
+            output/readiness/
+            output/google-fonts/
       - name: Assemble proof and QA site
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         run: make collect-site

@@ -1,11 +1,16 @@
-"""Render the fgtools proof with room for Hasubi's Arabic sidebearings."""
+"""Render the fgtools proof with Hasubi's Arabic mark and joining tables."""
+import runpy
 import sys
+import unicodedata
+from itertools import chain
 from pathlib import Path
 
 from fgtools import media, project
+from fontTools.pens.recordingPen import RecordingPen
+from fontTools.pens.transformPen import TransformPen
 
 
-def draw(sheet, job):
+def draw_marks(sheet, job):
     """Set the mark columns one layout unit inside each two-module cell."""
     marks = [
         ("Fatha", "َ"), ("Damma", "ُ"), ("Kasra", "ِ"), ("Sukun", "ْ"),
@@ -34,15 +39,51 @@ def draw(sheet, job):
                     sheet.rule(2 + 2 * row)
 
 
+def glyph_path(font, item):
+    """Replace one shaped text item with the same ink drawn from the font file."""
+    _, origin, baseline, size, weight, color, _, text = item
+    font.font.set_variations({"wght": weight})
+    buffer = font.hb.Buffer()
+    buffer.add_str(text)
+    buffer.guess_segment_properties()
+    font.hb.shape(font.font, buffer)
+    pen = RecordingPen()
+    scale = size / font.upm
+    for info, pos in zip(buffer.glyph_infos, buffer.glyph_positions):
+        transform = (scale, 0, 0, -scale,
+                     origin + scale * pos.x_offset, baseline - scale * pos.y_offset)
+        font.font.draw_glyph_with_pen(info.codepoint, TransformPen(pen, transform))
+        origin += pos.x_advance * scale
+        baseline -= pos.y_advance * scale
+    verbs = {"moveTo": "M", "lineTo": "L", "qCurveTo": "Q", "curveTo": "C", "closePath": "Z"}
+    commands = [(verbs[verb], *chain.from_iterable(points)) for verb, points in pen.value]
+    return "path", 0, color, commands
+
+
+def draw(sheet, job):
+    if sheet.name == "hasubi-marks":
+        return draw_marks(sheet, job)
+    # Use fgtools' exact joining strings and cell geometry. Its PDF renderer can
+    # select a system font for a cluster containing an unencoded join control.
+    table = runpy.run_path(str(media.DEFAULTS / "proofs" / "arabic-joining.py"))
+    skipped = table["draw"](sheet, job)
+    for page in sheet.pages:
+        for index, item in enumerate(page["items"]):
+            if item[0] == "text" and any(unicodedata.bidirectional(c) == "AL" for c in item[-1]):
+                page["items"][index] = glyph_path(job.type, item)
+    return skipped
+
+
 def main():
     layout = project.load()
     brand = media.load_brand(layout)
     font, facts = media.font_type(layout)
     job = media.make_job(layout, brand, font, facts)
     # book() loads a built-in page by name, or a project format by its script.
-    brand["format"]["hasubi-marks"] = {"script": Path(__file__)}
-    pages = ["hasubi-marks" if page == "arabic-marks" else page
-             for page in media.pages(media.PROOF, sys.argv[1:])]
+    overrides = {"arabic-marks": "hasubi-marks", "arabic-joining": "hasubi-joining"}
+    for name in overrides.values():
+        brand["format"][name] = {"script": Path(__file__)}
+    pages = [overrides.get(page, page) for page in media.pages(media.PROOF, sys.argv[1:])]
     media.book(layout, brand, job, media.project_layout(layout), media.brand_colors(brand),
                pages, "proof", "output/proof/proof.pdf")
 

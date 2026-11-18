@@ -40,3 +40,7 @@ policy = "Revise the named construction."
 ## Quality review
 
 The full Fontspector report retains inherited findings from the Glyphs build, including off-grid coordinates, intentional join gaps, missing ink, mark placement and exceptional widths. The Hasubi baseline gate checks new failures in each font and check. A passing migration gate does not establish release readiness.
+
+## Hebrew
+
+The first release includes all 27 base and final letters from alef to tav. Review a pilot in both masters before extending the alphabet. Set the letters on the family’s terminal cell and establish the horizontal stroke contrast, counters, roof heights and terminal shapes in actual Hebrew words. The designer chooses the references and grades the pilot. Proof the five finals at word endings and test the completed alphabet alongside Latin code, Arabic text, numerals and punctuation.

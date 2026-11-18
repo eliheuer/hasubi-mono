@@ -1,13 +1,10 @@
 # Hasubi Mono (حاسوبي مونو)
 
-## 🚧 WARNING! 🚧 This font is under construction!
+Hasubi Mono (حاسوبي مونو) is a condensed horizontal-contrast monospace designed by Eli Heuer for editing Arabic and Persian text and code in terminals. Hasubi is a transliteration of حاسوبي, “my computer.”
 
-## ⚠️ This is an alpha quality pre-1.0 typeface, not ready for use and currently under development. ⚠️
+**In development.** The current weight axis runs from Regular to Black (400–900). Latin and Arabic drawings are in progress. Hebrew is planned for the first release. The current sources contain placeholders for its 27 letters.
 
-
-Hasubi Mono (حاسوبي مونو) is an Arabic, Hebrew, and Latin condensed horizontal-contrast monospace typeface designed by Eli Heuer. Hasubi is a transliteration of “حاسوبي (my computer).”
-
-A PDF print specimen in avaiable [here](documentation/drawbot/hasubi-mono-print-proof.pdf).
+[Print proof](https://eliheuer.github.io/hasubi-mono/proof.pdf) · [Google Fonts preparation](documentation/google-fonts.md)
 
 ![Sample Image](documentation/drawbot/wide-image-007.png)
 ![Sample Image](documentation/drawbot/wide-image-002.png)
@@ -23,13 +20,9 @@ Hasubi mono was designed specifically for people who work with Arabic and Hebrew
 ![Sample Image](documentation/drawbot/info-image-wide-001.png)
 
 ## Gaps Axis
-Note that the Arabic glyphs in this font have gaps, in the variable font version of this typeface there will be a GAPS custom axis that interpolates between open and closed gaps. This style is inspired by the look of Arabic printing in older books printed with metal type. Specifically the book [Materials for the Study of the Bábí Religion](https://archive.org/details/materialsforstud0000brow) published in 1918 by Cambridge University Press, which the designer of this typeface read while learning Arabic and noticed that the gaps were helpful for a beginner Arabic reader. See a photo example below:
+The Arabic glyphs have gaps. A proposed GAPS axis would interpolate between open and closed gaps. This style is inspired by the look of Arabic printing in older books printed with metal type. Specifically the book [Materials for the Study of the Bábí Religion](https://archive.org/details/materialsforstud0000brow) published in 1918 by Cambridge University Press, which the designer of this typeface read while learning Arabic and noticed that the gaps were helpful for a beginner Arabic reader. See a photo example below:
 
 ![Sample Image](documentation/refrence/browne.jpg)
-
-# About
-
-🚧 WARNING! 🚧 This section is Under Construction!
 
 # Building
 

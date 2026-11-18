@@ -34,6 +34,24 @@ test-google-fonts: $(BUILD) ## Build, then run only the Google Fonts checks
 test-fontgarden: $(BUILD) ## Build, then run only the Font.Garden checks and the checks of this font
 	$(FGTOOLS) qa --checks fontgarden
 
+##@ Google Fonts preparation
+
+package-google-fonts: $(BUILD) ## Assemble the local Google Fonts package preview
+	$(PYTHON) sources/package_google_fonts.py
+
+test-package-google-fonts: package-google-fonts ## Run the complete package QA profile
+	$(FGTOOLS) qa --package output/google-fonts/ofl/hasubimono
+
+test-catalog-profile: package-google-fonts ## Run the Google Fonts profile alone on the preview
+	mkdir -p output/qa/catalog
+	.venv/bin/fontspector -p googlefonts --error-code-on fail --loglevel warn --succinct \
+		--json output/qa/catalog/fontspector.json --ghmarkdown output/qa/catalog/fontspector.md \
+		output/google-fonts/ofl/hasubimono/*.ttf output/google-fonts/ofl/hasubimono/METADATA.pb \
+		output/google-fonts/ofl/hasubimono/OFL.txt output/google-fonts/ofl/hasubimono/article/ARTICLE.en_us.html
+
+check-readiness: $(BUILD) ## Check sources, interpolation, drawn coverage, spacing and shaping
+	$(PYTHON) sources/check_readiness.py
+
 ##@ Design work
 
 status: ## Count the glyphs of each mark color into STATUS.md
@@ -93,4 +111,4 @@ proof-web: $(BUILD) ## Build, then serve the font beside the fonts of reference-
 clean: ## Remove fonts/ and output/
 	rm -rf fonts output
 
-.PHONY: help setup venv build test test-google-fonts test-fontgarden status queue check-design check-changes render diff runebender formats proof specimen media copy-format site proof-web collect-site clean
+.PHONY: test-catalog-profile package-google-fonts test-package-google-fonts check-readiness help setup venv build test test-google-fonts test-fontgarden status queue check-design check-changes render diff runebender formats proof specimen media copy-format site proof-web collect-site clean

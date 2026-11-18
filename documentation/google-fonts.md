@@ -1,0 +1,19 @@
+# Google Fonts preparation
+
+Hasubi Mono already has an open Add Font issue. The Google Fonts team accepted the proposal for development and asked about registration if the proposed GAPS axis ships. The candidate contains a single registered weight axis, 400–900. Hebrew is part of the first-release brief. [Existing submission and reviewer discussion](https://github.com/google/fonts/issues/4577)
+
+## Prepare a candidate
+
+Run `make setup`, `make build`, then `make package-google-fonts NO_BUILD=1`. The preview under `output/google-fonts/ofl/hasubimono/` holds the variable TTF, SIL Open Font License, metadata and family article. The package filename is canonical and the drawing data comes directly from the upstream build. Run the packaging target from the committed revision for source attribution. Google Fonts assigns the catalog date at onboarding. The preview proposes the monospace category and Arabic as the primary script. Review the subset list against the ink and shaping reports at the time of submission.
+
+Run `make check-readiness NO_BUILD=1` for the masters, interpolation, terminal widths, script coverage and shaping. Run `make test-package-google-fonts NO_BUILD=1` for the complete package profile. Use `make test-catalog-profile NO_BUILD=1` for Google Fonts requirements alone. It writes `output/qa/catalog/`. The combined profile also applies Font.Garden’s own grid, vendor and Arabic-gap checks. The package report is in `output/qa/package/`. The separate development gate, `make test`, retains Hasubi’s inherited findings so contributors can detect regressions while work continues.
+
+## Design work before onboarding
+
+- **Hebrew.** Draw and review the 22 letters and five finals in both masters. Pilot א ב ו מ ש in Regular and proof אבא, שוב and מבוא. Once the designer approves the construction, build the corresponding Black letters and inspect weight 650. Group the remaining drawings by shared construction, proof the five finals at word endings, and test שלום in text with figures and punctuation. Keep the intended coverage visible in the design checks.
+- **Latin.** All 319 codepoints in the pinned GF Latin Core set are encoded. The spacing ogonek and combining cedilla and ogonek lack ink. Check these forms both separately and on the precomposed and decomposed letters that use them.
+- **Arabic and Persian.** Check ink in punctuation, marks and positional forms, then test attachment and stacking on real words. Preserve the intentional metal-type gaps. Distinguish a consistent, intended gap from a broken joining form. Compare the rendered sequences at both master weights and at an intermediate weight.
+- **Terminal spacing and clipping.** Inspect the 512-unit grid in a line of code. Review exceptional advances, mark positions and the highest accents against the vertical clipping bounds. Changing an advance, a shared donor or the family metrics requires a designer decision.
+- **Catalog details.** Verify final script/subset coverage, the intended vendor identifier, credit and author participation before updating the existing issue. Eli Heuer is credited in the sources and the OFL text remains the project license. The historical DrawBot comparison uses a separately licensed Input Mono font supplied by its owner. The local reference TTF is ignored. [Input license](https://input.djr.com/license/)
+
+The workflow migration used AI assistance for source comparison, tooling, packaging and proof review. The designer approves drawings and grades. Google Fonts publishes its current onboarding, design, licensing and submission requirements in the [Google Fonts Guide](https://googlefonts.github.io/gf-guide/onboarding.html) and [contribution instructions](https://github.com/google/fonts/blob/main/CONTRIBUTING.md).

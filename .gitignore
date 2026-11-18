@@ -5,7 +5,7 @@ proof
 node_modules
 package-lock.json
 package.json
-documentation/specimen-fonts/InputMonoCompressed-Regular.ttf
+documentation/**/InputMonoCompressed-Regular.ttf
 
 # OS generated files #
 ######################
